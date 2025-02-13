@@ -1,13 +1,13 @@
 {
-  "name": "everything",
-  "version": "1.0.0",
+  "name": "@sxzz/everything",
+  "version": "0.0.0",
   "description": "",
   "type": "module",
   "license": "MIT",
   "dependencies": {
     "@sxzz/create": "^0.14.1",
-    "@sxzz/eslint-config": "^5.1.0",
-    "@sxzz/prettier-config": "^2.1.2",
+    "@sxzz/eslint-config": "^5.1.1",
+    "@sxzz/prettier-config": "^2.2.0",
     "@sxzz/test-utils": "^0.5.1",
     "ast-kit": "^1.4.0",
     "ast-walker-scope": "^0.6.2",
