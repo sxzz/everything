@@ -24,7 +24,7 @@
     "unplugin-combine": "^1.2.0",
     "unplugin-inline-enum": "^0.3.0",
     "unplugin-isolated-decl": "^0.11.0",
-    "unplugin-jsx-string": "^0.8.0",
+    "unplugin-jsx-string": "^0.9.0",
     "unplugin-lightningcss": "^0.3.1",
     "unplugin-macros": "^0.16.0",
     "unplugin-oxc": "^0.2.4",
@@ -33,12 +33,12 @@
     "unplugin-unused": "^0.4.1",
     "unplugin-utils": "^0.2.4",
     "unplugin-vue": "^6.0.0",
-    "unplugin-vue-jsx": "^0.5.0",
-    "unplugin-vue-named-export": "^0.7.0",
+    "unplugin-vue-jsx": "^0.6.0",
+    "unplugin-vue-named-export": "^0.7.1",
     "unws": "^0.3.0",
     "vite-hyper-config": "^0.6.0",
     "vtom": "^1.1.0",
-    "vue-functional-ref": "^0.6.0",
+    "vue-functional-ref": "^0.6.1",
     "vue-simple-props": "^0.5.3"
   }
 }
