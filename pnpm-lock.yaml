@@ -105,8 +105,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(jiti@2.4.2)(lightningcss@1.29.1)(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(yaml@2.7.0)
       vtom:
-        specifier: ^1.1.0
-        version: 1.1.0(vue@3.5.13(typescript@5.7.3))
+        specifier: ^1.2.0
+        version: 1.2.0(vue@3.5.13(typescript@5.7.3))
       vue-functional-ref:
         specifier: ^0.6.1
         version: 0.6.1(vue@3.5.13(typescript@5.7.3))
@@ -2920,9 +2920,8 @@ packages:
       jsdom:
         optional: true
 
-  vtom@1.1.0:
-    resolution: {integrity: sha512-8ongwYP89LMmn23NARskm9rqlKoTfEQGmbP9CePmtEghcdS9tUr+mQNTaVgGJF5eRcSEq4yn++UlfmfJUZcLjg==}
-    engines: {node: '>=16.14.0'}
+  vtom@1.2.0:
+    resolution: {integrity: sha512-mFHgQ1d41Ndi3s6afsNWYsfZiyZ58cEymG03ZSBpQDRG33TiClx31KOe22lw7p4Jy30H1NsrM5ViFeVfvtX9+g==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
@@ -6148,7 +6147,7 @@ snapshots:
       - tsx
       - yaml
 
-  vtom@1.1.0(vue@3.5.13(typescript@5.7.3)):
+  vtom@1.2.0(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
 
