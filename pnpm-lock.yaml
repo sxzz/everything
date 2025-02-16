@@ -24,8 +24,8 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       ast-walker-scope:
-        specifier: ^0.6.2
-        version: 0.6.2
+        specifier: ^0.7.0
+        version: 0.7.0
       eslint-plugin-sxzz:
         specifier: ^0.2.0
         version: 0.2.0(eslint@9.20.1(jiti@2.4.2))
@@ -111,8 +111,8 @@ importers:
         specifier: ^0.6.1
         version: 0.6.1(vue@3.5.13(typescript@5.7.3))
       vue-simple-props:
-        specifier: ^0.5.3
-        version: 0.5.3(vue@3.5.13(typescript@5.7.3))
+        specifier: ^0.5.4
+        version: 0.5.4(vue@3.5.13(typescript@5.7.3))
 
 packages:
 
@@ -1156,9 +1156,9 @@ packages:
     resolution: {integrity: sha512-BlGeOw73FDsX7z0eZE/wuuafxYoek2yzNJ6l6A1nsb4+z/p87TOPbHaWuN53kFKNuUXiCQa2M+xLF71IqQmRSw==}
     engines: {node: '>=16.14.0'}
 
-  ast-walker-scope@0.6.2:
-    resolution: {integrity: sha512-1UWOyC50xI3QZkRuDj6PqDtpm1oHWtYs+NQGwqL/2R11eN3Q81PHAHPM0SWW3BNQm53UDwS//Jv8L4CCVLM1bQ==}
-    engines: {node: '>=16.14.0'}
+  ast-walker-scope@0.7.0:
+    resolution: {integrity: sha512-ti21VQ/QsKtyGjj0jcuBTfhkjofDMeEeDHrfmA+Nl8nKRe2Gzlz2DpttWvn62bWVy/vHXT9zSPaZtcEbLVUbqw==}
+    engines: {node: '>=18.12.0'}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2934,8 +2934,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  vue-simple-props@0.5.3:
-    resolution: {integrity: sha512-1f/sWRNeCs5TGtw0MabYNB90A6D9jtYZDBcIIROYongvqbxJHqntcuPeY+yYBGmaN311LhdoSLs/o4jauq/49A==}
+  vue-simple-props@0.5.4:
+    resolution: {integrity: sha512-yQv387E/ywTvBzqRiDnJTReKOeh/M3cx66gOmUMEeE260Kx4mlYMSin1i664IYraBclnxo5RxT367sDd22plVA==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -4049,7 +4049,7 @@ snapshots:
       '@babel/parser': 7.26.9
       pathe: 2.0.3
 
-  ast-walker-scope@0.6.2:
+  ast-walker-scope@0.7.0:
     dependencies:
       '@babel/parser': 7.26.9
       ast-kit: 1.4.0
@@ -6163,7 +6163,7 @@ snapshots:
       unplugin-utils: 0.2.4
       vue: 3.5.13(typescript@5.7.3)
 
-  vue-simple-props@0.5.3(vue@3.5.13(typescript@5.7.3)):
+  vue-simple-props@0.5.4(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
 

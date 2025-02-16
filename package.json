@@ -10,7 +10,7 @@
     "@sxzz/prettier-config": "^2.2.0",
     "@sxzz/test-utils": "^0.5.1",
     "ast-kit": "^1.4.0",
-    "ast-walker-scope": "^0.6.2",
+    "ast-walker-scope": "^0.7.0",
     "eslint-plugin-sxzz": "^0.2.0",
     "gh-apis": "^0.2.0",
     "magic-string-ast": "^0.7.0",
@@ -39,6 +39,6 @@
     "vite-hyper-config": "^0.6.0",
     "vtom": "^1.2.0",
     "vue-functional-ref": "^0.6.1",
-    "vue-simple-props": "^0.5.3"
+    "vue-simple-props": "^0.5.4"
   }
 }
