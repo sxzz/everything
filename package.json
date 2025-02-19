@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "build": "pnpx node-modules-inspector@latest build"
+  },
   "dependencies": {
     "@sxzz/create": "^0.14.1",
     "@sxzz/eslint-config": "^5.1.1",
