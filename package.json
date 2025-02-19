@@ -5,7 +5,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "pnpx node-modules-inspector@latest build"
+    "build": "node-modules-inspector build"
   },
   "dependencies": {
     "@sxzz/create": "^0.14.1",
@@ -43,5 +43,8 @@
     "vtom": "^1.2.0",
     "vue-functional-ref": "^0.6.1",
     "vue-simple-props": "^0.5.4"
+  },
+  "devDependencies": {
+    "node-modules-inspector": "^0.2.0"
   }
 }
