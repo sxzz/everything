@@ -20,6 +20,9 @@ importers:
       '@sxzz/test-utils':
         specifier: ^0.5.1
         version: 0.5.1(esbuild@0.24.2)(rollup@4.34.8)(vitest@3.0.6(@types/debug@4.1.12)(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))
+      '@vue-macros/common':
+        specifier: ^1.16.1
+        version: 1.16.1(vue@3.5.13(typescript@5.7.3))
       ast-kit:
         specifier: ^1.4.0
         version: 1.4.0
@@ -1010,6 +1013,15 @@ packages:
 
   '@volar/source-map@2.4.11':
     resolution: {integrity: sha512-ZQpmafIGvaZMn/8iuvCFGrW3smeqkq/IIh9F1SdSx9aUl0J4Iurzd6/FhmjNO5g2ejF3rT45dKskgXWiofqlZQ==}
+
+  '@vue-macros/common@1.16.1':
+    resolution: {integrity: sha512-Pn/AWMTjoMYuquepLZP813BIcq8DTZiNCoaceuNlvaYuOTd8DqBZWc5u0uOMQZMInwME1mdSmmBAcTluiV9Jtg==}
+    engines: {node: '>=16.14.0'}
+    peerDependencies:
+      vue: ^2.7.0 || ^3.2.25
+    peerDependenciesMeta:
+      vue:
+        optional: true
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0':
     resolution: {integrity: sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA==}
@@ -4037,6 +4049,17 @@ snapshots:
       '@volar/source-map': 2.4.11
 
   '@volar/source-map@2.4.11': {}
+
+  '@vue-macros/common@1.16.1(vue@3.5.13(typescript@5.7.3))':
+    dependencies:
+      '@vue/compiler-sfc': 3.5.13
+      ast-kit: 1.4.0
+      local-pkg: 1.0.0
+      magic-string-ast: 0.7.0
+      pathe: 2.0.3
+      picomatch: 4.0.2
+    optionalDependencies:
+      vue: 3.5.13(typescript@5.7.3)
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0': {}
 
