@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@sxzz/create": "^0.14.1",
+    "@sxzz/eslint-config": "^5.1.1",
+    "@sxzz/prettier-config": "^2.2.0",
     "@sxzz/test-utils": "^0.5.1",
     "ast-kit": "^1.4.0",
     "ast-walker-scope": "^0.7.0",
@@ -44,8 +46,6 @@
     "vue-simple-props": "^0.5.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^5.1.1",
-    "@sxzz/prettier-config": "^2.2.0",
     "@types/node": "^22.13.4",
     "eslint": "^9.20.1",
     "node-modules-inspector": "^0.2.0",

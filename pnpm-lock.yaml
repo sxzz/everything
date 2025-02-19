@@ -11,6 +11,12 @@ importers:
       '@sxzz/create':
         specifier: ^0.14.1
         version: 0.14.1
+      '@sxzz/eslint-config':
+        specifier: ^5.1.1
+        version: 5.1.1(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.24.1(@typescript-eslint/parser@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
+      '@sxzz/prettier-config':
+        specifier: ^2.2.0
+        version: 2.2.0
       '@sxzz/test-utils':
         specifier: ^0.5.1
         version: 0.5.1(esbuild@0.24.2)(rollup@4.34.8)(vitest@3.0.6(@types/debug@4.1.12)(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))
@@ -108,12 +114,6 @@ importers:
         specifier: ^0.5.4
         version: 0.5.4(vue@3.5.13(typescript@5.7.3))
     devDependencies:
-      '@sxzz/eslint-config':
-        specifier: ^5.1.1
-        version: 5.1.1(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.24.1(@typescript-eslint/parser@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
-      '@sxzz/prettier-config':
-        specifier: ^2.2.0
-        version: 2.2.0
       '@types/node':
         specifier: ^22.13.4
         version: 22.13.4
