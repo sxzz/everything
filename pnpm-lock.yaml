@@ -48,8 +48,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       tsdown:
-        specifier: ^0.5.10
-        version: 0.5.10(oxc-transform@0.50.0)(typescript@5.7.3)
+        specifier: ^0.6.0
+        version: 0.6.0(oxc-transform@0.50.0)(publint@0.3.5)(typescript@5.7.3)(unplugin-unused@0.4.1)
       unloader:
         specifier: ^0.3.0
         version: 0.3.0
@@ -464,8 +464,8 @@ packages:
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
 
-  '@humanwhocodes/retry@0.4.1':
-    resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
+  '@humanwhocodes/retry@0.4.2':
+    resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
   '@isaacs/cliui@8.0.2':
@@ -2483,8 +2483,8 @@ packages:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
     engines: {node: '>=4'}
 
-  postcss@8.5.2:
-    resolution: {integrity: sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==}
+  postcss@8.5.3:
+    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -2784,10 +2784,18 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4'
 
-  tsdown@0.5.10:
-    resolution: {integrity: sha512-4ITSP8xBf6//WnaGuuV+gGI413jV8SPu8X3WtazOgTGde/zt9KNAxFwZ9fZCaA5YAR8od544J6OShCwFtLmr+g==}
+  tsdown@0.6.0:
+    resolution: {integrity: sha512-qT6dphvO6cSsw0ONHLNFHulw+5z+Je6YKZ1zYTBMjQV+Vl6Rc1wzfmfB4hhtgYZr7ogc10EUzTBCpn1KPTkQzA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
+    peerDependencies:
+      publint: ^0.3.0
+      unplugin-unused: ^0.4.0
+    peerDependenciesMeta:
+      publint:
+        optional: true
+      unplugin-unused:
+        optional: true
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -3561,7 +3569,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.1': {}
 
-  '@humanwhocodes/retry@0.4.1': {}
+  '@humanwhocodes/retry@0.4.2': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -3724,7 +3732,8 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@publint/pack@0.1.1': {}
+  '@publint/pack@0.1.1':
+    optional: true
 
   '@rolldown/binding-darwin-arm64@1.0.0-beta.3':
     optional: true
@@ -4184,7 +4193,7 @@ snapshots:
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.5.2
+      postcss: 8.5.3
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.13':
@@ -4808,7 +4817,7 @@ snapshots:
       '@eslint/plugin-kit': 0.2.6
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
-      '@humanwhocodes/retry': 0.4.1
+      '@humanwhocodes/retry': 0.4.2
       '@types/estree': 1.0.6
       '@types/json-schema': 7.0.15
       ajv: 6.12.6
@@ -5600,7 +5609,8 @@ snapshots:
       pnpm-multi-versions: 0.4.1
       unconfig: 7.0.0
 
-  mri@1.2.0: {}
+  mri@1.2.0:
+    optional: true
 
   mrmime@2.0.1: {}
 
@@ -5874,7 +5884,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss@8.5.2:
+  postcss@8.5.3:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
@@ -5898,6 +5908,7 @@ snapshots:
       package-manager-detector: 0.2.9
       picocolors: 1.1.1
       sade: 1.8.1
+    optional: true
 
   punycode@2.3.1: {}
 
@@ -6022,6 +6033,7 @@ snapshots:
   sade@1.8.1:
     dependencies:
       mri: 1.2.0
+    optional: true
 
   safer-buffer@2.1.2: {}
 
@@ -6167,22 +6179,23 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  tsdown@0.5.10(oxc-transform@0.50.0)(typescript@5.7.3):
+  tsdown@0.6.0(oxc-transform@0.50.0)(publint@0.3.5)(typescript@5.7.3)(unplugin-unused@0.4.1):
     dependencies:
+      ansis: 3.15.0
       cac: 6.7.14
       chokidar: 4.0.3
       consola: 3.4.0
       debug: 4.4.0
       diff: 7.0.0
-      picocolors: 1.1.1
       pkg-types: 1.3.1
-      publint: 0.3.5
       rolldown: 1.0.0-beta.3(typescript@5.7.3)
       rollup: 4.34.8
       rollup-plugin-dts: 6.1.1(rollup@4.34.8)(typescript@5.7.3)
       tinyglobby: 0.2.11
       unconfig: 7.0.0
       unplugin-isolated-decl: 0.11.2(oxc-transform@0.50.0)(typescript@5.7.3)
+    optionalDependencies:
+      publint: 0.3.5
       unplugin-unused: 0.4.1
     transitivePeerDependencies:
       - '@babel/runtime'
@@ -6504,7 +6517,7 @@ snapshots:
   vite@6.1.1(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0):
     dependencies:
       esbuild: 0.24.2
-      postcss: 8.5.2
+      postcss: 8.5.3
       rollup: 4.34.8
     optionalDependencies:
       '@types/node': 22.13.4
