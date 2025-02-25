@@ -36,7 +36,7 @@
     "unplugin-oxc": "^0.2.4",
     "unplugin-raw": "^0.4.2",
     "unplugin-replace": "^0.5.0",
-    "unplugin-unused": "^0.4.1",
+    "unplugin-unused": "^0.4.2",
     "unplugin-utils": "^0.2.4",
     "unplugin-vue": "^6.0.0",
     "unplugin-vue-jsx": "^0.6.0",
@@ -48,10 +48,10 @@
     "vue-simple-props": "^0.5.4"
   },
   "devDependencies": {
-    "@types/node": "^22.13.4",
-    "eslint": "^9.20.1",
-    "node-modules-inspector": "^0.2.0",
-    "prettier": "^3.5.1",
+    "@types/node": "^22.13.5",
+    "eslint": "^9.21.0",
+    "node-modules-inspector": "^0.2.1",
+    "prettier": "^3.5.2",
     "unplugin-quansync": "^0.1.0"
   },
   "prettier": "@sxzz/prettier-config"
