@@ -44,6 +44,9 @@ importers:
       pnpm-multi-versions:
         specifier: ^0.4.1
         version: 0.4.1
+      quansync:
+        specifier: ^0.0.5
+        version: 0.0.5
       stale-dep:
         specifier: ^0.8.0
         version: 0.8.0
@@ -129,6 +132,9 @@ importers:
       prettier:
         specifier: ^3.5.1
         version: 3.5.1
+      unplugin-quansync:
+        specifier: ^0.1.0
+        version: 0.1.0
 
 packages:
 
@@ -2513,6 +2519,9 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
+  quansync@0.0.5:
+    resolution: {integrity: sha512-4WPXIJiQnktcQM8+qzNsEht5gVMpc2ROT+61MOIvNElvo6qTkIb4nvUg8h1QTYBKMBcqw+gHgYzsKfj1z7FMOg==}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -2931,6 +2940,10 @@ packages:
     engines: {node: '>=18.12.0'}
     peerDependencies:
       unloader: '*'
+
+  unplugin-quansync@0.1.0:
+    resolution: {integrity: sha512-ELzVooUF9wIFdNeICWjDEfkZy4Y2h7OxS1sSb8NG36AJvhk30C6beUriRexlG5pfit2Rijz1PB+qt2VTA4KyEw==}
+    engines: {node: '>=18.12.0'}
 
   unplugin-raw@0.4.2:
     resolution: {integrity: sha512-QvH8h7dhStmOynaYvfhc1aDHWMQDq15RRRzQzqHpTB0EZmyUc3wn9z99THhfebgod0yOZAsTCxDHGR2IZjSHXA==}
@@ -5912,6 +5925,8 @@ snapshots:
 
   punycode@2.3.1: {}
 
+  quansync@0.0.5: {}
+
   queue-microtask@1.2.3: {}
 
   radix3@1.1.2: {}
@@ -6358,6 +6373,14 @@ snapshots:
       oxc-resolver: 4.2.0
       oxc-transform: 0.50.0
       unloader: 0.3.0
+      unplugin: 2.2.0
+      unplugin-utils: 0.2.4
+
+  unplugin-quansync@0.1.0:
+    dependencies:
+      ast-kit: 1.4.0
+      magic-string-ast: 0.7.0
+      quansync: 0.0.5
       unplugin: 2.2.0
       unplugin-utils: 0.2.4
 

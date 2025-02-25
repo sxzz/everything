@@ -21,6 +21,7 @@
     "magic-string-ast": "^0.7.0",
     "monoman": "^0.6.5",
     "pnpm-multi-versions": "^0.4.1",
+    "quansync": "^0.0.5",
     "stale-dep": "^0.8.0",
     "tsdown": "^0.6.0",
     "unloader": "^0.3.0",
@@ -50,7 +51,8 @@
     "@types/node": "^22.13.4",
     "eslint": "^9.20.1",
     "node-modules-inspector": "^0.2.0",
-    "prettier": "^3.5.1"
+    "prettier": "^3.5.1",
+    "unplugin-quansync": "^0.1.0"
   },
   "prettier": "@sxzz/prettier-config"
 }
