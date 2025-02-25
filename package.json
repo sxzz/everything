@@ -5,6 +5,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "dev": "node-modules-inspector",
     "build": "node-modules-inspector build",
     "lint": "eslint"
   },
