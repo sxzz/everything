@@ -12,8 +12,9 @@ const data = (
     ),
   )
 )
+  .filter((item) => !item.error)
   .map((item) => ({
-    downloadsText: item.downloads.toLocaleString(),
+    downloadsText: item.downloads?.toLocaleString(),
     ...item,
   }))
   .sort((a, b) => b.downloads - a.downloads)
