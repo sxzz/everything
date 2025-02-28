@@ -15,7 +15,7 @@
     "@sxzz/eslint-config": "^5.1.1",
     "@sxzz/prettier-config": "^2.2.0",
     "@sxzz/test-utils": "^0.5.1",
-    "@vue-macros/common": "^1.16.1",
+    "@vue-macros/common": "^3.0.0-alpha.0",
     "ast-kit": "^1.4.0",
     "ast-walker-scope": "^0.7.0",
     "eslint-plugin-sxzz": "^0.2.0",
