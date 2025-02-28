@@ -10,6 +10,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@quansync/fs": "^0.1.1",
     "@sxzz/create": "^0.14.1",
     "@sxzz/eslint-config": "^5.1.1",
     "@sxzz/prettier-config": "^2.2.0",
@@ -22,7 +23,7 @@
     "magic-string-ast": "^0.7.0",
     "monoman": "^0.6.5",
     "pnpm-multi-versions": "^0.4.1",
-    "quansync": "^0.0.5",
+    "quansync": "^0.2.6",
     "stale-dep": "^0.8.0",
     "tsdown": "^0.6.0",
     "unloader": "^0.3.0",
@@ -35,6 +36,7 @@
     "unplugin-lightningcss": "^0.3.1",
     "unplugin-macros": "^0.16.0",
     "unplugin-oxc": "^0.2.4",
+    "unplugin-quansync": "^0.3.3",
     "unplugin-raw": "^0.4.3",
     "unplugin-replace": "^0.5.0",
     "unplugin-unused": "^0.4.2",
@@ -52,8 +54,7 @@
     "@types/node": "^22.13.5",
     "eslint": "^9.21.0",
     "node-modules-inspector": "^0.2.1",
-    "prettier": "^3.5.2",
-    "unplugin-quansync": "^0.1.0"
+    "prettier": "^3.5.2"
   },
   "prettier": "@sxzz/prettier-config"
 }
