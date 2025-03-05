@@ -16,4 +16,5 @@ export default defineConfig({
     '@typescript-eslint/utils',
   ],
   excludePackages: ['typescript', 'pnpm'],
+  publint: true,
 })
