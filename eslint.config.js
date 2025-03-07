@@ -1,2 +1,4 @@
 import { sxzz } from '@sxzz/eslint-config'
-export default sxzz()
+import { configs } from 'eslint-plugin-pnpm'
+
+export default sxzz([...configs.recommended])
