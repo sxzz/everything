@@ -35,11 +35,11 @@ catalogs:
     unplugin-ast: ^0.14.2
     unplugin-combine: ^1.2.1
     unplugin-inline-enum: ^0.3.1
-    unplugin-isolated-decl: ^0.13.1
+    unplugin-isolated-decl: ^0.13.2
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.3.2
     unplugin-macros: ^0.16.1
-    unplugin-oxc: ^0.2.6
+    unplugin-oxc: ^0.2.7
     unplugin-quansync: ^0.3.4
     unplugin-raw: ^0.4.4
     unplugin-replace: ^0.5.1
