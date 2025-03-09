@@ -25,10 +25,9 @@ catalogs:
     unws: ^0.3.0
 
   lint:
-    '@sxzz/eslint-config': ^5.2.0
+    '@sxzz/eslint-config': ^6.0.0
     '@sxzz/prettier-config': ^2.2.1
-    eslint: ^9.21.0
-    eslint-plugin-pnpm: ^0.1.0
+    eslint: ^9.22.0
     eslint-plugin-sxzz: ^0.2.1
     prettier: ^3.5.3
 

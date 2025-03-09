@@ -55,7 +55,6 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "eslint": "catalog:lint",
-    "eslint-plugin-pnpm": "catalog:lint",
     "node-modules-inspector": "catalog:cli",
     "prettier": "catalog:lint"
   },
