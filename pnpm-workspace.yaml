@@ -16,6 +16,8 @@ catalogs:
   libs:
     '@quansync/fs': ^0.1.1
     '@sxzz/test-utils': ^0.5.1
+    '@vue/babel-plugin-jsx': ^1.4.0
+    '@vue/repl': ^4.5.1
     ast-kit: ^1.4.2
     ast-walker-scope: ^0.7.1
     gh-apis: ^0.2.1
@@ -51,8 +53,8 @@ catalogs:
     unplugin-vue-named-export: ^0.7.2
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.3
+    '@vue-macros/common': ^3.0.0-beta.4
     vtom: ^1.2.1
     vue-functional-ref: ^0.6.2
-    vue-macros: ^3.0.0-beta.3
+    vue-macros: ^3.0.0-beta.4
     vue-simple-props: ^0.5.5

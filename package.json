@@ -17,6 +17,8 @@
     "@sxzz/prettier-config": "catalog:lint",
     "@sxzz/test-utils": "catalog:libs",
     "@vue-macros/common": "catalog:vue",
+    "@vue/babel-plugin-jsx": "catalog:libs",
+    "@vue/repl": "catalog:libs",
     "ast-kit": "catalog:libs",
     "ast-walker-scope": "catalog:libs",
     "eslint-plugin-sxzz": "catalog:lint",
