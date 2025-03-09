@@ -1,7 +1,8 @@
 {
   "name": "@sxzz/everything",
   "version": "0.0.0",
-  "description": "",
+  "private": true,
+  "packageManager": "pnpm@10.6.1",
   "type": "module",
   "license": "MIT",
   "scripts": {
