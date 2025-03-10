@@ -1,36 +1,36 @@
 packages: []
 
 catalog:
-  '@types/node': ^22.13.9
+  '@types/node': ^22.13.10
 
 catalogs:
   cli:
     '@sxzz/create': ^0.14.3
     monoman: ^0.6.7
-    node-modules-inspector: ^0.3.0
-    stale-dep: ^0.8.1
-    tsdown: ^0.6.4
+    node-modules-inspector: ^0.5.0
+    stale-dep: ^0.8.2
+    tsdown: ^0.6.5
     unloader: ^0.3.0
     vite-hyper-config: ^0.6.1
 
   libs:
     '@quansync/fs': ^0.1.1
-    '@sxzz/test-utils': ^0.5.1
+    '@sxzz/test-utils': ^0.5.2
     '@vue/babel-plugin-jsx': ^1.4.0
     '@vue/repl': ^4.5.1
     ast-kit: ^1.4.2
     ast-walker-scope: ^0.7.1
     gh-apis: ^0.2.1
     magic-string-ast: ^0.8.0
-    pnpm-multi-versions: ^0.4.1
+    pnpm-multi-versions: ^0.4.2
     quansync: ^0.2.8
-    unws: ^0.3.0
+    unws: ^0.3.1
 
   lint:
-    '@sxzz/eslint-config': ^6.0.0
+    '@sxzz/eslint-config': ^6.0.1
     '@sxzz/prettier-config': ^2.2.1
     eslint: ^9.22.0
-    eslint-plugin-sxzz: ^0.2.1
+    eslint-plugin-sxzz: ^0.2.2
     prettier: ^3.5.3
 
   unplugin:
