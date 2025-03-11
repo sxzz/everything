@@ -5,11 +5,11 @@ catalog:
 
 catalogs:
   cli:
-    '@sxzz/create': ^0.14.3
-    monoman: ^0.6.7
+    '@sxzz/create': ^0.14.4
+    monoman: ^0.6.8
     node-modules-inspector: ^0.5.0
     stale-dep: ^0.8.2
-    tsdown: ^0.6.5
+    tsdown: ^0.6.7
     unloader: ^0.3.0
     vite-hyper-config: ^0.6.1
 
@@ -27,7 +27,7 @@ catalogs:
     unws: ^0.3.1
 
   lint:
-    '@sxzz/eslint-config': ^6.0.1
+    '@sxzz/eslint-config': ^6.0.2
     '@sxzz/prettier-config': ^2.2.1
     eslint: ^9.22.0
     eslint-plugin-sxzz: ^0.2.2
@@ -35,15 +35,15 @@ catalogs:
 
   unplugin:
     unplugin: ^2.2.0
-    unplugin-ast: ^0.14.2
+    unplugin-ast: ^0.14.3
     unplugin-combine: ^1.2.1
     unplugin-inline-enum: ^0.3.1
     unplugin-isolated-decl: ^0.13.2
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.3.2
-    unplugin-macros: ^0.16.1
+    unplugin-macros: ^0.16.2
     unplugin-oxc: ^0.2.7
-    unplugin-quansync: ^0.3.4
+    unplugin-quansync: ^0.3.5
     unplugin-raw: ^0.4.4
     unplugin-replace: ^0.5.1
     unplugin-unused: ^0.4.3
