@@ -27,7 +27,7 @@
     "monoman": "catalog:cli",
     "pnpm-multi-versions": "catalog:libs",
     "quansync": "catalog:libs",
-    "rolldown-plugin-types": "catalog:libs",
+    "rolldown-plugin-dts": "catalog:libs",
     "stale-dep": "catalog:cli",
     "tsdown": "catalog:cli",
     "tsgo-wasm": "catalog:libs",
