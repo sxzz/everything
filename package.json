@@ -21,6 +21,7 @@
     "@vue/repl": "catalog:libs",
     "ast-kit": "catalog:libs",
     "ast-walker-scope": "catalog:libs",
+    "dts-resolver": "^0.1.1",
     "eslint-plugin-sxzz": "catalog:lint",
     "gh-apis": "catalog:libs",
     "magic-string-ast": "catalog:libs",
