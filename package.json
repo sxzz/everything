@@ -2,7 +2,7 @@
   "name": "@sxzz/everything",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.7.1",
+  "packageManager": "pnpm@10.8.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,7 @@
     "@vue/repl": "catalog:libs",
     "ast-kit": "catalog:libs",
     "ast-walker-scope": "catalog:libs",
-    "dts-resolver": "^0.1.1",
+    "dts-resolver": "catalog:libs",
     "eslint-plugin-sxzz": "catalog:lint",
     "gh-apis": "catalog:libs",
     "magic-string-ast": "catalog:libs",
