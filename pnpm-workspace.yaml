@@ -9,8 +9,8 @@ catalogs:
     monoman: ^0.6.8
     node-modules-inspector: ^0.6.6
     stale-dep: ^0.8.2
-    tsdown: ^0.9.5
-    unloader: ^0.4.3
+    tsdown: ^0.9.6
+    unloader: ^0.4.4
     vite-hyper-config: ^0.6.1
 
   libs:
@@ -18,15 +18,15 @@ catalogs:
     '@sxzz/test-utils': ^0.5.5
     '@vue/babel-plugin-jsx': ^1.4.0
     '@vue/repl': ^4.5.1
-    ast-kit: ^1.4.2
+    ast-kit: ^1.4.3
     ast-walker-scope: ^0.7.1
     dts-resolver: ^1.0.1
     gh-apis: ^0.2.2
     magic-string-ast: ^0.9.1
     pnpm-multi-versions: ^0.4.2
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.8.3
-    tsgo-wasm: ^0.0.0-20250314
+    rolldown-plugin-dts: ^0.8.4
+    tsgo-wasm: ^0.0.0-20250424
     unws: ^0.3.1
 
   lint:
@@ -41,11 +41,11 @@ catalogs:
     unplugin-ast: ^0.14.6
     unplugin-combine: ^1.2.1
     unplugin-inline-enum: ^0.3.1
-    unplugin-isolated-decl: ^0.13.8
+    unplugin-isolated-decl: ^0.13.10
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.3.2
     unplugin-macros: ^0.16.3
-    unplugin-oxc: ^0.3.5
+    unplugin-oxc: ^0.3.6
     unplugin-quansync: ^0.3.6
     unplugin-raw: ^0.4.5
     unplugin-replace: ^0.5.2
