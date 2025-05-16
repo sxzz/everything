@@ -1,7 +1,7 @@
 packages: []
 
 catalog:
-  '@types/node': ^22.15.17
+  '@types/node': ^22.15.18
 
 catalogs:
   cli:
@@ -9,7 +9,7 @@ catalogs:
     monoman: ^0.7.1
     node-modules-inspector: ^0.6.8
     stale-dep: ^0.8.2
-    tsdown: ^0.11.5
+    tsdown: ^0.11.9
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.0
 
@@ -25,7 +25,7 @@ catalogs:
     magic-string-ast: ^0.9.1
     pnpm-multi-versions: ^0.5.0
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.12.0
+    rolldown-plugin-dts: ^0.12.3
     tsgo-wasm: ^0.0.0-20250424
     unws: ^0.3.2
 
@@ -37,7 +37,7 @@ catalogs:
     prettier: ^3.5.3
 
   unplugin:
-    unplugin: ^2.3.2
+    unplugin: ^2.3.4
     unplugin-ast: ^0.15.0
     unplugin-combine: ^2.0.0
     unplugin-inline-enum: ^0.4.0
@@ -45,7 +45,7 @@ catalogs:
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.0
     unplugin-macros: ^0.17.0
-    unplugin-oxc: ^0.4.2
+    unplugin-oxc: ^0.4.3
     unplugin-quansync: ^0.4.2
     unplugin-raw: ^0.5.0
     unplugin-replace: ^0.6.0
@@ -60,4 +60,4 @@ catalogs:
     vtom: ^2.0.0
     vue-functional-ref: ^0.6.2
     vue-macros: ^3.0.0-beta.12
-    vue-simple-props: ^0.6.0
+    vue-simple-props: ^0.6.2
