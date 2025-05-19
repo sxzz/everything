@@ -1,7 +1,7 @@
 packages: []
 
 catalog:
-  '@types/node': ^22.15.18
+  '@types/node': ^22.15.19
 
 catalogs:
   cli:
@@ -9,7 +9,8 @@ catalogs:
     monoman: ^0.7.1
     node-modules-inspector: ^0.6.8
     stale-dep: ^0.8.2
-    tsdown: ^0.11.9
+    tsdown: ^0.11.11
+    tsgo-dev: ^2025.5.19-11.28
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.0
 
@@ -25,14 +26,14 @@ catalogs:
     magic-string-ast: ^0.9.1
     pnpm-multi-versions: ^0.5.0
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.12.3
-    tsgo-wasm: ^0.0.0-20250424
+    rolldown-plugin-dts: ^0.13.2
+    tsgo-wasm: ^2025.5.19-11.28
     unws: ^0.3.2
 
   lint:
     '@sxzz/eslint-config': ^7.0.1
     '@sxzz/prettier-config': ^2.2.1
-    eslint: ^9.26.0
+    eslint: ^9.27.0
     eslint-plugin-sxzz: ^0.3.0
     prettier: ^3.5.3
 

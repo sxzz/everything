@@ -31,6 +31,7 @@
     "rolldown-plugin-dts": "catalog:libs",
     "stale-dep": "catalog:cli",
     "tsdown": "catalog:cli",
+    "tsgo-dev": "catalog:cli",
     "tsgo-wasm": "catalog:libs",
     "unloader": "catalog:cli",
     "unplugin": "catalog:unplugin",
