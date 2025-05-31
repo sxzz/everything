@@ -1,16 +1,16 @@
 packages: []
 
 catalog:
-  '@types/node': ^22.15.19
+  '@types/node': ^22.15.29
 
 catalogs:
   cli:
-    '@sxzz/create': ^0.15.0
+    '@sxzz/create': ^0.15.1
     monoman: ^0.7.1
     node-modules-inspector: ^0.6.8
     stale-dep: ^0.8.2
-    tsdown: ^0.11.11
-    tsgo-dev: ^2025.5.19-11.28
+    tsdown: ^0.12.5
+    tsgo-dev: ^2025.5.31
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.0
 
@@ -19,34 +19,34 @@ catalogs:
     '@sxzz/test-utils': ^0.5.6
     '@vue/babel-plugin-jsx': ^1.4.0
     '@vue/repl': ^4.5.1
-    ast-kit: ^2.0.0
+    ast-kit: ^2.1.0
     ast-walker-scope: ^0.8.1
-    dts-resolver: ^2.0.1
+    dts-resolver: ^2.1.0
     gh-apis: ^0.2.2
     magic-string-ast: ^0.9.1
     pnpm-multi-versions: ^0.5.0
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.13.2
-    tsgo-wasm: ^2025.5.19-11.28
+    rolldown-plugin-dts: ^0.13.6
+    tsgo-wasm: ^2025.5.31
     unws: ^0.3.2
 
   lint:
-    '@sxzz/eslint-config': ^7.0.1
+    '@sxzz/eslint-config': ^7.0.2
     '@sxzz/prettier-config': ^2.2.1
-    eslint: ^9.27.0
+    eslint: ^9.28.0
     eslint-plugin-sxzz: ^0.3.0
     prettier: ^3.5.3
 
   unplugin:
-    unplugin: ^2.3.4
+    unplugin: ^2.3.5
     unplugin-ast: ^0.15.0
     unplugin-combine: ^2.0.0
-    unplugin-inline-enum: ^0.4.0
-    unplugin-isolated-decl: ^0.14.1
+    unplugin-inline-enum: ^0.4.1
+    unplugin-isolated-decl: ^0.14.2
     unplugin-jsx-string: ^0.9.1
-    unplugin-lightningcss: ^0.4.0
+    unplugin-lightningcss: ^0.4.1
     unplugin-macros: ^0.17.0
-    unplugin-oxc: ^0.4.3
+    unplugin-oxc: ^0.4.5
     unplugin-quansync: ^0.4.2
     unplugin-raw: ^0.5.0
     unplugin-replace: ^0.6.0
@@ -57,8 +57,8 @@ catalogs:
     unplugin-vue-named-export: ^0.8.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.12
+    '@vue-macros/common': ^3.0.0-beta.13
     vtom: ^2.0.0
     vue-functional-ref: ^0.6.2
-    vue-macros: ^3.0.0-beta.12
+    vue-macros: ^3.0.0-beta.13
     vue-simple-props: ^0.6.2
