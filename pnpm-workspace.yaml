@@ -9,8 +9,8 @@ catalogs:
     monoman: ^0.7.1
     node-modules-inspector: ^0.6.8
     stale-dep: ^0.8.2
-    tsdown: ^0.12.5
-    tsgo-dev: ^2025.5.31
+    tsdown: ^0.12.6
+    tsgo-dev: ^2025.6.5
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.0
 
@@ -21,13 +21,13 @@ catalogs:
     '@vue/repl': ^4.5.1
     ast-kit: ^2.1.0
     ast-walker-scope: ^0.8.1
-    dts-resolver: ^2.1.0
+    dts-resolver: ^2.1.1
     gh-apis: ^0.2.2
     magic-string-ast: ^0.9.1
     pnpm-multi-versions: ^0.5.0
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.13.6
-    tsgo-wasm: ^2025.5.31
+    rolldown-plugin-dts: ^0.13.8
+    tsgo-wasm: ^2025.6.5
     unws: ^0.3.2
 
   lint:
@@ -42,7 +42,7 @@ catalogs:
     unplugin-ast: ^0.15.0
     unplugin-combine: ^2.0.0
     unplugin-inline-enum: ^0.4.1
-    unplugin-isolated-decl: ^0.14.2
+    unplugin-isolated-decl: ^0.14.3
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.1
     unplugin-macros: ^0.17.0
@@ -57,8 +57,8 @@ catalogs:
     unplugin-vue-named-export: ^0.8.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.13
+    '@vue-macros/common': ^3.0.0-beta.14
     vtom: ^2.0.0
     vue-functional-ref: ^0.6.2
-    vue-macros: ^3.0.0-beta.13
+    vue-macros: ^3.0.0-beta.14
     vue-simple-props: ^0.6.2
