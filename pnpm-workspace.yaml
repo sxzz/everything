@@ -5,10 +5,10 @@ catalogs:
   cli:
     '@sxzz/create': ^0.15.1
     monoman: ^0.7.1
-    node-modules-inspector: ^1.0.0
+    node-modules-inspector: https://pkg.pr.new/node-modules-inspector@126
     stale-dep: ^0.8.2
     tsdown: ^0.13.3
-    tsgo-dev: ^2025.8.5
+    tsgo-dev: ^2025.8.6
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.1
 
@@ -26,7 +26,7 @@ catalogs:
     quansync: ^0.2.10
     rolldown-plugin-dts: ^0.15.3
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.5
+    tsgo-wasm: ^2025.8.6
     unws: ^0.3.2
 
   lint:
@@ -50,14 +50,14 @@ catalogs:
     unplugin-raw: ^0.5.1
     unplugin-replace: ^0.6.0
     unplugin-unused: ^0.5.1
-    unplugin-utils: ^0.2.4
+    unplugin-utils: ^0.2.5
     unplugin-vue: ^7.0.1
     unplugin-vue-jsx: ^0.6.1
     unplugin-vue-named-export: ^0.9.0
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.20
+    '@vue-macros/common': ^3.0.0-beta.21
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.0
-    vue-macros: ^3.0.0-beta.20
+    vue-macros: ^3.0.0-beta.21
     vue-simple-props: ^0.6.2
