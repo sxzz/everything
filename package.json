@@ -30,6 +30,7 @@
     "quansync": "catalog:libs",
     "rolldown-plugin-dts": "catalog:libs",
     "stale-dep": "catalog:cli",
+    "tc39-throw": "catalog:libs",
     "tc39-try": "catalog:libs",
     "tsdown": "catalog:cli",
     "tsgo-dev": "catalog:cli",
@@ -52,13 +53,13 @@
     "unplugin-vue": "catalog:unplugin",
     "unplugin-vue-jsx": "catalog:unplugin",
     "unplugin-vue-named-export": "catalog:unplugin",
+    "untsx": "catalog:libs",
     "unws": "catalog:libs",
     "vite-hyper-config": "catalog:cli",
     "vtom": "catalog:vue",
     "vue-functional-ref": "catalog:vue",
     "vue-macros": "catalog:vue",
-    "vue-simple-props": "catalog:vue",
-    "tc39-throw": "catalog:libs"
+    "vue-simple-props": "catalog:vue"
   },
   "devDependencies": {
     "@types/node": "catalog:",

@@ -28,6 +28,7 @@ catalogs:
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
     tsgo-wasm: ^2025.8.9
+    untsx: ^0.1.2
     unws: ^0.3.2
 
   lint:

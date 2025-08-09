@@ -80,6 +80,9 @@ catalogs:
     tsgo-wasm:
       specifier: ^2025.8.9
       version: 2025.8.9
+    untsx:
+      specifier: ^0.1.2
+      version: 0.1.2
     unws:
       specifier: ^0.3.2
       version: 0.3.2
@@ -298,6 +301,9 @@ importers:
       unplugin-vue-named-export:
         specifier: catalog:unplugin
         version: 0.9.0(typescript@5.8.3)
+      untsx:
+        specifier: catalog:libs
+        version: 0.1.2(eslint@9.33.0(jiti@2.5.1))(typescript@5.8.3)
       unws:
         specifier: catalog:libs
         version: 0.3.2(ws@8.18.3)
