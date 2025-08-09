@@ -57,7 +57,8 @@
     "vtom": "catalog:vue",
     "vue-functional-ref": "catalog:vue",
     "vue-macros": "catalog:vue",
-    "vue-simple-props": "catalog:vue"
+    "vue-simple-props": "catalog:vue",
+    "tc39-throw": "catalog:libs"
   },
   "devDependencies": {
     "@types/node": "catalog:",

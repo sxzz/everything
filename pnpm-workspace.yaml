@@ -1,19 +1,19 @@
 catalog:
-  '@types/node': ^24.2.0
+  '@types/node': ^24.2.1
 
 catalogs:
   cli:
     '@sxzz/create': ^0.15.1
     monoman: ^0.7.1
-    node-modules-inspector: https://pkg.pr.new/node-modules-inspector@126
+    node-modules-inspector: https://pkg.pr.new/node-modules-inspector@f575f83
     stale-dep: ^0.8.2
-    tsdown: ^0.13.3
+    tsdown: ^0.13.4
     tsgo-dev: ^2025.8.6
     unloader: ^0.4.5
     vite-hyper-config: ^0.7.1
 
   libs:
-    '@quansync/fs': ^0.1.3
+    '@quansync/fs': ^0.1.4
     '@sxzz/test-utils': ^0.5.9
     '@vue/babel-plugin-jsx': ^1.4.0
     '@vue/repl': ^4.6.3
@@ -24,15 +24,16 @@ catalogs:
     magic-string-ast: ^1.0.0
     pnpm-multi-versions: ^0.5.1
     quansync: ^0.2.10
-    rolldown-plugin-dts: ^0.15.3
+    rolldown-plugin-dts: ^0.15.6
+    tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.6
+    tsgo-wasm: ^2025.8.9
     unws: ^0.3.2
 
   lint:
     '@sxzz/eslint-config': ^7.1.2
     '@sxzz/prettier-config': ^2.2.3
-    eslint: ^9.32.0
+    eslint: ^9.33.0
     eslint-plugin-sxzz: ^0.4.0
     prettier: ^3.6.2
 

@@ -1,331 +1,338 @@
 [
   {
-    "downloadsText": "14,171,274",
-    "downloads": 14171274,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "14,219,775",
+    "downloads": 14219775,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin"
   },
   {
-    "downloadsText": "3,354,200",
-    "downloads": 3354200,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "3,382,657",
+    "downloads": 3382657,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "quansync"
   },
   {
-    "downloadsText": "1,747,387",
-    "downloads": 1747387,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "1,725,013",
+    "downloads": 1725013,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "@vue/babel-plugin-jsx"
   },
   {
-    "downloadsText": "1,234,152",
-    "downloads": 1234152,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "1,302,275",
+    "downloads": 1302275,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-utils"
   },
   {
-    "downloadsText": "1,158,327",
-    "downloads": 1158327,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "1,157,280",
+    "downloads": 1157280,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "ast-kit"
   },
   {
-    "downloadsText": "914,095",
-    "downloads": 914095,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "920,174",
+    "downloads": 920174,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "magic-string-ast"
   },
   {
-    "downloadsText": "854,104",
-    "downloads": 854104,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "873,538",
+    "downloads": 873538,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "@vue-macros/common"
   },
   {
-    "downloadsText": "808,306",
-    "downloads": 808306,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "813,737",
+    "downloads": 813737,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "ast-walker-scope"
   },
   {
-    "downloadsText": "202,216",
-    "downloads": 202216,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "215,136",
+    "downloads": 215136,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "@quansync/fs"
   },
   {
-    "downloadsText": "151,494",
-    "downloads": 151494,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "150,534",
+    "downloads": 150534,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "rolldown-plugin-dts"
   },
   {
-    "downloadsText": "145,824",
-    "downloads": 145824,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "143,572",
+    "downloads": 143572,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "dts-resolver"
   },
   {
-    "downloadsText": "87,401",
-    "downloads": 87401,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "94,108",
+    "downloads": 94108,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "tsdown"
   },
   {
-    "downloadsText": "87,004",
-    "downloads": 87004,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "85,227",
+    "downloads": 85227,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-ast"
   },
   {
-    "downloadsText": "31,709",
-    "downloads": 31709,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "@vue/repl"
-  },
-  {
-    "downloadsText": "22,619",
-    "downloads": 22619,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "21,940",
+    "downloads": 21940,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-combine"
   },
   {
-    "downloadsText": "8,686",
-    "downloads": 8686,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "unplugin-unused"
+    "downloadsText": "8,117",
+    "downloads": 8117,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "@vue/repl"
   },
   {
-    "downloadsText": "6,520",
-    "downloads": 6520,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "7,263",
+    "downloads": 7263,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-isolated-decl"
   },
   {
-    "downloadsText": "4,305",
-    "downloads": 4305,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "6,045",
+    "downloads": 6045,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "unplugin-unused"
+  },
+  {
+    "downloadsText": "4,784",
+    "downloads": 4784,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-lightningcss"
   },
   {
-    "downloadsText": "3,864",
-    "downloads": 3864,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "3,897",
+    "downloads": 3897,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-vue"
   },
   {
-    "downloadsText": "2,922",
-    "downloads": 2922,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "3,379",
+    "downloads": 3379,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-macros"
   },
   {
-    "downloadsText": "2,857",
-    "downloads": 2857,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "@sxzz/eslint-config"
-  },
-  {
-    "downloadsText": "2,382",
-    "downloads": 2382,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "eslint-plugin-sxzz"
-  },
-  {
-    "downloadsText": "2,365",
-    "downloads": 2365,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "3,158",
+    "downloads": 3158,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-replace"
   },
   {
-    "downloadsText": "2,082",
-    "downloads": 2082,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "@sxzz/prettier-config"
-  },
-  {
-    "downloadsText": "2,051",
-    "downloads": 2051,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "2,429",
+    "downloads": 2429,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-oxc"
   },
   {
-    "downloadsText": "1,882",
-    "downloads": 1882,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "2,355",
+    "downloads": 2355,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "@sxzz/eslint-config"
+  },
+  {
+    "downloadsText": "2,133",
+    "downloads": 2133,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "eslint-plugin-sxzz"
+  },
+  {
+    "downloadsText": "1,690",
+    "downloads": 1690,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "@sxzz/prettier-config"
+  },
+  {
+    "downloadsText": "1,672",
+    "downloads": 1672,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "vue-macros"
   },
   {
-    "downloadsText": "1,248",
-    "downloads": 1248,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "@sxzz/test-utils"
-  },
-  {
-    "downloadsText": "1,234",
-    "downloads": 1234,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "1,102",
+    "downloads": 1102,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "stale-dep"
   },
   {
-    "downloadsText": "718",
-    "downloads": 718,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "vite-hyper-config"
+    "downloadsText": "816",
+    "downloads": 816,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "@sxzz/test-utils"
   },
   {
-    "downloadsText": "612",
-    "downloads": 612,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "unws"
-  },
-  {
-    "downloadsText": "599",
-    "downloads": 599,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "594",
+    "downloads": 594,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "tsgo-dev"
   },
   {
-    "downloadsText": "549",
-    "downloads": 549,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "tc39-try"
-  },
-  {
-    "downloadsText": "532",
-    "downloads": 532,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "564",
+    "downloads": 564,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "tsgo-wasm"
   },
   {
-    "downloadsText": "520",
-    "downloads": 520,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "486",
+    "downloads": 486,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "unws"
+  },
+  {
+    "downloadsText": "380",
+    "downloads": 380,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unloader"
   },
   {
-    "downloadsText": "375",
-    "downloads": 375,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "326",
+    "downloads": 326,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-raw"
   },
   {
-    "downloadsText": "313",
-    "downloads": 313,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "247",
+    "downloads": 247,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "pnpm-multi-versions"
   },
   {
-    "downloadsText": "178",
-    "downloads": 178,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "212",
+    "downloads": 212,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-vue-jsx"
   },
   {
-    "downloadsText": "156",
-    "downloads": 156,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "148",
+    "downloads": 148,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "vite-hyper-config"
+  },
+  {
+    "downloadsText": "92",
+    "downloads": 92,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "unplugin-quansync"
   },
   {
-    "downloadsText": "79",
-    "downloads": 79,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "87",
+    "downloads": 87,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "@sxzz/create"
   },
   {
-    "downloadsText": "62",
-    "downloads": 62,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "41",
+    "downloads": 41,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "unplugin-jsx-string"
+  },
+  {
+    "downloadsText": "39",
+    "downloads": 39,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "tc39-try"
+  },
+  {
+    "downloadsText": "23",
+    "downloads": 23,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "monoman"
   },
   {
-    "downloadsText": "15",
-    "downloads": 15,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "downloadsText": "19",
+    "downloads": 19,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "vue-simple-props"
   },
   {
-    "downloadsText": "10",
-    "downloads": 10,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "unplugin-jsx-string"
+    "downloadsText": "7",
+    "downloads": 7,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "unplugin-inline-enum"
+  },
+  {
+    "downloadsText": "7",
+    "downloads": 7,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "tc39-throw"
   },
   {
     "downloadsText": "4",
     "downloads": 4,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "vtom"
   },
   {
     "downloadsText": "3",
     "downloads": 3,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "start": "2025-08-02",
+    "end": "2025-08-08",
+    "package": "unplugin-vue-named-export"
+  },
+  {
+    "downloadsText": "3",
+    "downloads": 3,
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "vue-functional-ref"
   },
   {
     "downloadsText": "2",
     "downloads": 2,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "unplugin-vue-named-export"
-  },
-  {
-    "downloadsText": "1",
-    "downloads": 1,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
+    "start": "2025-08-02",
+    "end": "2025-08-08",
     "package": "gh-apis"
-  },
-  {
-    "downloadsText": "1",
-    "downloads": 1,
-    "start": "2025-07-29",
-    "end": "2025-08-04",
-    "package": "unplugin-inline-enum"
   }
 ]
