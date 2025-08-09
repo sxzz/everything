@@ -15,6 +15,6 @@ export default defineConfig({
     '@typescript-eslint/eslint-plugin',
     '@typescript-eslint/utils',
   ],
-  excludePackages: ['typescript', 'pnpm'],
+  excludePackages: ['typescript', 'pnpm', 'node-modules-inspector'],
   publint: true,
 })
