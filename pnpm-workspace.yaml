@@ -8,8 +8,8 @@ catalogs:
     node-modules-inspector: https://pkg.pr.new/node-modules-inspector@f575f83
     stale-dep: ^0.8.2
     tsdown: ^0.13.4
-    tsgo-dev: ^2025.8.6
-    unloader: ^0.4.5
+    tsgo-dev: ^2025.8.9
+    unloader: ^0.5.0
     vite-hyper-config: ^0.7.1
 
   libs:
