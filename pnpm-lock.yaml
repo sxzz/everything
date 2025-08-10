@@ -19,11 +19,11 @@ catalogs:
       specifier: ^0.8.2
       version: 0.8.2
     tsdown:
-      specifier: ^0.13.4
-      version: 0.13.4
+      specifier: ^0.14.0
+      version: 0.14.0
     tsgo-dev:
-      specifier: ^2025.8.9
-      version: 2025.8.9
+      specifier: ^2025.8.10
+      version: 2025.8.10
     unloader:
       specifier: ^0.5.0
       version: 0.5.0
@@ -42,8 +42,8 @@ catalogs:
       specifier: ^0.5.9
       version: 0.5.9
     '@vue/babel-plugin-jsx':
-      specifier: ^1.4.0
-      version: 1.4.0
+      specifier: ^1.5.0
+      version: 1.5.0
     '@vue/repl':
       specifier: ^4.6.3
       version: 4.6.3
@@ -78,8 +78,8 @@ catalogs:
       specifier: ^0.4.2
       version: 0.4.2
     tsgo-wasm:
-      specifier: ^2025.8.9
-      version: 2025.8.9
+      specifier: ^2025.8.10
+      version: 2025.8.10
     untsx:
       specifier: ^0.1.2
       version: 0.1.2
@@ -195,7 +195,7 @@ importers:
         version: 3.0.0-beta.21(vue@3.5.18(typescript@5.8.3))
       '@vue/babel-plugin-jsx':
         specifier: catalog:libs
-        version: 1.4.0(@babel/core@7.28.0)
+        version: 1.5.0(@babel/core@7.28.0)
       '@vue/repl':
         specifier: catalog:libs
         version: 4.6.3
@@ -240,13 +240,13 @@ importers:
         version: 0.4.2(eslint@9.33.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.8.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.13.4(oxc-resolver@11.6.1)(publint@0.3.12)(typescript@5.8.3)(unplugin-lightningcss@0.4.1)(unplugin-unused@0.5.1)
+        version: 0.14.0(oxc-resolver@11.6.1)(publint@0.3.12)(typescript@5.8.3)(unplugin-lightningcss@0.4.1)(unplugin-unused@0.5.1)
       tsgo-dev:
         specifier: catalog:cli
-        version: 2025.8.9
+        version: 2025.8.10
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.8.9
+        version: 2025.8.10
       unloader:
         specifier: catalog:cli
         version: 0.5.0
@@ -1421,38 +1421,38 @@ packages:
       typescript:
         optional: true
 
-  '@tsgo-dev/darwin-amd64@2025.8.9':
-    resolution: {integrity: sha512-Julys/28lywFpS5n/eRvCqsWa+fCjWZxiVOG4se7Z5WzF/fupg0UyTC1N5BTOU+n3NwHAviXXNGMPp2HgrjXXQ==}
+  '@tsgo-dev/darwin-amd64@2025.8.10':
+    resolution: {integrity: sha512-vEIcbkdaYSkv8Ozy9VmNG12t5ZrN+uHnfzjLx/+WuCXvYrBgIWMSLplETO4R8vfVSwwb7urY9NEWbEjFS+grbA==}
     cpu: [x64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/darwin-arm64@2025.8.9':
-    resolution: {integrity: sha512-9q92+8TBjRWMxUi5Dffu2IhJfngzq9svF7gb8zpWHzlQi7royv+XjjYOfgMfjonk3Iv6OSOo0ZADM5+KZsIsNQ==}
+  '@tsgo-dev/darwin-arm64@2025.8.10':
+    resolution: {integrity: sha512-rMlfQKSu7LAzxLqYQe58IWLrU8VloD4Q+3UHxyVyIGypHageJ+63pNQAPQCRGQr1RQjMCJq5XmpoBF10XXyFOA==}
     cpu: [arm64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/linux-amd64@2025.8.9':
-    resolution: {integrity: sha512-RxOWU7tfQKFXi2S3UMvq5Dr3D1iQwFIAOCa6oJIZhh9Ked8+MoSf/pRNqUEC8R/kxc4o8ZvOnIRaCDrX2U7hTg==}
+  '@tsgo-dev/linux-amd64@2025.8.10':
+    resolution: {integrity: sha512-hqsP3H1cvQvKIsODw5kiVVWiPqLGuLYedUoddSScHysGlHYJxfTOtQNOKdG/A8781Cyv6A8cDOoBWs2q2XDtig==}
     cpu: [x64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/linux-arm64@2025.8.9':
-    resolution: {integrity: sha512-6I7ky9qoGza9g0rhAxA6FheHIqq2p2fDCtqx+UAJNhhAnykkZKiHRtkByzs6S/FOelsWYbE3vOKm/y0Cj9mfdw==}
+  '@tsgo-dev/linux-arm64@2025.8.10':
+    resolution: {integrity: sha512-DvUOBeQ0DTrZevUL7eZMKwD3zKjstim86KPMg/Ol9shPf2V6Ru+9Ixs4oaR3waN8shqjBlFsH9RhNPoFeAy5ew==}
     cpu: [arm64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/windows-amd64@2025.8.9':
-    resolution: {integrity: sha512-R1K7bMUGVhFxEQfe2d64PO/Jh2YxlksH7mv7o+ZikJhFc29Ja2FNO7mqvuBBmZYsqAsVQIPcrEG4NQQBJNhukA==}
+  '@tsgo-dev/windows-amd64@2025.8.10':
+    resolution: {integrity: sha512-8N/uWmrcJr5dOSLQJW+c4zugBVdb58lIooO8hiHKPze70FdaV3vENSCV6/LqO+LEwirROI2z3KQJWnv2tef3gA==}
     cpu: [x64]
     os: [win32]
     hasBin: true
 
-  '@tsgo-dev/windows-arm64@2025.8.9':
-    resolution: {integrity: sha512-SGh9chSVSqh9HAR3GKWlyGEHVH6VpsW3/haiw8dak50YYfyhklewQCFpi4oSBuToowSNSb3rfw7RxZCx+cjgfQ==}
+  '@tsgo-dev/windows-arm64@2025.8.10':
+    resolution: {integrity: sha512-lvPAJlYr2E1j9K8UMgD3tpwGGoobnzm0539PM6RqmdNepJD5BTKd8USxeDr2LA3ovgp3AqSpOfxBa0c1+1BCkg==}
     cpu: [arm64]
     os: [win32]
     hasBin: true
@@ -1842,19 +1842,19 @@ packages:
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0':
     resolution: {integrity: sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA==}
 
-  '@vue/babel-helper-vue-transform-on@1.4.0':
-    resolution: {integrity: sha512-mCokbouEQ/ocRce/FpKCRItGo+013tHg7tixg3DUNS+6bmIchPt66012kBMm476vyEIJPafrvOf4E5OYj3shSw==}
+  '@vue/babel-helper-vue-transform-on@1.5.0':
+    resolution: {integrity: sha512-0dAYkerNhhHutHZ34JtTl2czVQHUNWv6xEbkdF5W+Yrv5pCWsqjeORdOgbtW2I9gWlt+wBmVn+ttqN9ZxR5tzA==}
 
-  '@vue/babel-plugin-jsx@1.4.0':
-    resolution: {integrity: sha512-9zAHmwgMWlaN6qRKdrg1uKsBKHvnUU+Py+MOCTuYZBoZsopa90Di10QRjB+YPnVss0BZbG/H5XFwJY1fTxJWhA==}
+  '@vue/babel-plugin-jsx@1.5.0':
+    resolution: {integrity: sha512-mneBhw1oOqCd2247O0Yw/mRwC9jIGACAJUlawkmMBiNmL4dGA2eMzuNZVNqOUfYTa6vqmND4CtOPzmEEEqLKFw==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     peerDependenciesMeta:
       '@babel/core':
         optional: true
 
-  '@vue/babel-plugin-resolve-type@1.4.0':
-    resolution: {integrity: sha512-4xqDRRbQQEWHQyjlYSgZsWj44KfiF6D+ktCuXyZ8EnVDYV3pztmXJDf1HveAjUAXxAnR8daCQT51RneWWxtTyQ==}
+  '@vue/babel-plugin-resolve-type@1.5.0':
+    resolution: {integrity: sha512-Wm/60o+53JwJODm4Knz47dxJnLDJ9FnKnGZJbUUf8nQRAtt6P+undLUAVU3Ha33LxOJe6IPoifRQ6F/0RrU31w==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
@@ -3467,8 +3467,8 @@ packages:
   ts-macro@0.3.3:
     resolution: {integrity: sha512-8Bcs1UDBMqcJPwmnuRflaiducaId155OZUQxFUSGNfOoCDPd2oAB/Ik1KDw/ObcN/c1uv+Ve4F1u5quOBCQ/Mg==}
 
-  tsdown@0.13.4:
-    resolution: {integrity: sha512-2uf0Xo170gmxwJEOgfb7V9y3k+Uq/dQJx4xfXYova7pqqTw9ZjxSvEeq7Y6l+Ys54GlBrRKvxKoEyNhuUcoCTg==}
+  tsdown@0.14.0:
+    resolution: {integrity: sha512-3zBEDUC1XPnVE5rwfsm1y8REh58CJsDT319hkRwBgIpN9eMClE30dqF4HkK8zPKoczNNqFrQ2cKGrjE50WprIw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -3489,12 +3489,12 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-dev@2025.8.9:
-    resolution: {integrity: sha512-PrsGgHaZ/FDnRnY0HOjxxMXE3CcznyrW0Wv0+pPYxFiZnpdbyOjtn4Pt++Pvek++bGhqOX3DFWSPro/FMGmLjw==}
+  tsgo-dev@2025.8.10:
+    resolution: {integrity: sha512-Vwb64bHgA52Y1X4ZN1AUkYCHmhPgFulQY8gd3Ji7f4GA+7SP+bNZgmgx/80nhXXK5lYe1HP2kqWJCkOunMZF3g==}
     hasBin: true
 
-  tsgo-wasm@2025.8.9:
-    resolution: {integrity: sha512-erYi4am+JOAAcGMQgRw3TkdYIbEmq9o5cjUNQnCrqpqxSd1mwjnsAKxskEYSDlNeWjJ4Wxz/i0ZeYl+fujT8ig==}
+  tsgo-wasm@2025.8.10:
+    resolution: {integrity: sha512-ay/ZC5nw9uHa5CmU6j9Y+rmA/MP2hfxZknZWqecVSl5XZmnogs1cDTnXqaCJZ5EutiDLOJpWfwpIrYlideEHeQ==}
     hasBin: true
 
   tslib@2.8.1:
@@ -4745,22 +4745,22 @@ snapshots:
       rollup: 4.46.2
       typescript: 5.8.3
 
-  '@tsgo-dev/darwin-amd64@2025.8.9':
+  '@tsgo-dev/darwin-amd64@2025.8.10':
     optional: true
 
-  '@tsgo-dev/darwin-arm64@2025.8.9':
+  '@tsgo-dev/darwin-arm64@2025.8.10':
     optional: true
 
-  '@tsgo-dev/linux-amd64@2025.8.9':
+  '@tsgo-dev/linux-amd64@2025.8.10':
     optional: true
 
-  '@tsgo-dev/linux-arm64@2025.8.9':
+  '@tsgo-dev/linux-arm64@2025.8.10':
     optional: true
 
-  '@tsgo-dev/windows-amd64@2025.8.9':
+  '@tsgo-dev/windows-amd64@2025.8.10':
     optional: true
 
-  '@tsgo-dev/windows-arm64@2025.8.9':
+  '@tsgo-dev/windows-arm64@2025.8.10':
     optional: true
 
   '@tybys/wasm-util@0.10.0':
@@ -5224,9 +5224,9 @@ snapshots:
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0': {}
 
-  '@vue/babel-helper-vue-transform-on@1.4.0': {}
+  '@vue/babel-helper-vue-transform-on@1.5.0': {}
 
-  '@vue/babel-plugin-jsx@1.4.0(@babel/core@7.28.0)':
+  '@vue/babel-plugin-jsx@1.5.0(@babel/core@7.28.0)':
     dependencies:
       '@babel/helper-module-imports': 7.27.1
       '@babel/helper-plugin-utils': 7.27.1
@@ -5234,15 +5234,15 @@ snapshots:
       '@babel/template': 7.27.2
       '@babel/traverse': 7.28.0
       '@babel/types': 7.28.2
-      '@vue/babel-helper-vue-transform-on': 1.4.0
-      '@vue/babel-plugin-resolve-type': 1.4.0(@babel/core@7.28.0)
+      '@vue/babel-helper-vue-transform-on': 1.5.0
+      '@vue/babel-plugin-resolve-type': 1.5.0(@babel/core@7.28.0)
       '@vue/shared': 3.5.18
     optionalDependencies:
       '@babel/core': 7.28.0
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-plugin-resolve-type@1.4.0(@babel/core@7.28.0)':
+  '@vue/babel-plugin-resolve-type@1.5.0(@babel/core@7.28.0)':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/core': 7.28.0
@@ -7229,7 +7229,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.13.4(oxc-resolver@11.6.1)(publint@0.3.12)(typescript@5.8.3)(unplugin-lightningcss@0.4.1)(unplugin-unused@0.5.1):
+  tsdown@0.14.0(oxc-resolver@11.6.1)(publint@0.3.12)(typescript@5.8.3)(unplugin-lightningcss@0.4.1)(unplugin-unused@0.5.1):
     dependencies:
       ansis: 4.1.0
       cac: 6.7.14
@@ -7256,16 +7256,16 @@ snapshots:
       - supports-color
       - vue-tsc
 
-  tsgo-dev@2025.8.9:
+  tsgo-dev@2025.8.10:
     optionalDependencies:
-      '@tsgo-dev/darwin-amd64': 2025.8.9
-      '@tsgo-dev/darwin-arm64': 2025.8.9
-      '@tsgo-dev/linux-amd64': 2025.8.9
-      '@tsgo-dev/linux-arm64': 2025.8.9
-      '@tsgo-dev/windows-amd64': 2025.8.9
-      '@tsgo-dev/windows-arm64': 2025.8.9
+      '@tsgo-dev/darwin-amd64': 2025.8.10
+      '@tsgo-dev/darwin-arm64': 2025.8.10
+      '@tsgo-dev/linux-amd64': 2025.8.10
+      '@tsgo-dev/linux-arm64': 2025.8.10
+      '@tsgo-dev/windows-amd64': 2025.8.10
+      '@tsgo-dev/windows-arm64': 2025.8.10
 
-  tsgo-wasm@2025.8.9: {}
+  tsgo-wasm@2025.8.10: {}
 
   tslib@2.8.1:
     optional: true
@@ -7458,7 +7458,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.0
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.28.0)
-      '@vue/babel-plugin-jsx': 1.4.0(@babel/core@7.28.0)
+      '@vue/babel-plugin-jsx': 1.5.0(@babel/core@7.28.0)
       '@vue/babel-preset-jsx': 1.4.0(@babel/core@7.28.0)(vue@3.5.18(typescript@5.8.3))
       local-pkg: 1.1.1
       magic-string: 0.30.17

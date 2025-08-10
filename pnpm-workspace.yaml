@@ -7,15 +7,15 @@ catalogs:
     monoman: ^0.7.1
     node-modules-inspector: https://pkg.pr.new/node-modules-inspector@f575f83
     stale-dep: ^0.8.2
-    tsdown: ^0.13.4
-    tsgo-dev: ^2025.8.9
+    tsdown: ^0.14.0
+    tsgo-dev: ^2025.8.10
     unloader: ^0.5.0
     vite-hyper-config: ^0.7.1
 
   libs:
     '@quansync/fs': ^0.1.4
     '@sxzz/test-utils': ^0.5.9
-    '@vue/babel-plugin-jsx': ^1.4.0
+    '@vue/babel-plugin-jsx': ^1.5.0
     '@vue/repl': ^4.6.3
     ast-kit: ^2.1.1
     ast-walker-scope: ^0.8.1
@@ -27,7 +27,7 @@ catalogs:
     rolldown-plugin-dts: ^0.15.6
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.9
+    tsgo-wasm: ^2025.8.10
     untsx: ^0.1.2
     unws: ^0.3.2
 

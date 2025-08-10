@@ -6,16 +6,22 @@ const deps = Object.keys(pkg.dependencies)
 const data = (
   await Promise.all(
     deps.map((dep) =>
-      fetch(`https://api.npmjs.org/downloads/point/last-week/${dep}`).then(
-        (r) => r.json(),
-      ),
+      Promise.all([
+        fetch(`https://api.npmjs.org/downloads/point/last-week/${dep}`).then(
+          (r) => r.json(),
+        ),
+        fetch(`https://registry.npmjs.org/${dep}/latest`).then((r) => r.json()),
+      ]),
     ),
   )
 )
-  .filter((item) => !item.error)
-  .map((item) => ({
-    downloadsText: item.downloads?.toLocaleString(),
-    ...item,
+  .filter(([stats]) => !stats.error)
+  .map(([stats, latest]) => ({
+    downloadsText: stats.downloads?.toLocaleString(),
+    ...stats,
+    provenance: latest?._npmUser?.trustedPublisher
+      ? 'trusted'
+      : !!latest?.dist?.attestations?.provenance,
   }))
   .sort((a, b) => b.downloads - a.downloads)
 
