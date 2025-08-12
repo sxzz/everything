@@ -1,0 +1,37 @@
+name: Update Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.1.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Update
+        run: node ./stats.ts
+
+      - name: Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'chore: update stats [ci skip]'
+          add: 'stats.json'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
