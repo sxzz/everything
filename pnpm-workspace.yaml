@@ -7,8 +7,8 @@ catalogs:
     monoman: ^0.7.1
     node-modules-inspector: https://pkg.pr.new/node-modules-inspector@f575f83
     stale-dep: ^0.8.2
-    tsdown: ^0.14.0
-    tsgo-dev: ^2025.8.11
+    tsdown: ^0.14.1
+    tsgo-dev: ^2025.8.12
     unloader: ^0.5.0
     vite-hyper-config: ^0.7.1
 
@@ -27,7 +27,7 @@ catalogs:
     rolldown-plugin-dts: ^0.15.6
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.11
+    tsgo-wasm: ^2025.8.12
     untsx: ^0.1.2
     unws: ^0.3.2
 
