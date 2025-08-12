@@ -15,6 +15,12 @@ export default defineConfig({
     '@typescript-eslint/eslint-plugin',
     '@typescript-eslint/utils',
   ],
-  excludePackages: ['typescript', 'pnpm', 'node-modules-inspector'],
+  excludePackages: [
+    'typescript',
+    'pnpm',
+    'node-modules-inspector',
+    'hosted-git-info',
+    '@types/hosted-git-info',
+  ],
   publint: true,
 })

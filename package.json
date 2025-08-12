@@ -62,8 +62,10 @@
     "vue-simple-props": "catalog:vue"
   },
   "devDependencies": {
+    "@types/hosted-git-info": "catalog:",
     "@types/node": "catalog:",
     "eslint": "catalog:lint",
+    "hosted-git-info": "catalog:",
     "node-modules-inspector": "catalog:cli",
     "prettier": "catalog:lint"
   },
