@@ -1,5 +1,5 @@
 {
-  extends: ['github>sxzz/renovate-config'],
+  extends: ['github>sxzz/renovate-config', 'group:all'],
   automerge: true,
   automergeType: 'branch',
   schedule: ['at any time'],
