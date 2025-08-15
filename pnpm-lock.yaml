@@ -13,8 +13,8 @@ catalogs:
       specifier: ^0.7.1
       version: 0.7.1
     node-modules-inspector:
-      specifier: https://pkg.pr.new/node-modules-inspector@f575f83
-      version: 1.0.0
+      specifier: ^1.1.0
+      version: 1.1.0
     stale-dep:
       specifier: ^0.8.2
       version: 0.8.2
@@ -343,7 +343,7 @@ importers:
         version: 9.0.0
       node-modules-inspector:
         specifier: catalog:cli
-        version: https://pkg.pr.new/node-modules-inspector@f575f83
+        version: 1.1.0
       prettier:
         specifier: catalog:lint
         version: 3.6.2
@@ -3076,14 +3076,12 @@ packages:
   node-mock-http@1.0.2:
     resolution: {integrity: sha512-zWaamgDUdo9SSLw47we78+zYw/bDr5gH8pH7oRRs8V3KmBtu8GLgGIbV2p/gRPd3LWpEOpjQj7X1FOU3VFMJ8g==}
 
-  node-modules-inspector@https://pkg.pr.new/node-modules-inspector@f575f83:
-    resolution: {tarball: https://pkg.pr.new/node-modules-inspector@f575f83}
-    version: 1.0.0
+  node-modules-inspector@1.1.0:
+    resolution: {integrity: sha512-AoD10W7mbNFyK660YW1RL1VwMUQ1g3IKiPIuyaJgO5/KkjOpE86F78gMKEWvX88pQRd8+VCZcKUof/MIMpxITg==}
     hasBin: true
 
-  node-modules-tools@https://pkg.pr.new/antfu/node-modules-inspector/node-modules-tools@f575f83:
-    resolution: {tarball: https://pkg.pr.new/antfu/node-modules-inspector/node-modules-tools@f575f83}
-    version: 1.0.0
+  node-modules-tools@1.1.0:
+    resolution: {integrity: sha512-C5BWF3pAEJZMPHLvmn57iSerqOh2xn0uyfUGsn68v4T9EM0KYfqJovze7GG8xHv9Bi/el5S/IZKYNziw4s9TTw==}
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
@@ -6723,7 +6721,7 @@ snapshots:
 
   node-mock-http@1.0.2: {}
 
-  node-modules-inspector@https://pkg.pr.new/node-modules-inspector@f575f83:
+  node-modules-inspector@1.1.0:
     dependencies:
       ansis: 4.1.0
       birpc: 2.5.0
@@ -6734,7 +6732,7 @@ snapshots:
       launch-editor: 2.11.1
       mlly: 1.7.4
       mrmime: 2.0.1
-      node-modules-tools: https://pkg.pr.new/antfu/node-modules-inspector/node-modules-tools@f575f83
+      node-modules-tools: 1.1.0
       ohash: 2.0.11
       open: 10.2.0
       p-limit: 6.2.0
@@ -6767,7 +6765,7 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  node-modules-tools@https://pkg.pr.new/antfu/node-modules-inspector/node-modules-tools@f575f83:
+  node-modules-tools@1.1.0:
     dependencies:
       js-yaml: 4.1.0
       p-limit: 6.2.0

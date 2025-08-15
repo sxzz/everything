@@ -9,7 +9,7 @@ catalogs:
   cli:
     '@sxzz/create': ^0.15.1
     monoman: ^0.7.1
-    node-modules-inspector: https://pkg.pr.new/node-modules-inspector@f575f83
+    node-modules-inspector: ^1.1.0
     stale-dep: ^0.8.2
     tsdown: ^0.14.1
     tsgo-dev: ^2025.8.13
