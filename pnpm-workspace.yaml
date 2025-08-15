@@ -2,14 +2,14 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^24.2.1
+  '@types/node': ^24.3.0
   hosted-git-info: ^9.0.0
 
 catalogs:
   cli:
     '@sxzz/create': ^0.15.2
     monoman: ^0.7.1
-    node-modules-inspector: ^1.1.0
+    node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.2
     tsdown: ^0.14.1
     tsgo-dev: ^2025.8.15
