@@ -7,8 +7,8 @@ catalog:
 
 catalogs:
   cli:
-    '@sxzz/create': ^0.15.2
-    monoman: ^0.7.1
+    '@sxzz/create': ^0.15.3
+    monoman: ^0.7.2
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.2
     tsdown: ^0.14.1
@@ -17,7 +17,7 @@ catalogs:
     vite-hyper-config: ^0.7.1
 
   libs:
-    '@quansync/fs': ^0.1.4
+    '@quansync/fs': ^0.1.5
     '@sxzz/test-utils': ^0.5.9
     '@vue/babel-plugin-jsx': ^1.5.0
     '@vue/repl': ^4.6.3
@@ -27,7 +27,7 @@ catalogs:
     gh-apis: ^0.2.2
     magic-string-ast: ^1.0.2
     pnpm-multi-versions: ^0.5.1
-    quansync: ^0.2.10
+    quansync: ^0.2.11
     rolldown-plugin-dts: ^0.15.6
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
@@ -45,14 +45,14 @@ catalogs:
   unplugin:
     unplugin: ^2.3.5
     unplugin-ast: ^0.15.1
-    unplugin-combine: ^2.1.1
+    unplugin-combine: ^2.1.2
     unplugin-inline-enum: ^0.4.1
     unplugin-isolated-decl: ^0.15.0
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.1
     unplugin-macros: ^0.17.1
     unplugin-oxc: ^0.5.0
-    unplugin-quansync: ^0.4.3
+    unplugin-quansync: ^0.4.4
     unplugin-raw: ^0.6.0
     unplugin-replace: ^0.6.0
     unplugin-unused: ^0.5.1
