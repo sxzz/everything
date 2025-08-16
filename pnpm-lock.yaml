@@ -110,8 +110,8 @@ catalogs:
       version: 3.6.2
   unplugin:
     unplugin:
-      specifier: ^2.3.5
-      version: 2.3.5
+      specifier: ^2.3.6
+      version: 2.3.6
     unplugin-ast:
       specifier: ^0.15.1
       version: 0.15.1
@@ -258,13 +258,13 @@ importers:
         version: 0.5.0
       unplugin:
         specifier: catalog:unplugin
-        version: 2.3.5
+        version: 2.3.6
       unplugin-ast:
         specifier: catalog:unplugin
         version: 0.15.1
       unplugin-combine:
         specifier: catalog:unplugin
-        version: 2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.5)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1))
+        version: 2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.6)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1))
       unplugin-inline-enum:
         specifier: catalog:unplugin
         version: 0.4.1
@@ -3692,8 +3692,8 @@ packages:
     peerDependencies:
       vue: ^3.2.25
 
-  unplugin@2.3.5:
-    resolution: {integrity: sha512-RyWSb5AHmGtjjNQ6gIlA67sHOsWpsbWpwDokLwTcejVdOjEkJZh7QKu14J00gDDVSh8kGH4KYC/TNBceXFZhtw==}
+  unplugin@2.3.6:
+    resolution: {integrity: sha512-+/MdXl8bLTXI2lJF22gUBeCFqZruEpL/oM9f8wxCuKh9+Mw9qeul3gTqgbKpMeOFlusCzc0s7x2Kax2xKW+FQg==}
     engines: {node: '>=18.12.0'}
 
   unrs-resolver@1.11.1:
@@ -5045,7 +5045,7 @@ snapshots:
       '@vue-macros/api': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       neverthrow: 8.2.0
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5059,7 +5059,7 @@ snapshots:
   '@vue-macros/chain-call@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5084,14 +5084,14 @@ snapshots:
   '@vue-macros/define-emit@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-models@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       ast-walker-scope: 0.8.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5099,39 +5099,39 @@ snapshots:
     dependencies:
       '@vue-macros/api': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-props-refs@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-props@3.0.0-beta.21(@vue-macros/reactivity-transform@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2)))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue-macros/reactivity-transform': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-render@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-slots@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/define-stylex@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue/compiler-dom': 3.5.18
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5148,32 +5148,32 @@ snapshots:
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue/compiler-sfc': 3.5.18
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/export-props@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/export-render@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/hoist-static@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
   '@vue-macros/jsx-directive@3.0.0-beta.21(typescript@5.9.2)':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
     transitivePeerDependencies:
       - typescript
@@ -5182,7 +5182,7 @@ snapshots:
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue/compiler-dom': 3.5.18
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5193,34 +5193,34 @@ snapshots:
       '@vue/compiler-core': 3.5.18
       '@vue/shared': 3.5.18
       magic-string: 0.30.17
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/script-lang@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vue: 3.5.18(typescript@5.9.2)
 
   '@vue-macros/setup-block@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue/compiler-dom': 3.5.18
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
   '@vue-macros/setup-component@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
   '@vue-macros/setup-sfc@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -5234,7 +5234,7 @@ snapshots:
   '@vue-macros/short-emits@3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -7217,7 +7217,7 @@ snapshots:
       prettier: 3.6.2
       ts-macro: 0.3.4
       typescript: 5.9.2
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       untsx: 0.1.2(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
     transitivePeerDependencies:
       - supports-color
@@ -7230,7 +7230,7 @@ snapshots:
       try: 1.0.0-beta.10
       ts-macro: 0.3.4
       typescript: 5.9.2
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       untsx: 0.1.2(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
     transitivePeerDependencies:
       - supports-color
@@ -7382,14 +7382,14 @@ snapshots:
       '@babel/generator': 7.28.3
       ast-kit: 2.1.2
       magic-string-ast: 1.0.2
-      unplugin: 2.3.5
+      unplugin: 2.3.6
 
-  unplugin-combine@2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.5)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)):
+  unplugin-combine@2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.6)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)):
     optionalDependencies:
       esbuild: 0.25.9
       rolldown: 1.0.0-beta.32
       rollup: 4.46.2
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vite: 7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)
 
   unplugin-inline-enum@0.4.1:
@@ -7398,7 +7398,7 @@ snapshots:
       fast-glob: 3.3.3
       magic-string: 0.30.17
       picomatch: 4.0.3
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-replace: 0.6.0
 
   unplugin-isolated-decl@0.15.0(typescript@5.9.2):
@@ -7407,7 +7407,7 @@ snapshots:
       magic-string: 0.30.17
       oxc-parser: 0.82.1
       oxc-transform: 0.82.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-utils: 0.2.5
     optionalDependencies:
       typescript: 5.9.2
@@ -7422,20 +7422,20 @@ snapshots:
       estree-walker: 3.0.3
       jsesc: 3.1.0
       magic-string: 0.30.17
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-utils: 0.2.5
 
   unplugin-lightningcss@0.4.1:
     dependencies:
       lightningcss: 1.30.1
       magic-string: 0.30.17
-      unplugin: 2.3.5
+      unplugin: 2.3.6
 
   unplugin-macros@0.17.1(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1):
     dependencies:
       ast-kit: 2.1.2
       magic-string-ast: 1.0.2
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vite: 7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)
       vite-node: 3.2.4(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)
     transitivePeerDependencies:
@@ -7457,7 +7457,7 @@ snapshots:
       oxc-minify: 0.82.1
       oxc-resolver: 11.6.1
       oxc-transform: 0.82.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-utils: 0.2.5
     optionalDependencies:
       unloader: 0.5.0
@@ -7467,11 +7467,11 @@ snapshots:
       ast-kit: 2.1.2
       magic-string-ast: 1.0.2
       quansync: 0.2.11
-      unplugin: 2.3.5
+      unplugin: 2.3.6
 
   unplugin-raw@0.6.0(esbuild@0.25.9):
     dependencies:
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-utils: 0.2.5
     optionalDependencies:
       esbuild: 0.25.9
@@ -7479,14 +7479,14 @@ snapshots:
   unplugin-replace@0.6.0:
     dependencies:
       magic-string: 0.30.17
-      unplugin: 2.3.5
+      unplugin: 2.3.6
 
   unplugin-unused@0.5.1:
     dependencies:
       js-tokens: 9.0.1
       picocolors: 1.1.1
       pkg-types: 2.2.0
-      unplugin: 2.3.5
+      unplugin: 2.3.6
 
   unplugin-utils@0.2.5:
     dependencies:
@@ -7497,7 +7497,7 @@ snapshots:
     dependencies:
       '@vue-macros/common': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       ast-walker-scope: 0.8.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - vue
 
@@ -7509,7 +7509,7 @@ snapshots:
       '@vue/babel-preset-jsx': 1.4.0(@babel/core@7.28.3)(vue@3.5.18(typescript@5.9.2))
       local-pkg: 1.1.1
       magic-string: 0.30.17
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       unplugin-utils: 0.2.5
       vue: 3.5.18(typescript@5.9.2)
     transitivePeerDependencies:
@@ -7521,7 +7521,7 @@ snapshots:
       ast-kit: 2.1.2
       magic-string-ast: 1.0.2
       muggle-string: 0.4.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
     transitivePeerDependencies:
       - typescript
 
@@ -7529,7 +7529,7 @@ snapshots:
     dependencies:
       '@vue/reactivity': 3.5.18
       debug: 4.4.1
-      unplugin: 2.3.5
+      unplugin: 2.3.6
       vite: 7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1)
       vue: 3.5.18(typescript@5.9.2)
     transitivePeerDependencies:
@@ -7546,8 +7546,9 @@ snapshots:
       - tsx
       - yaml
 
-  unplugin@2.3.5:
+  unplugin@2.3.6:
     dependencies:
+      '@jridgewell/remapping': 2.3.5
       acorn: 8.15.0
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
@@ -7770,8 +7771,8 @@ snapshots:
       '@vue-macros/short-emits': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue-macros/short-vmodel': 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       '@vue-macros/volar': 3.0.0-beta.21(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2))
-      unplugin: 2.3.5
-      unplugin-combine: 2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.5)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1))
+      unplugin: 2.3.6
+      unplugin-combine: 2.1.2(esbuild@0.25.9)(rolldown@1.0.0-beta.32)(rollup@4.46.2)(unplugin@2.3.6)(vite@7.1.2(@types/node@24.3.0)(jiti@2.5.1)(lightningcss@1.30.1)(yaml@2.8.1))
       unplugin-vue-define-options: 3.0.0-beta.21(vue@3.5.18(typescript@5.9.2))
       vue: 3.5.18(typescript@5.9.2)
     transitivePeerDependencies:
