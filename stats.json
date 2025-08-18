@@ -158,7 +158,7 @@
     "end": "2025-08-17",
     "owner": "unplugin",
     "package": "unplugin-lightningcss",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
@@ -176,7 +176,7 @@
     "end": "2025-08-17",
     "owner": "unplugin",
     "package": "unplugin-replace",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
@@ -194,7 +194,7 @@
     "end": "2025-08-17",
     "owner": "sxzz",
     "package": "@sxzz/eslint-config",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
@@ -203,7 +203,7 @@
     "end": "2025-08-17",
     "owner": "sxzz",
     "package": "eslint-plugin-sxzz",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
@@ -212,7 +212,7 @@
     "end": "2025-08-17",
     "owner": "sxzz",
     "package": "@sxzz/prettier-config",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
@@ -239,7 +239,7 @@
     "end": "2025-08-17",
     "owner": "sxzz",
     "package": "stale-dep",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-08-11"
   },
   {
