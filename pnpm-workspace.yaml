@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.2
     tsdown: ^0.14.1
-    tsgo-dev: ^2025.8.17
+    tsgo-dev: ^2025.8.18
     unloader: ^0.5.0
     vite-hyper-config: ^0.7.1
 
@@ -31,7 +31,7 @@ catalogs:
     rolldown-plugin-dts: ^0.15.6
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.17
+    tsgo-wasm: ^2025.8.18
     untsx: ^0.1.2
     unws: ^0.3.2
 
@@ -50,7 +50,7 @@ catalogs:
     unplugin-isolated-decl: ^0.15.1
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.1
-    unplugin-macros: ^0.17.2
+    unplugin-macros: ^0.18.0
     unplugin-oxc: ^0.5.0
     unplugin-quansync: ^0.4.4
     unplugin-raw: ^0.6.0
