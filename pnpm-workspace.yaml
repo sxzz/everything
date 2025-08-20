@@ -18,7 +18,7 @@ catalogs:
 
   libs:
     '@quansync/fs': ^0.1.5
-    '@sxzz/test-utils': ^0.5.9
+    '@sxzz/test-utils': ^0.5.10
     '@vue/babel-plugin-jsx': ^1.5.0
     '@vue/repl': ^4.6.3
     ast-kit: ^2.1.2
@@ -51,12 +51,12 @@ catalogs:
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.2
     unplugin-macros: ^0.18.0
-    unplugin-oxc: ^0.5.0
+    unplugin-oxc: ^0.5.1
     unplugin-quansync: ^0.4.4
     unplugin-raw: ^0.6.0
     unplugin-replace: ^0.6.1
     unplugin-unused: ^0.5.2
-    unplugin-utils: ^0.2.5
+    unplugin-utils: ^0.3.0
     unplugin-vue: ^7.0.1
     unplugin-vue-named-export: ^0.9.0
 
