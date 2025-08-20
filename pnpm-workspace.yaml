@@ -43,7 +43,7 @@ catalogs:
     prettier: ^3.6.2
 
   unplugin:
-    unplugin: ^2.3.6
+    unplugin: ^2.3.7
     unplugin-ast: ^0.15.2
     unplugin-combine: ^2.1.2
     unplugin-inline-enum: ^0.4.1
