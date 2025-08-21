@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
     tsdown: ^0.14.1
-    tsgo-dev: ^2025.8.20
+    tsgo-dev: ^2025.8.21
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -29,10 +29,10 @@ catalogs:
     magic-string-ast: ^1.0.2
     pnpm-multi-versions: ^0.5.2
     quansync: ^0.2.11
-    rolldown-plugin-dts: ^0.15.6
+    rolldown-plugin-dts: ^0.15.7
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.20
+    tsgo-wasm: ^2025.8.21
     untsx: ^0.1.2
     unws: ^0.3.2
 
@@ -44,7 +44,7 @@ catalogs:
     prettier: ^3.6.2
 
   unplugin:
-    unplugin: ^2.3.7
+    unplugin: ^2.3.8
     unplugin-ast: ^0.15.2
     unplugin-combine: ^2.1.2
     unplugin-inline-enum: ^0.4.1
