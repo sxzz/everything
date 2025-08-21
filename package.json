@@ -36,6 +36,7 @@
     "tsgo-dev": "catalog:cli",
     "tsgo-wasm": "catalog:libs",
     "unloader": "catalog:cli",
+    "unotp": "catalog:cli",
     "unplugin": "catalog:unplugin",
     "unplugin-ast": "catalog:unplugin",
     "unplugin-combine": "catalog:unplugin",

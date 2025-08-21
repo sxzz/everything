@@ -27,6 +27,9 @@ catalogs:
     unloader:
       specifier: ^0.5.0
       version: 0.5.0
+    unotp:
+      specifier: ^0.1.0
+      version: 0.1.0
     vite-hyper-config:
       specifier: ^0.7.1
       version: 0.7.1
@@ -253,6 +256,9 @@ importers:
       unloader:
         specifier: catalog:cli
         version: 0.5.0
+      unotp:
+        specifier: catalog:cli
+        version: 0.1.0
       unplugin:
         specifier: catalog:unplugin
         version: 2.3.7
@@ -3517,6 +3523,11 @@ packages:
   unloader@0.5.0:
     resolution: {integrity: sha512-qHCbYaEccxST9/xbbpkWvvjNAyuBx/tT1Zvoq2eDt9r30aWacdyTzB0A0yBSEUx7L74aFRnThoK00+fFXsPCpw==}
     engines: {node: ^18.19.0 || >=20.6.0}
+
+  unotp@0.1.0:
+    resolution: {integrity: sha512-8ZgKurrga92YqBO3vtWyzcyf7vfiWB7NQD4DDbXs+OQ7nuWxvzLvDnIef5Pn05lcAzpdRFC+57KWt0LHK1rf0A==}
+    engines: {node: '>=20.19.0'}
+    hasBin: true
 
   unplugin-ast@0.15.2:
     resolution: {integrity: sha512-PXVdmrQHT2O9orC2b30HLBsrDJRcrVxjHOANzk8Zz0LHuCcIUBhghfN5dacCQ4nWM7lpcsU3AqRLtdf0ws/rtg==}
@@ -7248,6 +7259,13 @@ snapshots:
       debug: 4.4.1
       quansync: 0.2.11
       unconfig: 7.3.3
+    transitivePeerDependencies:
+      - supports-color
+
+  unotp@0.1.0:
+    dependencies:
+      debug: 4.4.1
+      tinyexec: 1.0.1
     transitivePeerDependencies:
       - supports-color
 
