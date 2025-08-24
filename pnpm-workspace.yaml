@@ -24,7 +24,7 @@ catalogs:
     '@vue/repl': ^4.6.3
     ast-kit: ^2.1.2
     ast-walker-scope: ^0.8.2
-    dts-resolver: ^2.1.1
+    dts-resolver: ^2.1.2
     gh-apis: ^0.2.2
     magic-string-ast: ^1.0.2
     pnpm-multi-versions: ^0.5.2
@@ -54,12 +54,12 @@ catalogs:
     unplugin-macros: ^0.18.0
     unplugin-oxc: ^0.5.1
     unplugin-quansync: ^0.4.4
-    unplugin-raw: ^0.6.0
+    unplugin-raw: ^0.6.1
     unplugin-replace: ^0.6.1
     unplugin-unused: ^0.5.2
     unplugin-utils: ^0.3.0
     unplugin-vue: ^7.0.1
-    unplugin-vue-named-export: ^0.9.0
+    unplugin-vue-named-export: ^0.9.1
 
   vue:
     '@vue-macros/common': ^3.0.0-beta.21
