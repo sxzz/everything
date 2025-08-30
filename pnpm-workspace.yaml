@@ -58,7 +58,7 @@ catalogs:
     unplugin-unused: ^0.5.2
     unplugin-utils: ^0.3.0
     unplugin-vue: ^7.0.1
-    unplugin-vue-jsx: ^0.7.0
+    unplugin-vue-jsx: ^0.8.0
     unplugin-vue-named-export: ^0.9.1
 
   vue:
