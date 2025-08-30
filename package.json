@@ -52,6 +52,7 @@
     "unplugin-unused": "catalog:unplugin",
     "unplugin-utils": "catalog:unplugin",
     "unplugin-vue": "catalog:unplugin",
+    "unplugin-vue-jsx": "catalog:unplugin",
     "unplugin-vue-named-export": "catalog:unplugin",
     "untsx": "catalog:libs",
     "vite-hyper-config": "catalog:cli",
