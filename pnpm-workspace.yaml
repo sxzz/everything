@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
     tsdown: ^0.14.2
-    tsgo-dev: ^2025.8.30
+    tsgo-dev: ^2025.8.31
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -32,7 +32,7 @@ catalogs:
     rolldown-plugin-dts: ^0.15.10
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.30
+    tsgo-wasm: ^2025.8.31
     untsx: ^0.1.2
 
   lint:
@@ -43,14 +43,14 @@ catalogs:
     prettier: ^3.6.2
 
   unplugin:
-    unplugin: ^2.3.9
+    unplugin: ^2.3.10
     unplugin-ast: ^0.15.2
     unplugin-combine: ^2.1.2
     unplugin-inline-enum: ^0.4.1
     unplugin-isolated-decl: ^0.15.1
     unplugin-jsx-string: ^0.9.1
     unplugin-lightningcss: ^0.4.2
-    unplugin-macros: ^0.18.0
+    unplugin-macros: ^0.18.1
     unplugin-oxc: ^0.5.1
     unplugin-quansync: ^0.4.4
     unplugin-raw: ^0.6.1
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.21
+    '@vue-macros/common': ^3.0.0-beta.22
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.0.0-beta.21
+    vue-macros: ^3.0.0-beta.22
     vue-simple-props: ^0.6.2
