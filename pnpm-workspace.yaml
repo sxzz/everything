@@ -2,7 +2,7 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^24.3.0
+  '@types/node': ^24.3.1
   hosted-git-info: ^9.0.0
 
 catalogs:
@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
     tsdown: ^0.14.2
-    tsgo-dev: ^2025.8.31
+    tsgo-dev: ^2025.9.6
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -21,7 +21,7 @@ catalogs:
     '@quansync/fs': ^0.1.5
     '@sxzz/test-utils': ^0.5.10
     '@vue/babel-plugin-jsx': ^1.5.0
-    '@vue/repl': ^4.6.3
+    '@vue/repl': ^4.7.0
     ast-kit: ^2.1.2
     ast-walker-scope: ^0.8.2
     dts-resolver: ^2.1.2
@@ -29,16 +29,16 @@ catalogs:
     magic-string-ast: ^1.0.2
     pnpm-multi-versions: ^0.5.2
     quansync: ^0.2.11
-    rolldown-plugin-dts: ^0.15.10
+    rolldown-plugin-dts: ^0.16.1
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.8.31
+    tsgo-wasm: ^2025.9.6
     untsx: ^0.1.2
 
   lint:
     '@sxzz/eslint-config': ^7.1.4
     '@sxzz/prettier-config': ^2.2.4
-    eslint: ^9.34.0
+    eslint: ^9.35.0
     eslint-plugin-sxzz: ^0.4.1
     prettier: ^3.6.2
 
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.22
+    '@vue-macros/common': ^3.0.0-beta.23
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.0.0-beta.22
+    vue-macros: ^3.0.0-beta.23
     vue-simple-props: ^0.6.2
