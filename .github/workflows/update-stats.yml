@@ -14,12 +14,14 @@ jobs:
     steps:
       - name: Setup JS
         uses: sxzz/workflows/setup-js@v1
+        with:
+          persist-credentials: true
 
       - name: Update
         run: node ./stats.ts
 
       - name: Commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
         with:
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: 'chore: update stats [ci skip]'
