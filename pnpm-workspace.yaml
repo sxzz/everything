@@ -29,7 +29,7 @@ catalogs:
     magic-string-ast: ^1.0.2
     pnpm-multi-versions: ^0.5.2
     quansync: ^0.2.11
-    rolldown-plugin-dts: ^0.16.1
+    rolldown-plugin-dts: ^0.16.2
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
     tsgo-wasm: ^2025.9.10
