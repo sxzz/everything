@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
     tsdown: ^0.15.0
-    tsgo-dev: ^2025.9.10
+    tsgo-dev: ^2025.9.11
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -32,7 +32,7 @@ catalogs:
     rolldown-plugin-dts: ^0.16.2
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.9.10
+    tsgo-wasm: ^2025.9.11
     untsx: ^0.1.2
 
   lint:
