@@ -38,7 +38,7 @@ catalogs:
       specifier: ^3.0.5
       version: 3.0.5
     '@types/node':
-      specifier: ^24.3.3
+      specifier: ^24.4.0
       version: 24.4.0
     hosted-git-info:
       specifier: ^9.0.0
