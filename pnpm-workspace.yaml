@@ -47,13 +47,13 @@ catalogs:
     unplugin-ast: ^0.15.2
     unplugin-combine: ^2.1.2
     unplugin-inline-enum: ^0.4.1
-    unplugin-isolated-decl: ^0.15.1
-    unplugin-jsx-string: ^0.9.1
+    unplugin-isolated-decl: ^0.15.2
+    unplugin-jsx-string: ^0.10.0
     unplugin-lightningcss: ^0.4.3
     unplugin-macros: ^0.18.2
-    unplugin-oxc: ^0.5.1
+    unplugin-oxc: ^0.5.2
     unplugin-quansync: ^0.4.4
-    unplugin-raw: ^0.6.1
+    unplugin-raw: ^0.6.2
     unplugin-replace: ^0.6.1
     unplugin-unused: ^0.5.3
     unplugin-utils: ^0.3.0
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-beta.23
+    '@vue-macros/common': ^3.0.0-rc.0
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.0.0-beta.23
+    vue-macros: ^3.0.0-rc.0
     vue-simple-props: ^0.6.2
