@@ -2,7 +2,7 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^24.5.0
+  '@types/node': ^24.5.1
   hosted-git-info: ^9.0.0
 
 catalogs:
@@ -11,8 +11,8 @@ catalogs:
     monoman: ^0.7.2
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
-    tsdown: ^0.15.1
-    tsgo-dev: ^2025.9.16
+    tsdown: ^0.15.2
+    tsgo-dev: ^2025.9.17
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -32,7 +32,7 @@ catalogs:
     rolldown-plugin-dts: ^0.16.5
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.9.16
+    tsgo-wasm: ^2025.9.17
     untsx: ^0.1.2
 
   lint:
