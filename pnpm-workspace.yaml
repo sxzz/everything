@@ -11,8 +11,8 @@ catalogs:
     monoman: ^0.7.2
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
-    tsdown: ^0.15.2
-    tsgo-dev: ^2025.9.19
+    tsdown: ^0.15.3
+    tsgo-dev: ^2025.9.20
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -32,7 +32,7 @@ catalogs:
     rolldown-plugin-dts: ^0.16.6
     tc39-throw: ^0.2.0
     tc39-try: ^0.4.2
-    tsgo-wasm: ^2025.9.19
+    tsgo-wasm: ^2025.9.20
     untsx: ^0.1.2
 
   lint:
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.0.0-rc.0
+    '@vue-macros/common': ^3.0.0
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.0.0-rc.0
+    vue-macros: ^3.0.0
     vue-simple-props: ^0.6.2
