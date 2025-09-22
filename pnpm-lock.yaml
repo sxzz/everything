@@ -78,8 +78,8 @@ catalogs:
       specifier: ^0.2.11
       version: 0.2.11
     rolldown-plugin-dts:
-      specifier: ^0.16.7
-      version: 0.16.7
+      specifier: ^0.16.8
+      version: 0.16.8
     tc39-throw:
       specifier: ^0.2.0
       version: 0.2.0
@@ -94,7 +94,7 @@ catalogs:
       version: 0.1.2
   lint:
     '@sxzz/eslint-config':
-      specifier: ^7.1.4
+      specifier: ^7.2.1
       version: 7.2.1
     '@sxzz/prettier-config':
       specifier: ^2.2.4
@@ -234,7 +234,7 @@ importers:
         version: 0.2.11
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.16.7(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2)
+        version: 0.16.8(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2)
       stale-dep:
         specifier: catalog:cli
         version: 0.8.3
@@ -3275,8 +3275,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rolldown-plugin-dts@0.16.7:
-    resolution: {integrity: sha512-9iDzS4MHXMyieisFbWxuz96i/idGJNpvWILqCH06mrEZvn8Q2el3Q63xxjOt7HJjTOUNFhB1isvZFy4dA87lPQ==}
+  rolldown-plugin-dts@0.16.8:
+    resolution: {integrity: sha512-lsx7yrYA0ZXfARLEcPKgHIw8DX4fLQOhmMChgZbn5eFhqibY2Bav1+/Yn5WNm+ATtw+cefXYgEYO/7njeHsgAA==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@ts-macro/tsc': ^0.3.6
@@ -7019,7 +7019,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown-plugin-dts@0.16.7(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2):
+  rolldown-plugin-dts@0.16.8(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2):
     dependencies:
       '@babel/generator': 7.28.3
       '@babel/parser': 7.28.4
@@ -7244,7 +7244,7 @@ snapshots:
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.39
-      rolldown-plugin-dts: 0.16.7(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2)
+      rolldown-plugin-dts: 0.16.8(oxc-resolver@11.8.2)(rolldown@1.0.0-beta.39)(typescript@5.9.2)
       semver: 7.7.2
       tinyexec: 1.0.1
       tinyglobby: 0.2.15
