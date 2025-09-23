@@ -32,12 +32,12 @@ const data = (
       owner,
     })
   })
-  .sort((a, b) => b.downloads - a.downloads)
+  .toSorted((a, b) => b.downloads - a.downloads)
 
 await writeFile('stats.json', `${JSON.stringify(data, null, 2)}\n`)
 
 function sortObject(obj: object) {
   return Object.fromEntries(
-    Object.entries(obj).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)),
+    Object.entries(obj).toSorted(([keyA], [keyB]) => keyA.localeCompare(keyB)),
   )
 }
