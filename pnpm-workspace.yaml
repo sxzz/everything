@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.0.1
+    '@vue-macros/common': ^3.1.0
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.0.1
+    vue-macros: ^3.1.0
     vue-simple-props: ^0.6.2
