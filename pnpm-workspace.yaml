@@ -36,7 +36,7 @@ catalogs:
     untsx: ^0.1.2
 
   lint:
-    '@sxzz/eslint-config': ^7.2.1
+    '@sxzz/eslint-config': ^7.2.5
     '@sxzz/prettier-config': ^2.2.4
     eslint: ^9.36.0
     eslint-plugin-sxzz: ^0.4.1
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-named-export: ^0.9.1
 
   vue:
-    '@vue-macros/common': ^3.1.0
+    '@vue-macros/common': ^3.1.1
     vtom: ^2.0.0
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.1.0
+    vue-macros: ^3.1.1
     vue-simple-props: ^0.6.2
