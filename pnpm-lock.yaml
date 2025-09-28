@@ -81,11 +81,11 @@ catalogs:
       specifier: ^0.16.9
       version: 0.16.9
     tc39-throw:
-      specifier: ^0.2.0
-      version: 0.2.0
+      specifier: ^0.2.1
+      version: 0.2.1
     tc39-try:
-      specifier: ^0.4.2
-      version: 0.4.2
+      specifier: ^0.4.3
+      version: 0.4.3
     tsgo-wasm:
       specifier: ^2025.9.28
       version: 2025.9.28
@@ -240,10 +240,10 @@ importers:
         version: 0.8.3
       tc39-throw:
         specifier: catalog:libs
-        version: 0.2.0(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2)
+        version: 0.2.1(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2)
       tc39-try:
         specifier: catalog:libs
-        version: 0.4.2(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2)
+        version: 0.4.3(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2)
       tsdown:
         specifier: catalog:cli
         version: 0.15.5(oxc-resolver@11.8.3)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3)
@@ -3395,16 +3395,16 @@ packages:
     resolution: {integrity: sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==}
     engines: {node: '>=6'}
 
-  tc39-throw@0.2.0:
-    resolution: {integrity: sha512-MwsneHuYX3ySjCv4QfcIARGI5qxEB1tIY3X04etDKGJOGp0//e60LBsn7Jlv4bE12lunRWguiIPOF1efzCiasw==}
+  tc39-throw@0.2.1:
+    resolution: {integrity: sha512-dTg5JffZDG0CDtkC7ylohrhBjVcnQShcfGHZEc9orDjxRwGfyiLC3IKcnwnR1jx6LknmKMOn7QEbDV0MSXIS/A==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: ^9.31.0
       prettier: ^3.6.2
       typescript: ^5.8.3
 
-  tc39-try@0.4.2:
-    resolution: {integrity: sha512-EL9KGSuj/YCz4sGJGTmDgWqGlntKfhRfpnlQDwjmWzxmFWdcldPoPIq1SYUvt16HX7qcUSAl2BzcP5Xt5g3coQ==}
+  tc39-try@0.4.3:
+    resolution: {integrity: sha512-tYs7VfTk4DJePNlQ483sxdNHF7H7hQG5Fg6cwGi9yrg+2vqIQirBQa6pQxHWuJYQFkYKtK/EqBs0Qkwb313KBQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: ^9.31.0
@@ -7119,7 +7119,7 @@ snapshots:
 
   tapable@2.2.3: {}
 
-  tc39-throw@0.2.0(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2):
+  tc39-throw@0.2.1(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2):
     dependencies:
       eslint: 9.36.0(jiti@2.6.0)
       magic-string-ast: 1.0.2
@@ -7131,7 +7131,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  tc39-try@0.4.2(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2):
+  tc39-try@0.4.3(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2):
     dependencies:
       eslint: 9.36.0(jiti@2.6.0)
       magic-string-ast: 1.0.2

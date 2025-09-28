@@ -30,8 +30,8 @@ catalogs:
     pnpm-multi-versions: ^0.5.2
     quansync: ^0.2.11
     rolldown-plugin-dts: ^0.16.9
-    tc39-throw: ^0.2.0
-    tc39-try: ^0.4.2
+    tc39-throw: ^0.2.1
+    tc39-try: ^0.4.3
     tsgo-wasm: ^2025.9.28
     untsx: ^0.1.2
 
