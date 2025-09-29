@@ -22,8 +22,8 @@ catalogs:
       specifier: ^0.15.5
       version: 0.15.5
     tsgo-dev:
-      specifier: ^2025.9.28
-      version: 2025.9.28
+      specifier: ^2025.9.29
+      version: 2025.9.29
     unloader:
       specifier: ^0.5.0
       version: 0.5.0
@@ -87,15 +87,15 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsgo-wasm:
-      specifier: ^2025.9.28
-      version: 2025.9.28
+      specifier: ^2025.9.29
+      version: 2025.9.29
     untsx:
       specifier: ^0.1.2
       version: 0.1.2
   lint:
     '@sxzz/eslint-config':
-      specifier: ^7.2.5
-      version: 7.2.5
+      specifier: ^7.2.6
+      version: 7.2.6
     '@sxzz/prettier-config':
       specifier: ^2.2.4
       version: 2.2.4
@@ -189,7 +189,7 @@ importers:
         version: 0.15.3
       '@sxzz/eslint-config':
         specifier: catalog:lint
-        version: 7.2.5(@typescript-eslint/eslint-plugin@8.44.1(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/utils@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
+        version: 7.2.6(@typescript-eslint/eslint-plugin@8.44.1(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/utils@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       '@sxzz/prettier-config':
         specifier: catalog:lint
         version: 2.2.4
@@ -249,10 +249,10 @@ importers:
         version: 0.15.5(oxc-resolver@11.8.4)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3)
       tsgo-dev:
         specifier: catalog:cli
-        version: 2025.9.28
+        version: 2025.9.29
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.9.28
+        version: 2025.9.29
       unloader:
         specifier: catalog:cli
         version: 0.5.0
@@ -1407,8 +1407,8 @@ packages:
     engines: {node: '>=20.18.0'}
     hasBin: true
 
-  '@sxzz/eslint-config@7.2.5':
-    resolution: {integrity: sha512-qKan+2BQnyo0110xMAlkylHQR5WQUpPZqdC2ajZ0jKI+aAbqcFID0Itz0c9+VLXAazsoL6VNOQqJfBPhS3jRTg==}
+  '@sxzz/eslint-config@7.2.6':
+    resolution: {integrity: sha512-hmjwVGPlxnv5PyDovHMTKxillV6lEBtX6WdnTwa0zCEyGmondiQLJTBVrTvBwbWhKhcVlDJoX3vtsnaW6rFqJA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@unocss/eslint-plugin': '>=65.0.0'
@@ -1445,38 +1445,38 @@ packages:
       typescript:
         optional: true
 
-  '@tsgo-dev/darwin-amd64@2025.9.28':
-    resolution: {integrity: sha512-cYoMZIw+dmJEJWUDZXFI6NrzZDQ+9JJ6I9GW4wqI7RbglBj2nSq1zSTFnhInw8+CIjBblKA21LSpB+Gi5ReclQ==}
+  '@tsgo-dev/darwin-amd64@2025.9.29':
+    resolution: {integrity: sha512-Ym/hT/8wrcWlS4cKO7vizXVTPPWWmwwbw+EDW38t0stWcoKiqFf2zBV0vp32/eBBiHF5IP2dC69xF2u+BKCruA==}
     cpu: [x64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/darwin-arm64@2025.9.28':
-    resolution: {integrity: sha512-IEJ4Q+/iRsQbY/0mbRCR2env7r/k5B/tR+UuhSu3C1uS49f4ZXdwz19MKxMgFI2RcCwI8TK7lh5Kz2Unst76Rg==}
+  '@tsgo-dev/darwin-arm64@2025.9.29':
+    resolution: {integrity: sha512-HWtiI5GPUNwc53aiNHP632iVjkAFWLjH8QZ1WLeJMIHfx8ys09fhkrUrS+rBacW35ChyMvMGNNHr8zPhZlHPwg==}
     cpu: [arm64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/linux-amd64@2025.9.28':
-    resolution: {integrity: sha512-GgPRdtPmxaKFNrMtwYu0hlBxMwUzOWtt4lRbZr6A4LcCR+unC1jQmWjO2eFICE4S5RwbPbZ22GoH6O88FbMLQg==}
+  '@tsgo-dev/linux-amd64@2025.9.29':
+    resolution: {integrity: sha512-NPEN/8WdQra8KH4+VnsPFEn+n9+fnwZKCb6LSz5JPzLd4WbFzHnUClMN0dvhsRFqskzOEjmuaVoO8fwrmsIbPw==}
     cpu: [x64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/linux-arm64@2025.9.28':
-    resolution: {integrity: sha512-tsJOX1OBt/N6CYrEQBjlaOHKcdWjXJe/PEIqw4Tw4HaLV9PaTD0kTBYqj+a/R91hBWurqVhXCkk2qcyPlDJibg==}
+  '@tsgo-dev/linux-arm64@2025.9.29':
+    resolution: {integrity: sha512-EBHckw6DreF2uTB9kHUd+xcE/gsUYxrQXaqAYHJFcqYIVMO3Hlbi7eR169vGM9MhpMhSjixfq7Ju+yKhtaSDJw==}
     cpu: [arm64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/windows-amd64@2025.9.28':
-    resolution: {integrity: sha512-jtJosV6zr2IGvRKm0tKyP8XpfQHUvdQxcrmrHvfayqbi/bD93yaRvslmYiuJZiBQx81d/iNrLyJffKfJyoqlTw==}
+  '@tsgo-dev/windows-amd64@2025.9.29':
+    resolution: {integrity: sha512-S+9hCIm+T5FLZqZsBI7X7wcZcczoHE4035x6GMIa+izYZcDF00QyXOaTZf2wF1W9R2ysEpav11ojJs6BRzeRew==}
     cpu: [x64]
     os: [win32]
     hasBin: true
 
-  '@tsgo-dev/windows-arm64@2025.9.28':
-    resolution: {integrity: sha512-pmQ5MHiaGyLB9672sLBl7AZ/Idmd5Jj0wbSExhXxWpboCq2rTJjMOZlv+PZO9B1FU2DV6iM/RHlqHCvkvg7jYw==}
+  '@tsgo-dev/windows-arm64@2025.9.29':
+    resolution: {integrity: sha512-QaIW9eLpzX7kAA+9hU2DmF+XikKzEEgLJ1IxmRVNs+rp8ttKnSnISgytgD1ML6BGU/TU2YnRy7bADhxxcYQraA==}
     cpu: [arm64]
     os: [win32]
     hasBin: true
@@ -3498,12 +3498,12 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-dev@2025.9.28:
-    resolution: {integrity: sha512-ejXycjLCJjIZ5KXVqlUqDrvmnLDP9CjYQU3WqcjlRkBiG1ivMzA2S7U2SI00kEy4CZOK6wgAfFVQxsWd0Cpcwg==}
+  tsgo-dev@2025.9.29:
+    resolution: {integrity: sha512-qWn/j3hL4n50GqZdZ/lhkGxY6F+/ULw1z3HzAXL1m/C7+gB/RF83hY4qcfgY7uDwVtVZWIkHnTGTtCXa9n/Q8Q==}
     hasBin: true
 
-  tsgo-wasm@2025.9.28:
-    resolution: {integrity: sha512-nUfS2AnKbWz0wSqXe58M7hssTl908I7jMTi8X+XFdSTSk1XGHf9h5Z+PV/+i+ltH35NxXdEX5yoSRuS/5WmoWg==}
+  tsgo-wasm@2025.9.29:
+    resolution: {integrity: sha512-ac/G8i0q3n+BFk0fQEWpxhSa9SvqA2uX7m8ORtGfmoh2Sy0P4gk07d2+4SW85SpAcU6GESNwlQ3KKrJZiqJJTQ==}
     hasBin: true
 
   tslib@2.8.1:
@@ -4708,7 +4708,7 @@ snapshots:
       tinyexec: 1.0.1
       unconfig: 7.3.3
 
-  '@sxzz/eslint-config@7.2.5(@typescript-eslint/eslint-plugin@8.44.1(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/utils@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)':
+  '@sxzz/eslint-config@7.2.6(@typescript-eslint/eslint-plugin@8.44.1(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/parser@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@typescript-eslint/utils@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.36.0(jiti@2.6.0))
       '@eslint/js': 9.36.0
@@ -4766,22 +4766,22 @@ snapshots:
       rollup: 4.52.3
       typescript: 5.9.2
 
-  '@tsgo-dev/darwin-amd64@2025.9.28':
+  '@tsgo-dev/darwin-amd64@2025.9.29':
     optional: true
 
-  '@tsgo-dev/darwin-arm64@2025.9.28':
+  '@tsgo-dev/darwin-arm64@2025.9.29':
     optional: true
 
-  '@tsgo-dev/linux-amd64@2025.9.28':
+  '@tsgo-dev/linux-amd64@2025.9.29':
     optional: true
 
-  '@tsgo-dev/linux-arm64@2025.9.28':
+  '@tsgo-dev/linux-arm64@2025.9.29':
     optional: true
 
-  '@tsgo-dev/windows-amd64@2025.9.28':
+  '@tsgo-dev/windows-amd64@2025.9.29':
     optional: true
 
-  '@tsgo-dev/windows-arm64@2025.9.28':
+  '@tsgo-dev/windows-arm64@2025.9.29':
     optional: true
 
   '@tybys/wasm-util@0.10.1':
@@ -7237,16 +7237,16 @@ snapshots:
       - supports-color
       - vue-tsc
 
-  tsgo-dev@2025.9.28:
+  tsgo-dev@2025.9.29:
     optionalDependencies:
-      '@tsgo-dev/darwin-amd64': 2025.9.28
-      '@tsgo-dev/darwin-arm64': 2025.9.28
-      '@tsgo-dev/linux-amd64': 2025.9.28
-      '@tsgo-dev/linux-arm64': 2025.9.28
-      '@tsgo-dev/windows-amd64': 2025.9.28
-      '@tsgo-dev/windows-arm64': 2025.9.28
+      '@tsgo-dev/darwin-amd64': 2025.9.29
+      '@tsgo-dev/darwin-arm64': 2025.9.29
+      '@tsgo-dev/linux-amd64': 2025.9.29
+      '@tsgo-dev/linux-arm64': 2025.9.29
+      '@tsgo-dev/windows-amd64': 2025.9.29
+      '@tsgo-dev/windows-arm64': 2025.9.29
 
-  tsgo-wasm@2025.9.28: {}
+  tsgo-wasm@2025.9.29: {}
 
   tslib@2.8.1:
     optional: true

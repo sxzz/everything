@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.1.1
     stale-dep: ^0.8.3
     tsdown: ^0.15.5
-    tsgo-dev: ^2025.9.28
+    tsgo-dev: ^2025.9.29
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -32,11 +32,11 @@ catalogs:
     rolldown-plugin-dts: ^0.16.9
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2025.9.28
+    tsgo-wasm: ^2025.9.29
     untsx: ^0.1.2
 
   lint:
-    '@sxzz/eslint-config': ^7.2.5
+    '@sxzz/eslint-config': ^7.2.6
     '@sxzz/prettier-config': ^2.2.4
     eslint: ^9.36.0
     eslint-plugin-sxzz: ^0.4.1
