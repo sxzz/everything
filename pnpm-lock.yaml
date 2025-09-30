@@ -19,8 +19,8 @@ catalogs:
       specifier: ^0.8.3
       version: 0.8.3
     tsdown:
-      specifier: ^0.15.5
-      version: 0.15.5
+      specifier: ^0.15.6
+      version: 0.15.6
     tsgo-dev:
       specifier: ^2025.9.30
       version: 2025.9.30
@@ -246,7 +246,7 @@ importers:
         version: 0.4.3(eslint@9.36.0(jiti@2.6.0))(prettier@3.6.2)(typescript@5.9.2)
       tsdown:
         specifier: catalog:cli
-        version: 0.15.5(oxc-resolver@11.8.4)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3)
+        version: 0.15.6(oxc-resolver@11.8.4)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3)
       tsgo-dev:
         specifier: catalog:cli
         version: 2025.9.30
@@ -3479,8 +3479,8 @@ packages:
   ts-macro@0.3.6:
     resolution: {integrity: sha512-0buxBZweJjozSPA+77X7ntznNouLOtGDJA8nQJgoAQBduKAltF3YLABLbDLp5N7KsDA0ssldX+L/WwI1SloJmg==}
 
-  tsdown@0.15.5:
-    resolution: {integrity: sha512-2UP5hDBVYGHnnQSIYtDxMDjePmut7EDpvW5E2kVnjpZ17JgiPvRJPHwk5Dm045bC75+q8yxAlw/CMIELymTWaw==}
+  tsdown@0.15.6:
+    resolution: {integrity: sha512-W6++O3JeV9gm3JY6P/vLiC7zzTcJbZhQxXb+p3AvRMpDOPBIg82yXULyZCcwjsihY/bFG+Qw37HkezZbP7fzUg==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -7214,7 +7214,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.15.5(oxc-resolver@11.8.4)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3):
+  tsdown@0.15.6(oxc-resolver@11.8.4)(publint@0.3.13)(typescript@5.9.2)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
