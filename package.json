@@ -29,6 +29,7 @@
     "pnpm-multi-versions": "catalog:libs",
     "quansync": "catalog:libs",
     "rolldown-plugin-dts": "catalog:libs",
+    "rolldown-plugin-require-cjs": "catalog:libs",
     "stale-dep": "catalog:cli",
     "tc39-throw": "catalog:libs",
     "tc39-try": "catalog:libs",
