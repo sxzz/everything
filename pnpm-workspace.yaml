@@ -3,7 +3,7 @@ packages: []
 catalog:
   '@types/hosted-git-info': ^3.0.5
   '@types/node': ^24.7.0
-  hosted-git-info: ^9.0.1
+  hosted-git-info: ^9.0.2
 
 catalogs:
   cli:
