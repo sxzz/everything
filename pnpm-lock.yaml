@@ -149,8 +149,8 @@ catalogs:
       specifier: ^0.6.1
       version: 0.6.1
     unplugin-unused:
-      specifier: ^0.5.3
-      version: 0.5.3
+      specifier: ^0.5.4
+      version: 0.5.4
     unplugin-utils:
       specifier: ^0.3.1
       version: 0.3.1
@@ -249,7 +249,7 @@ importers:
         version: 0.4.3(eslint@9.37.0(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.15.6(oxc-resolver@11.9.0)(publint@0.3.14)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3)
+        version: 0.15.6(oxc-resolver@11.9.0)(publint@0.3.14)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4)
       tsgo-dev:
         specifier: catalog:cli
         version: 2025.10.10
@@ -300,7 +300,7 @@ importers:
         version: 0.6.1
       unplugin-unused:
         specifier: catalog:unplugin
-        version: 0.5.3
+        version: 0.5.4
       unplugin-utils:
         specifier: catalog:unplugin
         version: 0.3.1
@@ -3673,9 +3673,9 @@ packages:
     resolution: {integrity: sha512-Ly2Dnj6H1JeXKjdOOJVmlsr7/JBKsqUF7sfWrWqTJXE8BkIzFzMp8BO0Uazx4CwCw0y+/DMbpn9m4QKsvSZoFA==}
     engines: {node: '>=20.18.0'}
 
-  unplugin-unused@0.5.3:
-    resolution: {integrity: sha512-YZ9xXe9UQDRwDg5X4nyptZgVQeHuT84GQBpf0tEap08XGwx5jCT29P1/LTuChqno/A9SFFG14LWE5Bg/YhKeBQ==}
-    engines: {node: '>=20.18.0'}
+  unplugin-unused@0.5.4:
+    resolution: {integrity: sha512-R11StgC5j43CECdjHFbc6Ep4MgM97xuI7rku/nCw7OpIEw9sG4btxvR7Ld4RViwAF+eEQjSebesE+jTJTFFWmQ==}
+    engines: {node: '>=20.19.0'}
 
   unplugin-utils@0.3.1:
     resolution: {integrity: sha512-5lWVjgi6vuHhJ526bI4nlCOmkCIF3nnfXkCMDeMJrtdvxTs6ZFCM8oNufGTsDbKv/tJ/xj8RpvXjRuPBZJuJog==}
@@ -7246,7 +7246,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.15.6(oxc-resolver@11.9.0)(publint@0.3.14)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.3):
+  tsdown@0.15.6(oxc-resolver@11.9.0)(publint@0.3.14)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -7266,7 +7266,7 @@ snapshots:
       publint: 0.3.14
       typescript: 5.9.3
       unplugin-lightningcss: 0.4.3
-      unplugin-unused: 0.5.3
+      unplugin-unused: 0.5.4
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -7462,10 +7462,9 @@ snapshots:
       magic-string: 0.30.19
       unplugin: 2.3.10
 
-  unplugin-unused@0.5.3:
+  unplugin-unused@0.5.4:
     dependencies:
       js-tokens: 9.0.1
-      picocolors: 1.1.1
       pkg-types: 2.3.0
       unplugin: 2.3.10
 
