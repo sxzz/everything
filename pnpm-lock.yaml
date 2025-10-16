@@ -14,7 +14,7 @@ catalogs:
       version: 0.7.3
     node-modules-inspector:
       specifier: ^1.1.1
-      version: 1.1.1
+      version: 1.1.3
     stale-dep:
       specifier: ^0.8.4
       version: 0.8.4
@@ -343,7 +343,7 @@ importers:
         version: 9.0.2
       node-modules-inspector:
         specifier: catalog:cli
-        version: 1.1.1
+        version: 1.1.3
       prettier:
         specifier: catalog:lint
         version: 3.6.2
@@ -3074,12 +3074,12 @@ packages:
   node-mock-http@1.0.3:
     resolution: {integrity: sha512-jN8dK25fsfnMrVsEhluUTPkBFY+6ybu7jSB1n+ri/vOGjJxU8J9CZhpSGkHXSkFjtUhbmoncG/YG9ta5Ludqog==}
 
-  node-modules-inspector@1.1.1:
-    resolution: {integrity: sha512-7d5HAgVT8+4ABnaDJH/361Q0IHZw8TBXL6UyAMJJ1Y7mW+8qm5v20RtZg7weKTweaZBgmeHQHlBrehoYrscEpQ==}
+  node-modules-inspector@1.1.3:
+    resolution: {integrity: sha512-CSsvW5i2jHDYxwLEONTWzamwutFGGg+vUAQJJHtvI91+Jmi66urYLER2R+jcmbNHom2/TrD+fo92y4WhhQamlA==}
     hasBin: true
 
-  node-modules-tools@1.1.1:
-    resolution: {integrity: sha512-mYpNX6PvXuUH8Qw6JLt73e9HqAH11PxnPMFvkMIp3Pv1cglmRYhi+fXNST6tCbGgjuU9c3ga3ATM6Xe7D+PZAg==}
+  node-modules-tools@1.1.3:
+    resolution: {integrity: sha512-P2NYHz8x5+kzAVqj4o7uBXbJhkhQS0dx4PZX5Nw8Ty+EZvf1YwAiFnX4xv7ezdRARZV5cDOF3nViM6pewOB9AQ==}
 
   node-releases@2.0.25:
     resolution: {integrity: sha512-4auku8B/vw5psvTiiN9j1dAOsXvMoGqJuKJcR+dTdqiXEK20mMTk1UEo3HS16LeGQsVG6+qKTPM9u/qQ2LqATA==}
@@ -6694,7 +6694,7 @@ snapshots:
 
   node-mock-http@1.0.3: {}
 
-  node-modules-inspector@1.1.1:
+  node-modules-inspector@1.1.3:
     dependencies:
       ansis: 4.2.0
       birpc: 2.6.1
@@ -6705,7 +6705,7 @@ snapshots:
       launch-editor: 2.11.1
       mlly: 1.8.0
       mrmime: 2.0.1
-      node-modules-tools: 1.1.1
+      node-modules-tools: 1.1.3
       ohash: 2.0.11
       open: 10.2.0
       p-limit: 6.2.0
@@ -6739,7 +6739,7 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  node-modules-tools@1.1.1:
+  node-modules-tools@1.1.3:
     dependencies:
       js-yaml: 4.1.0
       p-limit: 6.2.0
