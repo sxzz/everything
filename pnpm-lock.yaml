@@ -125,8 +125,8 @@ catalogs:
       specifier: ^0.6.2
       version: 0.6.2
     unplugin-isolated-decl:
-      specifier: ^0.15.2
-      version: 0.15.2
+      specifier: ^0.15.3
+      version: 0.15.3
     unplugin-jsx-string:
       specifier: ^0.10.0
       version: 0.10.0
@@ -276,7 +276,7 @@ importers:
         version: 0.6.2
       unplugin-isolated-decl:
         specifier: catalog:unplugin
-        version: 0.15.2(typescript@5.9.3)
+        version: 0.15.3(typescript@5.9.3)
       unplugin-jsx-string:
         specifier: catalog:unplugin
         version: 0.10.0
@@ -3617,8 +3617,8 @@ packages:
     resolution: {integrity: sha512-aWfQtjqNeW/u5Xtb3mc+LGcZMhvESoyeu8N06bOqATOvkODYrD6ZplVjPwkkwzFXAm9PfRash4TQfd14uLYHlQ==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-isolated-decl@0.15.2:
-    resolution: {integrity: sha512-RvJvC6+oTEfxKVIcyjfxlTFtzSQDU+22YKYge9huSvNzUE9GSPueG0tSIhVDvVUvdz4TFj46O/3vShZceFJLxw==}
+  unplugin-isolated-decl@0.15.3:
+    resolution: {integrity: sha512-SL8roE+yzIchxkPzuPmeqjWfouq5iukA9bJW5KPK/qAkM3exT0U/cgheR+ahWMmQtv/MGdxbZLvgNzPDzQNeIw==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@swc/core': ^1.6.6
@@ -7378,7 +7378,7 @@ snapshots:
       unplugin: 2.3.10
       unplugin-replace: 0.6.2
 
-  unplugin-isolated-decl@0.15.2(typescript@5.9.3):
+  unplugin-isolated-decl@0.15.3(typescript@5.9.3):
     dependencies:
       debug: 4.4.3
       magic-string: 0.30.21
