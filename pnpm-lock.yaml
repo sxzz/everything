@@ -13,8 +13,8 @@ catalogs:
       specifier: ^0.7.3
       version: 0.7.3
     node-modules-inspector:
-      specifier: ^1.1.3
-      version: 1.1.3
+      specifier: ^1.2.0
+      version: 1.2.0
     stale-dep:
       specifier: ^0.8.4
       version: 0.8.4
@@ -22,8 +22,8 @@ catalogs:
       specifier: ^0.15.9
       version: 0.15.9
     tsgo-dev:
-      specifier: ^2025.10.25
-      version: 2025.10.25
+      specifier: ^2025.10.26
+      version: 2025.10.26
     unloader:
       specifier: ^0.5.0
       version: 0.5.0
@@ -90,8 +90,8 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsgo-wasm:
-      specifier: ^2025.10.25
-      version: 2025.10.25
+      specifier: ^2025.10.26
+      version: 2025.10.26
     untsx:
       specifier: ^0.1.2
       version: 0.1.2
@@ -252,10 +252,10 @@ importers:
         version: 0.15.9(oxc-resolver@11.11.1)(publint@0.3.15)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4)
       tsgo-dev:
         specifier: catalog:cli
-        version: 2025.10.25
+        version: 2025.10.26
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.10.25
+        version: 2025.10.26
       unloader:
         specifier: catalog:cli
         version: 0.5.0
@@ -343,7 +343,7 @@ importers:
         version: 9.0.2
       node-modules-inspector:
         specifier: catalog:cli
-        version: 1.1.3
+        version: 1.2.0
       prettier:
         specifier: catalog:lint
         version: 3.6.2
@@ -1449,38 +1449,38 @@ packages:
       typescript:
         optional: true
 
-  '@tsgo-dev/darwin-amd64@2025.10.25':
-    resolution: {integrity: sha512-ibt5vD+lLLVakR4ik8HPnpEfXe4qgdtXNNieq1KwJ6OlhzsNYkjaun7NC94tVtOENIGdlkPVmtj3PWf0HoFzmw==}
+  '@tsgo-dev/darwin-amd64@2025.10.26':
+    resolution: {integrity: sha512-imXoGVQhTfhakXADlqIa/cKV4gzOXNV1ddI86n0dfZzW2ZHDMWf5pBt6EKG0d4AwPD2KvFOd+5a3c+c/fxW8Xw==}
     cpu: [x64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/darwin-arm64@2025.10.25':
-    resolution: {integrity: sha512-2JNf3Fgnn5v7YpGWbPpWvisLYsn6Ygx9Te1Y+EEqYEkqiaCNUCtWypH8yZ9PV0FqlWlSBJp79HVO/OZjb77FQQ==}
+  '@tsgo-dev/darwin-arm64@2025.10.26':
+    resolution: {integrity: sha512-54QriRM5tatvkQvy0ggOewUNtT2wH7koDfCHUYr3nVXL6eXpRiMKB0Jt7VViRXYoAhWYWSmxzLmmdOiSzE2joQ==}
     cpu: [arm64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/linux-amd64@2025.10.25':
-    resolution: {integrity: sha512-EyA+aZT/LTMbvQ77bAu8YZG9Gb6vk6Q0m1HH6VucEHPsmgEQL7rFxLx7nugxzGaDdG3SjUnVLuC24GkuEW14AA==}
+  '@tsgo-dev/linux-amd64@2025.10.26':
+    resolution: {integrity: sha512-pf/0c2mh5Zup5/x2tTxQ+5zE2CdYRN/i244b/DIMcWJvRnprpDEt4wZllZce0mP9JqefhniZadZq8cOUqS09ew==}
     cpu: [x64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/linux-arm64@2025.10.25':
-    resolution: {integrity: sha512-2nXMrX8jdSQmx7ePAyWm1en2ftEakeZPM852lIDM75soFLfjBBfG26fdeuDFXfbCCCYe2MI/Q54dE/wDqb8unA==}
+  '@tsgo-dev/linux-arm64@2025.10.26':
+    resolution: {integrity: sha512-jwFBtn/M+q3V2h6N7sbKEycueiMzqEQ5/M/4Qsv2D30khR5c9hSBfxAAB1VmnATEpJ+DfFSKON+4K4U6FNRFtA==}
     cpu: [arm64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/windows-amd64@2025.10.25':
-    resolution: {integrity: sha512-xiKfJvBeA+lH24WdrxFA30cZHJM9t541xr+hnNGefcBl2upLuUaqrHzxdZskEjYPlati1KLhfULwT2bLSk0SGg==}
+  '@tsgo-dev/windows-amd64@2025.10.26':
+    resolution: {integrity: sha512-YTSpz+pqOtjrpJWx8Mz9052rqaqGRexHxyHiAHfUfWwdJLBtMUWhyYKgBl/cmdC2KjlVwOkWyKtmEO8TrZ34hg==}
     cpu: [x64]
     os: [win32]
     hasBin: true
 
-  '@tsgo-dev/windows-arm64@2025.10.25':
-    resolution: {integrity: sha512-fALnLh2s//l1SegH02GlINhj+tud0T6iyPRzW/v0xIzHdvxElYzRpYU6bN83sas+RpkDzTsHp9RRtqzaJFD7Bw==}
+  '@tsgo-dev/windows-arm64@2025.10.26':
+    resolution: {integrity: sha512-PZk7PFJ52NzNsHmGFVi9/uE37ccVVca3PmO8okWcugw3UsSDIeMjHO+IcyEmPIwlTV/9VQZ8uceq45l9u7Datg==}
     cpu: [arm64]
     os: [win32]
     hasBin: true
@@ -3063,12 +3063,12 @@ packages:
   node-mock-http@1.0.3:
     resolution: {integrity: sha512-jN8dK25fsfnMrVsEhluUTPkBFY+6ybu7jSB1n+ri/vOGjJxU8J9CZhpSGkHXSkFjtUhbmoncG/YG9ta5Ludqog==}
 
-  node-modules-inspector@1.1.3:
-    resolution: {integrity: sha512-CSsvW5i2jHDYxwLEONTWzamwutFGGg+vUAQJJHtvI91+Jmi66urYLER2R+jcmbNHom2/TrD+fo92y4WhhQamlA==}
+  node-modules-inspector@1.2.0:
+    resolution: {integrity: sha512-NWOp5A24N1y2JLqFCw6/rY529FyIfzCBPvmWvpOFmlYTB0570GIoIum8dQENiWUediEMMi24q/6QRnQxvJ02LA==}
     hasBin: true
 
-  node-modules-tools@1.1.3:
-    resolution: {integrity: sha512-P2NYHz8x5+kzAVqj4o7uBXbJhkhQS0dx4PZX5Nw8Ty+EZvf1YwAiFnX4xv7ezdRARZV5cDOF3nViM6pewOB9AQ==}
+  node-modules-tools@1.2.0:
+    resolution: {integrity: sha512-RiUfH6cGw1TnmYV+9hyPcTKWZwTlypYuWR90V9utkhRT/rZ4b4yg1pUn+fdolJmuGgJsZqGfxYr9bIh8+BIIXA==}
 
   node-releases@2.0.26:
     resolution: {integrity: sha512-S2M9YimhSjBSvYnlr5/+umAnPHE++ODwt5e2Ij6FoX45HA/s4vHdkDx1eax2pAPeAOqu4s9b7ppahsyEFdVqQA==}
@@ -3514,12 +3514,12 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-dev@2025.10.25:
-    resolution: {integrity: sha512-dF4h2ycVdwJ9AzcQPQPWV00X9ghRDVeZupHC2h8YXw8ckiya07IiKQYb22stAIg/xEPd5y0j1zHlP3L9niVUuw==}
+  tsgo-dev@2025.10.26:
+    resolution: {integrity: sha512-9tLqqS1ndCSxDA/XVW++Wyec7qFh68t399CgjeE7mzSHi+pcyQdZ+AAiGmWzS4inXI2raH/cQwj+zuWXSwAHeQ==}
     hasBin: true
 
-  tsgo-wasm@2025.10.25:
-    resolution: {integrity: sha512-EwzYpBzzZiqT7TCPFo5L1HjAGXJfFmCluM6zXW9877A+7Cesv1lPXnyh9pAinkcLLza+Cij1KVLFDXjyaTthJA==}
+  tsgo-wasm@2025.10.26:
+    resolution: {integrity: sha512-jMr+QFlQqwCzYJjdLtQSePiYwQ/MW2bicqB4DbTl0teY7mZfCLIY85DRy1MgXoWxB0R/4kCTDRZ7Ur79vRivIw==}
     hasBin: true
 
   tslib@2.8.1:
@@ -4790,22 +4790,22 @@ snapshots:
       rollup: 4.52.5
       typescript: 5.9.3
 
-  '@tsgo-dev/darwin-amd64@2025.10.25':
+  '@tsgo-dev/darwin-amd64@2025.10.26':
     optional: true
 
-  '@tsgo-dev/darwin-arm64@2025.10.25':
+  '@tsgo-dev/darwin-arm64@2025.10.26':
     optional: true
 
-  '@tsgo-dev/linux-amd64@2025.10.25':
+  '@tsgo-dev/linux-amd64@2025.10.26':
     optional: true
 
-  '@tsgo-dev/linux-arm64@2025.10.25':
+  '@tsgo-dev/linux-arm64@2025.10.26':
     optional: true
 
-  '@tsgo-dev/windows-amd64@2025.10.25':
+  '@tsgo-dev/windows-amd64@2025.10.26':
     optional: true
 
-  '@tsgo-dev/windows-arm64@2025.10.25':
+  '@tsgo-dev/windows-arm64@2025.10.26':
     optional: true
 
   '@tybys/wasm-util@0.10.1':
@@ -6678,7 +6678,7 @@ snapshots:
 
   node-mock-http@1.0.3: {}
 
-  node-modules-inspector@1.1.3:
+  node-modules-inspector@1.2.0:
     dependencies:
       ansis: 4.2.0
       birpc: 2.6.1
@@ -6689,7 +6689,7 @@ snapshots:
       launch-editor: 2.11.1
       mlly: 1.8.0
       mrmime: 2.0.1
-      node-modules-tools: 1.1.3
+      node-modules-tools: 1.2.0
       ohash: 2.0.11
       open: 10.2.0
       p-limit: 6.2.0
@@ -6723,7 +6723,7 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  node-modules-tools@1.1.3:
+  node-modules-tools@1.2.0:
     dependencies:
       js-yaml: 4.1.0
       p-limit: 6.2.0
@@ -7270,16 +7270,16 @@ snapshots:
       - supports-color
       - vue-tsc
 
-  tsgo-dev@2025.10.25:
+  tsgo-dev@2025.10.26:
     optionalDependencies:
-      '@tsgo-dev/darwin-amd64': 2025.10.25
-      '@tsgo-dev/darwin-arm64': 2025.10.25
-      '@tsgo-dev/linux-amd64': 2025.10.25
-      '@tsgo-dev/linux-arm64': 2025.10.25
-      '@tsgo-dev/windows-amd64': 2025.10.25
-      '@tsgo-dev/windows-arm64': 2025.10.25
+      '@tsgo-dev/darwin-amd64': 2025.10.26
+      '@tsgo-dev/darwin-arm64': 2025.10.26
+      '@tsgo-dev/linux-amd64': 2025.10.26
+      '@tsgo-dev/linux-arm64': 2025.10.26
+      '@tsgo-dev/windows-amd64': 2025.10.26
+      '@tsgo-dev/windows-arm64': 2025.10.26
 
-  tsgo-wasm@2025.10.25: {}
+  tsgo-wasm@2025.10.26: {}
 
   tslib@2.8.1:
     optional: true
