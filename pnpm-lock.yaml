@@ -19,11 +19,11 @@ catalogs:
       specifier: ^0.8.4
       version: 0.8.4
     tsdown:
-      specifier: ^0.15.11
-      version: 0.15.11
+      specifier: ^0.15.12
+      version: 0.15.12
     tsgo-dev:
-      specifier: ^2025.10.29
-      version: 2025.10.29
+      specifier: ^2025.10.30
+      version: 2025.10.30
     unloader:
       specifier: ^0.5.0
       version: 0.5.0
@@ -78,8 +78,8 @@ catalogs:
       specifier: ^0.2.11
       version: 0.2.11
     rolldown-plugin-dts:
-      specifier: ^0.17.2
-      version: 0.17.2
+      specifier: ^0.17.3
+      version: 0.17.3
     rolldown-plugin-require-cjs:
       specifier: ^0.3.1
       version: 0.3.1
@@ -90,8 +90,8 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsgo-wasm:
-      specifier: ^2025.10.29
-      version: 2025.10.29
+      specifier: ^2025.10.30
+      version: 2025.10.30
     untsx:
       specifier: ^0.1.2
       version: 0.1.2
@@ -155,8 +155,8 @@ catalogs:
       specifier: ^0.3.1
       version: 0.3.1
     unplugin-vue:
-      specifier: ^7.0.3
-      version: 7.0.3
+      specifier: ^7.0.4
+      version: 7.0.4
     unplugin-vue-jsx:
       specifier: ^0.8.1
       version: 0.8.1
@@ -234,7 +234,7 @@ importers:
         version: 0.2.11
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.17.2(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3)
+        version: 0.17.3(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.3.1(rolldown@1.0.0-beta.45)
@@ -249,13 +249,13 @@ importers:
         version: 0.4.3(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.15.11(oxc-resolver@11.12.0)(publint@0.3.15)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4)
+        version: 0.15.12(oxc-resolver@11.12.0)(publint@0.3.15)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4)(unrun@0.2.1)
       tsgo-dev:
         specifier: catalog:cli
-        version: 2025.10.29
+        version: 2025.10.30
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.10.29
+        version: 2025.10.30
       unloader:
         specifier: catalog:cli
         version: 0.5.0
@@ -306,7 +306,7 @@ importers:
         version: 0.3.1
       unplugin-vue:
         specifier: catalog:unplugin
-        version: 7.0.3(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)
+        version: 7.0.4(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)
       unplugin-vue-jsx:
         specifier: catalog:unplugin
         version: 0.8.1
@@ -1453,38 +1453,38 @@ packages:
       typescript:
         optional: true
 
-  '@tsgo-dev/darwin-amd64@2025.10.29':
-    resolution: {integrity: sha512-96eE9bwvcWohp7RYT2wUB/7D0jz9lZCL270OF7ZzE6ALNB7bnWz600A88fqMvU97uIHGEogNls8+wDUJFuTlUA==}
+  '@tsgo-dev/darwin-amd64@2025.10.30':
+    resolution: {integrity: sha512-3tZ5JcUIzHvYhZf/KUy6hvL4aGbdAT1C4XZ1DnvLmT7NghkYyVX3k2+xHr0mherDCyjUZTZ4ePr6sevXY4CIrQ==}
     cpu: [x64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/darwin-arm64@2025.10.29':
-    resolution: {integrity: sha512-rPPJh177VB8ik6PTfm50EiIFxzEYX0EDACHepTLI1tOTIZnVyBOS5mC4ErDne90Pw/QPVgaFVhWjVa8vzaZH5w==}
+  '@tsgo-dev/darwin-arm64@2025.10.30':
+    resolution: {integrity: sha512-ZgllLkQe0zVVtQGU5U9IH/xW8/30emkDLNXfUgYbZ5Hieda0GsoNJTlqgMuPU0jx43b5XPTYXk5UhUf17L9Zdg==}
     cpu: [arm64]
     os: [darwin]
     hasBin: true
 
-  '@tsgo-dev/linux-amd64@2025.10.29':
-    resolution: {integrity: sha512-7KaGd35iryTFYWAIogIrJIktJXw9vTZ+j+/qeEbB8MyRBU2vQZw9QjcXlbuKtgxlqrGc9gBfMrE5S4GklcFopw==}
+  '@tsgo-dev/linux-amd64@2025.10.30':
+    resolution: {integrity: sha512-W29ceztkrotreEjtbGy5B7rt5x88ei3HGVq179DQomgBOGxpm5UON1HXaGSrgXNzwP/ZFVsZTpTsOHiHha3tMg==}
     cpu: [x64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/linux-arm64@2025.10.29':
-    resolution: {integrity: sha512-zsIrp/CnFaj2vgCxYdF7oTSYjkSEA/yfrVyrl1Mg7fIeEohkDAuZzxCFzwm3PJV6MUqaW9u0PGSpWqZPzHg0lw==}
+  '@tsgo-dev/linux-arm64@2025.10.30':
+    resolution: {integrity: sha512-6GUVhQkii0nht5te8YyQv2tX91PKSASeAWy1CkTmzIYoN/fTRDTca3RibbnCtDEhw6QTnocLhNCRJ1U7+t3U4Q==}
     cpu: [arm64]
     os: [linux]
     hasBin: true
 
-  '@tsgo-dev/windows-amd64@2025.10.29':
-    resolution: {integrity: sha512-vO4rFvgZ9PYiccNYSDZAdMnPGxNnatUu5s2VX9vreAphdqoPLPoGhhB1yVESczKxUAcNp7fYRwwAFWwDNtC/dw==}
+  '@tsgo-dev/windows-amd64@2025.10.30':
+    resolution: {integrity: sha512-j44uOgfz/B+akoGxMgbkPyfKQTelxoT+p6vfH07KHALtS0E17moEZqR9humI1w0Tt3tNZSTb8IIy3YME531iEA==}
     cpu: [x64]
     os: [win32]
     hasBin: true
 
-  '@tsgo-dev/windows-arm64@2025.10.29':
-    resolution: {integrity: sha512-U/s/OXzr9hHCwuxDoUMAvf0NM9kUF73LoZ5P/W1UNi6zw6HpNh29rqYsVBQaRNZZ/o9My83ZRfvJ8vc/xxFedQ==}
+  '@tsgo-dev/windows-arm64@2025.10.30':
+    resolution: {integrity: sha512-poJOyHACJxY7qigWp0PekuGj446OVqr/DMWjp0SaGu3R4a/IVBUTdphmoHO5sYT2LmbNHwIwyMmUJvYZkI1R3w==}
     cpu: [arm64]
     os: [win32]
     hasBin: true
@@ -3272,8 +3272,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rolldown-plugin-dts@0.17.2:
-    resolution: {integrity: sha512-tbLm7FoDvZAhAY33wJbq0ACw+srToKZ5xFqwn/K4tayGloZPXQHyOEPEYi7whEfTCaMndZWaho9+oiQTlwIe6Q==}
+  rolldown-plugin-dts@0.17.3:
+    resolution: {integrity: sha512-8mGnNUVNrqEdTnrlcaDxs4sAZg0No6njO+FuhQd4L56nUbJO1tHxOoKDH3mmMJg7f/BhEj/1KjU5W9kZ9zM/kQ==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@ts-macro/tsc': ^0.3.6
@@ -3477,8 +3477,8 @@ packages:
   ts-macro@0.3.6:
     resolution: {integrity: sha512-0buxBZweJjozSPA+77X7ntznNouLOtGDJA8nQJgoAQBduKAltF3YLABLbDLp5N7KsDA0ssldX+L/WwI1SloJmg==}
 
-  tsdown@0.15.11:
-    resolution: {integrity: sha512-7k2OglWWt6LzvJKwEf1izbGvETvVfPYRBr9JgEYVRnz/R9LeJSp+B51FUMO46wUeEGtZ1jA3E3PtWWLlq3iygA==}
+  tsdown@0.15.12:
+    resolution: {integrity: sha512-c8VLlQm8/lFrOAg5VMVeN4NAbejZyVQkzd+ErjuaQgJFI/9MhR9ivr0H/CM7UlOF1+ELlF6YaI7sU/4itgGQ8w==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -3487,6 +3487,7 @@ packages:
       typescript: ^5.0.0
       unplugin-lightningcss: ^0.4.0
       unplugin-unused: ^0.5.0
+      unrun: ^0.2.1
     peerDependenciesMeta:
       '@arethetypeswrong/core':
         optional: true
@@ -3498,13 +3499,15 @@ packages:
         optional: true
       unplugin-unused:
         optional: true
+      unrun:
+        optional: true
 
-  tsgo-dev@2025.10.29:
-    resolution: {integrity: sha512-RNTMi4PWFZp0vpm/xkN63nyqCt/xx/srttMvTDGFi2GzicynXqmfx3AWcmtQF6PnD+miPBzCaKQNaAGrh1UF+A==}
+  tsgo-dev@2025.10.30:
+    resolution: {integrity: sha512-ThwMKZ74dXc1Co6BKiBjv1li1vVmOHfRytlYQYzlr7qTzouUgkYxZ92YiYf/P5m9tGI3JzWtnIKUGsrRR0QMNg==}
     hasBin: true
 
-  tsgo-wasm@2025.10.29:
-    resolution: {integrity: sha512-R8KkvCrNhi4k7rtDJmeCIBDXOFgSc/ig2by4bNWxCojHr3KCxVUbCgnjYLCrenFskbk0A3+bsbTBbbgKB0lDOA==}
+  tsgo-wasm@2025.10.30:
+    resolution: {integrity: sha512-ZemuM39kKwt9C8j7jUlsLXgwA/NiroWKX01+n5r/TyQL1fJuZGvk6S/T+VV985VIsjvNBkKuVCW0Kv8r/+hcgQ==}
     hasBin: true
 
   tslib@2.8.1:
@@ -3674,8 +3677,8 @@ packages:
     resolution: {integrity: sha512-IVRPuUe95b6v49nSa+9LWcMIqgcqXmpvc/5FTOoAhxKNWb43P0oaH3qGe7p04glrKO/YF2LojalsRZ8jxFqQUA==}
     engines: {node: '>=20.18.0'}
 
-  unplugin-vue@7.0.3:
-    resolution: {integrity: sha512-thcqcJ7nefaYSCDRssrwd4YedLjTxPgYxb4yNxXnZPLd1PxG0FU8EkP9VT3oPNMkzEvgNqMNapaRJ8aEfdVkxg==}
+  unplugin-vue@7.0.4:
+    resolution: {integrity: sha512-ZsGLwS07ctePY6PgnlMqPVEzwGFo/NlgXlghr9LUwSy3nW2F87fEqmsCJGSoGChrrCIf9lVfW3Iu+1CimJVcOQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       vue: ^3.2.25
@@ -4470,7 +4473,8 @@ snapshots:
   '@oxc-parser/binding-win32-x64-msvc@0.95.0':
     optional: true
 
-  '@oxc-project/runtime@0.95.0': {}
+  '@oxc-project/runtime@0.95.0':
+    optional: true
 
   '@oxc-project/types@0.74.0': {}
 
@@ -4782,22 +4786,22 @@ snapshots:
       rollup: 4.52.5
       typescript: 5.9.3
 
-  '@tsgo-dev/darwin-amd64@2025.10.29':
+  '@tsgo-dev/darwin-amd64@2025.10.30':
     optional: true
 
-  '@tsgo-dev/darwin-arm64@2025.10.29':
+  '@tsgo-dev/darwin-arm64@2025.10.30':
     optional: true
 
-  '@tsgo-dev/linux-amd64@2025.10.29':
+  '@tsgo-dev/linux-amd64@2025.10.30':
     optional: true
 
-  '@tsgo-dev/linux-arm64@2025.10.29':
+  '@tsgo-dev/linux-arm64@2025.10.30':
     optional: true
 
-  '@tsgo-dev/windows-amd64@2025.10.29':
+  '@tsgo-dev/windows-amd64@2025.10.30':
     optional: true
 
-  '@tsgo-dev/windows-arm64@2025.10.29':
+  '@tsgo-dev/windows-arm64@2025.10.30':
     optional: true
 
   '@tybys/wasm-util@0.10.1':
@@ -7001,7 +7005,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown-plugin-dts@0.17.2(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3):
+  rolldown-plugin-dts@0.17.3(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3):
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
@@ -7216,7 +7220,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.15.11(oxc-resolver@11.12.0)(publint@0.3.15)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4):
+  tsdown@0.15.12(oxc-resolver@11.12.0)(publint@0.3.15)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.4)(unrun@0.2.1):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -7226,18 +7230,18 @@ snapshots:
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.45
-      rolldown-plugin-dts: 0.17.2(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3)
+      rolldown-plugin-dts: 0.17.3(oxc-resolver@11.12.0)(rolldown@1.0.0-beta.45)(typescript@5.9.3)
       semver: 7.7.3
       tinyexec: 1.0.1
       tinyglobby: 0.2.15
       tree-kill: 1.2.2
       unconfig: 7.3.3
-      unrun: 0.2.1
     optionalDependencies:
       publint: 0.3.15
       typescript: 5.9.3
       unplugin-lightningcss: 0.4.3
       unplugin-unused: 0.5.4
+      unrun: 0.2.1
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -7245,16 +7249,16 @@ snapshots:
       - supports-color
       - vue-tsc
 
-  tsgo-dev@2025.10.29:
+  tsgo-dev@2025.10.30:
     optionalDependencies:
-      '@tsgo-dev/darwin-amd64': 2025.10.29
-      '@tsgo-dev/darwin-arm64': 2025.10.29
-      '@tsgo-dev/linux-amd64': 2025.10.29
-      '@tsgo-dev/linux-arm64': 2025.10.29
-      '@tsgo-dev/windows-amd64': 2025.10.29
-      '@tsgo-dev/windows-arm64': 2025.10.29
+      '@tsgo-dev/darwin-amd64': 2025.10.30
+      '@tsgo-dev/darwin-arm64': 2025.10.30
+      '@tsgo-dev/linux-amd64': 2025.10.30
+      '@tsgo-dev/linux-arm64': 2025.10.30
+      '@tsgo-dev/windows-amd64': 2025.10.30
+      '@tsgo-dev/windows-arm64': 2025.10.30
 
-  tsgo-wasm@2025.10.29: {}
+  tsgo-wasm@2025.10.30: {}
 
   tslib@2.8.1:
     optional: true
@@ -7470,7 +7474,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  unplugin-vue@7.0.3(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1):
+  unplugin-vue@7.0.4(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1):
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
@@ -7529,6 +7533,7 @@ snapshots:
       '@oxc-project/runtime': 0.95.0
       rolldown: 1.0.0-beta.45
       synckit: 0.11.11
+    optional: true
 
   unstorage@1.17.1:
     dependencies:
