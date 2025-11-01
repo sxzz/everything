@@ -12,7 +12,7 @@ catalogs:
     node-modules-inspector: ^1.2.0
     stale-dep: ^0.8.4
     tsdown: ^0.15.12
-    tsgo-dev: ^2025.10.31
+    tsgo-dev: ^2025.11.1
     unloader: ^0.5.0
     unotp: ^0.1.0
     vite-hyper-config: ^0.7.1
@@ -33,13 +33,13 @@ catalogs:
     rolldown-plugin-require-cjs: ^0.3.1
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2025.10.31
+    tsgo-wasm: ^2025.11.1
     untsx: ^0.1.2
 
   lint:
     '@sxzz/eslint-config': ^7.2.8
     '@sxzz/prettier-config': ^2.2.4
-    eslint: ^9.38.0
+    eslint: ^9.39.0
     eslint-plugin-sxzz: ^0.4.1
     prettier: ^3.6.2
 
@@ -56,7 +56,7 @@ catalogs:
     unplugin-quansync: ^0.4.5
     unplugin-raw: ^0.6.3
     unplugin-replace: ^0.6.2
-    unplugin-unused: ^0.5.4
+    unplugin-unused: ^0.5.5
     unplugin-utils: ^0.3.1
     unplugin-vue: ^7.0.4
     unplugin-vue-jsx: ^0.8.1
