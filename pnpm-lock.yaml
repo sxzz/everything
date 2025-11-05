@@ -72,8 +72,8 @@ catalogs:
       specifier: ^1.0.3
       version: 1.0.3
     pnpm-multi-versions:
-      specifier: ^0.5.3
-      version: 0.5.3
+      specifier: ^0.5.4
+      version: 0.5.4
     quansync:
       specifier: ^0.2.11
       version: 0.2.11
@@ -228,7 +228,7 @@ importers:
         version: 0.7.3
       pnpm-multi-versions:
         specifier: catalog:libs
-        version: 0.5.3
+        version: 0.5.4
       quansync:
         specifier: catalog:libs
         version: 0.2.11
@@ -3185,8 +3185,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm-multi-versions@0.5.3:
-    resolution: {integrity: sha512-m32O6O1rPTU+tVRm5T5BhCUPQiWZogCc70x3yMDjZrxhIGFbLf3yEp9xKRw1meHR7cbfb1uELy2FQPef+amoDg==}
+  pnpm-multi-versions@0.5.4:
+    resolution: {integrity: sha512-7msxqr1ZpFAvol9n2fpMXh0QNE/oghbmhnoUb5DEzW08r3JDpIh6JoJYoLheplMMmIss7ZZK1umYI1Th5ov+nQ==}
     engines: {node: '>=20.18.0'}
     hasBin: true
 
@@ -6633,7 +6633,7 @@ snapshots:
       consola: 3.4.2
       fast-glob: 3.3.3
       js-yaml: '@zkochan/js-yaml@0.0.9'
-      pnpm-multi-versions: 0.5.3
+      pnpm-multi-versions: 0.5.4
       unconfig: 7.3.3
 
   mri@1.2.0: {}
@@ -6921,9 +6921,8 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm-multi-versions@0.5.3:
+  pnpm-multi-versions@0.5.4:
     dependencies:
-      ansis: 4.2.0
       cac: 6.7.14
       empathic: 2.0.0
       yaml: 2.8.1
