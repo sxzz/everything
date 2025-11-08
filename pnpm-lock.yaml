@@ -79,7 +79,7 @@ catalogs:
       version: 0.2.11
     rolldown-plugin-dts:
       specifier: ^0.17.3
-      version: 0.17.3
+      version: 0.17.4
     rolldown-plugin-require-cjs:
       specifier: ^0.3.1
       version: 0.3.1
@@ -234,7 +234,7 @@ importers:
         version: 0.2.11
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.17.3(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3)
+        version: 0.17.4(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.3.1(rolldown@1.0.0-beta.47)
@@ -3271,8 +3271,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rolldown-plugin-dts@0.17.3:
-    resolution: {integrity: sha512-8mGnNUVNrqEdTnrlcaDxs4sAZg0No6njO+FuhQd4L56nUbJO1tHxOoKDH3mmMJg7f/BhEj/1KjU5W9kZ9zM/kQ==}
+  rolldown-plugin-dts@0.17.4:
+    resolution: {integrity: sha512-eWno7CR/Da2jA+5mTHxeMx78p4AmoUocEKDQT8XKwhq9Oroyf67ZfBOE82d4EvDjktiQTePpKdIKc69pND88Og==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@ts-macro/tsc': ^0.3.6
@@ -7006,7 +7006,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown-plugin-dts@0.17.3(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3):
+  rolldown-plugin-dts@0.17.4(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3):
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
@@ -7236,7 +7236,7 @@ snapshots:
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.47
-      rolldown-plugin-dts: 0.17.3(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3)
+      rolldown-plugin-dts: 0.17.4(oxc-resolver@11.13.1)(rolldown@1.0.0-beta.47)(typescript@5.9.3)
       semver: 7.7.3
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
