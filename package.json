@@ -66,6 +66,7 @@
     "@types/node": "catalog:",
     "eslint": "catalog:lint",
     "hosted-git-info": "catalog:",
+    "ky": "catalog:",
     "node-modules-inspector": "catalog:cli",
     "prettier": "catalog:lint"
   },

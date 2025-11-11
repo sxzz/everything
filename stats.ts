@@ -1,22 +1,38 @@
 import { writeFile } from 'node:fs/promises'
 import GitHost from 'hosted-git-info'
+import ky, { HTTPError } from 'ky'
 import pkg from './package.json' with { type: 'json' }
 
 const deps = Object.keys(pkg.dependencies)
+const fetch = ky.extend({
+  retry: {
+    limit: 20,
+    delay: () => 1500,
+    shouldRetry: ({ error }) => {
+      if (error instanceof HTTPError && error.response.status === 429) {
+        console.info(`Rate limited, retrying ${error.request.url}...`)
+        return true
+      }
+      return false
+    },
+  },
+})
 
-const data = (
-  await Promise.all(
-    deps.map((dep) =>
-      Promise.all([
-        fetch(`https://api.npmjs.org/downloads/point/last-week/${dep}`).then(
-          (r) => r.json(),
-        ),
-        fetch(`https://registry.npmjs.org/${dep}/latest`).then((r) => r.json()),
-      ]),
-    ),
-  )
-)
-  .filter(([stats]) => !stats.error)
+const data: [Record<string, any>, Record<string, any>][] = []
+for (const dep of deps) {
+  console.info(`Fetching stats for ${dep}...`)
+
+  const stats = await fetch<Record<string, any>>(
+    `https://api.npmjs.org/downloads/point/last-week/${dep}`,
+  ).json()
+  if (stats.error) continue
+  const latest = await fetch<Record<string, any>>(
+    `https://registry.npmjs.org/${dep}/latest`,
+  ).json()
+  data.push([stats, latest])
+}
+
+const stats = data
   .map(([stats, latest]) => {
     let owner: string | undefined
     const repo = latest.repository?.url || latest.repository
@@ -34,7 +50,7 @@ const data = (
   })
   .toSorted((a, b) => b.downloads - a.downloads)
 
-await writeFile('stats.json', `${JSON.stringify(data, null, 2)}\n`)
+await writeFile('stats.json', `${JSON.stringify(stats, null, 2)}\n`)
 
 function sortObject(obj: object) {
   return Object.fromEntries(
