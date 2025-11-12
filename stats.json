@@ -329,7 +329,7 @@
     "end": "2025-11-10",
     "owner": "sxzz",
     "package": "vite-hyper-config",
-    "provenance": false,
+    "provenance": "trusted",
     "start": "2025-11-04"
   },
   {
@@ -411,24 +411,6 @@
     "owner": "sxzz",
     "package": "vue-functional-ref",
     "provenance": "trusted",
-    "start": "2025-11-04"
-  },
-  {
-    "downloads": 50,
-    "downloadsText": "50",
-    "end": "2025-11-10",
-    "owner": "sxzz",
-    "package": "unotp",
-    "provenance": false,
-    "start": "2025-11-04"
-  },
-  {
-    "downloads": 48,
-    "downloadsText": "48",
-    "end": "2025-11-10",
-    "owner": "sxzz",
-    "package": "gh-apis",
-    "provenance": false,
     "start": "2025-11-04"
   },
   {

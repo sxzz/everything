@@ -24,8 +24,10 @@ for (const dep of deps) {
 
   const stats = await fetch<Record<string, any>>(
     `https://api.npmjs.org/downloads/point/last-week/${dep}`,
-  ).json()
-  if (stats.error) continue
+  )
+    .json()
+    .catch(() => null)
+  if (!stats) continue
   const latest = await fetch<Record<string, any>>(
     `https://registry.npmjs.org/${dep}/latest`,
   ).json()
