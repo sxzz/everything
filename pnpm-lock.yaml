@@ -8,7 +8,7 @@ catalogs:
   cli:
     '@sxzz/create':
       specifier: ^0.15.4
-      version: 0.15.4
+      version: 0.15.5
     monoman:
       specifier: ^0.7.3
       version: 0.7.3
@@ -186,7 +186,7 @@ importers:
         version: 0.1.5
       '@sxzz/create':
         specifier: catalog:cli
-        version: 0.15.4
+        version: 0.15.5
       '@sxzz/eslint-config':
         specifier: catalog:lint
         version: 7.2.10(@typescript-eslint/eslint-plugin@8.46.4(@typescript-eslint/parser@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
@@ -1407,8 +1407,8 @@ packages:
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
 
-  '@sxzz/create@0.15.4':
-    resolution: {integrity: sha512-gz5iAoMjXhkRZUfwkUljxPjyms4Kee03LrKgTO473AnOjjV/IjZFtjMC+18TDh7FprPGEzOwKzLvzX6K6EdhPg==}
+  '@sxzz/create@0.15.5':
+    resolution: {integrity: sha512-N8tsYMCP4dq1GTjSK1sSozQRTXADUyUSrQ7jVV/CoYw1HrfHqQKlPkULVul8qCfal+r/8O+l0WU+RkNDBjfe5g==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -4661,7 +4661,7 @@ snapshots:
 
   '@standard-schema/spec@1.0.0': {}
 
-  '@sxzz/create@0.15.4':
+  '@sxzz/create@0.15.5':
     dependencies:
       '@clack/prompts': 0.11.0
       ansis: 4.2.0
@@ -4671,9 +4671,9 @@ snapshots:
       empathic: 2.0.0
       escape-string-regexp: 5.0.0
       giget: 2.0.0
-      js-yaml: 4.1.1
       tinyexec: 1.0.2
       unconfig: 7.4.1
+      yaml: 2.8.1
 
   '@sxzz/eslint-config@7.2.10(@typescript-eslint/eslint-plugin@8.46.4(@typescript-eslint/parser@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
