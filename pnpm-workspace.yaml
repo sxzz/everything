@@ -13,7 +13,7 @@ catalogs:
     node-modules-inspector: ^1.2.0
     stale-dep: ^0.8.4
     tsdown: ^0.16.4
-    tsgo-dev: ^2025.11.14
+    tsgo-dev: ^2025.11.15
     unloader: ^0.8.0
     vite-hyper-config: ^0.8.0
 
@@ -33,7 +33,7 @@ catalogs:
     rolldown-plugin-require-cjs: ^0.3.1
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2025.11.14
+    tsgo-wasm: ^2025.11.15
     untsx: ^0.1.2
 
   lint:
@@ -58,7 +58,7 @@ catalogs:
     unplugin-replace: ^0.6.2
     unplugin-unused: ^0.5.6
     unplugin-utils: ^0.3.1
-    unplugin-vue: ^7.0.5
+    unplugin-vue: ^7.0.6
     unplugin-vue-jsx: ^0.8.1
     unplugin-vue-named-export: ^0.9.1
 
