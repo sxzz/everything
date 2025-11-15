@@ -26,7 +26,7 @@ catalogs:
     ast-walker-scope: ^0.8.3
     dts-resolver: ^2.1.3
     magic-string-ast: ^1.0.3
-    obug: ^2.0.0-beta.1
+    obug: ^2.0.0
     pnpm-multi-versions: ^0.5.4
     quansync: ^0.2.11
     rolldown-plugin-dts: ^0.17.7
@@ -48,7 +48,7 @@ catalogs:
     unplugin-ast: ^0.15.4
     unplugin-combine: ^2.1.3
     unplugin-inline-enum: ^0.6.2
-    unplugin-isolated-decl: ^0.15.4
+    unplugin-isolated-decl: ^0.15.5
     unplugin-jsx-string: ^0.10.0
     unplugin-lightningcss: ^0.4.3
     unplugin-macros: ^0.18.3
@@ -58,7 +58,7 @@ catalogs:
     unplugin-replace: ^0.6.2
     unplugin-unused: ^0.5.6
     unplugin-utils: ^0.3.1
-    unplugin-vue: ^7.0.6
+    unplugin-vue: ^7.0.7
     unplugin-vue-jsx: ^0.8.1
     unplugin-vue-named-export: ^0.9.1
 
