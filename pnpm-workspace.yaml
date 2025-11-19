@@ -37,7 +37,7 @@ catalogs:
     untsx: ^0.1.2
 
   lint:
-    '@sxzz/eslint-config': ^7.2.10
+    '@sxzz/eslint-config': ^7.3.0
     '@sxzz/prettier-config': ^2.2.5
     eslint: ^9.39.1
     eslint-plugin-sxzz: ^0.4.1
