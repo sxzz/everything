@@ -2184,8 +2184,8 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.260:
-    resolution: {integrity: sha512-ov8rBoOBhVawpzdre+Cmz4FB+y66Eqrk6Gwqd8NGxuhv99GQ8XqMAr351KEkOt7gukXWDg6gJWEMKgL2RLMPtA==}
+  electron-to-chromium@1.5.261:
+    resolution: {integrity: sha512-cmyHEWFqEt3ICUNF93ShneOF47DHoSDbLb7E/AonsWcbzg95N+kPXeLNfkdzgTT/vEUcoW76fxbLBkeYtfoM8A==}
 
   empathic@2.0.0:
     resolution: {integrity: sha512-i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA==}
@@ -5337,7 +5337,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.31
       caniuse-lite: 1.0.30001757
-      electron-to-chromium: 1.5.260
+      electron-to-chromium: 1.5.261
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -5461,7 +5461,7 @@ snapshots:
     optionalDependencies:
       oxc-resolver: 11.14.0
 
-  electron-to-chromium@1.5.260: {}
+  electron-to-chromium@1.5.261: {}
 
   empathic@2.0.0: {}
 
