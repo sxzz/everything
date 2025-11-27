@@ -110,7 +110,7 @@ catalogs:
       version: 0.4.1
     prettier:
       specifier: ^3.6.2
-      version: 3.6.2
+      version: 3.7.0
   unplugin:
     unplugin:
       specifier: ^2.3.11
@@ -243,10 +243,10 @@ importers:
         version: 0.8.4
       tc39-throw:
         specifier: catalog:libs
-        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3)
+        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0)(typescript@5.9.3)
       tc39-try:
         specifier: catalog:libs
-        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3)
+        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
         version: 0.16.7(oxc-resolver@11.14.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
@@ -346,7 +346,7 @@ importers:
         version: 1.2.0
       prettier:
         specifier: catalog:lint
-        version: 3.6.2
+        version: 3.7.0
 
 packages:
 
@@ -3140,8 +3140,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.0:
+    resolution: {integrity: sha512-pBiBj/gjRY9Qpk1b7cDda6Rbwvkaggos779AHQ0Ek/odwDx6xG6DRBxtnp1QmxbuD7pAO8/SQ8vuhtGv9LoLWA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4630,7 +4630,7 @@ snapshots:
       eslint-plugin-n: 17.23.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-perfectionist: 4.15.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-pnpm: 1.3.0(eslint@9.39.1(jiti@2.6.1))
-      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2)
+      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0)
       eslint-plugin-regexp: 2.10.0(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-sxzz: 0.4.1(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.1(jiti@2.6.1))
@@ -4640,7 +4640,7 @@ snapshots:
       globals: 16.5.0
       jsonc-eslint-parser: 2.4.1
       local-pkg: 1.1.2
-      prettier: 3.6.2
+      prettier: 3.7.0
       typescript-eslint: 8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vue-eslint-parser: 10.2.0(eslint@9.39.1(jiti@2.6.1))
       yaml-eslint-parser: 1.3.1
@@ -5668,10 +5668,10 @@ snapshots:
       tinyglobby: 0.2.15
       yaml-eslint-parser: 1.3.1
 
-  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
-      prettier: 3.6.2
+      prettier: 3.7.0
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -6740,7 +6740,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.6.2: {}
+  prettier@3.7.0: {}
 
   publint@0.3.15:
     dependencies:
@@ -6925,11 +6925,11 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3):
+  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.6.2
+      prettier: 3.7.0
       ts-macro: 0.3.6
       typescript: 5.9.3
       unplugin: 2.3.11
@@ -6937,11 +6937,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3):
+  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.0)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.6.2
+      prettier: 3.7.0
       try: 1.0.1
       ts-macro: 0.3.6
       typescript: 5.9.3
@@ -7314,7 +7314,7 @@ snapshots:
       espree: 10.4.0
       estree-walker: 3.0.3
       magic-string-ast: 1.0.3
-      prettier: 3.6.2
+      prettier: 3.7.0
     transitivePeerDependencies:
       - eslint
       - supports-color
