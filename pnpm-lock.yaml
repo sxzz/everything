@@ -98,7 +98,7 @@ catalogs:
   lint:
     '@sxzz/eslint-config':
       specifier: ^7.3.2
-      version: 7.3.2
+      version: 7.4.0
     '@sxzz/prettier-config':
       specifier: ^2.2.6
       version: 2.2.6
@@ -189,7 +189,7 @@ importers:
         version: 0.15.5
       '@sxzz/eslint-config':
         specifier: catalog:lint
-        version: 7.3.2(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
+        version: 7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)
       '@sxzz/prettier-config':
         specifier: catalog:lint
         version: 2.2.6
@@ -1308,8 +1308,8 @@ packages:
     engines: {node: '>=20.19.0'}
     hasBin: true
 
-  '@sxzz/eslint-config@7.3.2':
-    resolution: {integrity: sha512-TSz7di7RnIQ6bkkSgCKnyP8GHaOn9g6F38q/aPQsNZABbzNLQWhTYk1dfXhtvPUhEtoQbB/WKBVeKuzKdz/dpQ==}
+  '@sxzz/eslint-config@7.4.0':
+    resolution: {integrity: sha512-k2BWwPL1WlNCrzJntupWzRKk9qUahQPh1uqSKAv+EluBScE6u1NMxTcBQDxhu+Qc6vhbjqh6wWj0VY5Jf7IPvQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@unocss/eslint-plugin': '>=65.0.0'
@@ -4469,7 +4469,7 @@ snapshots:
       unconfig: 7.4.1
       yaml: 2.8.1
 
-  '@sxzz/eslint-config@7.3.2(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)':
+  '@sxzz/eslint-config@7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.1(jiti@2.6.1))
       '@eslint/js': 9.39.1
@@ -4498,7 +4498,6 @@ snapshots:
       globals: 16.5.0
       jsonc-eslint-parser: 2.4.1
       local-pkg: 1.1.2
-      prettier: 3.7.1
       typescript-eslint: 8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vue-eslint-parser: 10.2.0(eslint@9.39.1(jiti@2.6.1))
       yaml-eslint-parser: 1.3.1
@@ -4510,6 +4509,7 @@ snapshots:
       - '@typescript-eslint/parser'
       - '@typescript-eslint/utils'
       - eslint-import-resolver-node
+      - prettier
       - supports-color
       - typescript
 
