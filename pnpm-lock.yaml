@@ -82,7 +82,7 @@ catalogs:
       version: 0.18.1
     rolldown-plugin-require-cjs:
       specifier: ^0.3.1
-      version: 0.3.1
+      version: 0.3.2
     tc39-throw:
       specifier: ^0.2.1
       version: 0.2.1
@@ -110,7 +110,7 @@ catalogs:
       version: 0.4.1
     prettier:
       specifier: ^3.7.1
-      version: 3.7.1
+      version: 3.7.2
   unplugin:
     unplugin:
       specifier: ^2.3.11
@@ -189,7 +189,7 @@ importers:
         version: 0.15.5
       '@sxzz/eslint-config':
         specifier: catalog:lint
-        version: 7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)
+        version: 7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3)
       '@sxzz/prettier-config':
         specifier: catalog:lint
         version: 2.2.6
@@ -237,16 +237,16 @@ importers:
         version: 0.18.1(oxc-resolver@11.14.0)(rolldown@1.0.0-beta.52)(typescript@5.9.3)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
-        version: 0.3.1(rolldown@1.0.0-beta.52)
+        version: 0.3.2(rolldown@1.0.0-beta.52)
       stale-dep:
         specifier: catalog:cli
         version: 0.8.4
       tc39-throw:
         specifier: catalog:libs
-        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)
+        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3)
       tc39-try:
         specifier: catalog:libs
-        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)
+        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
         version: 0.16.8(oxc-resolver@11.14.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
@@ -346,7 +346,7 @@ importers:
         version: 1.2.0
       prettier:
         specifier: catalog:lint
-        version: 3.7.1
+        version: 3.7.2
 
 packages:
 
@@ -3045,8 +3045,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.7.1:
-    resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
+  prettier@3.7.2:
+    resolution: {integrity: sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3119,8 +3119,8 @@ packages:
       vue-tsc:
         optional: true
 
-  rolldown-plugin-require-cjs@0.3.1:
-    resolution: {integrity: sha512-VfF4o0iDiT4v27cpRtj6cAKgF9ftIfbM9ntzb7GuuBtb/tUHp1gGeF8OchrwV4lckC6iKuLvsPP8FEk/stSNlQ==}
+  rolldown-plugin-require-cjs@0.3.2:
+    resolution: {integrity: sha512-cIFynlmC1fKK/v9jX3mCTHa2I+Qn8OeGudZ6y3fGn+q5h/eweUpO2I3YUDTXHkoaofGfj3CJvEbiHo5oH112Fg==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       rolldown: '*'
@@ -4469,7 +4469,7 @@ snapshots:
       unconfig: 7.4.1
       yaml: 2.8.1
 
-  '@sxzz/eslint-config@7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3)':
+  '@sxzz/eslint-config@7.4.0(@typescript-eslint/eslint-plugin@8.48.0(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.1(jiti@2.6.1))
       '@eslint/js': 9.39.1
@@ -4488,7 +4488,7 @@ snapshots:
       eslint-plugin-n: 17.23.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-perfectionist: 4.15.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-pnpm: 1.3.0(eslint@9.39.1(jiti@2.6.1))
-      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)
+      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)
       eslint-plugin-regexp: 2.10.0(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-sxzz: 0.4.1(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.1(jiti@2.6.1))
@@ -5530,10 +5530,10 @@ snapshots:
       tinyglobby: 0.2.15
       yaml-eslint-parser: 1.3.1
 
-  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
-      prettier: 3.7.1
+      prettier: 3.7.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -6582,7 +6582,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.7.1: {}
+  prettier@3.7.2: {}
 
   publint@0.3.15:
     dependencies:
@@ -6639,7 +6639,7 @@ snapshots:
     transitivePeerDependencies:
       - oxc-resolver
 
-  rolldown-plugin-require-cjs@0.3.1(rolldown@1.0.0-beta.52):
+  rolldown-plugin-require-cjs@0.3.2(rolldown@1.0.0-beta.52):
     dependencies:
       cjs-module-lexer: 2.1.1
       empathic: 2.0.0
@@ -6769,11 +6769,11 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3):
+  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.7.1
+      prettier: 3.7.2
       ts-macro: 0.3.6
       typescript: 5.9.3
       unplugin: 2.3.11
@@ -6781,11 +6781,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.1)(typescript@5.9.3):
+  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.2)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.7.1
+      prettier: 3.7.2
       try: 1.0.1
       ts-macro: 0.3.6
       typescript: 5.9.3
@@ -7158,7 +7158,7 @@ snapshots:
       espree: 10.4.0
       estree-walker: 3.0.3
       magic-string-ast: 1.0.3
-      prettier: 3.7.1
+      prettier: 3.7.2
     transitivePeerDependencies:
       - eslint
       - supports-color
