@@ -12,7 +12,7 @@ catalogs:
     monoman: ^0.8.0
     node-modules-inspector: ^1.2.0
     stale-dep: ^0.8.4
-    tsdown: ^0.16.8
+    tsdown: ^0.17.0-beta.5
     tsgo-dev: ^2025.12.2
     unloader: ^0.8.0
     vite-hyper-config: ^0.8.0
@@ -37,7 +37,7 @@ catalogs:
     untsx: ^0.1.2
 
   lint:
-    '@sxzz/eslint-config': ^7.4.0
+    '@sxzz/eslint-config': ^7.4.1
     '@sxzz/prettier-config': ^2.2.6
     eslint: ^9.39.1
     eslint-plugin-sxzz: ^0.4.1
