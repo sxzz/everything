@@ -23,6 +23,7 @@
     "ast-walker-scope": "catalog:libs",
     "dts-resolver": "catalog:libs",
     "eslint-plugin-sxzz": "catalog:lint",
+    "import-without-cache": "catalog:libs",
     "magic-string-ast": "catalog:libs",
     "monoman": "catalog:cli",
     "obug": "catalog:libs",
