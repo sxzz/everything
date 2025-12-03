@@ -42,8 +42,8 @@ catalogs:
       version: 1.14.0
   libs:
     '@quansync/fs':
-      specifier: ^0.1.5
-      version: 0.1.5
+      specifier: ^0.1.6
+      version: 0.1.6
     '@sxzz/test-utils':
       specifier: ^0.5.13
       version: 0.5.13
@@ -63,8 +63,8 @@ catalogs:
       specifier: ^2.1.3
       version: 2.1.3
     import-without-cache:
-      specifier: ^0.2.0
-      version: 0.2.0
+      specifier: ^0.2.1
+      version: 0.2.1
     magic-string-ast:
       specifier: ^1.0.3
       version: 1.0.3
@@ -75,8 +75,8 @@ catalogs:
       specifier: ^0.5.4
       version: 0.5.4
     quansync:
-      specifier: ^0.2.11
-      version: 0.2.11
+      specifier: ^0.3.0
+      version: 0.3.0
     rolldown-plugin-dts:
       specifier: ^0.18.1
       version: 0.18.1
@@ -109,8 +109,8 @@ catalogs:
       specifier: ^0.4.1
       version: 0.4.1
     prettier:
-      specifier: ^3.7.3
-      version: 3.7.3
+      specifier: ^3.7.4
+      version: 3.7.4
   unplugin:
     unplugin:
       specifier: ^2.3.11
@@ -183,13 +183,13 @@ importers:
     dependencies:
       '@quansync/fs':
         specifier: catalog:libs
-        version: 0.1.5
+        version: 0.1.6
       '@sxzz/create':
         specifier: catalog:cli
         version: 0.15.5
       '@sxzz/eslint-config':
         specifier: catalog:lint
-        version: 7.4.1(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3)
+        version: 7.4.1(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       '@sxzz/prettier-config':
         specifier: catalog:lint
         version: 2.2.6
@@ -219,7 +219,7 @@ importers:
         version: 0.4.1(eslint@9.39.1(jiti@2.6.1))
       import-without-cache:
         specifier: catalog:libs
-        version: 0.2.0
+        version: 0.2.1
       magic-string-ast:
         specifier: catalog:libs
         version: 1.0.3
@@ -234,7 +234,7 @@ importers:
         version: 0.5.4
       quansync:
         specifier: catalog:libs
-        version: 0.2.11
+        version: 0.3.0
       rolldown-plugin-dts:
         specifier: catalog:libs
         version: 0.18.1(oxc-resolver@11.14.2)(rolldown@1.0.0-beta.52)(typescript@5.9.3)
@@ -246,10 +246,10 @@ importers:
         version: 0.8.4
       tc39-throw:
         specifier: catalog:libs
-        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3)
+        version: 0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       tc39-try:
         specifier: catalog:libs
-        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3)
+        version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
         version: 0.17.0-beta.5(oxc-resolver@11.14.2)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
@@ -288,7 +288,7 @@ importers:
         version: 0.5.5(unloader@0.8.0)
       unplugin-quansync:
         specifier: catalog:unplugin
-        version: 0.4.5(quansync@0.2.11)
+        version: 0.4.5(quansync@0.3.0)
       unplugin-raw:
         specifier: catalog:unplugin
         version: 0.6.3(esbuild@0.25.12)
@@ -346,7 +346,7 @@ importers:
         version: 1.2.0
       prettier:
         specifier: catalog:lint
-        version: 3.7.3
+        version: 3.7.4
 
 packages:
 
@@ -1194,8 +1194,8 @@ packages:
     resolution: {integrity: sha512-S+9ANAvUmjutrshV4jZjaiG8XQyuJIZ8a4utWmN/vW1sgQ9IfBnPndwkmQYw53QmouOIytT874u65HEmu6H5jw==}
     engines: {node: '>=18'}
 
-  '@quansync/fs@0.1.5':
-    resolution: {integrity: sha512-lNS9hL2aS2NZgNW7BBj+6EBl4rOf8l+tQ0eRY6JWCI8jI2kc53gSoqbjojU0OnAWhzoXiOjFyGsHcDGePB3lhA==}
+  '@quansync/fs@0.1.6':
+    resolution: {integrity: sha512-zoA8SqQO11qH9H8FCBR7NIbowYARIPmBz3nKjgAaOUDi/xPAAu1uAgebtV7KXHTc6CDZJVRZ1u4wIGvY5CWYaw==}
 
   '@rolldown/binding-android-arm64@1.0.0-beta.52':
     resolution: {integrity: sha512-MBGIgysimZPqTDcLXI+i9VveijkP5C3EAncEogXhqfax6YXj1Tr2LY3DVuEOMIjWfMPMhtQSPup4fSTAmgjqIw==}
@@ -2567,8 +2567,8 @@ packages:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
 
-  import-without-cache@0.2.0:
-    resolution: {integrity: sha512-I662PbFnhZjlpMQKeOgmZiuCOfMXfdX0Q4vMjDQ9cxIiOKNUzWJobE1FA+5ulKTssXlY6GY8l7hJ6Sy+/I5AEA==}
+  import-without-cache@0.2.1:
+    resolution: {integrity: sha512-jGgFAxyuS1M51bQKNoWlqaN1UXyMAzX4+yYwzU2adEs5rt90j4sqLT17vWm+nyiQCjHxCnaDxx6CmfYaqy44WA==}
     engines: {node: '>=20.19.0'}
 
   imurmurhash@0.1.4:
@@ -3106,8 +3106,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.7.3:
-    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
+  prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3122,6 +3122,9 @@ packages:
 
   quansync@0.2.11:
     resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
+
+  quansync@0.3.0:
+    resolution: {integrity: sha512-dr5GyvHkdDbrAeXyl0MGi/jWKM6+/lZbNFVe+Ff7ivJi4RVry7O091VfXT/wuAVcF3FwNr86nwZVdxx8nELb2w==}
 
   radix3@1.1.2:
     resolution: {integrity: sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==}
@@ -4437,9 +4440,9 @@ snapshots:
 
   '@publint/pack@0.1.2': {}
 
-  '@quansync/fs@0.1.5':
+  '@quansync/fs@0.1.6':
     dependencies:
-      quansync: 0.2.11
+      quansync: 0.3.0
 
   '@rolldown/binding-android-arm64@1.0.0-beta.52':
     optional: true
@@ -4571,7 +4574,7 @@ snapshots:
       unconfig: 7.4.1
       yaml: 2.8.2
 
-  '@sxzz/eslint-config@7.4.1(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3)':
+  '@sxzz/eslint-config@7.4.1(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.1(jiti@2.6.1))
       '@eslint/js': 9.39.1
@@ -4590,7 +4593,7 @@ snapshots:
       eslint-plugin-n: 17.23.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-perfectionist: 4.15.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-pnpm: 1.3.0(eslint@9.39.1(jiti@2.6.1))
-      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)
+      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)
       eslint-plugin-regexp: 2.10.0(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-sxzz: 0.4.1(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.1(jiti@2.6.1))
@@ -5608,10 +5611,10 @@ snapshots:
       tinyglobby: 0.2.15
       yaml-eslint-parser: 1.3.1
 
-  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.1(jiti@2.6.1)))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
-      prettier: 3.7.3
+      prettier: 3.7.4
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -5883,7 +5886,7 @@ snapshots:
       parent-module: 1.0.1
       resolve-from: 4.0.0
 
-  import-without-cache@0.2.0: {}
+  import-without-cache@0.2.1: {}
 
   imurmurhash@0.1.4: {}
 
@@ -6683,7 +6686,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.7.3: {}
+  prettier@3.7.4: {}
 
   publint@0.3.15:
     dependencies:
@@ -6695,6 +6698,8 @@ snapshots:
   punycode@2.3.1: {}
 
   quansync@0.2.11: {}
+
+  quansync@0.3.0: {}
 
   radix3@1.1.2: {}
 
@@ -6868,11 +6873,11 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3):
+  tc39-throw@0.2.1(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.7.3
+      prettier: 3.7.4
       ts-macro: 0.3.6
       typescript: 5.9.3
       unplugin: 2.3.11
@@ -6880,11 +6885,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3):
+  tc39-try@0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3):
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
       magic-string-ast: 1.0.3
-      prettier: 3.7.3
+      prettier: 3.7.4
       try: 1.0.1
       ts-macro: 0.3.6
       typescript: 5.9.3
@@ -6934,7 +6939,7 @@ snapshots:
       cac: 6.7.14
       empathic: 2.0.0
       hookable: 5.5.3
-      import-without-cache: 0.2.0
+      import-without-cache: 0.2.1
       obug: 2.1.1
       rolldown: 1.0.0-beta.52
       rolldown-plugin-dts: 0.18.1(oxc-resolver@11.14.2)(rolldown@1.0.0-beta.52)(typescript@5.9.3)
@@ -6982,12 +6987,12 @@ snapshots:
 
   unconfig-core@7.4.1:
     dependencies:
-      '@quansync/fs': 0.1.5
+      '@quansync/fs': 0.1.6
       quansync: 0.2.11
 
   unconfig@7.4.1:
     dependencies:
-      '@quansync/fs': 0.1.5
+      '@quansync/fs': 0.1.6
       defu: 6.1.4
       jiti: 2.6.1
       quansync: 0.2.11
@@ -7106,11 +7111,11 @@ snapshots:
     optionalDependencies:
       unloader: 0.8.0
 
-  unplugin-quansync@0.4.5(quansync@0.2.11):
+  unplugin-quansync@0.4.5(quansync@0.3.0):
     dependencies:
       ast-kit: 2.2.0
       magic-string-ast: 1.0.3
-      quansync: 0.2.11
+      quansync: 0.3.0
       unplugin: 2.3.11
 
   unplugin-raw@0.6.3(esbuild@0.25.12):
@@ -7245,7 +7250,7 @@ snapshots:
       espree: 10.4.0
       estree-walker: 3.0.3
       magic-string-ast: 1.0.3
-      prettier: 3.7.3
+      prettier: 3.7.4
     transitivePeerDependencies:
       - eslint
       - supports-color
