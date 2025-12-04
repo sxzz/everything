@@ -52,7 +52,7 @@ catalogs:
       version: 2.0.1
     '@vue/repl':
       specifier: ^4.7.0
-      version: 4.7.0
+      version: 4.7.1
     ast-kit:
       specifier: ^2.2.0
       version: 2.2.0
@@ -204,7 +204,7 @@ importers:
         version: 2.0.1(@babel/core@7.28.5)
       '@vue/repl':
         specifier: catalog:libs
-        version: 4.7.0
+        version: 4.7.1
       ast-kit:
         specifier: catalog:libs
         version: 2.2.0
@@ -1875,8 +1875,8 @@ packages:
   '@vue/reactivity@3.5.25':
     resolution: {integrity: sha512-5xfAypCQepv4Jog1U4zn8cZIcbKKFka3AgWHEFQeK65OW+Ys4XybP6z2kKgws4YB43KGpqp5D/K3go2UPPunLA==}
 
-  '@vue/repl@4.7.0':
-    resolution: {integrity: sha512-1veaAsfO6xYLblo8jr2hQDlegdPjaCZkchZuG7PRhC9zX0bN2aLenu2rT7AEPAXDXK0OXCsB2+WIUevOTyMvLg==}
+  '@vue/repl@4.7.1':
+    resolution: {integrity: sha512-8w5Z3cyqBJ5ufzXO2eut2stzb7aX/ZnSva2d3ee8eEINEB7FG2JYwc14eAHHHGGuoXOGN5v4cyb5ti/YZGcwlg==}
 
   '@vue/runtime-core@3.5.25':
     resolution: {integrity: sha512-Z751v203YWwYzy460bzsYQISDfPjHTl+6Zzwo/a3CsAf+0ccEjQ8c+0CdX1WsumRTHeywvyUFtW6KvNukT/smA==}
@@ -5222,7 +5222,7 @@ snapshots:
     dependencies:
       '@vue/shared': 3.5.25
 
-  '@vue/repl@4.7.0': {}
+  '@vue/repl@4.7.1': {}
 
   '@vue/runtime-core@3.5.25':
     dependencies:
