@@ -32,7 +32,7 @@ catalogs:
     rolldown-plugin-require-cjs: ^0.3.3
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2025.12.4
+    tsgo-wasm: ^2025.12.5
     untsx: ^0.1.2
   lint:
     '@sxzz/eslint-config': ^7.4.1
