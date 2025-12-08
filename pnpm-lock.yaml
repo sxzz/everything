@@ -19,7 +19,7 @@ catalogs:
       specifier: ^0.8.4
       version: 0.8.4
     tsdown:
-      specifier: ^0.17.0
+      specifier: ^0.17.1
       version: 0.17.1
     unloader:
       specifier: ^0.8.2
@@ -90,11 +90,11 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsgo-wasm:
-      specifier: ^2025.12.7
+      specifier: ^2025.12.8
       version: 2025.12.8
     untsx:
-      specifier: ^0.1.2
-      version: 0.1.2
+      specifier: ^0.1.3
+      version: 0.1.3
   lint:
     '@sxzz/eslint-config':
       specifier: ^7.4.1
@@ -312,7 +312,7 @@ importers:
         version: 0.9.2(typescript@5.9.3)
       untsx:
         specifier: catalog:libs
-        version: 0.1.2(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
+        version: 0.1.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vite-hyper-config:
         specifier: catalog:cli
         version: 0.8.0(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(vite@8.0.0-beta.0(@types/node@24.10.1)(esbuild@0.25.12)(jiti@2.6.1)(yaml@2.8.2))(yaml@2.8.2)
@@ -2393,6 +2393,10 @@ packages:
     resolution: {integrity: sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  eslint-visitor-keys@5.0.0:
+    resolution: {integrity: sha512-A0XeIi7CXU7nPlfHS9loMYEKxUaONu/hTEzHTGba9Huu94Cq1hPivf+DE5erJozZOky0LfvXAyrV/tcswpLI0Q==}
+    engines: {node: ^20.19.0 || ^22.13.0 || >=24}
+
   eslint@9.39.1:
     resolution: {integrity: sha512-BhHmn2yNOFA9H9JmmIVKJmd288g9hrVRDkdoIgRCRuSySRUHH7r/DI6aAXW9T1WwUuY3DFgrcaqB+deURBLR5g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -2406,6 +2410,10 @@ packages:
   espree@10.4.0:
     resolution: {integrity: sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  espree@11.0.0:
+    resolution: {integrity: sha512-+gMeWRrIh/NsG+3NaLeWHuyeyk70p2tbvZIWBYcqQ4/7Xvars6GYTZNhF1sIeLcc6Wb11He5ffz3hsHyXFrw5A==}
+    engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   espree@9.6.1:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
@@ -3634,8 +3642,8 @@ packages:
       uploadthing:
         optional: true
 
-  untsx@0.1.2:
-    resolution: {integrity: sha512-muzEsylitSPeeuWkAMcn1oGQyKkFqhWV6sJCtjZPVXAcDtUckcejIRFo/45WnjQHeL3bGV4VPqPcOy9EFAfHzg==}
+  untsx@0.1.3:
+    resolution: {integrity: sha512-Sep72z7zx9N+iyE1ZmgF5PW2IJ0FVA1yI6g5C2TyklrRoaIgK5opPwnaz2/lvj93xKa3r5hmXhbBwyIJQMLoHw==}
     engines: {node: '>=20.19.0'}
 
   update-browserslist-db@1.2.2:
@@ -5754,6 +5762,8 @@ snapshots:
 
   eslint-visitor-keys@4.2.1: {}
 
+  eslint-visitor-keys@5.0.0: {}
+
   eslint@9.39.1(jiti@2.6.1):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.0(eslint@9.39.1(jiti@2.6.1))
@@ -5800,6 +5810,12 @@ snapshots:
       acorn: 8.15.0
       acorn-jsx: 5.3.2(acorn@8.15.0)
       eslint-visitor-keys: 4.2.1
+
+  espree@11.0.0:
+    dependencies:
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
+      eslint-visitor-keys: 5.0.0
 
   espree@9.6.1:
     dependencies:
@@ -6934,7 +6950,7 @@ snapshots:
       ts-macro: 0.3.6
       typescript: 5.9.3
       unplugin: 2.3.11
-      untsx: 0.1.2(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
+      untsx: 0.1.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -6947,7 +6963,7 @@ snapshots:
       ts-macro: 0.3.6
       typescript: 5.9.3
       unplugin: 2.3.11
-      untsx: 0.1.2(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
+      untsx: 0.1.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -7292,7 +7308,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.1
 
-  untsx@0.1.2(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3):
+  untsx@0.1.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
       '@babel/parser': 7.28.5
       '@typescript-eslint/parser': 8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
@@ -7300,7 +7316,7 @@ snapshots:
       acorn: 8.15.0
       acorn-jsx: 5.3.2(acorn@8.15.0)
       acorn-typescript: 1.4.13(acorn@8.15.0)
-      espree: 10.4.0
+      espree: 11.0.0
       estree-walker: 3.0.3
       magic-string-ast: 1.0.3
       prettier: 3.7.4
