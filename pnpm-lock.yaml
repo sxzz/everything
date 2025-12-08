@@ -20,7 +20,7 @@ catalogs:
       version: 0.8.4
     tsdown:
       specifier: ^0.17.0
-      version: 0.17.0
+      version: 0.17.1
     unloader:
       specifier: ^0.8.2
       version: 0.8.2
@@ -91,7 +91,7 @@ catalogs:
       version: 0.4.3
     tsgo-wasm:
       specifier: ^2025.12.7
-      version: 2025.12.7
+      version: 2025.12.8
     untsx:
       specifier: ^0.1.2
       version: 0.1.2
@@ -252,10 +252,10 @@ importers:
         version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.17.0(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
+        version: 0.17.1(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.12.7
+        version: 2025.12.8
       unloader:
         specifier: catalog:cli
         version: 0.8.2
@@ -3363,13 +3363,13 @@ packages:
   ts-macro@0.3.6:
     resolution: {integrity: sha512-0buxBZweJjozSPA+77X7ntznNouLOtGDJA8nQJgoAQBduKAltF3YLABLbDLp5N7KsDA0ssldX+L/WwI1SloJmg==}
 
-  tsdown@0.17.0:
-    resolution: {integrity: sha512-NPZRrlC51X9Bb55ZTDwrWges8Dm1niCvNA5AYw7aix6pfnDnB4WR0neG5RPq75xIodg3hqlQUzzyrX7n4dmnJg==}
+  tsdown@0.17.1:
+    resolution: {integrity: sha512-SqRyd/wliY0CgOhxbE3gJVUQioHVWMibeiswOruBa9XxJuFTy7xEuC9vqCCkuJ6Owqt2/F7S3vG9tXCQWQN+Fg==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@vitejs/devtools': ^0.0.0-alpha.18
+      '@vitejs/devtools': ^0.0.0-alpha.19
       publint: ^0.3.0
       typescript: ^5.0.0
       unplugin-lightningcss: ^0.4.0
@@ -3388,8 +3388,8 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-wasm@2025.12.7:
-    resolution: {integrity: sha512-IMd5uVi2MOSM0Iod96Z4zD4CXWrkkq/VNVMSl2MkraoeSO9jWw9na38uE1BiiL/eXNxmJIkB3Lb2z/K7b056Rg==}
+  tsgo-wasm@2025.12.8:
+    resolution: {integrity: sha512-KPMXlwNvay4cLDA5Cu6IDnqsfaojkFrmqgdEuT+jFdSrtWmo+InBT2rdIMa70RqAKGrGxDXiA1lOT3/1CDjpNA==}
     hasBin: true
 
   tslib@2.8.1:
@@ -6986,7 +6986,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.17.0(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6):
+  tsdown@0.17.1(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -7014,7 +7014,7 @@ snapshots:
       - synckit
       - vue-tsc
 
-  tsgo-wasm@2025.12.7: {}
+  tsgo-wasm@2025.12.8: {}
 
   tslib@2.8.1:
     optional: true
