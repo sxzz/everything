@@ -135,7 +135,7 @@ catalogs:
       version: 0.4.3
     unplugin-macros:
       specifier: ^0.18.3
-      version: 0.18.3
+      version: 0.18.4
     unplugin-oxc:
       specifier: ^0.5.5
       version: 0.5.5
@@ -282,7 +282,7 @@ importers:
         version: 0.4.3
       unplugin-macros:
         specifier: catalog:unplugin
-        version: 0.18.3(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)
+        version: 0.18.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)
       unplugin-oxc:
         specifier: catalog:unplugin
         version: 0.5.5(unloader@0.8.2)
@@ -3508,9 +3508,9 @@ packages:
     resolution: {integrity: sha512-duRm9yQq/EbjsHHhNxgQJhelqSvUFNUN9UM/BomglCVQpmE3qD2d17UeAps1Pvoa6LHH23VRAYhEA4YKsf+sCQ==}
     engines: {node: '>=20.18.0'}
 
-  unplugin-macros@0.18.3:
-    resolution: {integrity: sha512-wTIAXuT/+yLxVtgIxpeNUtjb4pzebL5W7EkJwXMYlY4OqJIuFOEAsitMyX3exitT/4DtXjycs3sg+N5SIXMECw==}
-    engines: {node: '>=20.18.0'}
+  unplugin-macros@0.18.4:
+    resolution: {integrity: sha512-GcWy/af/B9kkl7mwQxwEHw7q48Bpj4XQPr7wB+nbpv011n5zUmG27f5YzgcFCxu2bSev8E3fAmTROIhq3C5aZA==}
+    engines: {node: '>=20.19.0'}
 
   unplugin-oxc@0.5.5:
     resolution: {integrity: sha512-LAFWD4Vg7NEqhdl4h9smGtphuEqA8Ytv9p4q+vWt7Glcu3DFEdcozk5Nuanx2FqQMY9rh+S45T9sCsjugrmBjw==}
@@ -7156,7 +7156,7 @@ snapshots:
       magic-string: 0.30.21
       unplugin: 2.3.11
 
-  unplugin-macros@0.18.3(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2):
+  unplugin-macros@0.18.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2):
     dependencies:
       ast-kit: 2.2.0
       magic-string-ast: 1.0.3
