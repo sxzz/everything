@@ -252,7 +252,7 @@ importers:
         version: 0.4.3(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.17.2(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
+        version: 0.17.2(oxc-resolver@11.15.0)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
       tsgo-wasm:
         specifier: catalog:libs
         version: 2025.12.10
@@ -3128,8 +3128,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  publint@0.3.15:
-    resolution: {integrity: sha512-xPbRAPW+vqdiaKy5sVVY0uFAu3LaviaPO3pZ9FaRx59l9+U/RKR1OEbLhkug87cwiVKxPXyB4txsv5cad67u+A==}
+  publint@0.3.16:
+    resolution: {integrity: sha512-MFqyfRLAExPVZdTQFwkAQELzA8idyXzROVOytg6nEJ/GEypXBUmMGrVaID8cTuzRS1U5L8yTOdOJtMXgFUJAeA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6498,7 +6498,7 @@ snapshots:
       open: 10.2.0
       p-limit: 6.2.0
       pathe: 2.0.3
-      publint: 0.3.15
+      publint: 0.3.16
       structured-clone-es: 1.0.0
       tinyglobby: 0.2.15
       unconfig: 7.4.2
@@ -6534,7 +6534,7 @@ snapshots:
       package-manager-detector: 1.6.0
       pathe: 2.0.3
       pkg-types: 2.3.0
-      publint: 0.3.15
+      publint: 0.3.16
       semver: 7.7.3
       tinyexec: 1.0.2
 
@@ -6762,7 +6762,7 @@ snapshots:
 
   prettier@3.7.4: {}
 
-  publint@0.3.15:
+  publint@0.3.16:
     dependencies:
       '@publint/pack': 0.1.2
       package-manager-detector: 1.6.0
@@ -7006,7 +7006,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown@0.17.2(oxc-resolver@11.15.0)(publint@0.3.15)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6):
+  tsdown@0.17.2(oxc-resolver@11.15.0)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -7023,7 +7023,7 @@ snapshots:
       unconfig-core: 7.4.2
       unrun: 0.2.19(synckit@0.11.11)
     optionalDependencies:
-      publint: 0.3.15
+      publint: 0.3.16
       typescript: 5.9.3
       unplugin-lightningcss: 0.4.3
       unplugin-unused: 0.5.6
