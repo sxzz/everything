@@ -32,19 +32,19 @@ catalogs:
     rolldown-plugin-require-cjs: ^0.3.3
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2025.12.12
+    tsgo-wasm: ^2025.12.13
     untsx: ^0.1.3
   lint:
     '@sxzz/eslint-config': ^7.4.1
     '@sxzz/prettier-config': ^2.2.6
-    eslint: ^9.39.1
+    eslint: ^9.39.2
     eslint-plugin-sxzz: ^0.4.1
     prettier: ^3.7.4
   unplugin:
     unplugin: ^2.3.11
     unplugin-ast: ^0.15.4
     unplugin-combine: ^2.1.3
-    unplugin-inline-enum: ^0.6.2
+    unplugin-inline-enum: ^0.6.3
     unplugin-isolated-decl: ^0.15.6
     unplugin-jsx-string: ^0.10.0
     unplugin-lightningcss: ^0.4.3
