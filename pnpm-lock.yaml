@@ -19,7 +19,7 @@ catalogs:
       specifier: ^0.8.4
       version: 0.8.4
     tsdown:
-      specifier: ^0.18.0
+      specifier: ^0.18.1
       version: 0.18.1
     unloader:
       specifier: ^0.8.2
@@ -45,7 +45,7 @@ catalogs:
       specifier: ^1.0.0
       version: 1.0.0
     '@sxzz/test-utils':
-      specifier: ^0.5.14
+      specifier: ^0.5.15
       version: 0.5.15
     '@vue/babel-plugin-jsx':
       specifier: ^2.0.1
@@ -78,8 +78,8 @@ catalogs:
       specifier: ^1.0.0
       version: 1.0.0
     rolldown-plugin-dts:
-      specifier: ^0.18.4
-      version: 0.18.4
+      specifier: ^0.19.1
+      version: 0.19.1
     rolldown-plugin-require-cjs:
       specifier: ^0.3.3
       version: 0.3.3
@@ -93,8 +93,8 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsgo-wasm:
-      specifier: ^2025.12.17
-      version: 2025.12.17
+      specifier: ^2025.12.18
+      version: 2025.12.18
     untsx:
       specifier: ^0.1.3
       version: 0.1.3
@@ -246,7 +246,7 @@ importers:
         version: 1.0.0
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.18.4(oxc-resolver@11.15.0)(rolldown@1.0.0-beta.55)(typescript@5.9.3)
+        version: 0.19.1(oxc-resolver@11.15.0)(rolldown@1.0.0-beta.55)(typescript@5.9.3)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.3.3(rolldown@1.0.0-beta.55)
@@ -267,7 +267,7 @@ importers:
         version: 0.18.1(oxc-resolver@11.15.0)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.3)(unplugin-unused@0.5.6)
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2025.12.17
+        version: 2025.12.18
       unloader:
         specifier: catalog:cli
         version: 0.8.2
@@ -3141,25 +3141,6 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  rolldown-plugin-dts@0.18.4:
-    resolution: {integrity: sha512-7UpdiICFd/BhdjKtDPeakCFRk6pbkTGFe0Z6u01egt4c8aoO+JoPGF1Smc+JRuCH2s5j5hBdteBi0e10G0xQdQ==}
-    engines: {node: '>=20.19.0'}
-    peerDependencies:
-      '@ts-macro/tsc': ^0.3.6
-      '@typescript/native-preview': '>=7.0.0-dev.20250601.1'
-      rolldown: ^1.0.0-beta.51
-      typescript: ^5.0.0
-      vue-tsc: ~3.1.0
-    peerDependenciesMeta:
-      '@ts-macro/tsc':
-        optional: true
-      '@typescript/native-preview':
-        optional: true
-      typescript:
-        optional: true
-      vue-tsc:
-        optional: true
-
   rolldown-plugin-dts@0.19.1:
     resolution: {integrity: sha512-6z501zDTGq6ZrIEdk57qNUwq7kBRGzv3I3SAN2HMJ2KFYjHLnAuPYOmvfiwdxbRZMJ0iMdkV9rYdC3GjurT2cg==}
     engines: {node: '>=20.19.0'}
@@ -3387,8 +3368,8 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-wasm@2025.12.17:
-    resolution: {integrity: sha512-Lx/ZWXh2uFD/7Sc/5EUNVejZNAMdSvAXkGp4jmmUM72TWSIa6qdaAed1UAq7MYDTQlC9E4N+MESl5N6QCqO8AQ==}
+  tsgo-wasm@2025.12.18:
+    resolution: {integrity: sha512-QBVhIncO0cNRXidNHrhpCcyJfBWXJha8ZrAQhsGGUHeu6Huq5e+q02ZzALA1u40P8Tddz8FqGCmvQ7iBbGQRuw==}
     hasBin: true
 
   tslib@2.8.1:
@@ -6729,23 +6710,6 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  rolldown-plugin-dts@0.18.4(oxc-resolver@11.15.0)(rolldown@1.0.0-beta.55)(typescript@5.9.3):
-    dependencies:
-      '@babel/generator': 7.28.5
-      '@babel/parser': 7.28.5
-      '@babel/types': 7.28.5
-      ast-kit: 2.2.0
-      birpc: 4.0.0
-      dts-resolver: 2.1.3(oxc-resolver@11.15.0)
-      get-tsconfig: 4.13.0
-      magic-string: 0.30.21
-      obug: 2.1.1
-      rolldown: 1.0.0-beta.55
-    optionalDependencies:
-      typescript: 5.9.3
-    transitivePeerDependencies:
-      - oxc-resolver
-
   rolldown-plugin-dts@0.19.1(oxc-resolver@11.15.0)(rolldown@1.0.0-beta.55)(typescript@5.9.3):
     dependencies:
       '@babel/generator': 7.28.5
@@ -7002,7 +6966,7 @@ snapshots:
       - synckit
       - vue-tsc
 
-  tsgo-wasm@2025.12.17: {}
+  tsgo-wasm@2025.12.18: {}
 
   tslib@2.8.1:
     optional: true
