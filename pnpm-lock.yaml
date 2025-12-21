@@ -113,7 +113,7 @@ catalogs:
       version: 0.2.1
     eslint-plugin-sxzz:
       specifier: ^0.4.1
-      version: 0.4.1
+      version: 0.4.2
     prettier:
       specifier: ^3.7.4
       version: 3.7.4
@@ -144,7 +144,7 @@ catalogs:
       version: 0.18.6
     unplugin-oxc:
       specifier: ^0.5.6
-      version: 0.5.6
+      version: 0.5.7
     unplugin-quansync:
       specifier: ^0.5.1
       version: 0.5.1
@@ -225,7 +225,7 @@ importers:
         version: 0.2.1(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-sxzz:
         specifier: catalog:lint
-        version: 0.4.1(eslint@9.39.2(jiti@2.6.1))
+        version: 0.4.2(eslint@9.39.2(jiti@2.6.1))
       import-without-cache:
         specifier: catalog:libs
         version: 0.2.5
@@ -297,7 +297,7 @@ importers:
         version: 0.18.6(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.2)
       unplugin-oxc:
         specifier: catalog:unplugin
-        version: 0.5.6(unloader@0.8.3)
+        version: 0.5.7(unloader@0.8.3)
       unplugin-quansync:
         specifier: catalog:unplugin
         version: 0.5.1(quansync@1.0.0)
@@ -2218,9 +2218,9 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-sxzz@0.4.1:
-    resolution: {integrity: sha512-lRxA51cy8Wy4TtNYL4B34jNHtKBfeXbubA8TMe5qPWyJSgu9pH4BNh1Iw5ls7eDJchvmhCilp5BTMEINjVWt8g==}
-    engines: {node: '>=20.18.0'}
+  eslint-plugin-sxzz@0.4.2:
+    resolution: {integrity: sha512-YhyJSI9sM5dvGgxYcMefp9b70WK82WtHxtq3fiH3Uirt8a9ehKy8wzcx+Cb8otODA5ZsDpeMH1Y8DaU46KxPlg==}
+    engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: '*'
 
@@ -3384,8 +3384,8 @@ packages:
     resolution: {integrity: sha512-z739HHgxLvk8BD+KgdpxYaCBqHBYsICn1uwOjxya19fVn13Hk9Eqhg8nclknBDP0Rq8BhTY20Xw8sq7UDHv8yg==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-oxc@0.5.6:
-    resolution: {integrity: sha512-TuxZheHWV5peCWhpT6brdXD4wbp0UeDUTXOw1bW57mU2FGfDXYBM75Kj2tRNHN5WrqfUCuHzqdwcgdu/K9xb9g==}
+  unplugin-oxc@0.5.7:
+    resolution: {integrity: sha512-7z86JMd3BtPjFNMCDUbQSoaGpLPdp1GJrqq37mR2kkgFUrpMqEwOp4L7p3/asjdmlsAflzP/ZZ2njm5a0Zx2ww==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       unloader: '*'
@@ -4508,7 +4508,7 @@ snapshots:
       eslint-plugin-pnpm: 1.4.3(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)
       eslint-plugin-regexp: 2.10.0(eslint@9.39.2(jiti@2.6.1))
-      eslint-plugin-sxzz: 0.4.1(eslint@9.39.2(jiti@2.6.1))
+      eslint-plugin-sxzz: 0.4.2(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-unused-imports: 4.3.0(@typescript-eslint/eslint-plugin@8.50.0(@typescript-eslint/parser@8.50.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-vue: 10.6.2(@typescript-eslint/parser@8.50.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(vue-eslint-parser@10.2.0(eslint@9.39.2(jiti@2.6.1)))
@@ -5466,7 +5466,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-sxzz@0.4.1(eslint@9.39.2(jiti@2.6.1)):
+  eslint-plugin-sxzz@0.4.2(eslint@9.39.2(jiti@2.6.1)):
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
 
@@ -6942,7 +6942,7 @@ snapshots:
       - tsx
       - yaml
 
-  unplugin-oxc@0.5.6(unloader@0.8.3):
+  unplugin-oxc@0.5.7(unloader@0.8.3):
     dependencies:
       oxc-minify: 0.104.0
       oxc-resolver: 11.16.0
