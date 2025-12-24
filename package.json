@@ -31,6 +31,7 @@
     "pnpm-multi-versions": "catalog:libs",
     "quansync": "catalog:libs",
     "rolldown-plugin-dts": "catalog:libs",
+    "rolldown-plugin-dts-snapshot": "catalog:libs",
     "rolldown-plugin-require-cjs": "catalog:libs",
     "rolldown-string": "catalog:libs",
     "stale-dep": "catalog:cli",
