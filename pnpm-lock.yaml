@@ -38,8 +38,8 @@ catalogs:
       specifier: ^9.0.2
       version: 9.0.2
     ky:
-      specifier: ^1.14.1
-      version: 1.14.1
+      specifier: ^1.14.2
+      version: 1.14.2
   libs:
     '@quansync/fs':
       specifier: ^1.0.0
@@ -81,7 +81,7 @@ catalogs:
       specifier: ^0.20.0
       version: 0.20.0
     rolldown-plugin-dts-snapshot:
-      specifier: ^0.3.1
+      specifier: ^0.3.2
       version: 0.3.2
     rolldown-plugin-require-cjs:
       specifier: ^0.3.3
@@ -358,7 +358,7 @@ importers:
         version: 9.0.2
       ky:
         specifier: 'catalog:'
-        version: 1.14.1
+        version: 1.14.2
       node-modules-inspector:
         specifier: catalog:cli
         version: 1.2.0
@@ -2573,8 +2573,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  ky@1.14.1:
-    resolution: {integrity: sha512-hYje4L9JCmpEQBtudo+v52X5X8tgWXUYyPcxKSuxQNboqufecl9VMWjGiucAFH060AwPXHZuH+WB2rrqfkmafw==}
+  ky@1.14.2:
+    resolution: {integrity: sha512-q3RBbsO5A5zrPhB6CaCS8ZUv+NWCXv6JJT4Em0i264G9W0fdPB8YRfnnEi7Dm7X7omAkBIPojzYJ2D1oHTHqug==}
     engines: {node: '>=18'}
 
   launch-editor@2.12.0:
@@ -5819,7 +5819,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  ky@1.14.1: {}
+  ky@1.14.2: {}
 
   launch-editor@2.12.0:
     dependencies:
