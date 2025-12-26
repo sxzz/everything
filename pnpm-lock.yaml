@@ -82,7 +82,7 @@ catalogs:
       version: 0.20.0
     rolldown-plugin-dts-snapshot:
       specifier: ^0.3.1
-      version: 0.3.1
+      version: 0.3.2
     rolldown-plugin-require-cjs:
       specifier: ^0.3.3
       version: 0.3.3
@@ -252,7 +252,7 @@ importers:
         version: 0.20.0(oxc-resolver@11.16.1)(rolldown@1.0.0-beta.57)(typescript@5.9.3)
       rolldown-plugin-dts-snapshot:
         specifier: catalog:libs
-        version: 0.3.1(rolldown@1.0.0-beta.57)
+        version: 0.3.2(rolldown@1.0.0-beta.57)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.3.3(rolldown@1.0.0-beta.57)
@@ -3061,8 +3061,8 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  rolldown-plugin-dts-snapshot@0.3.1:
-    resolution: {integrity: sha512-ClSJbd7bpw6tp/gdK6PELLvyE7jxQ7RDK34X3F/HNbKr+z54RBUaGTbhIGdINo52SeEOErTDSPKr/kDjNZRRfA==}
+  rolldown-plugin-dts-snapshot@0.3.2:
+    resolution: {integrity: sha512-i7YB+4SZg2Tj9NsYGGwFdervgWQfBBGGn7PJqKlzWggG/q13YQ8Y57xg4OAPoBrjaj1H7kDzjK+ByBvj7j7ckg==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       rolldown: ^1.0.0-beta.56
@@ -6586,7 +6586,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  rolldown-plugin-dts-snapshot@0.3.1(rolldown@1.0.0-beta.57):
+  rolldown-plugin-dts-snapshot@0.3.2(rolldown@1.0.0-beta.57):
     dependencies:
       '@dprint/formatter': 0.4.1
       '@dprint/typescript': 0.95.13
