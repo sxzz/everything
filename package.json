@@ -33,11 +33,13 @@
     "rolldown-plugin-dts": "catalog:libs",
     "rolldown-plugin-dts-snapshot": "catalog:libs",
     "rolldown-plugin-require-cjs": "catalog:libs",
+    "rolldown-plugin-wasm": "catalog:libs",
     "rolldown-string": "catalog:libs",
     "stale-dep": "catalog:cli",
     "tc39-throw": "catalog:libs",
     "tc39-try": "catalog:libs",
     "tsdown": "catalog:cli",
+    "tsdown-preset-sxzz": "catalog:libs",
     "tsgo-wasm": "catalog:libs",
     "unloader": "catalog:cli",
     "unplugin": "catalog:unplugin",
@@ -70,7 +72,8 @@
     "hosted-git-info": "catalog:",
     "ky": "catalog:",
     "node-modules-inspector": "catalog:cli",
-    "prettier": "catalog:lint"
+    "prettier": "catalog:lint",
+    "typescript": "catalog:"
   },
   "prettier": "@sxzz/prettier-config"
 }
