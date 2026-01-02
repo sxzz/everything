@@ -34,7 +34,7 @@ catalogs:
     rolldown-string: ^0.2.1
     tc39-throw: ^0.2.1
     tc39-try: ^0.4.3
-    tsgo-wasm: ^2026.1.1
+    tsgo-wasm: ^2026.1.2
     untsx: ^0.1.3
   lint:
     '@sxzz/eslint-config': ^7.4.4
