@@ -3540,8 +3540,8 @@ packages:
     peerDependencies:
       typescript: '>=4.0.0'
 
-  ts-macro@0.3.6:
-    resolution: {integrity: sha512-0buxBZweJjozSPA+77X7ntznNouLOtGDJA8nQJgoAQBduKAltF3YLABLbDLp5N7KsDA0ssldX+L/WwI1SloJmg==}
+  ts-macro@0.3.7:
+    resolution: {integrity: sha512-5BinbTKn5WXRslotv5/VWTn3catfK0thWoB4BZI5VNEdxMu6r9AUPFalut4wLEK3nGvxhywA9aAdZnJ+Fnug9A==}
 
   tsdown-preset-sxzz@0.2.0:
     resolution: {integrity: sha512-8A4G9BW+eN9/t94T8GBXpiiXsGiyqJGTWB5Hws2v7pNXOlRppmU5PpVWnwUlxrzXXLblJfV+Kycqh242SYHjpw==}
@@ -5366,7 +5366,7 @@ snapshots:
       '@vue/language-core': 3.0.8(typescript@5.9.3)
       '@vue/shared': 3.5.26
       muggle-string: 0.4.1
-      ts-macro: 0.3.6
+      ts-macro: 0.3.7
     transitivePeerDependencies:
       - typescript
       - vue
@@ -7189,7 +7189,7 @@ snapshots:
       eslint: 9.39.2(jiti@2.6.1)
       magic-string-ast: 1.0.3
       prettier: 3.7.4
-      ts-macro: 0.3.6
+      ts-macro: 0.3.7
       typescript: 5.9.3
       unplugin: 2.3.11
       untsx: 0.1.3(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -7202,7 +7202,7 @@ snapshots:
       magic-string-ast: 1.0.3
       prettier: 3.7.4
       try: 1.0.3
-      ts-macro: 0.3.6
+      ts-macro: 0.3.7
       typescript: 5.9.3
       unplugin: 2.3.11
       untsx: 0.1.3(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -7240,7 +7240,7 @@ snapshots:
       picomatch: 4.0.3
       typescript: 5.9.3
 
-  ts-macro@0.3.6:
+  ts-macro@0.3.7:
     dependencies:
       muggle-string: 0.4.1
 
