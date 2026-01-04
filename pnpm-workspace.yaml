@@ -65,9 +65,9 @@ catalogs:
     unplugin-vue-jsx: ^0.8.1
     unplugin-vue-named-export: ^0.9.3
   vue:
-    '@vue-macros/common': ^3.1.1
+    '@vue-macros/common': ^3.1.2
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.1.1
+    vue-macros: ^3.1.2
     vue-simple-props: ^0.6.3
 
 allowBuilds:
