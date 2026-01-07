@@ -19,8 +19,8 @@ catalogs:
       specifier: ^0.8.4
       version: 0.8.4
     tsdown:
-      specifier: ^0.19.0-beta.3
-      version: 0.19.0-beta.3
+      specifier: ^0.19.0-beta.4
+      version: 0.19.0-beta.4
     unloader:
       specifier: ^0.8.3
       version: 0.8.3
@@ -282,10 +282,10 @@ importers:
         version: 0.4.3(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.19.0-beta.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
+        version: 0.19.0-beta.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.2.0(tsdown@0.19.0-beta.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6))
+        version: 0.2.0(tsdown@0.19.0-beta.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.1.7
@@ -3569,8 +3569,8 @@ packages:
     peerDependencies:
       tsdown: ^0.19.0-0
 
-  tsdown@0.19.0-beta.3:
-    resolution: {integrity: sha512-Ud75SBmTap0kDf9hs31yBBlU0iAV17gtZgTJlW6nG/e4J6wXPXwQtUXt/Fck4XSmHXXgSuYRwGrjF6AxTLwk+Q==}
+  tsdown@0.19.0-beta.4:
+    resolution: {integrity: sha512-wuKxYF5FisIIVog0hauPkS+Qj3r8fyPbLQih6dA9m6U3PogXZ5xxhDiL0+TkTB2fwSoD7wOv16d3zcNh97bJLw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -7278,13 +7278,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.2.0(tsdown@0.19.0-beta.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)):
+  tsdown-preset-sxzz@0.2.0(tsdown@0.19.0-beta.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.16
-      tsdown: 0.19.0-beta.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
+      tsdown: 0.19.0-beta.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
 
-  tsdown@0.19.0-beta.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6):
+  tsdown@0.19.0-beta.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.2)(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
