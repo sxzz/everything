@@ -494,10 +494,6 @@ packages:
   '@emnapi/wasi-threads@1.1.0':
     resolution: {integrity: sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ==}
 
-  '@es-joy/jsdoccomment@0.76.0':
-    resolution: {integrity: sha512-g+RihtzFgGTx2WYCuTHbdOXJeAlGnROws0TeALx9ow/ZmOROOZkVg5wp/B44n0WJgI4SQFP1eWM2iRPlU2Y14w==}
-    engines: {node: '>=20.11.0'}
-
   '@es-joy/jsdoccomment@0.78.0':
     resolution: {integrity: sha512-rQkU5u8hNAq2NVRzHnIUUvR6arbO0b6AOlvpTNS48CkiKSn/xtNfOzBK23JE4SiW89DgvU7GtxLVgV4Vn2HBAw==}
     engines: {node: '>=20.11.0'}
@@ -2067,8 +2063,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.9.12:
-    resolution: {integrity: sha512-Mij6Lij93pTAIsSYy5cyBQ975Qh9uLEc5rwGTpomiZeXZL9yIS6uORJakb3ScHgfs0serMMfIbXzokPMuEiRyw==}
+  baseline-browser-mapping@2.9.13:
+    resolution: {integrity: sha512-WhtvB2NG2wjr04+h77sg3klAIwrgOqnjS49GGudnUPGFFgg7G17y7Qecqp+2Dr5kUDxNRBca0SK7cG8JwzkWDQ==}
     hasBin: true
 
   birpc@2.9.0:
@@ -2372,8 +2368,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0
 
-  eslint-plugin-jsdoc@61.5.0:
-    resolution: {integrity: sha512-PR81eOGq4S7diVnV9xzFSBE4CDENRQGP0Lckkek8AdHtbj+6Bm0cItwlFnxsLFriJHspiE3mpu8U20eODyToIg==}
+  eslint-plugin-jsdoc@61.7.1:
+    resolution: {integrity: sha512-36DpldF95MlTX//n3/naULFVt8d1cV4jmSkx7ZKrE9ikkKHAgMLesuWp1SmwpVwAs5ndIM6abKd6PeOYZUgdWg==}
     engines: {node: '>=20.11.0'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -2732,10 +2728,6 @@ packages:
   jsdoc-type-pratt-parser@4.8.0:
     resolution: {integrity: sha512-iZ8Bdb84lWRuGHamRXFyML07r21pcwBrLkHEuHgEY5UbCouBwv7ECknDRKzsQIXMiqpPymqtIf8TC/shYKB5rw==}
     engines: {node: '>=12.0.0'}
-
-  jsdoc-type-pratt-parser@6.10.0:
-    resolution: {integrity: sha512-+LexoTRyYui5iOhJGn13N9ZazL23nAHGkXsa1p/C8yeq79WRfLBag6ZZ0FQG2aRoc9yfo59JT9EYCQonOkHKkQ==}
-    engines: {node: '>=20.0.0'}
 
   jsdoc-type-pratt-parser@7.0.0:
     resolution: {integrity: sha512-c7YbokssPOSHmqTbSAmTtnVgAVa/7lumWNYqomgd5KOMyPrRve2anx6lonfOsXEQacqF9FKVUj7bLg4vRSvdYA==}
@@ -4138,14 +4130,6 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@es-joy/jsdoccomment@0.76.0':
-    dependencies:
-      '@types/estree': 1.0.8
-      '@typescript-eslint/types': 8.52.0
-      comment-parser: 1.4.1
-      esquery: 1.7.0
-      jsdoc-type-pratt-parser: 6.10.0
-
   '@es-joy/jsdoccomment@0.78.0':
     dependencies:
       '@types/estree': 1.0.8
@@ -4813,7 +4797,7 @@ snapshots:
       eslint-plugin-command: 3.4.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-de-morgan: 2.0.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-importer: 0.2.1(eslint@9.39.2(jiti@2.6.1))
-      eslint-plugin-jsdoc: 61.5.0(eslint@9.39.2(jiti@2.6.1))
+      eslint-plugin-jsdoc: 61.7.1(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-jsonc: 2.21.0(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-n: 17.23.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-perfectionist: 5.3.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -5429,7 +5413,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.9.12: {}
+  baseline-browser-mapping@2.9.13: {}
 
   birpc@2.9.0: {}
 
@@ -5448,7 +5432,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.12
+      baseline-browser-mapping: 2.9.13
       caniuse-lite: 1.0.30001763
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
@@ -5689,16 +5673,16 @@ snapshots:
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
 
-  eslint-plugin-jsdoc@61.5.0(eslint@9.39.2(jiti@2.6.1)):
+  eslint-plugin-jsdoc@61.7.1(eslint@9.39.2(jiti@2.6.1)):
     dependencies:
-      '@es-joy/jsdoccomment': 0.76.0
+      '@es-joy/jsdoccomment': 0.78.0
       '@es-joy/resolve.exports': 1.2.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
       debug: 4.4.3
       escape-string-regexp: 4.0.0
       eslint: 9.39.2(jiti@2.6.1)
-      espree: 10.4.0
+      espree: 11.0.0
       esquery: 1.7.0
       html-entities: 2.6.0
       object-deep-merge: 2.0.0
@@ -6087,8 +6071,6 @@ snapshots:
       argparse: 2.0.1
 
   jsdoc-type-pratt-parser@4.8.0: {}
-
-  jsdoc-type-pratt-parser@6.10.0: {}
 
   jsdoc-type-pratt-parser@7.0.0: {}
 
