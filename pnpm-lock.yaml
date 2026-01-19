@@ -105,14 +105,14 @@ catalogs:
       specifier: ^0.3.0
       version: 0.3.0
     tsgo-wasm:
-      specifier: ^2026.1.18
+      specifier: ^2026.1.19
       version: 2026.1.19
     untsx:
       specifier: ^0.1.3
       version: 0.1.3
   lint:
     '@sxzz/eslint-config':
-      specifier: ^7.4.5
+      specifier: ^7.5.0
       version: 7.5.0
     '@sxzz/prettier-config':
       specifier: ^2.2.6
