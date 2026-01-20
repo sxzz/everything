@@ -82,7 +82,7 @@ catalogs:
       version: 1.0.0
     rolldown-plugin-dts:
       specifier: ^0.21.2
-      version: 0.21.3
+      version: 0.21.4
     rolldown-plugin-dts-snapshot:
       specifier: ^0.3.2
       version: 0.3.2
@@ -258,7 +258,7 @@ importers:
         version: 1.0.0
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.21.3(oxc-resolver@11.16.3)(rolldown@1.0.0-beta.60)(typescript@5.9.3)
+        version: 0.21.4(oxc-resolver@11.16.3)(rolldown@1.0.0-beta.60)(typescript@5.9.3)
       rolldown-plugin-dts-snapshot:
         specifier: catalog:libs
         version: 0.3.2(rolldown@1.0.0-beta.60)
@@ -3418,8 +3418,8 @@ packages:
       vue-tsc:
         optional: true
 
-  rolldown-plugin-dts@0.21.3:
-    resolution: {integrity: sha512-i/olGjFFFCLa1atzqZsajO7GYjjCIDKMqN4mUfbHfGe6EibULy3SUGDu9ZXL3y855rXNf6oa8xdgMNzVI5wNOg==}
+  rolldown-plugin-dts@0.21.4:
+    resolution: {integrity: sha512-dpW7EMclUQln+twyvLWTWFbeOngfOUW7X1p13h8pHVc3zMOS6kabWwobXNK/+6JP1oD/eAyJYQFkuex1y1OMaA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       '@ts-macro/tsc': ^0.3.6
@@ -7168,7 +7168,7 @@ snapshots:
     transitivePeerDependencies:
       - oxc-resolver
 
-  rolldown-plugin-dts@0.21.3(oxc-resolver@11.16.3)(rolldown@1.0.0-beta.60)(typescript@5.9.3):
+  rolldown-plugin-dts@0.21.4(oxc-resolver@11.16.3)(rolldown@1.0.0-beta.60)(typescript@5.9.3):
     dependencies:
       '@babel/generator': 8.0.0-beta.4
       '@babel/parser': 8.0.0-beta.4
