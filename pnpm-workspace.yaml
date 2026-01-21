@@ -45,7 +45,7 @@ catalogs:
     eslint: ^9.39.2
     eslint-plugin-importer: ^0.2.1
     eslint-plugin-sxzz: ^0.4.2
-    prettier: ^3.8.0
+    prettier: ^3.8.1
   unplugin:
     unplugin: ^2.3.11
     unplugin-ast: ^0.15.4
