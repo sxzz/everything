@@ -131,14 +131,14 @@ catalogs:
       version: 3.8.1
   unplugin:
     unplugin:
-      specifier: ^2.3.11
-      version: 2.3.11
+      specifier: ^3.0.0
+      version: 3.0.0
     unplugin-ast:
-      specifier: ^0.15.4
-      version: 0.15.4
+      specifier: ^0.16.0
+      version: 0.16.0
     unplugin-combine:
-      specifier: ^2.2.0
-      version: 2.2.0
+      specifier: ^2.3.0
+      version: 2.3.0
     unplugin-inline-enum:
       specifier: ^0.6.4
       version: 0.6.4
@@ -149,8 +149,8 @@ catalogs:
       specifier: ^0.10.0
       version: 0.10.0
     unplugin-lightningcss:
-      specifier: ^0.4.4
-      version: 0.4.4
+      specifier: ^0.4.5
+      version: 0.4.5
     unplugin-macros:
       specifier: ^0.18.6
       version: 0.18.6
@@ -167,14 +167,14 @@ catalogs:
       specifier: ^0.6.3
       version: 0.6.3
     unplugin-unused:
-      specifier: ^0.5.6
-      version: 0.5.6
+      specifier: ^0.5.7
+      version: 0.5.7
     unplugin-utils:
       specifier: ^0.3.1
       version: 0.3.1
     unplugin-vue:
-      specifier: ^7.1.0
-      version: 7.1.0
+      specifier: ^7.1.1
+      version: 7.1.1
     unplugin-vue-jsx:
       specifier: ^0.8.1
       version: 0.8.1
@@ -282,10 +282,10 @@ importers:
         version: 0.4.3(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
+        version: 0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.3.1(tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6))
+        version: 0.3.1(tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.1.22
@@ -294,13 +294,13 @@ importers:
         version: 0.8.3
       unplugin:
         specifier: catalog:unplugin
-        version: 2.3.11
+        version: 3.0.0
       unplugin-ast:
         specifier: catalog:unplugin
-        version: 0.15.4
+        version: 0.16.0
       unplugin-combine:
         specifier: catalog:unplugin
-        version: 2.2.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@2.3.11)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2))
+        version: 2.3.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@3.0.0)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2))
       unplugin-inline-enum:
         specifier: catalog:unplugin
         version: 0.6.4
@@ -312,7 +312,7 @@ importers:
         version: 0.10.0
       unplugin-lightningcss:
         specifier: catalog:unplugin
-        version: 0.4.4
+        version: 0.4.5
       unplugin-macros:
         specifier: catalog:unplugin
         version: 0.18.6(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2)
@@ -330,13 +330,13 @@ importers:
         version: 0.6.3
       unplugin-unused:
         specifier: catalog:unplugin
-        version: 0.5.6
+        version: 0.5.7
       unplugin-utils:
         specifier: catalog:unplugin
         version: 0.3.1
       unplugin-vue:
         specifier: catalog:unplugin
-        version: 7.1.0(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(vue@3.5.27(typescript@5.9.3))(yaml@2.8.2)
+        version: 7.1.1(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(vue@3.5.27(typescript@5.9.3))(yaml@2.8.2)
       unplugin-vue-jsx:
         specifier: catalog:unplugin
         version: 0.8.1
@@ -2773,11 +2773,11 @@ packages:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
     hasBin: true
 
+  js-tokens@10.0.0:
+    resolution: {integrity: sha512-lM/UBzQmfJRo9ABXbPWemivdCW8V2G8FHaHdypQaIy523snUjog0W71ayWXTjiR+ixeMyVHN2XcpnTd/liPg/Q==}
+
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  js-tokens@9.0.1:
-    resolution: {integrity: sha512-mxa9E9ITFOt0ban3j6L5MpjwegGz6lBQmM1IJkWeBZGcMxto50+eWdjC/52xDbS2vy0k7vIMK0Fe2wfL9OQSpQ==}
 
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
@@ -3609,19 +3609,19 @@ packages:
     resolution: {integrity: sha512-kUIuUALHltZo0OFzRKbLh1fIRcf60t9FEA4DtUA21GHJc7Pdd9//u3DSoMFb92GkRGJ3Ql/8/Hif6aANiBuwRg==}
     engines: {node: '>=22.18.0'}
 
-  unplugin-ast@0.15.4:
-    resolution: {integrity: sha512-LDhDc8tacKS9AmGQ4QCKhXdP2w7d3Wxj8VJMsJXfoz8twUvztxy2FpxpPTv6aOWCV8WnfKh92KBFSA2KCqfgYQ==}
+  unplugin-ast@0.16.0:
+    resolution: {integrity: sha512-1ow2FlRznoSKE7Fjk2bSxqDsvHyj/O876RqsNlipsM6A+I91t7Mi+jG7tCNNcl3vZx14z4pGXBLSl8KOPrMuFQ==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-combine@2.2.0:
-    resolution: {integrity: sha512-5SRnH3/+yfzZOCPJ5Vbhxq41LzhyimE2a0VFHyOJiC1nA65NIVWScTi7sH5UCpOYFAOkB07pMvCJ2jQelDYcgg==}
+  unplugin-combine@2.3.0:
+    resolution: {integrity: sha512-0aZjv0JqOCPY+yujTatSwlCbsK6bMcBUZDlpMHTlc7KDc2gq8XL5cPgEOeS2GZ767BHAonkEqhC+NlOvzzm5FA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       '@rspack/core': ^1.0.0
       esbuild: '>=0.13'
       rolldown: '*'
       rollup: ^3.2.0 || ^4.0.0
-      unplugin: ^1.0.0 || ^2.0.0
+      unplugin: ^1.0.0 || ^2.0.0 || ^3.0.0
       vite: ^2.3.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
       webpack: 4 || 5
     peerDependenciesMeta:
@@ -3660,8 +3660,8 @@ packages:
     resolution: {integrity: sha512-iDU+UC+aVkGGs9GHroXhyBR+78U8+E7PFrNNHIwktB4PkwZFFyFCcY+p2BZNp3HJHbvTRXdusX4hbtxmmz8/JA==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-lightningcss@0.4.4:
-    resolution: {integrity: sha512-JMncm/Wr7qov8CqRh2LUk4UeeWwjn2F27hpJJWKOAdv0AjXy0Nqih0vEtXE9nTh0qs4SHBSaJ1xHNY8sVjCj+w==}
+  unplugin-lightningcss@0.4.5:
+    resolution: {integrity: sha512-PMm6POv3gt1HNbxYFItantjcP6dPG/BiV/9IXcVLVBv3BZ+pf7Eo4yE+siIGKoVMXjs3BfVXeETTw2Gv3D8iOw==}
     engines: {node: '>=20.19.0'}
 
   unplugin-macros@0.18.6:
@@ -3696,8 +3696,8 @@ packages:
     resolution: {integrity: sha512-BBJGOu5T/R2BUKzQg9AjiCWfAKG/WCM6ph8Sh5rQ2fgdtDEhrDd2ZD3UeHZRZ689VsnmduTgnjg/BY8uZMe4Mg==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-unused@0.5.6:
-    resolution: {integrity: sha512-nuMhConeGhmYRFVvO3ZEJtAo6GrM09UqTJrOjKnTSkyr9zRjjkqN1M+mPZhYMN19+WHBR+JuNmq/gLo/ZajfdQ==}
+  unplugin-unused@0.5.7:
+    resolution: {integrity: sha512-quvqrHs6mPhk1hjbGwMoypXfagveue+/22dtgDrEzc2K9485ZAsnVfq7iYIgv7FwooiRa6+HDaLWgK2IavN+2g==}
     engines: {node: '>=20.19.0'}
 
   unplugin-utils@0.3.1:
@@ -3716,8 +3716,8 @@ packages:
     resolution: {integrity: sha512-C+1tYu+2gEjzW/uqOhfjXuP9NoO8tjPNiPAhxln7LhYluB3KnAoV8mithaY5tcJYEUyIm2hJsSdwj9DvOoowhw==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-vue@7.1.0:
-    resolution: {integrity: sha512-2wvp24IbYHgjsUgSgT0A0A5uVGfo6aeOZ++DxwSzn+ekmq+O5ytw3zI6rbFUH9u9iDAgunRqz8T2wPRFzr5BIQ==}
+  unplugin-vue@7.1.1:
+    resolution: {integrity: sha512-0171rToKyJtoz+faE9CSGtAhCF7//t8sJueyyfZujf4RcKtoHLU/wqcsnuH5aq3tDB+I/Tg6IXiWgPvI+TK/zw==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       vue: ^3.2.25
@@ -3725,6 +3725,10 @@ packages:
   unplugin@2.3.11:
     resolution: {integrity: sha512-5uKD0nqiYVzlmCRs01Fhs2BdkEgBS3SAVP6ndrBsuK42iC2+JHyxM05Rm9G8+5mkmRtzMZGY8Ct5+mliZxU/Ww==}
     engines: {node: '>=18.12.0'}
+
+  unplugin@3.0.0:
+    resolution: {integrity: sha512-0Mqk3AT2TZCXWKdcoaufeXNukv2mTrEZExeXlHIOZXdqYoHHr4n51pymnwV8x2BOVxwXbK2HLlI7usrqMpycdg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
 
   unrun@0.2.26:
     resolution: {integrity: sha512-A3DQLBcDyTui4Hlaoojkldg+8x+CIR+tcSHY0wzW+CgB4X/DNyH58jJpXp1B/EkE+yG6tU8iH1mWsLtwFU3IQg==}
@@ -6179,9 +6183,9 @@ snapshots:
 
   jiti@2.6.1: {}
 
-  js-tokens@4.0.0: {}
+  js-tokens@10.0.0: {}
 
-  js-tokens@9.0.1: {}
+  js-tokens@4.0.0: {}
 
   js-yaml@4.1.1:
     dependencies:
@@ -7214,13 +7218,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.3.1(tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)):
+  tsdown-preset-sxzz@0.3.1(tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.17
-      tsdown: 0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)
+      tsdown: 0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)
 
-  tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6):
+  tsdown@0.20.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.16.3)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -7242,8 +7246,8 @@ snapshots:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.17
       typescript: 5.9.3
-      unplugin-lightningcss: 0.4.4
-      unplugin-unused: 0.5.6
+      unplugin-lightningcss: 0.4.5
+      unplugin-unused: 0.5.7
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -7322,19 +7326,29 @@ snapshots:
       quansync: 1.0.0
       unconfig: 7.4.2
 
-  unplugin-ast@0.15.4:
+  unplugin-ast@0.16.0:
     dependencies:
-      '@babel/generator': 7.28.6
-      ast-kit: 2.2.0
+      '@babel/generator': 8.0.0-beta.4
+      '@babel/parser': 8.0.0-beta.4
+      '@babel/types': 8.0.0-beta.4
+      ast-kit: 3.0.0-beta.1
       magic-string-ast: 1.0.3
-      unplugin: 2.3.11
+      unplugin: 3.0.0
 
-  unplugin-combine@2.2.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@2.3.11)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)):
+  unplugin-combine@2.3.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@2.3.11)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)):
     optionalDependencies:
       esbuild: 0.27.2
       rolldown: 1.0.0-rc.1
       rollup: 4.56.0
       unplugin: 2.3.11
+      vite: 8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)
+
+  unplugin-combine@2.3.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@3.0.0)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)):
+    optionalDependencies:
+      esbuild: 0.27.2
+      rolldown: 1.0.0-rc.1
+      rollup: 4.56.0
+      unplugin: 3.0.0
       vite: 8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)
 
   unplugin-inline-enum@0.6.4:
@@ -7368,10 +7382,10 @@ snapshots:
       unplugin: 2.3.11
       unplugin-utils: 0.3.1
 
-  unplugin-lightningcss@0.4.4:
+  unplugin-lightningcss@0.4.5:
     dependencies:
       lightningcss: 1.31.1
-      unplugin: 2.3.11
+      unplugin: 3.0.0
 
   unplugin-macros@0.18.6(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2):
     dependencies:
@@ -7422,12 +7436,12 @@ snapshots:
       rolldown-string: 0.2.1
       unplugin: 2.3.11
 
-  unplugin-unused@0.5.6:
+  unplugin-unused@0.5.7:
     dependencies:
       empathic: 2.0.0
       escape-string-regexp: 5.0.0
-      js-tokens: 9.0.1
-      unplugin: 2.3.11
+      js-tokens: 10.0.0
+      unplugin: 3.0.0
 
   unplugin-utils@0.3.1:
     dependencies:
@@ -7458,13 +7472,13 @@ snapshots:
       rolldown-string: 0.2.1
       unplugin: 2.3.11
 
-  unplugin-vue@7.1.0(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(vue@3.5.27(typescript@5.9.3))(yaml@2.8.2):
+  unplugin-vue@7.1.1(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(vue@3.5.27(typescript@5.9.3))(yaml@2.8.2):
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
       '@vue/reactivity': 3.5.27
       obug: 2.1.1
-      unplugin: 2.3.11
+      unplugin: 3.0.0
       vite: 8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2)
       vue: 3.5.27(typescript@5.9.3)
     transitivePeerDependencies:
@@ -7484,6 +7498,12 @@ snapshots:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       acorn: 8.15.0
+      picomatch: 4.0.3
+      webpack-virtual-modules: 0.6.2
+
+  unplugin@3.0.0:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
@@ -7691,7 +7711,7 @@ snapshots:
       '@vue-macros/short-vmodel': 3.1.2(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/volar': 3.1.2(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))
       unplugin: 2.3.11
-      unplugin-combine: 2.2.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@2.3.11)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2))
+      unplugin-combine: 2.3.0(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(unplugin@2.3.11)(vite@8.0.0-beta.9(@types/node@25.0.10)(esbuild@0.27.2)(jiti@2.6.1)(yaml@2.8.2))
       unplugin-vue-define-options: 3.1.2(vue@3.5.27(typescript@5.9.3))
       vue: 3.5.27(typescript@5.9.3)
     transitivePeerDependencies:
