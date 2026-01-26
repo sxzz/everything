@@ -213,7 +213,7 @@ importers:
         version: 2.2.6
       '@sxzz/test-utils':
         specifier: catalog:libs
-        version: 0.5.15(@vue/language-core@3.2.3)(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))
+        version: 0.5.15(@vue/language-core@3.2.4)(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))
       '@vue-macros/common':
         specifier: catalog:vue
         version: 3.1.2(vue@3.5.27(typescript@5.9.3))
@@ -2015,8 +2015,8 @@ packages:
       typescript:
         optional: true
 
-  '@vue/language-core@3.2.3':
-    resolution: {integrity: sha512-VpN/GnYDzGLh44AI6i1OB/WsLXo6vwnl0EWHBelGc4TyC0yEq6azwNaed/+Tgr8anFlSdWYnMEkyHJDPe7ii7A==}
+  '@vue/language-core@3.2.4':
+    resolution: {integrity: sha512-bqBGuSG4KZM45KKTXzGtoCl9cWju5jsaBKaJJe3h5hRAAWpZUuj5G+L+eI01sPIkm4H6setKRlw7E85wLdDNew==}
 
   '@vue/reactivity@3.5.27':
     resolution: {integrity: sha512-vvorxn2KXfJ0nBEnj4GYshSgsyMNFnIQah/wczXlsNXt+ijhugmW+PpJ2cNPe4V6jpnBcs0MhCODKllWG+nvoQ==}
@@ -2920,8 +2920,8 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lru-cache@11.2.4:
-    resolution: {integrity: sha512-B5Y16Jr9LB9dHVkh6ZevG+vAbOsNOYCX+sXvFWFu7B3Iz5mijW3zdbMyhsh8ANd2mSWBYdJgnqi+mL7/LrOPYg==}
+  lru-cache@11.2.5:
+    resolution: {integrity: sha512-vFrFJkWtJvJnD5hg+hJvVE8Lh/TcMzKnTgCWmtBipwI5yLX/iX+5UB2tfuyODF5E7k9xEzMdYgGqaSb1c0c5Yw==}
     engines: {node: 20 || >=22}
 
   lru-cache@5.1.1:
@@ -4048,7 +4048,7 @@ snapshots:
       '@loaderkit/resolve': 1.0.4
       cjs-module-lexer: 1.4.3
       fflate: 0.8.2
-      lru-cache: 11.2.4
+      lru-cache: 11.2.5
       semver: 7.7.3
       typescript: 5.6.1-rc
       validate-npm-package-name: 5.0.1
@@ -4934,13 +4934,13 @@ snapshots:
     dependencies:
       '@prettier/plugin-oxc': 0.1.3
 
-  '@sxzz/test-utils@0.5.15(@vue/language-core@3.2.3)(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))':
+  '@sxzz/test-utils@0.5.15(@vue/language-core@3.2.4)(esbuild@0.27.2)(rolldown@1.0.0-rc.1)(rollup@4.56.0)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))':
     dependencies:
       tinyglobby: 0.2.15
       unplugin-utils: 0.3.1
       vitest: 4.0.18(@types/node@25.0.10)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2)
     optionalDependencies:
-      '@vue/language-core': 3.2.3
+      '@vue/language-core': 3.2.4
       esbuild: 0.27.2
       rolldown: 1.0.0-rc.1
       rollup: 4.56.0
@@ -5429,7 +5429,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  '@vue/language-core@3.2.3':
+  '@vue/language-core@3.2.4':
     dependencies:
       '@volar/language-core': 2.4.27
       '@vue/compiler-dom': 3.5.27
@@ -6141,7 +6141,7 @@ snapshots:
 
   hosted-git-info@9.0.2:
     dependencies:
-      lru-cache: 11.2.4
+      lru-cache: 11.2.5
 
   html-entities@2.6.0: {}
 
@@ -6296,7 +6296,7 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lru-cache@11.2.4: {}
+  lru-cache@11.2.5: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -7470,7 +7470,7 @@ snapshots:
 
   unplugin-vue-named-export@0.9.3:
     dependencies:
-      '@vue/language-core': 3.2.3
+      '@vue/language-core': 3.2.4
       ast-kit: 2.2.0
       muggle-string: 0.4.1
       rolldown-string: 0.2.1
@@ -7523,7 +7523,7 @@ snapshots:
       chokidar: 5.0.0
       destr: 2.0.5
       h3: 1.15.5
-      lru-cache: 11.2.4
+      lru-cache: 11.2.5
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       ufo: 1.6.3
