@@ -116,7 +116,7 @@ catalogs:
       version: 7.5.1
     '@sxzz/prettier-config':
       specifier: ^2.2.6
-      version: 2.2.6
+      version: 2.3.0
     eslint:
       specifier: ^9.39.2
       version: 9.39.2
@@ -210,7 +210,7 @@ importers:
         version: 7.5.1(@typescript-eslint/eslint-plugin@8.54.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
       '@sxzz/prettier-config':
         specifier: catalog:lint
-        version: 2.2.6
+        version: 2.3.0
       '@sxzz/test-utils':
         specifier: catalog:libs
         version: 0.5.15(@vue/language-core@3.2.4)(esbuild@0.27.2)(rolldown@1.0.0-rc.2)(rollup@4.57.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))
@@ -1746,8 +1746,13 @@ packages:
       '@unocss/eslint-plugin':
         optional: true
 
-  '@sxzz/prettier-config@2.2.6':
-    resolution: {integrity: sha512-YUTa7I6l/gcy2wDHd6jDyE4bwGOPvqyDc5fWGXLGPisjfeYbCBTi5Cms+Fl7MXKq+VPHoTdD587HjrMGb3J0WA==}
+  '@sxzz/prettier-config@2.3.0':
+    resolution: {integrity: sha512-xickcu39IWtQlGjgGtCds7D5mJoz6zTLPMGs0ckHe141qhw6C88dXD+UT38mqp0iDp6DNpbKd2KhFdM3CKn7mQ==}
+    peerDependencies:
+      prettier-plugin-astro: ^0.14.1
+    peerDependenciesMeta:
+      prettier-plugin-astro:
+        optional: true
 
   '@sxzz/test-utils@0.5.15':
     resolution: {integrity: sha512-oxmemU2xiMyebAGnsjCQ3Jac+ea7hWgDzIZ5t0pH50eKzNze4xwNOiHc7ax2ZHeUZ2iitDcYxG8ErbjU2QIDpQ==}
@@ -5103,7 +5108,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sxzz/prettier-config@2.2.6':
+  '@sxzz/prettier-config@2.3.0':
     dependencies:
       '@prettier/plugin-oxc': 0.1.3
 
