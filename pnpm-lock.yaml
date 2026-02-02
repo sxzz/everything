@@ -13,7 +13,7 @@ catalogs:
       specifier: ^0.8.0
       version: 0.8.0
     node-modules-inspector:
-      specifier: ^1.2.0
+      specifier: ^1.3.1
       version: 1.3.1
     stale-dep:
       specifier: ^0.8.4
@@ -32,7 +32,7 @@ catalogs:
       specifier: ^3.0.5
       version: 3.0.5
     '@types/node':
-      specifier: ^25.1.0
+      specifier: ^25.2.0
       version: 25.2.0
     hosted-git-info:
       specifier: ^9.0.2
@@ -105,8 +105,8 @@ catalogs:
       specifier: ^0.3.1
       version: 0.3.1
     tsgo-wasm:
-      specifier: ^2026.1.31
-      version: 2026.2.1
+      specifier: ^2026.2.2
+      version: 2026.2.2
     untsx:
       specifier: ^0.1.3
       version: 0.1.3
@@ -115,7 +115,7 @@ catalogs:
       specifier: ^7.5.1
       version: 7.5.1
     '@sxzz/prettier-config':
-      specifier: ^2.2.6
+      specifier: ^2.3.0
       version: 2.3.0
     eslint:
       specifier: ^9.39.2
@@ -288,7 +288,7 @@ importers:
         version: 0.3.1(tsdown@0.20.1(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.17.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.2.1
+        version: 2026.2.2
       unloader:
         specifier: catalog:cli
         version: 0.8.3
@@ -3665,8 +3665,8 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-wasm@2026.2.1:
-    resolution: {integrity: sha512-WZxK1SBsTdPHfLYpWkYSL3yI/zw6MdsNJMcV/wIZpFuCqyWBWAyJre2vWpkfUaC5wbQpGUzGg2NdEVRRSU1TsA==}
+  tsgo-wasm@2026.2.2:
+    resolution: {integrity: sha512-XNgZ95Y6DTzu9q6GoFAaBYCmL+ak/a5uACIOgAwUmTZ81MV+Xa9ihIe/qRy7adClWOgk1i/q/1qDzjIhnbIgKQ==}
     hasBin: true
 
   tslib@2.8.1:
@@ -7475,7 +7475,7 @@ snapshots:
       - synckit
       - vue-tsc
 
-  tsgo-wasm@2026.2.1: {}
+  tsgo-wasm@2026.2.2: {}
 
   tslib@2.8.1:
     optional: true
