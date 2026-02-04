@@ -2696,8 +2696,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fast-npm-meta@1.0.0:
-    resolution: {integrity: sha512-LZN+gRB2TnkkhRbNnTOgEXyhNBkDypngGX9nJzcKzrOaIQqfZnWEDYdxBqGw6bgiyl0tzpxDuTk1G7tKHyUcsg==}
+  fast-npm-meta@1.2.0:
+    resolution: {integrity: sha512-v0ShpcJdqGAx0KAaGSQpyWXVaGf5SqPr0gwwQL/Y+Wcus0T5YmtH8aDstCpQ+t4SGFtJC2Hjf/rCoJjHpMJnew==}
 
   fault@2.0.1:
     resolution: {integrity: sha512-WtySTkS4OKev5JtpHXnib4Gxiurzh5NCGvWrFaZ34m6JehfTUhKZvn9njTfw48t6JumVQOmrKqpmGcdwxnhqBQ==}
@@ -6202,7 +6202,7 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fast-npm-meta@1.0.0: {}
+  fast-npm-meta@1.2.0: {}
 
   fault@2.0.1:
     dependencies:
@@ -6828,7 +6828,7 @@ snapshots:
       ansis: 4.2.0
       birpc: 4.0.0
       cac: 6.7.14
-      fast-npm-meta: 1.0.0
+      fast-npm-meta: 1.2.0
       get-port-please: 3.2.0
       h3: 1.15.5
       launch-editor: 2.12.0
