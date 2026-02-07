@@ -2498,8 +2498,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-yml@3.1.1:
-    resolution: {integrity: sha512-BDdGAmF9MIKV58+IxvdSyo3ApfJH9xKAtoRomfVzKNcXehBhkHydCZmqaw55ZazuJWpctowSLCTCCN+vV+P1fA==}
+  eslint-plugin-yml@3.1.2:
+    resolution: {integrity: sha512-n9lxbFrNlGDLOSyIrEYkkYr7icbULMh66wwkIEluisq0lXSu1qVEEXM0g8MM8UQbtd9t1HMgN6bC+DaOe5dWdQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -4882,7 +4882,7 @@ snapshots:
       eslint-plugin-unicorn: 62.0.0(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-unused-imports: 4.3.0(@typescript-eslint/eslint-plugin@8.54.0(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-vue: 10.7.0(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(vue-eslint-parser@10.2.0(eslint@10.0.0(jiti@2.6.1)))
-      eslint-plugin-yml: 3.1.1(eslint@10.0.0(jiti@2.6.1))
+      eslint-plugin-yml: 3.1.2(eslint@10.0.0(jiti@2.6.1))
       globals: 17.3.0
       jsonc-eslint-parser: 2.4.2
       typescript-eslint: 8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
@@ -5874,7 +5874,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/parser': 8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
 
-  eslint-plugin-yml@3.1.1(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-yml@3.1.2(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       '@eslint/core': 1.1.0
       '@eslint/plugin-kit': 0.6.0
