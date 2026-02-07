@@ -27,7 +27,7 @@ catalogs:
     import-without-cache: ^0.2.5
     magic-string-ast: ^1.0.3
     obug: ^2.1.1
-    pnpm-multi-versions: ^0.5.4
+    pnpm-multi-versions: ^0.6.0
     quansync: ^1.0.0
     rolldown-plugin-dts: ^0.22.1
     rolldown-plugin-dts-snapshot: ^0.3.2
@@ -37,12 +37,12 @@ catalogs:
     tc39-throw: ^0.2.2
     tc39-try: ^0.4.3
     tsdown-preset-sxzz: ^0.3.2
-    tsgo-wasm: ^2026.2.6
+    tsgo-wasm: ^2026.2.7
     untsx: ^0.1.3
   lint:
-    '@sxzz/eslint-config': ^7.6.0
+    '@sxzz/eslint-config': ^7.6.1
     '@sxzz/prettier-config': ^2.3.1
-    eslint: ^9.39.2
+    eslint: ^10.0.0
     eslint-plugin-importer: ^0.2.1
     eslint-plugin-sxzz: ^0.4.2
     prettier: ^3.8.1
