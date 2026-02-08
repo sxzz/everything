@@ -7,11 +7,11 @@ settings:
 catalogs:
   cli:
     '@sxzz/create':
-      specifier: ^0.15.6
+      specifier: ^0.15.7
       version: 0.15.7
     monoman:
-      specifier: ^0.8.0
-      version: 0.8.0
+      specifier: ^0.8.1
+      version: 0.8.1
     node-modules-inspector:
       specifier: ^1.3.2
       version: 1.3.2
@@ -246,7 +246,7 @@ importers:
         version: 1.0.3
       monoman:
         specifier: catalog:cli
-        version: 0.8.0
+        version: 0.8.1
       obug:
         specifier: catalog:libs
         version: 2.1.1
@@ -3046,8 +3046,8 @@ packages:
   mlly@1.8.0:
     resolution: {integrity: sha512-l8D9ODSRWLe2KHJSifWGwBqpTZXIXTeo8mlKjY+E2HAakaTeNpqAyBZ8GSqLzHgw4XmHmC8whvpjJNMbFZN7/g==}
 
-  monoman@0.8.0:
-    resolution: {integrity: sha512-jbDQpQomlGqzXaYtqofk5ZOhC7w0MCc69h1SjzlCmA+G4r/dMjA3/DY6NdMHUtA6DVAnyI7oUkkrFIdzI0PdJA==}
+  monoman@0.8.1:
+    resolution: {integrity: sha512-B2kaXSTRCN9MyxWZe2M3ee/anjHwrVbZJ7dFa0mpu/ztJv2JiOxFD07zWnrtPVwgR6qDUYEGuT3PLvZ/cKjn1Q==}
     engines: {node: '>=22.14.0'}
     hasBin: true
 
@@ -3198,11 +3198,6 @@ packages:
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
-
-  pnpm-multi-versions@0.5.4:
-    resolution: {integrity: sha512-7msxqr1ZpFAvol9n2fpMXh0QNE/oghbmhnoUb5DEzW08r3JDpIh6JoJYoLheplMMmIss7ZZK1umYI1Th5ov+nQ==}
-    engines: {node: '>=20.18.0'}
-    hasBin: true
 
   pnpm-multi-versions@0.6.0:
     resolution: {integrity: sha512-DjjO2GmcSNFMgKZlxP+KnXKzLOKJH8lp4M+7fwYnVQeeKR30qtc8bGnxLALWGSEyP/luKJZSGUMUbRLisCIzsA==}
@@ -6551,12 +6546,12 @@ snapshots:
       pkg-types: 1.3.1
       ufo: 1.6.3
 
-  monoman@0.8.0:
+  monoman@0.8.1:
     dependencies:
       cac: 6.7.14
       consola: 3.4.2
       js-yaml: '@zkochan/js-yaml@0.0.10'
-      pnpm-multi-versions: 0.5.4
+      pnpm-multi-versions: 0.6.0
       unconfig: 7.4.2
 
   mri@1.2.0: {}
@@ -6836,12 +6831,6 @@ snapshots:
       pathe: 2.0.3
 
   pluralize@8.0.0: {}
-
-  pnpm-multi-versions@0.5.4:
-    dependencies:
-      cac: 6.7.14
-      empathic: 2.0.0
-      yaml: 2.8.2
 
   pnpm-multi-versions@0.6.0:
     dependencies:
