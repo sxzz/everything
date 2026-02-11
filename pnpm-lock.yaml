@@ -2368,8 +2368,8 @@ packages:
       '@eslint/json':
         optional: true
 
-  eslint-plugin-antfu@3.2.0:
-    resolution: {integrity: sha512-JTvBcA+gc2hf1wz418dLYtt0GCE3ltrZuriA4KhP/nPbL8W6vZtcDlWUlUfghUTAAFpHh7gp+qN8BbK+jNifgg==}
+  eslint-plugin-antfu@3.2.1:
+    resolution: {integrity: sha512-QVSpLoUnUfKE9FjFG4FQ5/zu/O+u8ejk1bIA0sir3KF+tHfaHJ/8o/Mg/rWy2vRPj7TEZG/zvib6lHEU4aSJ4A==}
     peerDependencies:
       eslint: '*'
 
@@ -4850,7 +4850,7 @@ snapshots:
       eslint-config-flat-gitignore: 2.1.0(eslint@10.0.0(jiti@2.6.1))
       eslint-config-prettier: 10.1.8(eslint@10.0.0(jiti@2.6.1))
       eslint-flat-config-utils: 3.0.1
-      eslint-plugin-antfu: 3.2.0(eslint@10.0.0(jiti@2.6.1))
+      eslint-plugin-antfu: 3.2.1(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-baseline-js: 0.5.0(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-command: 3.4.0(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-de-morgan: 2.0.0(eslint@10.0.0(jiti@2.6.1))
@@ -5681,7 +5681,7 @@ snapshots:
       esquery: 1.7.0
       jsonc-eslint-parser: 2.4.2
 
-  eslint-plugin-antfu@3.2.0(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-antfu@3.2.1(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       eslint: 10.0.0(jiti@2.6.1)
 
