@@ -40,7 +40,7 @@ catalogs:
     tsgo-wasm: ^2026.2.11
     untsx: ^0.1.3
   lint:
-    '@sxzz/eslint-config': ^7.7.0
+    '@sxzz/eslint-config': ^7.7.1
     '@sxzz/prettier-config': ^2.3.1
     eslint: ^10.0.0
     eslint-plugin-importer: ^0.3.0
