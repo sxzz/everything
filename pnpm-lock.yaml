@@ -2226,8 +2226,9 @@ packages:
     resolution: {integrity: sha512-1pHv8LX9CpKut1Zp4EXey7Z8OfH11ONNH6Dhi2WDUt31VVZFXZzKwXcysBgqSumFCmR+0dqjMK5v5JiFHzi0+g==}
     engines: {node: 20 || >=22}
 
-  baseline-browser-mapping@2.9.19:
-    resolution: {integrity: sha512-ipDqC8FrAl/76p2SSWKSI+H9tFwm7vYqXQrItCuiVPt26Km0jS+NzSsBWAaBusvSbQcfJG+JitdMm+wZAgTYqg==}
+  baseline-browser-mapping@2.10.0:
+    resolution: {integrity: sha512-lIyg0szRfYbiy67j9KN8IyeD7q7hcmqnJ1ddWmNt19ItGpNN64mnllmxUNFIOdOm6by97jlL6wfpTTJrmnjWAA==}
+    engines: {node: '>=6.0.0'}
     hasBin: true
 
   birpc@4.0.0:
@@ -2507,8 +2508,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-es-x@9.4.0:
-    resolution: {integrity: sha512-PNgXKJgswWriyX4ElA4MR2FIUgjw1GSEIdcR/KFeYUxe4C38qnfBXo86r1q14KdBjYRz9pY3ZDIYNYh3zjTq6g==}
+  eslint-plugin-es-x@9.4.1:
+    resolution: {integrity: sha512-jq29Z2uobTuijXRNU0QVPtxkxn+SET2QwjxX97vTM3Eqbrufjp54l+kIAc1dPDR2lYHsE/hBjVZ0qC077eOq/w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=9.29.0'
@@ -2519,8 +2520,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-jsdoc@62.6.0:
-    resolution: {integrity: sha512-Z18zZD1Q2m9usqFbAzb30z+lF8bzE4WiUy+dfOXljJlZ1Jm5uhkuAWfGV97FYyh+WlKfrvpDYs+s1z45eZWMfA==}
+  eslint-plugin-jsdoc@62.6.1:
+    resolution: {integrity: sha512-zfz4lMIKDkidkqZniIieZujwZAtpaSNM0WXwilToKoR2UWEw0JE/QevQI2k6YN4ZSy3YhXB3Vs1ab62GZu8Wug==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -5031,7 +5032,7 @@ snapshots:
       eslint-plugin-command: 3.4.0(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-de-morgan: 2.0.0(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-importer: 0.3.0(eslint@10.0.0(jiti@2.6.1))
-      eslint-plugin-jsdoc: 62.6.0(eslint@10.0.0(jiti@2.6.1))
+      eslint-plugin-jsdoc: 62.6.1(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-jsonc: 2.21.1(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-n: 17.24.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-perfectionist: 5.6.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
@@ -5654,7 +5655,7 @@ snapshots:
 
   balanced-match@4.0.3: {}
 
-  baseline-browser-mapping@2.9.19: {}
+  baseline-browser-mapping@2.10.0: {}
 
   birpc@4.0.0: {}
 
@@ -5670,7 +5671,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.19
+      baseline-browser-mapping: 2.10.0
       caniuse-lite: 1.0.30001770
       electron-to-chromium: 1.5.286
       node-releases: 2.0.27
@@ -5870,7 +5871,7 @@ snapshots:
   eslint-plugin-baseline-js@0.5.0(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       eslint: 10.0.0(jiti@2.6.1)
-      eslint-plugin-es-x: 9.4.0(eslint@10.0.0(jiti@2.6.1))
+      eslint-plugin-es-x: 9.4.1(eslint@10.0.0(jiti@2.6.1))
 
   eslint-plugin-command@3.4.0(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
@@ -5888,7 +5889,7 @@ snapshots:
       eslint: 10.0.0(jiti@2.6.1)
       eslint-compat-utils: 0.5.1(eslint@10.0.0(jiti@2.6.1))
 
-  eslint-plugin-es-x@9.4.0(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-es-x@9.4.1(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.0.0(jiti@2.6.1))
       '@eslint-community/regexpp': 4.12.2
@@ -5899,7 +5900,7 @@ snapshots:
     dependencies:
       eslint: 10.0.0(jiti@2.6.1)
 
-  eslint-plugin-jsdoc@62.6.0(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-jsdoc@62.6.1(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       '@es-joy/jsdoccomment': 0.84.0
       '@es-joy/resolve.exports': 1.2.0
