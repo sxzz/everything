@@ -804,11 +804,10 @@ packages:
   '@napi-rs/wasm-runtime@1.1.1':
     resolution: {integrity: sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A==}
 
-  '@ota-meshi/ast-token-store@0.2.1':
-    resolution: {integrity: sha512-+8oB1wcOSWJCR6vAm2ioSLas7SoPwp+8tZ1Tcy8DSVEHMip6jxxlGu6EsRzJLAYVCyzKQ38B5pAqSbon1l1rmA==}
+  '@ota-meshi/ast-token-store@0.2.2':
+    resolution: {integrity: sha512-IA8BYEFAJU/NNJu0aa3q0Sj5Q69KqhydguXhM/bn8gVRSWaYUMtYjZ1Q0rk6+iHa0ch8UpPXFJQ0I6vmsAy+LA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
-      '@eslint/markdown': ^7.4.0
       eslint: '>=9.0.0'
 
   '@oxc-minify/binding-android-arm-eabi@0.114.0':
@@ -4510,9 +4509,8 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@ota-meshi/ast-token-store@0.2.1(@eslint/markdown@7.5.1)(eslint@10.0.1(jiti@2.6.1))':
+  '@ota-meshi/ast-token-store@0.2.2(eslint@10.0.1(jiti@2.6.1))':
     dependencies:
-      '@eslint/markdown': 7.5.1
       eslint: 10.0.1(jiti@2.6.1)
 
   '@oxc-minify/binding-android-arm-eabi@0.114.0':
@@ -5037,7 +5035,7 @@ snapshots:
       eslint-plugin-unicorn: 63.0.0(eslint@10.0.1(jiti@2.6.1))
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.56.0(@typescript-eslint/parser@8.56.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1))
       eslint-plugin-vue: 10.8.0(@typescript-eslint/parser@8.56.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.0.1(jiti@2.6.1)))
-      eslint-plugin-yml: 3.2.1(@eslint/markdown@7.5.1)(eslint@10.0.1(jiti@2.6.1))
+      eslint-plugin-yml: 3.2.1(eslint@10.0.1(jiti@2.6.1))
       globals: 17.3.0
       jsonc-eslint-parser: 2.4.2
       typescript-eslint: 8.56.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3)
@@ -6021,11 +6019,11 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/parser': 8.56.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3)
 
-  eslint-plugin-yml@3.2.1(@eslint/markdown@7.5.1)(eslint@10.0.1(jiti@2.6.1)):
+  eslint-plugin-yml@3.2.1(eslint@10.0.1(jiti@2.6.1)):
     dependencies:
       '@eslint/core': 1.1.0
       '@eslint/plugin-kit': 0.6.0
-      '@ota-meshi/ast-token-store': 0.2.1(@eslint/markdown@7.5.1)(eslint@10.0.1(jiti@2.6.1))
+      '@ota-meshi/ast-token-store': 0.2.2(eslint@10.0.1(jiti@2.6.1))
       debug: 4.4.3
       diff-sequences: 29.6.3
       escape-string-regexp: 5.0.0
@@ -6033,7 +6031,6 @@ snapshots:
       natural-compare: 1.4.0
       yaml-eslint-parser: 2.0.0
     transitivePeerDependencies:
-      - '@eslint/markdown'
       - supports-color
 
   eslint-scope@9.1.1:
