@@ -116,7 +116,7 @@ catalogs:
   lint:
     '@sxzz/eslint-config':
       specifier: ^7.8.1
-      version: 7.8.1
+      version: 7.8.2
     '@sxzz/prettier-config':
       specifier: ^2.3.1
       version: 2.3.1
@@ -210,7 +210,7 @@ importers:
         version: 0.15.7
       '@sxzz/eslint-config':
         specifier: catalog:lint
-        version: 7.8.1(@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
+        version: 7.8.2(@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
       '@sxzz/prettier-config':
         specifier: catalog:lint
         version: 2.3.1
@@ -1746,8 +1746,8 @@ packages:
     engines: {node: '>=20.19.0'}
     hasBin: true
 
-  '@sxzz/eslint-config@7.8.1':
-    resolution: {integrity: sha512-C069ebaayOanxqU+N5LLgI9P6coVAXiD6y1E6ofTXFa4hA9O/EH1E6eCZC5NcNt7tS36vBePMESWPw4w9LE2NQ==}
+  '@sxzz/eslint-config@7.8.2':
+    resolution: {integrity: sha512-Fj/OAwGut6NML1D/ltaj7GRpqn/6DTV0NbrUv/pexuJmK0y44VimI4te4vM7SRuQRp62T6b96wf0joe+o8RVQw==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       '@unocss/eslint-plugin': '>=65.0.0'
@@ -4985,7 +4985,7 @@ snapshots:
       unconfig: 7.5.0
       yaml: 2.8.2
 
-  '@sxzz/eslint-config@7.8.1(@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)':
+  '@sxzz/eslint-config@7.8.2(@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.6.0(eslint@10.0.2(jiti@2.6.1))
       '@eslint/js': 10.0.1(eslint@10.0.2(jiti@2.6.1))
