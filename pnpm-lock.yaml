@@ -78,7 +78,7 @@ catalogs:
       specifier: ^2.1.1
       version: 2.1.1
     pnpm-multi-versions:
-      specifier: ^0.6.0
+      specifier: ^0.6.1
       version: 0.6.1
     quansync:
       specifier: ^1.0.0
@@ -87,8 +87,8 @@ catalogs:
       specifier: ^0.22.2
       version: 0.22.2
     rolldown-plugin-dts-snapshot:
-      specifier: ^0.3.2
-      version: 0.3.2
+      specifier: ^0.4.0
+      version: 0.4.0
     rolldown-plugin-require-cjs:
       specifier: ^0.3.3
       version: 0.3.3
@@ -105,17 +105,17 @@ catalogs:
       specifier: ^0.4.3
       version: 0.4.3
     tsdown-preset-sxzz:
-      specifier: ^0.3.3
-      version: 0.3.3
+      specifier: ^0.4.0
+      version: 0.4.0
     tsgo-wasm:
-      specifier: ^2026.2.27
-      version: 2026.2.27
+      specifier: ^2026.2.28
+      version: 2026.2.28
     untsx:
       specifier: ^0.1.3
       version: 0.1.3
   lint:
     '@sxzz/eslint-config':
-      specifier: ^7.8.1
+      specifier: ^7.8.2
       version: 7.8.2
     '@sxzz/prettier-config':
       specifier: ^2.3.1
@@ -155,8 +155,8 @@ catalogs:
       specifier: ^0.4.5
       version: 0.4.5
     unplugin-macros:
-      specifier: ^0.18.7
-      version: 0.18.7
+      specifier: ^0.19.0
+      version: 0.19.0
     unplugin-oxc:
       specifier: ^0.5.7
       version: 0.5.7
@@ -267,7 +267,7 @@ importers:
         version: 0.22.2(oxc-resolver@11.19.0)(rolldown@1.0.0-rc.5)(typescript@5.9.3)
       rolldown-plugin-dts-snapshot:
         specifier: catalog:libs
-        version: 0.3.2(rolldown@1.0.0-rc.5)
+        version: 0.4.0(rolldown@1.0.0-rc.5)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.3.3(rolldown@1.0.0-rc.5)
@@ -291,10 +291,10 @@ importers:
         version: 0.20.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.3.3(tsdown@0.20.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7))
+        version: 0.4.0(tsdown@0.20.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.2.27
+        version: 2026.2.28
       unloader:
         specifier: catalog:cli
         version: 0.8.3
@@ -321,7 +321,7 @@ importers:
         version: 0.4.5
       unplugin-macros:
         specifier: catalog:unplugin
-        version: 0.18.7(@types/node@25.3.2)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2)
+        version: 0.19.0(@types/node@25.3.2)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2)
       unplugin-oxc:
         specifier: catalog:unplugin
         version: 0.5.7(unloader@0.8.3)
@@ -523,8 +523,8 @@ packages:
   '@clack/prompts@1.0.1':
     resolution: {integrity: sha512-/42G73JkuYdyWZ6m8d/CJtBrGl1Hegyc7Fy78m5Ob+jF85TOUmLR5XLce/U3LxYAw0kJ8CT5aI99RIvPHcGp/Q==}
 
-  '@dprint/formatter@0.4.1':
-    resolution: {integrity: sha512-IB/GXdlMOvi0UhQQ9mcY15Fxcrc2JPadmo6tqefCNV0bptFq7YBpggzpqYXldBXDa04CbKJ+rDwO2eNRPE2+/g==}
+  '@dprint/formatter@0.5.1':
+    resolution: {integrity: sha512-cdZUrm0iv/FnnY3CKE2dEcVhNEzrC551aE2h2mTFwQCRBrqyARLDnb7D+3PlXTUVp3s34ftlnGOVCmhLT9DeKA==}
 
   '@dprint/typescript@0.95.15':
     resolution: {integrity: sha512-PQGYicsjlv7Eq+5BzpI04Ow2N9xeHkjr9O1TG3lDebK2B48IvXFQz0RwO4OhkKj22o7YLcjVIFM6WL7zVuM2ng==}
@@ -3361,11 +3361,11 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  rolldown-plugin-dts-snapshot@0.3.2:
-    resolution: {integrity: sha512-i7YB+4SZg2Tj9NsYGGwFdervgWQfBBGGn7PJqKlzWggG/q13YQ8Y57xg4OAPoBrjaj1H7kDzjK+ByBvj7j7ckg==}
+  rolldown-plugin-dts-snapshot@0.4.0:
+    resolution: {integrity: sha512-iEmRLKX9BpCRD4s+YVm8EHtI76TdvkzuxYjTMukTqqXcmU/9MOhu7QIJ5DjwhM6EmDDiQ7Z/85s6i6C1Se0ZlA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      rolldown: ^1.0.0-beta.56
+      rolldown: ^1.0.0-rc.2
 
   rolldown-plugin-dts@0.22.2:
     resolution: {integrity: sha512-Ge+XF962Kobjr0hRPx1neVnLU2jpKkD2zevZTfPKf/0el4eYo9SyGPm0stiHDG2JQuL0Q3HLD0Kn+ST8esvVdA==}
@@ -3567,11 +3567,11 @@ packages:
   ts-macro@0.3.7:
     resolution: {integrity: sha512-5BinbTKn5WXRslotv5/VWTn3catfK0thWoB4BZI5VNEdxMu6r9AUPFalut4wLEK3nGvxhywA9aAdZnJ+Fnug9A==}
 
-  tsdown-preset-sxzz@0.3.3:
-    resolution: {integrity: sha512-ReOsIWXdQgH7zIZ3+T7FN0dcYbgwmdSrL0Mg2GoQDV/vfYtWoTRur2TfUxtkYEVMtUQAsTyJrSeH845XhbBtBg==}
+  tsdown-preset-sxzz@0.4.0:
+    resolution: {integrity: sha512-1hoavCe7rgfHxVBc1/0kdSCPyocAKXBcZRpkxV0D/npAP2PZZFxG6TWNqeq+PIE7vIEMgOtNjxoA3KoDp+dcUg==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      tsdown: ^0.20.0
+      tsdown: ^0.21.0-0
 
   tsdown@0.20.3:
     resolution: {integrity: sha512-qWOUXSbe4jN8JZEgrkc/uhJpC8VN2QpNu3eZkBWwNuTEjc/Ik1kcc54ycfcQ5QPRHeu9OQXaLfCI3o7pEJgB2w==}
@@ -3598,8 +3598,8 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-wasm@2026.2.27:
-    resolution: {integrity: sha512-NyxGQ2TkRxGvVrRaCNEPISL5/vJNpkO3aY5/qCg32Y6pyJdz/0Yeg1PiRYy/yjVIN8n+K0HD5G9kJvqtUxJkbw==}
+  tsgo-wasm@2026.2.28:
+    resolution: {integrity: sha512-Phvy0vv1PbymB3A1XT/BKG2lKK6Ha8Y2zFulVU95OtuB4+7bwauzI7FPYLH7ghSOeTnSudI8ji096U5Ewxq95A==}
     hasBin: true
 
   tslib@2.8.1:
@@ -3712,8 +3712,8 @@ packages:
     resolution: {integrity: sha512-PMm6POv3gt1HNbxYFItantjcP6dPG/BiV/9IXcVLVBv3BZ+pf7Eo4yE+siIGKoVMXjs3BfVXeETTw2Gv3D8iOw==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-macros@0.18.7:
-    resolution: {integrity: sha512-/FnRb9VN+5JZHufmYd0vn9a0hPT37QqsdGk5I2a4+mDASHQlMOelCGHgvVJKohcLH+VmlJq/9gfAtwwi+8doGg==}
+  unplugin-macros@0.19.0:
+    resolution: {integrity: sha512-WCyCf5nPoXOqRjX0GVdbM5nirE16S5kUQjOEY7D8HxIzsNQfsVzJWpxc63WujigHtjnFIVnkm14KlCq2chZ+Zg==}
     engines: {node: '>=20.19.0'}
 
   unplugin-oxc@0.5.7:
@@ -4266,7 +4266,7 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@dprint/formatter@0.4.1': {}
+  '@dprint/formatter@0.5.1': {}
 
   '@dprint/typescript@0.95.15': {}
 
@@ -7029,10 +7029,11 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  rolldown-plugin-dts-snapshot@0.3.2(rolldown@1.0.0-rc.5):
+  rolldown-plugin-dts-snapshot@0.4.0(rolldown@1.0.0-rc.5):
     dependencies:
-      '@dprint/formatter': 0.4.1
+      '@dprint/formatter': 0.5.1
       '@dprint/typescript': 0.95.15
+      estree-walker: 3.0.3
       magic-string: 0.30.21
       rolldown: 1.0.0-rc.5
       unplugin-utils: 0.3.1
@@ -7282,7 +7283,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.3.3(tsdown@0.20.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)):
+  tsdown-preset-sxzz@0.4.0(tsdown@0.20.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.0)(publint@0.3.17)(synckit@0.11.12)(typescript@5.9.3)(unplugin-lightningcss@0.4.5)(unplugin-unused@0.5.7)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.17
@@ -7319,7 +7320,7 @@ snapshots:
       - synckit
       - vue-tsc
 
-  tsgo-wasm@2026.2.27: {}
+  tsgo-wasm@2026.2.28: {}
 
   tslib@2.8.1:
     optional: true
@@ -7451,7 +7452,7 @@ snapshots:
       lightningcss: 1.31.1
       unplugin: 3.0.0
 
-  unplugin-macros@0.18.7(@types/node@25.3.2)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2):
+  unplugin-macros@0.19.0(@types/node@25.3.2)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2):
     dependencies:
       '@babel/types': 7.29.0
       ast-kit: 2.2.0
