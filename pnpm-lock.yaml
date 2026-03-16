@@ -7,8 +7,8 @@ settings:
 catalogs:
   cli:
     '@sxzz/create':
-      specifier: ^0.15.8
-      version: 0.15.8
+      specifier: ^0.16.0
+      version: 0.16.0
     monoman:
       specifier: ^0.8.2
       version: 0.8.2
@@ -207,7 +207,7 @@ importers:
         version: 1.0.0
       '@sxzz/create':
         specifier: catalog:cli
-        version: 0.15.8
+        version: 0.16.0
       '@sxzz/eslint-config':
         specifier: catalog:lint
         version: 7.8.3(@typescript-eslint/eslint-plugin@8.57.0(@typescript-eslint/parser@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.3(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
@@ -1651,9 +1651,9 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@sxzz/create@0.15.8':
-    resolution: {integrity: sha512-ZGvJZ87x7TsKt7gdxzK9pLp7AvL+IUt8RX+KVxBDTFSfpTt277y1Eswpn6ZM3aZIedABEM0OTmXPD8fMvrjagA==}
-    engines: {node: '>=20.19.0'}
+  '@sxzz/create@0.16.0':
+    resolution: {integrity: sha512-fA5R64d/ETUgmxP8qqB7C5FqOtKo4N/Fl7cJ381Prs9Jx9Y/pbgD+RMbeE9QalKEPGqn4YMwvXkw1BVM2oex9w==}
+    engines: {node: '>=24.11.0'}
     hasBin: true
 
   '@sxzz/eslint-config@7.8.3':
@@ -2117,9 +2117,6 @@ packages:
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-
-  args-tokenizer@0.3.0:
-    resolution: {integrity: sha512-xXAd7G2Mll5W8uo37GETpQ2VrE84M181Z7ugHFGQnJZ50M2mbOv0osSZ9VsSgPfJQ+LVG0prSi0th+ELMsno7Q==}
 
   assertion-error@2.0.1:
     resolution: {integrity: sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA==}
@@ -4828,15 +4825,13 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@sxzz/create@0.15.8':
+  '@sxzz/create@0.16.0':
     dependencies:
       '@clack/prompts': 1.1.0
       ansis: 4.2.0
-      args-tokenizer: 0.3.0
       cac: 7.0.0
       consola: 3.4.2
       empathic: 2.0.0
-      escape-string-regexp: 5.0.0
       giget: 3.1.2
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
@@ -5474,8 +5469,6 @@ snapshots:
   are-docs-informative@0.0.2: {}
 
   argparse@2.0.1: {}
-
-  args-tokenizer@0.3.0: {}
 
   assertion-error@2.0.1: {}
 

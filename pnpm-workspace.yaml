@@ -9,7 +9,7 @@ catalog:
 
 catalogs:
   cli:
-    '@sxzz/create': ^0.15.8
+    '@sxzz/create': ^0.16.0
     monoman: ^0.8.2
     node-modules-inspector: ^1.4.2
     stale-dep: ^0.8.5
