@@ -19,8 +19,8 @@ catalogs:
       specifier: ^0.8.5
       version: 0.8.5
     tsdown:
-      specifier: ^0.21.3
-      version: 0.21.3
+      specifier: ^0.21.4
+      version: 0.21.4
     unloader:
       specifier: ^0.8.3
       version: 0.8.3
@@ -288,10 +288,10 @@ importers:
         version: 0.4.3(eslint@10.0.3(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.21.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)
+        version: 0.21.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.4.2(tsdown@0.21.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7))
+        version: 0.4.2(tsdown@0.21.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.3.16
@@ -3481,14 +3481,14 @@ packages:
     peerDependencies:
       tsdown: ^0.21.2
 
-  tsdown@0.21.3:
-    resolution: {integrity: sha512-oKKeMC8+IgNsB+81hvF5VBsqhqL/nr0g9vse+ujbK40vv0i3ReFI6gUts7hQH7J53ylQNjMgf2Vu6n0+P/uddA==}
+  tsdown@0.21.4:
+    resolution: {integrity: sha512-Q/kBi8SXkr4X6JI/NAZKZY1UuiEcbuXtIskL4tZCsgpDiEPM/2W6lC+OonNA31S+V3KsWedFvbFDBs23hvt+Aw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.21.3
-      '@tsdown/exe': 0.21.3
+      '@tsdown/css': 0.21.4
+      '@tsdown/exe': 0.21.4
       '@vitejs/devtools': '*'
       publint: ^0.3.0
       typescript: ^5.0.0
@@ -7106,13 +7106,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.4.2(tsdown@0.21.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)):
+  tsdown-preset-sxzz@0.4.2(tsdown@0.21.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.18
-      tsdown: 0.21.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)
+      tsdown: 0.21.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7)
 
-  tsdown@0.21.3(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7):
+  tsdown@0.21.4(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1)(publint@0.3.18)(synckit@0.11.12)(typescript@5.9.3)(unplugin-unused@0.5.7):
     dependencies:
       ansis: 4.2.0
       cac: 7.0.0
