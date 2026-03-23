@@ -5,7 +5,7 @@ catalog:
   '@types/node': ^25.5.0
   hosted-git-info: ^9.0.2
   ky: ^1.14.3
-  typescript: ^5.9.3
+  typescript: ^6.0.2
 
 catalogs:
   cli:
