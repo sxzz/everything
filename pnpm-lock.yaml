@@ -2750,8 +2750,8 @@ packages:
   get-tsconfig@4.13.7:
     resolution: {integrity: sha512-7tN6rFgBlMgpBML5j8typ92BKFi2sFQvIdpAqLA2beia5avZDrMs0FLZiM5etShWq5irVyGcGMEA1jcDaK7A/Q==}
 
-  giget@3.1.2:
-    resolution: {integrity: sha512-T2qUpKBHeUTwHcIhydgnJzhL0Hj785ms+JkxaaWQH9SDM/llXeewnOkfJcFShAHjWI+26hOChwUfCoupaXLm8g==}
+  giget@3.2.0:
+    resolution: {integrity: sha512-GvHTWcykIR/fP8cj8dMpuMMkvaeJfPvYnhq0oW+chSeIr+ldX21ifU2Ms6KBoyKZQZmVaUAAhQ2EZ68KJF8a7A==}
     hasBin: true
 
   github-slugger@2.0.0:
@@ -3834,8 +3834,8 @@ packages:
       synckit:
         optional: true
 
-  unstorage@1.17.4:
-    resolution: {integrity: sha512-fHK0yNg38tBiJKp/Vgsq4j0JEsCmgqH58HAn707S7zGkArbZsVr/CwINoi+nh3h98BRCwKvx1K3Xg9u3VV83sw==}
+  unstorage@1.17.5:
+    resolution: {integrity: sha512-0i3iqvRfx29hkNntHyQvJTpf5W9dQ9ZadSoRU8+xVlhVtT7jAX57fazYO9EHvcRCfBCyi5YRya7XCDOsbTgkPg==}
     peerDependencies:
       '@azure/app-configuration': ^1.8.0
       '@azure/cosmos': ^4.2.0
@@ -5030,7 +5030,7 @@ snapshots:
       cac: 7.0.0
       consola: 3.4.2
       empathic: 2.0.0
-      giget: 3.1.2
+      giget: 3.2.0
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
       unconfig: 7.5.0
@@ -6202,7 +6202,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  giget@3.1.2: {}
+  giget@3.2.0: {}
 
   github-slugger@2.0.0: {}
 
@@ -6775,7 +6775,7 @@ snapshots:
       structured-clone-es: 1.0.0
       tinyglobby: 0.2.15
       unconfig: 7.5.0
-      unstorage: 1.17.4
+      unstorage: 1.17.5
       ws: 8.20.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -7648,7 +7648,7 @@ snapshots:
     optionalDependencies:
       synckit: 0.11.12
 
-  unstorage@1.17.4:
+  unstorage@1.17.5:
     dependencies:
       anymatch: 3.1.3
       chokidar: 5.0.0
