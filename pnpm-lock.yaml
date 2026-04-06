@@ -38,8 +38,8 @@ catalogs:
       specifier: ^9.0.2
       version: 9.0.2
     ky:
-      specifier: ^1.14.3
-      version: 1.14.3
+      specifier: ^2.0.0
+      version: 2.0.0
     typescript:
       specifier: ^6.0.2
       version: 6.0.2
@@ -379,7 +379,7 @@ importers:
         version: 9.0.2
       ky:
         specifier: 'catalog:'
-        version: 1.14.3
+        version: 2.0.0
       node-modules-inspector:
         specifier: catalog:cli
         version: 1.4.2
@@ -2818,9 +2818,9 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  ky@1.14.3:
-    resolution: {integrity: sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==}
-    engines: {node: '>=18'}
+  ky@2.0.0:
+    resolution: {integrity: sha512-KzI4Vz5AbZFAUFYGx28PCSfFWUo6/qj9Br/P6KRwDieE1xfdz0tIONepJcLw/1xLocN13GgvfJGasa+pfSkbHg==}
+    engines: {node: '>=22'}
 
   launch-editor@2.13.2:
     resolution: {integrity: sha512-4VVDnbOpLXy/s8rdRCSXb+zfMeFR0WlJWpET1iA9CQdlZDfwyLjUuGQzXU4VeOoey6AicSAluWan7Etga6Kcmg==}
@@ -6209,7 +6209,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  ky@1.14.3: {}
+  ky@2.0.0: {}
 
   launch-editor@2.13.2:
     dependencies:
