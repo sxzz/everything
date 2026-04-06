@@ -2917,8 +2917,8 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lru-cache@11.3.1:
-    resolution: {integrity: sha512-Y71HWT4hydF1IAG/2OPync4dgQ/J2iWye7eg6CuzJHI+E97tvqFPlADzxiNnjH6WSljg8ecfXMr9k6bfFuqA5w==}
+  lru-cache@11.3.2:
+    resolution: {integrity: sha512-wgWa6FWQ3QRRJbIjbsldRJZxdxYngT/dO0I5Ynmlnin8qy7tC6xYzbcJjtN4wHLXtkbVwHzk0C+OejVw1XM+DQ==}
     engines: {node: 20 || >=22}
 
   lru-cache@5.1.1:
@@ -4046,7 +4046,7 @@ snapshots:
       '@loaderkit/resolve': 1.0.4
       cjs-module-lexer: 1.4.3
       fflate: 0.8.2
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
       semver: 7.7.4
       typescript: 5.6.1-rc
       validate-npm-package-name: 5.0.1
@@ -6129,7 +6129,7 @@ snapshots:
 
   hosted-git-info@9.0.2:
     dependencies:
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
 
   html-entities@2.6.0: {}
 
@@ -6284,7 +6284,7 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lru-cache@11.3.1: {}
+  lru-cache@11.3.2: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -7572,7 +7572,7 @@ snapshots:
       chokidar: 5.0.0
       destr: 2.0.5
       h3: 1.15.11
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       ufo: 1.6.3
