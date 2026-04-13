@@ -60,8 +60,8 @@ catalogs:
       specifier: ^2.2.0
       version: 2.2.0
     ast-walker-scope:
-      specifier: ^0.8.3
-      version: 0.8.3
+      specifier: ^0.9.0
+      version: 0.9.0
     cac:
       specifier: ^7.0.0
       version: 7.0.0
@@ -231,7 +231,7 @@ importers:
         version: 2.2.0
       ast-walker-scope:
         specifier: catalog:libs
-        version: 0.8.3
+        version: 0.9.0
       cac:
         specifier: catalog:libs
         version: 7.0.0
@@ -2235,6 +2235,10 @@ packages:
 
   ast-walker-scope@0.8.3:
     resolution: {integrity: sha512-cbdCP0PGOBq0ASG+sjnKIoYkWMKhhz+F/h9pRexUdX2Hd38+WOlBkRKlqkGOSm0YQpcFMQBJeK4WspUAkwsEdg==}
+    engines: {node: '>=20.19.0'}
+
+  ast-walker-scope@0.9.0:
+    resolution: {integrity: sha512-IJdzo2vLiElBxKzwS36VsCue/62d6IdWjnPB2v3nuPKeWGynp6FF/CYoLa5i/3jXH/z97ZDdsXz6abpgM6w07A==}
     engines: {node: '>=20.19.0'}
 
   balanced-match@4.0.4:
@@ -5721,6 +5725,12 @@ snapshots:
   ast-walker-scope@0.8.3:
     dependencies:
       '@babel/parser': 7.29.2
+      ast-kit: 2.2.0
+
+  ast-walker-scope@0.9.0:
+    dependencies:
+      '@babel/parser': 7.29.2
+      '@babel/types': 7.29.0
       ast-kit: 2.2.0
 
   balanced-match@4.0.4: {}
