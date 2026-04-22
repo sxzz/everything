@@ -146,8 +146,8 @@ catalogs:
       specifier: ^0.7.0
       version: 0.7.0
     unplugin-isolated-decl:
-      specifier: ^0.15.7
-      version: 0.15.7
+      specifier: ^0.16.0
+      version: 0.16.0
     unplugin-jsx-string:
       specifier: ^0.10.0
       version: 0.10.0
@@ -312,7 +312,7 @@ importers:
         version: 0.7.0(rolldown@1.0.0-rc.16)
       unplugin-isolated-decl:
         specifier: catalog:unplugin
-        version: 0.15.7(typescript@6.0.3)
+        version: 0.16.0(typescript@6.0.3)
       unplugin-jsx-string:
         specifier: catalog:unplugin
         version: 0.10.0
@@ -3678,12 +3678,12 @@ packages:
     resolution: {integrity: sha512-2nXzI0T8/7TsTb0vJqMo7Ige+DN2MuEQFZL8eLjqIl6U+AUsqY7Pw9WlC3AHy/bw2XAsHDXqqk8S0uhKe8U6MA==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-isolated-decl@0.15.7:
-    resolution: {integrity: sha512-JrQGKO9HFvnnt7atd0PBoRLgZAKn66Qa2vKPebMhN5b/kzfuyLVSKKw+9DrcyPZ5PGobcg5SLWlAXq686SfnXw==}
-    engines: {node: '>=20.19.0'}
+  unplugin-isolated-decl@0.16.0:
+    resolution: {integrity: sha512-Y2uOMSQOIdjBbq2GyYoaMKX6C1o1DPQyadH29zdP/wJHvtxq1o7GuXLDq/f3dPKsltd9SGj35Fs2xHjy7cm0eQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@swc/core': ^1.6.6
-      typescript: ^5.5.2
+      typescript: ^5.5.2 || ^6.0.0
     peerDependenciesMeta:
       '@swc/core':
         optional: true
@@ -7435,13 +7435,13 @@ snapshots:
     transitivePeerDependencies:
       - rolldown
 
-  unplugin-isolated-decl@0.15.7(typescript@6.0.3):
+  unplugin-isolated-decl@0.16.0(typescript@6.0.3):
     dependencies:
       magic-string: 0.30.21
       obug: 2.1.1
       oxc-parser: 0.127.0
       oxc-transform: 0.127.0
-      unplugin: 2.3.11
+      unplugin: 3.0.0
       unplugin-utils: 0.3.1
     optionalDependencies:
       typescript: 6.0.3

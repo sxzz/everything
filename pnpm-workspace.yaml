@@ -52,7 +52,7 @@ catalogs:
     unplugin-ast: ^0.16.0
     unplugin-combine: ^2.3.0
     unplugin-inline-enum: ^0.7.0
-    unplugin-isolated-decl: ^0.15.7
+    unplugin-isolated-decl: ^0.16.0
     unplugin-jsx-string: ^0.10.0
     unplugin-lightningcss: ^0.4.5
     unplugin-macros: ^0.19.1
