@@ -109,7 +109,7 @@ catalogs:
       version: 0.5.0
     tsgo-wasm:
       specifier: ^2026.4.13
-      version: 2026.4.24
+      version: 2026.4.25
     untsx:
       specifier: ^0.1.3
       version: 0.1.3
@@ -294,7 +294,7 @@ importers:
         version: 0.5.0(tsdown@0.21.10(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.18)(synckit@0.11.12)(typescript@6.0.3)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.4.24
+        version: 2026.4.25
       unloader:
         specifier: catalog:cli
         version: 0.9.0
@@ -793,8 +793,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@loaderkit/resolve@1.0.4':
-    resolution: {integrity: sha512-rJzYKVcV4dxJv+vW6jlvagF8zvGxHJ2+HTr1e2qOejfmGhAApgJHl8Aog4mMszxceTRiKTTbnpgmTO1bEZHV/A==}
+  '@loaderkit/resolve@1.0.5':
+    resolution: {integrity: sha512-fhkdGM57xhJ7CO91MUgbQlb0ClP0AJ9vB3yoVnBTslYJqrJOCVEbOprZcxZlexdMbmTBPQqVcQYr+j4oRRtIZA==}
 
   '@napi-rs/wasm-runtime@1.1.4':
     resolution: {integrity: sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==}
@@ -3584,8 +3584,8 @@ packages:
       unplugin-unused:
         optional: true
 
-  tsgo-wasm@2026.4.24:
-    resolution: {integrity: sha512-/YMhbruE4NjGyPC1c1QZJ5IgLdPzuJ62u8VsonrCeL1AATsaGwZ+LHt+V0kRyJPugN7mRJkgVZdhVvw438JUNg==}
+  tsgo-wasm@2026.4.25:
+    resolution: {integrity: sha512-VIc3ra93wWXCwP/BCE4OLvPqdMjaIeqF9DKuheHCbgHSGZRyNdzB5nTA+1m6Lhhafha+Xb2Umb6ypAA7yEJ6gg==}
     hasBin: true
 
   tslib@2.8.1:
@@ -4092,7 +4092,7 @@ snapshots:
   '@arethetypeswrong/core@0.18.2':
     dependencies:
       '@andrewbranch/untar.js': 1.0.3
-      '@loaderkit/resolve': 1.0.4
+      '@loaderkit/resolve': 1.0.5
       cjs-module-lexer: 1.4.3
       fflate: 0.8.2
       lru-cache: 11.3.5
@@ -4472,7 +4472,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@loaderkit/resolve@1.0.4':
+  '@loaderkit/resolve@1.0.5':
     dependencies:
       '@braidai/lang': 1.1.2
 
@@ -7344,7 +7344,7 @@ snapshots:
       - synckit
       - vue-tsc
 
-  tsgo-wasm@2026.4.24: {}
+  tsgo-wasm@2026.4.25: {}
 
   tslib@2.8.1:
     optional: true
