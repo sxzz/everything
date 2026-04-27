@@ -140,8 +140,8 @@ catalogs:
       specifier: ^0.16.0
       version: 0.16.0
     unplugin-combine:
-      specifier: ^2.3.0
-      version: 2.3.0
+      specifier: ^2.4.0
+      version: 2.4.0
     unplugin-inline-enum:
       specifier: ^0.7.0
       version: 0.7.0
@@ -176,8 +176,8 @@ catalogs:
       specifier: ^0.3.1
       version: 0.3.1
     unplugin-vue:
-      specifier: ^7.1.1
-      version: 7.1.1
+      specifier: ^7.2.0
+      version: 7.2.0
     unplugin-vue-jsx:
       specifier: ^0.8.1
       version: 0.8.1
@@ -306,7 +306,7 @@ importers:
         version: 0.16.0
       unplugin-combine:
         specifier: catalog:unplugin
-        version: 2.3.0(rolldown@1.0.0-rc.17)(unplugin@3.0.0)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3))
+        version: 2.4.0(rolldown@1.0.0-rc.17)(unplugin@3.0.0)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3))
       unplugin-inline-enum:
         specifier: catalog:unplugin
         version: 0.7.0(rolldown@1.0.0-rc.17)
@@ -342,7 +342,7 @@ importers:
         version: 0.3.1
       unplugin-vue:
         specifier: catalog:unplugin
-        version: 7.1.1(@types/node@25.6.0)(jiti@2.6.1)(vue@3.5.33(typescript@6.0.3))(yaml@2.8.3)
+        version: 7.2.0(@types/node@25.6.0)(jiti@2.6.1)(vue@3.5.33(typescript@6.0.3))(yaml@2.8.3)
       unplugin-vue-jsx:
         specifier: catalog:unplugin
         version: 0.8.1
@@ -3348,17 +3348,17 @@ packages:
     resolution: {integrity: sha512-1ow2FlRznoSKE7Fjk2bSxqDsvHyj/O876RqsNlipsM6A+I91t7Mi+jG7tCNNcl3vZx14z4pGXBLSl8KOPrMuFQ==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-combine@2.3.0:
-    resolution: {integrity: sha512-0aZjv0JqOCPY+yujTatSwlCbsK6bMcBUZDlpMHTlc7KDc2gq8XL5cPgEOeS2GZ767BHAonkEqhC+NlOvzzm5FA==}
+  unplugin-combine@2.4.0:
+    resolution: {integrity: sha512-7SdxU+FjHvaAYmISUSF2UGedxJ+Df25eqeR4HMIaP5aSuQ0dF0p2vc1loSRzHY3ubODvwoK7ynWM6nr2hPHZIQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      '@rspack/core': ^1.0.0
+      '@rspack/core': ^1.0.0 || ^2.0.0
       esbuild: '>=0.13'
       rolldown: '*'
       rollup: ^3.2.0 || ^4.0.0
       unplugin: ^1.0.0 || ^2.0.0 || ^3.0.0
-      vite: ^2.3.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-      webpack: 4 || 5
+      vite: ^2.3.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      webpack: ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
@@ -3451,8 +3451,8 @@ packages:
     resolution: {integrity: sha512-/0yF19rCgY/PRYZ75nisguPuhD2tGx7MgzxcZtuAV46ilP0h+kkgR5Ng7KxkQBCIddSvVlILgSuJnzdRNkvuKA==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-vue@7.1.1:
-    resolution: {integrity: sha512-0171rToKyJtoz+faE9CSGtAhCF7//t8sJueyyfZujf4RcKtoHLU/wqcsnuH5aq3tDB+I/Tg6IXiWgPvI+TK/zw==}
+  unplugin-vue@7.2.0:
+    resolution: {integrity: sha512-6JHWcRbLO3bySOsipQSW9n2VRoPqsx9GLSWBfp7QLPCvpUr/edeAXR7pSl44EEJ+FIp9bG8Zm+xm5dnM/yir4Q==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       vue: ^3.2.25
@@ -6871,13 +6871,13 @@ snapshots:
       magic-string-ast: 1.0.3
       unplugin: 3.0.0
 
-  unplugin-combine@2.3.0(rolldown@1.0.0-rc.17)(unplugin@2.3.11)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3)):
+  unplugin-combine@2.4.0(rolldown@1.0.0-rc.17)(unplugin@2.3.11)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3)):
     optionalDependencies:
       rolldown: 1.0.0-rc.17
       unplugin: 2.3.11
       vite: 8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3)
 
-  unplugin-combine@2.3.0(rolldown@1.0.0-rc.17)(unplugin@3.0.0)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3)):
+  unplugin-combine@2.4.0(rolldown@1.0.0-rc.17)(unplugin@3.0.0)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3)):
     optionalDependencies:
       rolldown: 1.0.0-rc.17
       unplugin: 3.0.0
@@ -7017,7 +7017,7 @@ snapshots:
     transitivePeerDependencies:
       - rolldown
 
-  unplugin-vue@7.1.1(@types/node@25.6.0)(jiti@2.6.1)(vue@3.5.33(typescript@6.0.3))(yaml@2.8.3):
+  unplugin-vue@7.2.0(@types/node@25.6.0)(jiti@2.6.1)(vue@3.5.33(typescript@6.0.3))(yaml@2.8.3):
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
@@ -7231,7 +7231,7 @@ snapshots:
       '@vue-macros/short-vmodel': 3.1.2(vue@3.5.33(typescript@6.0.3))
       '@vue-macros/volar': 3.1.2(typescript@6.0.3)(vue@3.5.33(typescript@6.0.3))
       unplugin: 2.3.11
-      unplugin-combine: 2.3.0(rolldown@1.0.0-rc.17)(unplugin@2.3.11)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3))
+      unplugin-combine: 2.4.0(rolldown@1.0.0-rc.17)(unplugin@2.3.11)(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.3))
       unplugin-vue-define-options: 3.1.2(vue@3.5.33(typescript@6.0.3))
       vue: 3.5.33(typescript@6.0.3)
     transitivePeerDependencies:
