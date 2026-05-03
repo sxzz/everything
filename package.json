@@ -16,7 +16,6 @@
     "@sxzz/eslint-config": "catalog:lint",
     "@sxzz/prettier-config": "catalog:lint",
     "@sxzz/test-utils": "catalog:libs",
-    "@vue-macros/common": "catalog:vue",
     "@vue/babel-plugin-jsx": "catalog:libs",
     "@vue/repl": "catalog:libs",
     "ast-kit": "catalog:libs",
@@ -32,7 +31,6 @@
     "pnpm-multi-versions": "catalog:libs",
     "quansync": "catalog:libs",
     "rolldown-plugin-dts": "catalog:libs",
-    "rolldown-plugin-dts-snapshot": "catalog:libs",
     "rolldown-plugin-require-cjs": "catalog:libs",
     "rolldown-plugin-wasm": "catalog:libs",
     "rolldown-string": "catalog:libs",
@@ -48,7 +46,6 @@
     "unplugin-combine": "catalog:unplugin",
     "unplugin-inline-enum": "catalog:unplugin",
     "unplugin-isolated-decl": "catalog:unplugin",
-    "unplugin-jsx-string": "catalog:unplugin",
     "unplugin-lightningcss": "catalog:unplugin",
     "unplugin-macros": "catalog:unplugin",
     "unplugin-oxc": "catalog:unplugin",
@@ -63,7 +60,6 @@
     "untsx": "catalog:libs",
     "vite-hyper-config": "catalog:cli",
     "vue-functional-ref": "catalog:vue",
-    "vue-macros": "catalog:vue",
     "vue-simple-props": "catalog:vue"
   },
   "devDependencies": {

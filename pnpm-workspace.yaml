@@ -31,7 +31,6 @@ catalogs:
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
     rolldown-plugin-dts: ^0.24.1
-    rolldown-plugin-dts-snapshot: ^0.4.0
     rolldown-plugin-require-cjs: ^0.4.0
     rolldown-plugin-wasm: ^0.2.1
     rolldown-string: ^0.3.0
@@ -53,7 +52,6 @@ catalogs:
     unplugin-combine: ^2.4.0
     unplugin-inline-enum: ^0.7.0
     unplugin-isolated-decl: ^0.16.0
-    unplugin-jsx-string: ^0.10.0
     unplugin-lightningcss: ^0.4.5
     unplugin-macros: ^0.19.2
     unplugin-oxc: ^0.6.1
@@ -66,9 +64,7 @@ catalogs:
     unplugin-vue-jsx: ^0.8.1
     unplugin-vue-named-export: ^0.9.4
   vue:
-    '@vue-macros/common': ^3.1.2
     vue-functional-ref: ^0.7.2
-    vue-macros: ^3.1.2
     vue-simple-props: ^0.6.3
 
 allowBuilds:
