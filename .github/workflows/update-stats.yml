@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Setup JS
-        uses: sxzz/workflows/setup-js@v2.0.0
+        uses: sxzz/workflows/setup-js@main
         with:
           persist-credentials: true
 
