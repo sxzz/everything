@@ -270,10 +270,10 @@ importers:
         version: 0.5.0(eslint@10.3.0(jiti@2.7.0))(prettier@3.8.3)(typescript@6.0.3)
       tsdown:
         specifier: catalog:cli
-        version: 0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.19)(typescript@6.0.3)(unplugin-unused@0.5.7)
+        version: 0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.20)(typescript@6.0.3)(unplugin-unused@0.5.7)
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.19)(typescript@6.0.3)(unplugin-unused@0.5.7))
+        version: 0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.20)(typescript@6.0.3)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.5.9
@@ -527,8 +527,8 @@ packages:
     resolution: {integrity: sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@2.0.5':
-    resolution: {integrity: sha512-IbHDbHJfkVNv6xjlET8AIVo/K1NQt7YT4Rp6ok/clyBGcpRx1l6gv0Rq3vBvYfPJIZt6ODf66Zq08FJNDpnzgg==}
+  '@eslint/compat@2.1.0':
+    resolution: {integrity: sha512-LgaSCymEpw7tF53xvDw9SNsraPb1IBHxpdABIOM0hW8UAlP8znrjYtuxfR58FSJ3L9BhwD+FaPRFQpZq84Nh6g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^8.40 || 9 || 10
@@ -2098,8 +2098,8 @@ packages:
     resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
     engines: {node: '>=14'}
 
-  enhanced-resolve@5.21.1:
-    resolution: {integrity: sha512-8p7DUVq6XJnZEz9W4oSwiwycxBIjHjRzYb3Je3zVN+geKTRQKzAkR/K4PBExlS0090d9nshak6phMUxr3PDjmQ==}
+  enhanced-resolve@5.21.2:
+    resolution: {integrity: sha512-xe9vQb5kReirPUxgQrXA3ihgbCqssmTiM7cOZ+Gzu+VeGWgpV98lLZvp0dl4yriyAePcewxGUs9UpKD8PET9KQ==}
     engines: {node: '>=10.13.0'}
 
   entities@7.0.1:
@@ -3028,8 +3028,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  publint@0.3.19:
-    resolution: {integrity: sha512-J3p4GOocCRFyLLFRzGfIhAwWgk0Kkcdxj5iFspFvCYbyiJs5IhCM8gsIkcNeQL+tdpV671RtJQiTFSUKhl1Wjg==}
+  publint@0.3.20:
+    resolution: {integrity: sha512-UWqFYP7VBVCe9l/leEEGJrDs6Am4K4KapLmLi5qbt+9fA+Ny38ghdW+bw1nYfVqCK8/3kgsxjjhFjTYqYYRpyw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3962,7 +3962,7 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.2': {}
 
-  '@eslint/compat@2.0.5(eslint@10.3.0(jiti@2.7.0))':
+  '@eslint/compat@2.1.0(eslint@10.3.0(jiti@2.7.0))':
     dependencies:
       '@eslint/core': 1.2.1
     optionalDependencies:
@@ -5151,7 +5151,7 @@ snapshots:
 
   empathic@2.0.1: {}
 
-  enhanced-resolve@5.21.1:
+  enhanced-resolve@5.21.2:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.3
@@ -5175,7 +5175,7 @@ snapshots:
 
   eslint-config-flat-gitignore@2.3.0(eslint@10.3.0(jiti@2.7.0)):
     dependencies:
-      '@eslint/compat': 2.0.5(eslint@10.3.0(jiti@2.7.0))
+      '@eslint/compat': 2.1.0(eslint@10.3.0(jiti@2.7.0))
       eslint: 10.3.0(jiti@2.7.0)
 
   eslint-config-prettier@10.1.8(eslint@10.3.0(jiti@2.7.0)):
@@ -5270,7 +5270,7 @@ snapshots:
   eslint-plugin-n@18.0.1(eslint@10.3.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.3.0(jiti@2.7.0))
-      enhanced-resolve: 5.21.1
+      enhanced-resolve: 5.21.2
       eslint: 10.3.0(jiti@2.7.0)
       eslint-plugin-es-x: 7.8.0(eslint@10.3.0(jiti@2.7.0))
       get-tsconfig: 4.14.0
@@ -6111,7 +6111,7 @@ snapshots:
       open: 11.0.0
       p-limit: 7.3.0
       pathe: 2.0.3
-      publint: 0.3.19
+      publint: 0.3.20
       structured-clone-es: 2.0.0
       tinyglobby: 0.2.16
       unconfig: 7.5.0
@@ -6148,7 +6148,7 @@ snapshots:
       package-manager-detector: 1.6.0
       pathe: 2.0.3
       pkg-types: 2.3.1
-      publint: 0.3.19
+      publint: 0.3.20
       semver: 7.7.4
       tinyexec: 1.1.2
 
@@ -6416,7 +6416,7 @@ snapshots:
 
   prettier@3.8.3: {}
 
-  publint@0.3.19:
+  publint@0.3.20:
     dependencies:
       '@publint/pack': 0.1.4
       package-manager-detector: 1.6.0
@@ -6647,13 +6647,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.19)(typescript@6.0.3)(unplugin-unused@0.5.7)):
+  tsdown-preset-sxzz@0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.20)(typescript@6.0.3)(unplugin-unused@0.5.7)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
-      publint: 0.3.19
-      tsdown: 0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.19)(typescript@6.0.3)(unplugin-unused@0.5.7)
+      publint: 0.3.20
+      tsdown: 0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.20)(typescript@6.0.3)(unplugin-unused@0.5.7)
 
-  tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.19)(typescript@6.0.3)(unplugin-unused@0.5.7):
+  tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(oxc-resolver@11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(publint@0.3.20)(typescript@6.0.3)(unplugin-unused@0.5.7):
     dependencies:
       ansis: 4.2.0
       cac: 7.0.0
@@ -6672,7 +6672,7 @@ snapshots:
       unconfig-core: 7.5.0
     optionalDependencies:
       '@arethetypeswrong/core': 0.18.2
-      publint: 0.3.19
+      publint: 0.3.20
       typescript: 6.0.3
       unplugin-unused: 0.5.7
     transitivePeerDependencies:
