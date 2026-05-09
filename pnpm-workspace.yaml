@@ -50,7 +50,7 @@ catalogs:
     unplugin: ^3.0.0
     unplugin-ast: ^0.17.0
     unplugin-combine: ^2.4.0
-    unplugin-inline-enum: ^0.7.0
+    unplugin-inline-enum: ^0.8.0
     unplugin-isolated-decl: ^0.16.0
     unplugin-lightningcss: ^0.4.5
     unplugin-macros: ^0.19.2

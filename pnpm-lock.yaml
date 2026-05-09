@@ -140,8 +140,8 @@ catalogs:
       specifier: ^2.4.0
       version: 2.4.0
     unplugin-inline-enum:
-      specifier: ^0.7.0
-      version: 0.7.0
+      specifier: ^0.8.0
+      version: 0.8.0
     unplugin-isolated-decl:
       specifier: ^0.16.0
       version: 0.16.0
@@ -291,7 +291,7 @@ importers:
         version: 2.4.0(rolldown@1.0.0)(unplugin@3.0.0)(vite@8.0.11(@types/node@25.6.2)(jiti@2.7.0)(yaml@2.8.4))
       unplugin-inline-enum:
         specifier: catalog:unplugin
-        version: 0.7.0(rolldown@1.0.0)
+        version: 0.8.0(rolldown@1.0.0)
       unplugin-isolated-decl:
         specifier: catalog:unplugin
         version: 0.16.0(typescript@6.0.3)
@@ -1925,8 +1925,8 @@ packages:
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
 
-  brace-expansion@5.0.5:
-    resolution: {integrity: sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==}
+  brace-expansion@5.0.6:
+    resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
     engines: {node: 18 || 20 || >=22}
 
   browserslist@4.28.2:
@@ -2094,12 +2094,12 @@ packages:
   electron-to-chromium@1.5.352:
     resolution: {integrity: sha512-9wHk8x6dyuimoe18EdiDPWKExNdxYqo4fn4FwOVVper6RxT3cmpBwBkWWfSOCYJjQdIco/nPhJhNLmn4Ufg1Yg==}
 
-  empathic@2.0.0:
-    resolution: {integrity: sha512-i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA==}
+  empathic@2.0.1:
+    resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
     engines: {node: '>=14'}
 
-  enhanced-resolve@5.21.0:
-    resolution: {integrity: sha512-otxSQPw4lkOZWkHpB3zaEQs6gWYEsmX4xQF68ElXC/TWvGxGMSGOvoNbaLXm6/cS/fSfHtsEdw90y20PCd+sCA==}
+  enhanced-resolve@5.21.1:
+    resolution: {integrity: sha512-8p7DUVq6XJnZEz9W4oSwiwycxBIjHjRzYb3Je3zVN+geKTRQKzAkR/K4PBExlS0090d9nshak6phMUxr3PDjmQ==}
     engines: {node: '>=10.13.0'}
 
   entities@7.0.1:
@@ -3398,9 +3398,9 @@ packages:
       webpack:
         optional: true
 
-  unplugin-inline-enum@0.7.0:
-    resolution: {integrity: sha512-2nXzI0T8/7TsTb0vJqMo7Ige+DN2MuEQFZL8eLjqIl6U+AUsqY7Pw9WlC3AHy/bw2XAsHDXqqk8S0uhKe8U6MA==}
-    engines: {node: '>=20.19.0'}
+  unplugin-inline-enum@0.8.0:
+    resolution: {integrity: sha512-gANxmg1aqSaU75RmTewsBX9ANmux9QVxyI2B68Ij+8sJ6pq2cxYSsU0MsBbIOr2gQ9+tl1s1Qr6IDjH8j7/dUQ==}
+    engines: {node: ^22.18.0 || >=24.0.0}
 
   unplugin-isolated-decl@0.16.0:
     resolution: {integrity: sha512-Y2uOMSQOIdjBbq2GyYoaMKX6C1o1DPQyadH29zdP/wJHvtxq1o7GuXLDq/f3dPKsltd9SGj35Fs2xHjy7cm0eQ==}
@@ -3445,10 +3445,6 @@ packages:
     peerDependenciesMeta:
       esbuild:
         optional: true
-
-  unplugin-replace@0.8.0:
-    resolution: {integrity: sha512-/qhj6nsRIJB1WxWessn/nMp29yusnkpYZa6D9OgAxrPinzK+cvrKVsbBNWChCkuQUsEr/3JIW86tX4iOYs51uw==}
-    engines: {node: '>=20.19.0'}
 
   unplugin-replace@0.9.0:
     resolution: {integrity: sha512-h8wjMvpNYGGNZ4llzFgrLal13LmniGkjDTMoCCon5eaoy29FbD7TLMbQetRkU9+2S7EPA+0FYKHN6/8/4eI+UA==}
@@ -4594,7 +4590,7 @@ snapshots:
       ansis: 4.2.0
       cac: 7.0.0
       consola: 3.4.2
-      empathic: 2.0.0
+      empathic: 2.0.1
       giget: 3.2.0
       tinyexec: 1.1.2
       tinyglobby: 0.2.16
@@ -5015,7 +5011,7 @@ snapshots:
 
   boolbase@1.0.0: {}
 
-  brace-expansion@5.0.5:
+  brace-expansion@5.0.6:
     dependencies:
       balanced-match: 4.0.4
 
@@ -5153,9 +5149,9 @@ snapshots:
 
   electron-to-chromium@1.5.352: {}
 
-  empathic@2.0.0: {}
+  empathic@2.0.1: {}
 
-  enhanced-resolve@5.21.0:
+  enhanced-resolve@5.21.1:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.3
@@ -5274,7 +5270,7 @@ snapshots:
   eslint-plugin-n@18.0.1(eslint@10.3.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.3.0(jiti@2.7.0))
-      enhanced-resolve: 5.21.0
+      enhanced-resolve: 5.21.1
       eslint: 10.3.0(jiti@2.7.0)
       eslint-plugin-es-x: 7.8.0(eslint@10.3.0(jiti@2.7.0))
       get-tsconfig: 4.14.0
@@ -5296,7 +5292,7 @@ snapshots:
 
   eslint-plugin-pnpm@1.6.0(eslint@10.3.0(jiti@2.7.0)):
     dependencies:
-      empathic: 2.0.0
+      empathic: 2.0.1
       eslint: 10.3.0(jiti@2.7.0)
       jsonc-eslint-parser: 3.1.0
       pathe: 2.0.3
@@ -6065,7 +6061,7 @@ snapshots:
 
   minimatch@10.2.5:
     dependencies:
-      brace-expansion: 5.0.5
+      brace-expansion: 5.0.6
 
   mlly@1.8.2:
     dependencies:
@@ -6392,7 +6388,7 @@ snapshots:
   pnpm-multi-versions@0.6.1:
     dependencies:
       cac: 7.0.0
-      empathic: 2.0.0
+      empathic: 2.0.1
       yaml: 2.8.4
 
   pnpm-workspace-yaml@1.6.0:
@@ -6473,7 +6469,7 @@ snapshots:
   rolldown-plugin-require-cjs@0.4.0(rolldown@1.0.0):
     dependencies:
       cjs-module-lexer: 2.2.0
-      empathic: 2.0.0
+      empathic: 2.0.1
       import-meta-resolve: 4.2.0
       magic-string-ast: 1.0.3
       rolldown: 1.0.0
@@ -6662,7 +6658,7 @@ snapshots:
       ansis: 4.2.0
       cac: 7.0.0
       defu: 6.1.7
-      empathic: 2.0.0
+      empathic: 2.0.1
       hookable: 6.1.1
       import-without-cache: 0.4.0
       obug: 2.1.1
@@ -6774,14 +6770,14 @@ snapshots:
       unplugin: 3.0.0
       vite: 8.0.11(@types/node@25.6.2)(jiti@2.7.0)(yaml@2.8.4)
 
-  unplugin-inline-enum@0.7.0(rolldown@1.0.0):
+  unplugin-inline-enum@0.8.0(rolldown@1.0.0):
     dependencies:
       ast-kit: 2.2.0
       picomatch: 4.0.4
       rolldown-string: 0.3.0(rolldown@1.0.0)
       tinyglobby: 0.2.16
       unplugin: 3.0.0
-      unplugin-replace: 0.8.0(rolldown@1.0.0)
+      unplugin-replace: 0.9.0(rolldown@1.0.0)
     transitivePeerDependencies:
       - rolldown
 
@@ -6851,14 +6847,6 @@ snapshots:
       unplugin: 3.0.0
       unplugin-utils: 0.3.1
 
-  unplugin-replace@0.8.0(rolldown@1.0.0):
-    dependencies:
-      js-tokens: 10.0.0
-      rolldown-string: 0.3.0(rolldown@1.0.0)
-      unplugin: 3.0.0
-    transitivePeerDependencies:
-      - rolldown
-
   unplugin-replace@0.9.0(rolldown@1.0.0):
     dependencies:
       js-tokens: 10.0.0
@@ -6869,7 +6857,7 @@ snapshots:
 
   unplugin-unused@0.5.7:
     dependencies:
-      empathic: 2.0.0
+      empathic: 2.0.1
       escape-string-regexp: 5.0.0
       js-tokens: 10.0.0
       unplugin: 3.0.0
