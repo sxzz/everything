@@ -12,7 +12,7 @@ catalogs:
     '@sxzz/create': ^0.16.0
     monoman: ^0.8.2
     node-modules-inspector: ^2.0.1
-    stale-dep: ^0.8.6
+    stale-dep: ^0.9.0
     tsdown: ^0.22.0
     unloader: ^0.9.0
     vite-hyper-config: ^0.9.0
@@ -26,7 +26,7 @@ catalogs:
     cac: ^7.0.0
     dts-resolver: ^3.0.0
     import-without-cache: ^0.4.0
-    magic-string-ast: ^1.0.3
+    magic-string-ast: ^2.0.0
     obug: ^2.1.1
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
