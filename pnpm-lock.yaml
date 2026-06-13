@@ -90,8 +90,8 @@ catalogs:
       specifier: ^0.4.1
       version: 0.4.1
     rolldown-plugin-wasm:
-      specifier: ^0.3.1
-      version: 0.3.1
+      specifier: ^0.3.2
+      version: 0.3.2
     rolldown-string:
       specifier: ^0.3.0
       version: 0.3.0
@@ -255,7 +255,7 @@ importers:
         version: 0.4.1(rolldown@1.1.1)
       rolldown-plugin-wasm:
         specifier: catalog:libs
-        version: 0.3.1(rolldown@1.1.1)
+        version: 0.3.2(rolldown@1.1.1)
       rolldown-string:
         specifier: catalog:libs
         version: 0.3.0(rolldown@1.1.1)
@@ -3110,9 +3110,9 @@ packages:
     peerDependencies:
       rolldown: '*'
 
-  rolldown-plugin-wasm@0.3.1:
-    resolution: {integrity: sha512-LGgjA+fCtb5ZhPA+0AyMCouXimU7KX3BCBP7RRZhi/YRjpbUcul/I2Mp9Dpuu+vySO+lAo6K6Lf9fYoztyDkig==}
-    engines: {node: '>=22.18.0'}
+  rolldown-plugin-wasm@0.3.2:
+    resolution: {integrity: sha512-WYjcRNvX8i3PoAPIbmENebUhn1b3nbkorLSGMBGBP5mPaSE5Jh5JWuVhRm3Nl5n6VL23OtWh3TOm0wwMYYV+8Q==}
+    engines: {node: ^22.18.0 || >=24.0.0}
     peerDependencies:
       rolldown: ^1.0.0
 
@@ -6506,7 +6506,7 @@ snapshots:
       rolldown: 1.1.1
       unplugin-utils: 0.3.1
 
-  rolldown-plugin-wasm@0.3.1(rolldown@1.1.1):
+  rolldown-plugin-wasm@0.3.2(rolldown@1.1.1):
     dependencies:
       rolldown: 1.1.1
 
