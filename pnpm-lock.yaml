@@ -87,7 +87,7 @@ catalogs:
       specifier: ^0.25.2
       version: 0.25.2
     rolldown-plugin-require-cjs:
-      specifier: ^0.4.0
+      specifier: ^0.4.1
       version: 0.4.1
     rolldown-plugin-wasm:
       specifier: ^0.3.1
@@ -105,8 +105,8 @@ catalogs:
       specifier: ^0.6.0
       version: 0.6.0
     tsgo-wasm:
-      specifier: ^2026.6.12
-      version: 2026.6.12
+      specifier: ^2026.6.13
+      version: 2026.6.13
     untsx:
       specifier: ^0.2.0
       version: 0.2.0
@@ -118,7 +118,7 @@ catalogs:
       specifier: ^2.3.1
       version: 2.3.1
     eslint:
-      specifier: ^10.4.1
+      specifier: ^10.5.0
       version: 10.5.0
     eslint-plugin-importer:
       specifier: ^0.3.0
@@ -276,7 +276,7 @@ importers:
         version: 0.6.0(tsdown@0.22.2(@arethetypeswrong/core@0.18.3)(oxc-resolver@11.20.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.6.12
+        version: 2026.6.13
       unloader:
         specifier: catalog:cli
         version: 0.9.0
@@ -3320,8 +3320,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.6.12:
-    resolution: {integrity: sha512-L9Lp945IHlZ2ZT7RyZKoaXV+XhauzN8bdJMms8q5swEKOX45sC/dgwj/C93Zla0kNv9D6QhCylQL/YIDPdXKKw==}
+  tsgo-wasm@2026.6.13:
+    resolution: {integrity: sha512-M6RLIsYJL9Dh0Ru4yl46F6pySti1YBPeqjkKLQy2a5UtvhZbBZoPP8cpWrLIK3bhVdQ4n8yT4IFjijQ6VvLi5Q==}
     hasBin: true
 
   tslib@2.8.1:
@@ -6708,7 +6708,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.6.12: {}
+  tsgo-wasm@2026.6.13: {}
 
   tslib@2.8.1:
     optional: true
