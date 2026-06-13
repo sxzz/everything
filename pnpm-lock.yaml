@@ -204,7 +204,7 @@ importers:
         version: 2.3.1
       '@sxzz/test-utils':
         specifier: catalog:libs
-        version: 0.5.18(@vue/language-core@3.3.4)(rolldown@1.1.1)(typescript@6.0.3)(vitest@4.1.8(@types/node@25.9.3)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)))
+        version: 0.5.18(@vue/language-core@3.3.5)(rolldown@1.1.1)(typescript@6.0.3)(vitest@4.1.8(@types/node@25.9.3)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)))
       '@vue/babel-plugin-jsx':
         specifier: catalog:libs
         version: 2.0.1(@babel/core@7.29.7)
@@ -1829,8 +1829,8 @@ packages:
   '@vue/compiler-ssr@3.5.38':
     resolution: {integrity: sha512-7s+W5Gc42FGxZMcuwl8H5B29T8BJPMdBT7KHFE+BbAuZ/iTEdTtv7z2XiMjiaUUw4w3ZcCEdHs36RuYJ2VA7bA==}
 
-  '@vue/language-core@3.3.4':
-    resolution: {integrity: sha512-IuHqQ5zGGOE7CXP72VX6A42IVeIzYv4WAhO6arej11TRNqtdZfGyH8Yr2FOCaDX0dSQG+JwULLoFHGY1igYVjQ==}
+  '@vue/language-core@3.3.5':
+    resolution: {integrity: sha512-UkKu5nhX89fg4VhlG/FOeI10G3cj/7radKT/cy9BT4Q9qJmJlSTAc/dP63Xqs29aypN4f39xUV6PsLNk/dcD6g==}
 
   '@vue/reactivity@3.5.38':
     resolution: {integrity: sha512-pG6LV/NDNRbKizcUjFFLAfjaL8mcv4DmR9avNcUw2gDHBzZneuS2TWCmp633ynzxz9YYKNeEPK2I8Wraqy2HUQ==}
@@ -1912,8 +1912,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.10.36:
-    resolution: {integrity: sha512-lVq/Df7LXlO79MVaaUHztSwWiG9oXoWHlgvNS51v8Dpd4+G4/VIy6qYePTw31nAVls33nUtnfezYeLkYAak9dg==}
+  baseline-browser-mapping@2.10.37:
+    resolution: {integrity: sha512-girxaJ7WZssDOFhzCGZTDKoTa1gk6A1TbflaYTpykLJ4UU9Fz9kx1aREM8JCuoVHbL8X8T/mJg7w2oYSq72Oig==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -3074,8 +3074,8 @@ packages:
     resolution: {integrity: sha512-iETxpjK6YoRWJG5o6hXLwvjYAoW+FEZn9os0PD/b6AP6xQwsa/Y7lCVgIixBbUPMfhu+i2LtdeAqVTgGlQarfA==}
     hasBin: true
 
-  regjsparser@0.13.1:
-    resolution: {integrity: sha512-dLsljMd9sqwRkby8zhO1gSg3PnJIBFid8f4CQj/sXx+7cKx+E7u0PKhZ+U4wmhx7EfmtvnA318oVaIkAB1lRJw==}
+  regjsparser@0.13.2:
+    resolution: {integrity: sha512-NgRBy2Nx/bE+9F27nVHnqcN5HjyLmecqsqx2PJHu3/IEtADD4WuxuXIVExD5PoSDFVrl78dOonfcOe5O+5nbzQ==}
     hasBin: true
 
   reserved-identifiers@1.2.0:
@@ -4674,13 +4674,13 @@ snapshots:
     dependencies:
       '@prettier/plugin-oxc': 0.1.4
 
-  '@sxzz/test-utils@0.5.18(@vue/language-core@3.3.4)(rolldown@1.1.1)(typescript@6.0.3)(vitest@4.1.8(@types/node@25.9.3)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)))':
+  '@sxzz/test-utils@0.5.18(@vue/language-core@3.3.5)(rolldown@1.1.1)(typescript@6.0.3)(vitest@4.1.8(@types/node@25.9.3)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)))':
     dependencies:
       tinyglobby: 0.2.17
       unplugin-utils: 0.3.1
       vitest: 4.1.8(@types/node@25.9.3)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0))
     optionalDependencies:
-      '@vue/language-core': 3.3.4
+      '@vue/language-core': 3.3.5
       rolldown: 1.1.1
       typescript: 6.0.3
 
@@ -4943,7 +4943,7 @@ snapshots:
       '@vue/compiler-dom': 3.5.38
       '@vue/shared': 3.5.38
 
-  '@vue/language-core@3.3.4':
+  '@vue/language-core@3.3.5':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.38
@@ -5034,7 +5034,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.10.36: {}
+  baseline-browser-mapping@2.10.37: {}
 
   birpc@4.0.0: {}
 
@@ -5046,7 +5046,7 @@ snapshots:
 
   browserslist@4.28.2:
     dependencies:
-      baseline-browser-mapping: 2.10.36
+      baseline-browser-mapping: 2.10.37
       caniuse-lite: 1.0.30001799
       electron-to-chromium: 1.5.372
       node-releases: 2.0.47
@@ -5368,7 +5368,7 @@ snapshots:
       jsesc: 3.1.0
       pluralize: 8.0.0
       regexp-tree: 0.1.27
-      regjsparser: 0.13.1
+      regjsparser: 0.13.2
       semver: 7.8.4
       strip-indent: 4.1.1
 
@@ -6473,7 +6473,7 @@ snapshots:
 
   regexp-tree@0.1.27: {}
 
-  regjsparser@0.13.1:
+  regjsparser@0.13.2:
     dependencies:
       jsesc: 3.1.0
 
@@ -6901,7 +6901,7 @@ snapshots:
 
   unplugin-vue-named-export@0.9.4(rolldown@1.1.1):
     dependencies:
-      '@vue/language-core': 3.3.4
+      '@vue/language-core': 3.3.5
       ast-kit: 2.2.0
       muggle-string: 0.4.1
       rolldown-string: 0.3.0(rolldown@1.1.1)
