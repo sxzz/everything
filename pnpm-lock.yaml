@@ -105,14 +105,14 @@ catalogs:
       specifier: ^0.6.0
       version: 0.6.0
     tsgo-wasm:
-      specifier: ^2026.6.13
-      version: 2026.6.13
+      specifier: ^2026.6.14
+      version: 2026.6.14
     untsx:
       specifier: ^0.2.0
       version: 0.2.0
   lint:
     '@sxzz/eslint-config':
-      specifier: ^8.1.0
+      specifier: ^8.2.0
       version: 8.2.0
     '@sxzz/prettier-config':
       specifier: ^2.3.1
@@ -276,7 +276,7 @@ importers:
         version: 0.6.0(tsdown@0.22.2(@arethetypeswrong/core@0.18.3)(oxc-resolver@11.20.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.6.13
+        version: 2026.6.14
       unloader:
         specifier: catalog:cli
         version: 0.9.0
@@ -3308,8 +3308,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.6.13:
-    resolution: {integrity: sha512-M6RLIsYJL9Dh0Ru4yl46F6pySti1YBPeqjkKLQy2a5UtvhZbBZoPP8cpWrLIK3bhVdQ4n8yT4IFjijQ6VvLi5Q==}
+  tsgo-wasm@2026.6.14:
+    resolution: {integrity: sha512-YR8OxkyBJPZUSlrFdAlWENuE2Ovfh4dSJSeC21EvHLHrehQh1MDqJmgeTHMt1Giz00T7o/X43xt4a4ElFeQnZA==}
     hasBin: true
 
   tslib@2.8.1:
@@ -6687,7 +6687,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.6.13: {}
+  tsgo-wasm@2026.6.14: {}
 
   tslib@2.8.1:
     optional: true
