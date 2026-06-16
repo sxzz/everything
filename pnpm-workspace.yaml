@@ -50,19 +50,19 @@ catalogs:
     unplugin: ^3.0.0
     unplugin-ast: ^0.17.2
     unplugin-combine: ^2.4.0
-    unplugin-inline-enum: ^0.8.0
+    unplugin-inline-enum: ^0.8.2
     unplugin-isolated-decl: ^0.16.0
     unplugin-lightningcss: ^0.4.5
-    unplugin-macros: ^0.20.0
+    unplugin-macros: ^0.20.2
     unplugin-oxc: ^0.6.1
-    unplugin-quansync: ^0.5.2
+    unplugin-quansync: ^0.6.0
     unplugin-raw: ^0.7.0
     unplugin-replace: ^0.9.0
     unplugin-unused: ^0.5.7
     unplugin-utils: ^0.3.1
     unplugin-vue: ^7.2.0
     unplugin-vue-jsx: ^0.9.0
-    unplugin-vue-named-export: ^0.9.4
+    unplugin-vue-named-export: ^0.10.0
   vue:
     vue-functional-ref: ^0.8.0
     vue-simple-props: ^0.6.4

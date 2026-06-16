@@ -140,8 +140,8 @@ catalogs:
       specifier: ^2.4.0
       version: 2.4.0
     unplugin-inline-enum:
-      specifier: ^0.8.0
-      version: 0.8.0
+      specifier: ^0.8.2
+      version: 0.8.2
     unplugin-isolated-decl:
       specifier: ^0.16.0
       version: 0.16.0
@@ -149,14 +149,14 @@ catalogs:
       specifier: ^0.4.5
       version: 0.4.5
     unplugin-macros:
-      specifier: ^0.20.0
-      version: 0.20.0
+      specifier: ^0.20.2
+      version: 0.20.2
     unplugin-oxc:
       specifier: ^0.6.1
       version: 0.6.1
     unplugin-quansync:
-      specifier: ^0.5.2
-      version: 0.5.2
+      specifier: ^0.6.0
+      version: 0.6.0
     unplugin-raw:
       specifier: ^0.7.0
       version: 0.7.0
@@ -176,8 +176,8 @@ catalogs:
       specifier: ^0.9.0
       version: 0.9.0
     unplugin-vue-named-export:
-      specifier: ^0.9.4
-      version: 0.9.4
+      specifier: ^0.10.0
+      version: 0.10.0
   vue:
     vue-functional-ref:
       specifier: ^0.8.0
@@ -291,7 +291,7 @@ importers:
         version: 2.4.0(rolldown@1.1.1)(unplugin@3.0.0)(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-inline-enum:
         specifier: catalog:unplugin
-        version: 0.8.0(rolldown@1.1.1)
+        version: 0.8.2(rolldown@1.1.1)
       unplugin-isolated-decl:
         specifier: catalog:unplugin
         version: 0.16.0(typescript@6.0.3)
@@ -300,13 +300,13 @@ importers:
         version: 0.4.5
       unplugin-macros:
         specifier: catalog:unplugin
-        version: 0.20.0(@types/node@25.9.3)(jiti@2.7.0)(rolldown@1.1.1)(yaml@2.9.0)
+        version: 0.20.2(@types/node@25.9.3)(jiti@2.7.0)(rolldown@1.1.1)(yaml@2.9.0)
       unplugin-oxc:
         specifier: catalog:unplugin
         version: 0.6.1(unloader@0.9.0)
       unplugin-quansync:
         specifier: catalog:unplugin
-        version: 0.5.2(quansync@1.0.0)(rolldown@1.1.1)
+        version: 0.6.0(quansync@1.0.0)(rolldown@1.1.1)
       unplugin-raw:
         specifier: catalog:unplugin
         version: 0.7.0
@@ -327,7 +327,7 @@ importers:
         version: 0.9.0
       unplugin-vue-named-export:
         specifier: catalog:unplugin
-        version: 0.9.4(rolldown@1.1.1)
+        version: 0.10.0(rolldown@1.1.1)
       untsx:
         specifier: catalog:libs
         version: 0.2.0(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3)
@@ -1905,10 +1905,6 @@ packages:
     resolution: {integrity: sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA==}
     engines: {node: '>=12'}
 
-  ast-kit@2.2.0:
-    resolution: {integrity: sha512-m1Q/RaVOnTp9JxPX+F+Zn7IcLYMzM8kZofDImfsKZd8MbR+ikdOzTeztStWqfrqIxZnYWryyI9ePm3NGjnZgGw==}
-    engines: {node: '>=20.19.0'}
-
   ast-kit@3.0.0:
     resolution: {integrity: sha512-8OG92q3R35qjC/4i6BLBMg8IB+fClWu/1PEwg2Z9Rn+BuNaiEgJzpzn+pxWOdHJWDCAwu2JP0wCDTozAM4QirQ==}
     engines: {node: ^22.18.0 || >=24.11.0}
@@ -2703,10 +2699,6 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  magic-string-ast@1.0.3:
-    resolution: {integrity: sha512-CvkkH1i81zl7mmb94DsRiFeG9V2fR2JeuK8yDgS8oiZSFa++wWLEgZ5ufEOyLHbvSbD1gTRKv9NdX69Rnvr9JA==}
-    engines: {node: '>=20.19.0'}
-
   magic-string-ast@2.0.0:
     resolution: {integrity: sha512-h16Fs25GTaVkwRMbP2Nhb3cFyOy3Fq9x7fp3DVybuiJQ6pePRmcqK+phvXkDUVUlikTI8qS96l0EWF5zl0NyUw==}
     engines: {node: ^22.18.0 || >=24.0.0}
@@ -3410,9 +3402,9 @@ packages:
       webpack:
         optional: true
 
-  unplugin-inline-enum@0.8.0:
-    resolution: {integrity: sha512-gANxmg1aqSaU75RmTewsBX9ANmux9QVxyI2B68Ij+8sJ6pq2cxYSsU0MsBbIOr2gQ9+tl1s1Qr6IDjH8j7/dUQ==}
-    engines: {node: ^22.18.0 || >=24.0.0}
+  unplugin-inline-enum@0.8.2:
+    resolution: {integrity: sha512-UcJCHKPsCPBOWN0MEGHHU8+AlNNy7a0vNuVwYvK1lPUfNQKvUeXM/dF4h4lNYOxyUWVnTen2n4aKOgzduTlc/g==}
+    engines: {node: ^22.18.0 || >=24.11.0}
 
   unplugin-isolated-decl@0.16.0:
     resolution: {integrity: sha512-Y2uOMSQOIdjBbq2GyYoaMKX6C1o1DPQyadH29zdP/wJHvtxq1o7GuXLDq/f3dPKsltd9SGj35Fs2xHjy7cm0eQ==}
@@ -3430,9 +3422,9 @@ packages:
     resolution: {integrity: sha512-PMm6POv3gt1HNbxYFItantjcP6dPG/BiV/9IXcVLVBv3BZ+pf7Eo4yE+siIGKoVMXjs3BfVXeETTw2Gv3D8iOw==}
     engines: {node: '>=20.19.0'}
 
-  unplugin-macros@0.20.0:
-    resolution: {integrity: sha512-iEdXyXRkdm8Qn8WhRs+SRUOwL7Wrxic55dGG4i3fYly2WZlzA2mDUPKDGOKOjAj5oce+ZYtyrsj+0WCvqPrr7Q==}
-    engines: {node: ^22.18.0 || >=24.0.0}
+  unplugin-macros@0.20.2:
+    resolution: {integrity: sha512-kyBmRPN36USoODFnL7s1pBt5qjwsWMuHbB6HCL2bduPWhSCpcZVbstJCKTY7qt/FLe/mjshp8sgjwlR15in9Ig==}
+    engines: {node: ^22.18.0 || >=24.11.0}
 
   unplugin-oxc@0.6.1:
     resolution: {integrity: sha512-76s6ITSDmozD00M7kY1hLwb4vqel2heyqWXBu8sO0bR/fdgM53WKwzE8fXrQAhOLp0mfuvZsY5N5KK+y5btsdQ==}
@@ -3443,9 +3435,9 @@ packages:
       unloader:
         optional: true
 
-  unplugin-quansync@0.5.2:
-    resolution: {integrity: sha512-euKz2mwr4vwwmBdr4uSLIKM//RkR8jno+ecJbtH5o8a96E7novZp3sxiWL+nyPl9h77gPAAA2YEOIrp8CTWEUA==}
-    engines: {node: '>=20.19.0'}
+  unplugin-quansync@0.6.0:
+    resolution: {integrity: sha512-116r/z4/2nXqVvzsKzrdpJxvGrmVWqtbCnd35GCf6KNIF7ppgV1VzrsI14f+qblEhwXUKCOS74Y4IcZ5Yi7E0g==}
+    engines: {node: ^22.18.0 || >=24.11.0}
     peerDependencies:
       quansync: ^1.0.0
 
@@ -3474,9 +3466,9 @@ packages:
     resolution: {integrity: sha512-hS4/i4F2907AeF+4O6VI6JqHXTkd14J8b4ITrhxWRx/xoF/UZoCbzmhzBwRhBRYXT6Fppqm3VkXUdHOTXfyV9w==}
     engines: {node: ^22.18.0 || >=24.0.0}
 
-  unplugin-vue-named-export@0.9.4:
-    resolution: {integrity: sha512-/0yF19rCgY/PRYZ75nisguPuhD2tGx7MgzxcZtuAV46ilP0h+kkgR5Ng7KxkQBCIddSvVlILgSuJnzdRNkvuKA==}
-    engines: {node: '>=20.19.0'}
+  unplugin-vue-named-export@0.10.0:
+    resolution: {integrity: sha512-al445mOUqrBPh5jmmQX1fOQHdyzfZL4ukpsITGuF8P1CQ6IUiQG9eq0eGVB8Qdw8CnEZXNjbFe0jhVr7n8Tn2Q==}
+    engines: {node: ^22.18.0 || >=24.11.0}
 
   unplugin-vue@7.2.0:
     resolution: {integrity: sha512-6JHWcRbLO3bySOsipQSW9n2VRoPqsx9GLSWBfp7QLPCvpUr/edeAXR7pSl44EEJ+FIp9bG8Zm+xm5dnM/yir4Q==}
@@ -5032,11 +5024,6 @@ snapshots:
 
   assertion-error@2.0.1: {}
 
-  ast-kit@2.2.0:
-    dependencies:
-      '@babel/parser': 7.29.7
-      pathe: 2.0.3
-
   ast-kit@3.0.0:
     dependencies:
       '@babel/parser': 8.0.0
@@ -5749,10 +5736,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  magic-string-ast@1.0.3:
-    dependencies:
-      magic-string: 0.30.21
 
   magic-string-ast@2.0.0:
     dependencies:
@@ -6805,9 +6788,9 @@ snapshots:
       unplugin: 3.0.0
       vite: 8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)
 
-  unplugin-inline-enum@0.8.0(rolldown@1.1.1):
+  unplugin-inline-enum@0.8.2(rolldown@1.1.1):
     dependencies:
-      ast-kit: 2.2.0
+      ast-kit: 3.0.0
       picomatch: 4.0.4
       rolldown-string: 0.3.0(rolldown@1.1.1)
       tinyglobby: 0.2.17
@@ -6832,11 +6815,11 @@ snapshots:
       lightningcss: 1.32.0
       unplugin: 3.0.0
 
-  unplugin-macros@0.20.0(@types/node@25.9.3)(jiti@2.7.0)(rolldown@1.1.1)(yaml@2.9.0):
+  unplugin-macros@0.20.2(@types/node@25.9.3)(jiti@2.7.0)(rolldown@1.1.1)(yaml@2.9.0):
     dependencies:
-      '@babel/types': 7.29.7
-      ast-kit: 2.2.0
-      magic-string-ast: 1.0.3
+      '@babel/types': 8.0.0
+      ast-kit: 3.0.0
+      magic-string-ast: 2.0.0
       rolldown-string: 0.3.0(rolldown@1.1.1)
       unplugin: 3.0.0
       vite: 8.0.16(@types/node@25.9.3)(jiti@2.7.0)(yaml@2.9.0)
@@ -6865,9 +6848,9 @@ snapshots:
     optionalDependencies:
       unloader: 0.9.0
 
-  unplugin-quansync@0.5.2(quansync@1.0.0)(rolldown@1.1.1):
+  unplugin-quansync@0.6.0(quansync@1.0.0)(rolldown@1.1.1):
     dependencies:
-      ast-kit: 2.2.0
+      ast-kit: 3.0.0
       quansync: 1.0.0
       rolldown-string: 0.3.0(rolldown@1.1.1)
       unplugin: 3.0.0
@@ -6907,10 +6890,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  unplugin-vue-named-export@0.9.4(rolldown@1.1.1):
+  unplugin-vue-named-export@0.10.0(rolldown@1.1.1):
     dependencies:
       '@vue/language-core': 3.3.5
-      ast-kit: 2.2.0
+      ast-kit: 3.0.0
       muggle-string: 0.4.1
       rolldown-string: 0.3.0(rolldown@1.1.1)
       unplugin: 3.0.0
