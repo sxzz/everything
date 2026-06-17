@@ -1398,8 +1398,8 @@ packages:
     resolution: {integrity: sha512-P/KX37tuR1R7xMHMakgzdWsRDMeze7SkwUcGQKbqQVSsJLW0q5kxax2dxEJgK4E4zIoMy7pG6UUE7x4al8AQeg==}
     engines: {node: '>=14'}
 
-  '@publint/pack@0.1.4':
-    resolution: {integrity: sha512-HDVTWq3H0uTXiU0eeSQntcVUTPP3GamzeXI41+x7uU9J65JgWQh3qWZHblR1i0npXfFtF+mxBiU2nJH8znxWnQ==}
+  '@publint/pack@0.1.5':
+    resolution: {integrity: sha512-edgyN2pP07uXiP4tJs0s8KVmU8M8i60YPbbI0/WDeok1mIJHRXz+CgD8I0nelwDkoCh3EWL/G5kGfbuHjsdbvw==}
     engines: {node: '>=18'}
 
   '@quansync/fs@1.0.0':
@@ -2198,8 +2198,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-jsdoc@63.0.4:
-    resolution: {integrity: sha512-CzfD5nlKm91L0b4DQq47ERIlL4s4cK5+iQJMI99MDvVWLz+SkwUSGYcIr8ZYsyRw2gQ2MSKsE2StbT1CctdG0A==}
+  eslint-plugin-jsdoc@63.0.5:
+    resolution: {integrity: sha512-AzI9bgKhV9li049/mIblX0c41DeWMMfH9qNsRasc+fAxwURRKChIp03Pk57M7UTf+Y6hifTJ89kQyCOoOLtEDw==}
     engines: {node: ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -4512,7 +4512,9 @@ snapshots:
     dependencies:
       oxc-parser: 0.125.0
 
-  '@publint/pack@0.1.4': {}
+  '@publint/pack@0.1.5':
+    dependencies:
+      tinyexec: 1.2.4
 
   '@quansync/fs@1.0.0':
     dependencies:
@@ -4649,7 +4651,7 @@ snapshots:
       eslint-plugin-command: 3.5.2(@typescript-eslint/rule-tester@8.61.1(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.61.1(typescript@6.0.3))(@typescript-eslint/utils@8.61.1(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.5.0(jiti@2.7.0))
       eslint-plugin-de-morgan: 2.1.2(eslint@10.5.0(jiti@2.7.0))
       eslint-plugin-importer: 0.3.0(eslint@10.5.0(jiti@2.7.0))
-      eslint-plugin-jsdoc: 63.0.4(eslint@10.5.0(jiti@2.7.0))
+      eslint-plugin-jsdoc: 63.0.5(eslint@10.5.0(jiti@2.7.0))
       eslint-plugin-jsonc: 3.2.0(eslint@10.5.0(jiti@2.7.0))
       eslint-plugin-n: 18.1.0(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-perfectionist: 5.9.1(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3)
@@ -5257,7 +5259,7 @@ snapshots:
     dependencies:
       eslint: 10.5.0(jiti@2.7.0)
 
-  eslint-plugin-jsdoc@63.0.4(eslint@10.5.0(jiti@2.7.0)):
+  eslint-plugin-jsdoc@63.0.5(eslint@10.5.0(jiti@2.7.0)):
     dependencies:
       '@es-joy/jsdoccomment': 0.87.0
       '@es-joy/resolve.exports': 1.2.0
@@ -6442,7 +6444,7 @@ snapshots:
 
   publint@0.3.21:
     dependencies:
-      '@publint/pack': 0.1.4
+      '@publint/pack': 0.1.5
       package-manager-detector: 1.6.0
       picocolors: 1.1.1
       sade: 1.8.1
