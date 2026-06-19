@@ -2,7 +2,7 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^25.9.3
+  '@types/node': ^25.9.4
   hosted-git-info: ^10.1.1
   ky: ^2.0.2
   typescript: ^6.0.3
