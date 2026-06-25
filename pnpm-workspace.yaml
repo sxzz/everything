@@ -2,7 +2,7 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^26.0.0
+  '@types/node': ^26.0.1
   hosted-git-info: ^10.1.1
   ky: ^2.0.2
   typescript: ^6.0.3
@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.6.0
-    tsgo-wasm: ^2026.6.24
+    tsgo-wasm: ^2026.6.25
     untsx: ^0.2.1
   lint:
     '@sxzz/eslint-config': ^8.2.1
