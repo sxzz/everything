@@ -468,12 +468,12 @@ packages:
   '@braidai/lang@1.1.2':
     resolution: {integrity: sha512-qBcknbBufNHlui137Hft8xauQMTZDKdophmLFv05r2eNmdIv/MlPuP4TdUknHG68UdWLgVZwgxVe735HzJNIwA==}
 
-  '@clack/core@1.4.2':
-    resolution: {integrity: sha512-0Ty/1Gfm+Kb07sXcuESjyKfwEhSy4Ns1AgeEisHb/bDY5fWme0tTeTkU14T1Gmcs17YIjB/teiDe4uaCghbYqQ==}
+  '@clack/core@1.4.3':
+    resolution: {integrity: sha512-/kr3UWNtdJfxZtPgDqUOmG2pvwlmcLGheex5yiZKdwbzZJxhV+HMNR9QNmyY5cGwTNV6LrR7Jtp+KjhUAP1qBQ==}
     engines: {node: '>= 20.12.0'}
 
-  '@clack/prompts@1.6.0':
-    resolution: {integrity: sha512-EYlRokl8szrP9Z25qT5aepMdBjzBvHF9ZEhzIiUBc9guz/T31EqRgvD0QSgZcpE93xiwrr+OkB4nz0BZyF6fSA==}
+  '@clack/prompts@1.7.0':
+    resolution: {integrity: sha512-y7/yvZ2TPAnR9+jnc00klvNNLkJiXFFrQA/hlLCcxA9a2A4zQIOimyFQ9XfwYKiGD1fb5GY8vbKIIgO8d5Tb2A==}
     engines: {node: '>= 20.12.0'}
 
   '@emnapi/core@1.10.0':
@@ -504,8 +504,8 @@ packages:
     resolution: {integrity: sha512-0xew1CxOam0gV5OMjh2KjFQZsKL2bByX1+q4j3E73MpYIdyUxcZb/xQct9ccUb+ve5KGUYbCUxyPnYB7RbuP+w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@es-joy/jsdoccomment@0.87.0':
-    resolution: {integrity: sha512-mFXZloZMzuJZXSHUmAFu/pXTk0ZJTJBluuAkrvbzidpTN8W6F2bpRFuedSH+85kbdlRLJqc+gfN+kD3JOLJK5g==}
+  '@es-joy/jsdoccomment@0.88.0':
+    resolution: {integrity: sha512-GK/HL/claLLNo5KG705auIlZMwEtmn88ofSGuLsmVZwKBqMPJhW9DiznYNq07QEqz9BPtA3LBfYImtZmhVvRAw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   '@es-joy/resolve.exports@1.2.0':
@@ -1984,8 +1984,8 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.385:
-    resolution: {integrity: sha512-78sa/M08MNAYHQfjoWMvOlKQqZ0ElhSm/L5HNUc96VZ3b+KvDVnngFm8sYQy0XrhTRgAhggHr5abA7yTvRdo4Q==}
+  electron-to-chromium@1.5.387:
+    resolution: {integrity: sha512-TaxwufTFDufvPEoXdhwVrA3UdFWBeWGkYoJ1K8ldF1xe6gKfth6iRNS5lTQ5JPNOHdGQm8PT1QYKUqFLCiUefQ==}
 
   empathic@2.0.1:
     resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
@@ -2088,8 +2088,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-jsdoc@63.0.10:
-    resolution: {integrity: sha512-A9UIWsCquaKnit7rasXxYf12hhGIdDRjv65/RUE3AxbT6rdKBvr3MjH37g3gP+g4ipQMXuMn9slFKjO+vqNfkg==}
+  eslint-plugin-jsdoc@63.0.11:
+    resolution: {integrity: sha512-QhLmqREgRJSIKg0r23ckTVaNK1lmMsTmpyY5Hv7NTCHNWTFZx/8PqycWhR0p0Lk/U5aJ6H3zAKMQ0xB2NkN0sA==}
     engines: {node: ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -3776,14 +3776,14 @@ snapshots:
 
   '@braidai/lang@1.1.2': {}
 
-  '@clack/core@1.4.2':
+  '@clack/core@1.4.3':
     dependencies:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@clack/prompts@1.6.0':
+  '@clack/prompts@1.7.0':
     dependencies:
-      '@clack/core': 1.4.2
+      '@clack/core': 1.4.3
       fast-string-width: 3.0.2
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
@@ -3839,7 +3839,7 @@ snapshots:
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 7.1.1
 
-  '@es-joy/jsdoccomment@0.87.0':
+  '@es-joy/jsdoccomment@0.88.0':
     dependencies:
       '@types/estree': 1.0.9
       '@typescript-eslint/types': 8.62.1
@@ -4435,7 +4435,7 @@ snapshots:
 
   '@sxzz/create@0.16.0':
     dependencies:
-      '@clack/prompts': 1.6.0
+      '@clack/prompts': 1.7.0
       ansis: 4.3.1
       cac: 7.0.0
       consola: 3.4.2
@@ -4460,7 +4460,7 @@ snapshots:
       eslint-plugin-command: 3.5.2(@typescript-eslint/rule-tester@8.62.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.62.1(typescript@6.0.3))(@typescript-eslint/utils@8.62.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))
       eslint-plugin-de-morgan: 2.1.2(eslint@10.6.0(jiti@2.7.0))
       eslint-plugin-importer: 0.3.0(eslint@10.6.0(jiti@2.7.0))
-      eslint-plugin-jsdoc: 63.0.10(eslint@10.6.0(jiti@2.7.0))
+      eslint-plugin-jsdoc: 63.0.11(eslint@10.6.0(jiti@2.7.0))
       eslint-plugin-jsonc: 3.2.0(eslint@10.6.0(jiti@2.7.0))
       eslint-plugin-n: 18.2.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-perfectionist: 5.9.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
@@ -4860,7 +4860,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.41
       caniuse-lite: 1.0.30001800
-      electron-to-chromium: 1.5.385
+      electron-to-chromium: 1.5.387
       node-releases: 2.0.50
       update-browserslist-db: 1.2.3(browserslist@4.28.4)
 
@@ -4991,7 +4991,7 @@ snapshots:
     optionalDependencies:
       oxc-resolver: 11.23.0
 
-  electron-to-chromium@1.5.385: {}
+  electron-to-chromium@1.5.387: {}
 
   empathic@2.0.1: {}
 
@@ -5074,9 +5074,9 @@ snapshots:
     dependencies:
       eslint: 10.6.0(jiti@2.7.0)
 
-  eslint-plugin-jsdoc@63.0.10(eslint@10.6.0(jiti@2.7.0)):
+  eslint-plugin-jsdoc@63.0.11(eslint@10.6.0(jiti@2.7.0)):
     dependencies:
-      '@es-joy/jsdoccomment': 0.87.0
+      '@es-joy/jsdoccomment': 0.88.0
       '@es-joy/resolve.exports': 1.2.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.7
