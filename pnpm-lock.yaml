@@ -73,7 +73,7 @@ catalogs:
       version: 0.4.0
     magic-string-ast:
       specifier: ^2.0.0
-      version: 2.0.0
+      version: 2.1.1
     obug:
       specifier: ^2.1.3
       version: 2.1.3
@@ -234,7 +234,7 @@ importers:
         version: 0.4.0
       magic-string-ast:
         specifier: catalog:libs
-        version: 2.0.0
+        version: 2.1.1
       monoman:
         specifier: catalog:cli
         version: 0.8.2
@@ -2814,12 +2814,15 @@ packages:
     resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
     engines: {node: 20 || >=22}
 
-  magic-string-ast@2.0.0:
-    resolution: {integrity: sha512-h16Fs25GTaVkwRMbP2Nhb3cFyOy3Fq9x7fp3DVybuiJQ6pePRmcqK+phvXkDUVUlikTI8qS96l0EWF5zl0NyUw==}
+  magic-string-ast@2.1.1:
+    resolution: {integrity: sha512-pO1I6nw3/xeGpFhYikPhTzG9s2lw7oAbNElLJ9dhHfXa8r5K3PzrRdoshw4gdADagOjGKO40ae+ZnXNuqQEN4w==}
     engines: {node: ^22.18.0 || >=24.0.0}
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
+
+  magic-string@1.0.0:
+    resolution: {integrity: sha512-CGvjzMN08iv6w1mm4/x3Gh1hLb4VnyRUA15FFpl6CsCIGGoe36k7kY5KNz9QDbSBN5I/fWHM6ZlIkUTa5xdUEA==}
 
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
@@ -5906,11 +5909,15 @@ snapshots:
 
   lru-cache@11.5.2: {}
 
-  magic-string-ast@2.0.0:
+  magic-string-ast@2.1.1:
     dependencies:
-      magic-string: 0.30.21
+      magic-string: 1.0.0
 
   magic-string@0.30.21:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  magic-string@1.0.0:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
@@ -6679,7 +6686,7 @@ snapshots:
       cjs-module-lexer: 2.2.0
       empathic: 2.0.1
       import-meta-resolve: 4.2.0
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       rolldown: 1.1.5
       unplugin-utils: 0.3.2
 
@@ -6778,7 +6785,7 @@ snapshots:
   tc39-throw@0.3.3(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(rolldown@1.1.5)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.4(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       eslint: 10.7.0(jiti@2.7.0)
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       prettier: 3.9.5
       ts-macro: 0.3.7
       typescript: 7.0.2
@@ -6799,7 +6806,7 @@ snapshots:
   tc39-try@0.5.2(eslint@10.7.0(jiti@2.7.0))(prettier@3.9.5)(rolldown@1.1.5)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.4(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       eslint: 10.7.0(jiti@2.7.0)
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       prettier: 3.9.5
       try: 1.0.3
       ts-macro: 0.3.7
@@ -6981,7 +6988,7 @@ snapshots:
       '@babel/parser': 8.0.4
       '@babel/types': 8.0.4
       ast-kit: 3.0.0
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       unplugin: 3.3.0(rolldown@1.1.5)(unloader@0.10.0)(vite@8.1.4(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7059,7 +7066,7 @@ snapshots:
     dependencies:
       '@babel/types': 8.0.4
       ast-kit: 3.0.0
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       rolldown-string: 0.3.0(rolldown@1.1.5)
       unplugin: 3.3.0(rolldown@1.1.5)(unloader@0.10.0)(vite@8.1.4(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       vite: 8.1.4(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)
@@ -7267,7 +7274,7 @@ snapshots:
       acorn-typescript: 1.4.13(acorn@8.17.0)
       espree: 11.2.0
       estree-walker: 3.0.3
-      magic-string-ast: 2.0.0
+      magic-string-ast: 2.1.1
       prettier: 3.9.5
     transitivePeerDependencies:
       - eslint
