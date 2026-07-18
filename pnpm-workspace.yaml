@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.6.0
-    tsgo-wasm: ^2026.7.17
+    tsgo-wasm: ^2026.7.18
     untsx: ^0.2.1
   lint:
     '@sxzz/eslint-config': ^8.2.1
