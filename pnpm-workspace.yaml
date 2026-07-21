@@ -39,6 +39,7 @@ catalogs:
     tsdown-preset-sxzz: ^0.6.0
     tsgo-wasm: ^2026.7.19
     untsx: ^0.2.1
+    verkit: ^0.1.2
   lint:
     '@sxzz/eslint-config': ^8.2.1
     '@sxzz/prettier-config': ^2.3.2
