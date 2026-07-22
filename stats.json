@@ -1,345 +1,410 @@
 [
   {
     "downloads": 54650361,
-    "downloadsText": "54,650,361",
+    "downloadsText": "54.7M",
     "end": "2026-07-20",
     "owner": "unjs",
     "package": "unplugin",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 50029856,
-    "downloadsText": "50,029,856",
+    "downloadsText": "50M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "obug",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 41110994,
-    "downloadsText": "41,110,994",
+    "downloadsText": "41.1M",
     "end": "2026-07-20",
     "owner": "cacjs",
     "package": "cac",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 16533576,
-    "downloadsText": "16,533,576",
+    "downloadsText": "16.5M",
     "end": "2026-07-20",
     "owner": "quansync-dev",
     "package": "quansync",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 6181916,
-    "downloadsText": "6,181,916",
+    "downloadsText": "6.2M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "unplugin-utils",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 5614795,
-    "downloadsText": "5,614,795",
+    "downloadsText": "5.6M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "ast-kit",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3766343,
-    "downloadsText": "3,766,343",
+    "downloadsText": "3.8M",
     "end": "2026-07-20",
     "owner": "quansync-dev",
     "package": "@quansync/fs",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3511781,
-    "downloadsText": "3,511,781",
+    "downloadsText": "3.5M",
     "end": "2026-07-20",
     "owner": "vuejs",
     "package": "@vue/babel-plugin-jsx",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3207406,
-    "downloadsText": "3,207,406",
+    "downloadsText": "3.2M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "rolldown-plugin-dts",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3082758,
-    "downloadsText": "3,082,758",
+    "downloadsText": "3.1M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "dts-resolver",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3075147,
-    "downloadsText": "3,075,147",
+    "downloadsText": "3.1M",
     "end": "2026-07-20",
     "owner": "rolldown",
     "package": "tsdown",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 2892153,
-    "downloadsText": "2,892,153",
+    "downloadsText": "2.9M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "ast-walker-scope",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 2868237,
-    "downloadsText": "2,868,237",
+    "downloadsText": "2.9M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "magic-string-ast",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 2669938,
-    "downloadsText": "2,669,938",
+    "downloadsText": "2.7M",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "import-without-cache",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 89610,
-    "downloadsText": "89,610",
+    "downloadsText": "89.6K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-ast",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 77439,
-    "downloadsText": "77,439",
+    "downloadsText": "77.4K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "rolldown-string",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 51059,
-    "downloadsText": "51,059",
+    "downloadsText": "51.1K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-lightningcss",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 31325,
-    "downloadsText": "31,325",
+    "downloadsText": "31.3K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-isolated-decl",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 31168,
-    "downloadsText": "31,168",
+    "downloadsText": "31.2K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-vue",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 26343,
-    "downloadsText": "26,343",
+    "downloadsText": "26.3K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "unplugin-combine",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 24569,
-    "downloadsText": "24,569",
+    "downloadsText": "24.6K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-oxc",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 20595,
-    "downloadsText": "20,595",
+    "downloadsText": "20.6K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-unused",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 18814,
-    "downloadsText": "18,814",
+    "downloadsText": "18.8K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "verkit",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 9769,
-    "downloadsText": "9,769",
+    "downloadsText": "9.8K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-raw",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 9756,
-    "downloadsText": "9,756",
+    "downloadsText": "9.8K",
     "end": "2026-07-20",
     "owner": "vuejs",
     "package": "@vue/repl",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 8513,
-    "downloadsText": "8,513",
+    "downloadsText": "8.5K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-macros",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 5536,
-    "downloadsText": "5,536",
+    "downloadsText": "5.5K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "@sxzz/eslint-config",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 5200,
-    "downloadsText": "5,200",
+    "downloadsText": "5.2K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "eslint-plugin-sxzz",
-    "provenance": "trusted",
-    "start": "2026-07-14"
-  },
-  {
-    "downloads": 4027,
-    "downloadsText": "4,027",
-    "end": "2026-07-20",
-    "owner": "unplugin",
-    "package": "unplugin-replace",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3936,
-    "downloadsText": "3,936",
+    "downloadsText": "3.9K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "eslint-plugin-importer",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3532,
-    "downloadsText": "3,532",
+    "downloadsText": "3.5K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-vue-jsx",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 3487,
-    "downloadsText": "3,487",
+    "downloadsText": "3.5K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "@sxzz/prettier-config",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 2010,
-    "downloadsText": "2,010",
+    "downloadsText": "2K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "@sxzz/test-utils",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 1673,
-    "downloadsText": "1,673",
+    "downloadsText": "1.7K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "unloader",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 1640,
-    "downloadsText": "1,640",
+    "downloadsText": "1.6K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "tsgo-wasm",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 1159,
-    "downloadsText": "1,159",
+    "downloadsText": "1.2K",
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-inline-enum",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 1119,
-    "downloadsText": "1,119",
+    "downloadsText": "1.1K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "rolldown-plugin-wasm",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 1092,
-    "downloadsText": "1,092",
+    "downloadsText": "1.1K",
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "stale-dep",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 960,
@@ -347,8 +412,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "vite-hyper-config",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 885,
@@ -356,8 +423,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "tsdown-preset-sxzz",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 789,
@@ -365,8 +434,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "untsx",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 780,
@@ -374,8 +445,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "tc39-throw",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 757,
@@ -383,8 +456,10 @@
     "end": "2026-07-20",
     "owner": "unplugin",
     "package": "unplugin-vue-named-export",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 632,
@@ -392,8 +467,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "rolldown-plugin-require-cjs",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 281,
@@ -401,8 +478,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "monoman",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 266,
@@ -410,8 +489,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "pnpm-multi-versions",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 263,
@@ -419,8 +500,10 @@
     "end": "2026-07-20",
     "owner": "quansync-dev",
     "package": "unplugin-quansync",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": true,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 218,
@@ -428,8 +511,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "vue-simple-props",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 60,
@@ -437,8 +522,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "tc39-try",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 58,
@@ -446,8 +533,10 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "vue-functional-ref",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   },
   {
     "downloads": 49,
@@ -455,7 +544,9 @@
     "end": "2026-07-20",
     "owner": "sxzz",
     "package": "@sxzz/create",
-    "provenance": "trusted",
-    "start": "2026-07-14"
+    "provenance": true,
+    "staged": false,
+    "start": "2026-07-14",
+    "trusted": true
   }
 ]

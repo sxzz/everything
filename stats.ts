@@ -3,6 +3,11 @@ import GitHost from 'hosted-git-info'
 import ky, { HTTPError } from 'ky'
 import pkg from './package.json' with { type: 'json' }
 
+const compact = new Intl.NumberFormat('en', {
+  notation: 'compact',
+  maximumFractionDigits: 1,
+})
+
 const deps = Object.keys(pkg.dependencies)
 const fetch = ky.extend({
   retry: {
@@ -43,10 +48,10 @@ const stats = data
     }
     return sortObject({
       ...stats,
-      downloadsText: stats.downloads?.toLocaleString(),
-      provenance: latest?._npmUser?.trustedPublisher
-        ? 'trusted'
-        : !!latest?.dist?.attestations?.provenance,
+      downloadsText: compact.format(stats.downloads),
+      provenance: !!latest?.dist?.attestations?.provenance,
+      trusted: !!latest?._npmUser?.trustedPublisher,
+      staged: !!latest?._npmUser?.approver,
       owner,
     })
   })
