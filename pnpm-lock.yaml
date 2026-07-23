@@ -84,7 +84,7 @@ catalogs:
       specifier: ^1.0.0
       version: 1.0.0
     rolldown-plugin-dts:
-      specifier: ^0.27.12
+      specifier: ^0.27.13
       version: 0.27.13
     rolldown-plugin-require-cjs:
       specifier: ^0.4.1
@@ -105,8 +105,8 @@ catalogs:
       specifier: ^0.6.0
       version: 0.6.0
     tsgo-wasm:
-      specifier: ^2026.7.22
-      version: 2026.7.22
+      specifier: ^2026.7.23
+      version: 2026.7.23
     untsx:
       specifier: ^0.2.1
       version: 0.2.1
@@ -115,7 +115,7 @@ catalogs:
       version: 0.2.0
   lint:
     '@sxzz/eslint-config':
-      specifier: ^8.2.1
+      specifier: ^8.3.0
       version: 8.3.0
     '@sxzz/prettier-config':
       specifier: ^2.3.2
@@ -149,8 +149,8 @@ catalogs:
       specifier: ^0.16.0
       version: 0.16.0
     unplugin-lightningcss:
-      specifier: ^0.4.5
-      version: 0.4.5
+      specifier: ^0.5.0
+      version: 0.5.0
     unplugin-macros:
       specifier: ^0.20.2
       version: 0.20.2
@@ -279,7 +279,7 @@ importers:
         version: 0.6.0(tsdown@0.22.13(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.21)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.7.22
+        version: 2026.7.23
       unloader:
         specifier: catalog:cli
         version: 0.10.0
@@ -300,7 +300,7 @@ importers:
         version: 0.16.0(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-lightningcss:
         specifier: catalog:unplugin
-        version: 0.4.5(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.5.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-macros:
         specifier: catalog:unplugin
         version: 0.20.2(@types/node@26.1.1)(jiti@2.7.0)(rolldown@1.2.0)(unloader@0.10.0)(yaml@2.9.0)
@@ -3757,8 +3757,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.7.22:
-    resolution: {integrity: sha512-K8OBsJkuaNF0pKgkVh/sOjEQd+3pxL98qCEEnafTF8s3qrCwu4g61AUwQq/1lRp6Jw+TYHO1GEEGuKmfE5U10g==}
+  tsgo-wasm@2026.7.23:
+    resolution: {integrity: sha512-/a/1NsZejDhy3L0KPhBR6iUapFPoNFGzZuVrAK6vwGlFSkxb1PD3PhCeExKa6uAmKJyzYb0jGv4erMrcseCeDg==}
     hasBin: true
 
   tslib@2.8.1:
@@ -3878,9 +3878,9 @@ packages:
       typescript:
         optional: true
 
-  unplugin-lightningcss@0.4.5:
-    resolution: {integrity: sha512-PMm6POv3gt1HNbxYFItantjcP6dPG/BiV/9IXcVLVBv3BZ+pf7Eo4yE+siIGKoVMXjs3BfVXeETTw2Gv3D8iOw==}
-    engines: {node: '>=20.19.0'}
+  unplugin-lightningcss@0.5.0:
+    resolution: {integrity: sha512-QQnSHrm4y1l25qLI4XDVXZ040dgQvY63KDD3vJmhXFWXe8+oBW1rWhfI0UdSZlPfPOmZU8DFeh47K2cnkUfE5g==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
 
   unplugin-macros@0.20.2:
     resolution: {integrity: sha512-kyBmRPN36USoODFnL7s1pBt5qjwsWMuHbB6HCL2bduPWhSCpcZVbstJCKTY7qt/FLe/mjshp8sgjwlR15in9Ig==}
@@ -7584,7 +7584,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.7.22: {}
+  tsgo-wasm@2026.7.23: {}
 
   tslib@2.8.1:
     optional: true
@@ -7754,7 +7754,7 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-lightningcss@0.4.5(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
+  unplugin-lightningcss@0.5.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       lightningcss: 1.33.0
       unplugin: 3.3.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
