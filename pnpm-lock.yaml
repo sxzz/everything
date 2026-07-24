@@ -14,7 +14,7 @@ catalogs:
       version: 0.8.2
     node-modules-inspector:
       specifier: ^2.3.0
-      version: 2.3.0
+      version: 2.3.1
     stale-dep:
       specifier: ^0.9.0
       version: 0.9.0
@@ -364,7 +364,7 @@ importers:
         version: 2.0.2
       node-modules-inspector:
         specifier: catalog:cli
-        version: 2.3.0(crossws@0.4.10(srvx@0.11.22))(srvx@0.11.22)(typescript@7.0.2)(zod@4.4.3)
+        version: 2.3.1(crossws@0.4.10(srvx@0.11.22))(srvx@0.11.22)(typescript@7.0.2)(zod@4.4.3)
       prettier:
         specifier: catalog:lint
         version: 3.9.6
@@ -3227,12 +3227,12 @@ packages:
   node-mock-http@1.0.4:
     resolution: {integrity: sha512-8DY+kFsDkNXy1sJglUfuODx1/opAGJGyrTuFqEoN90oRc2Vk0ZbD4K2qmKXBBEhZQzdKHIVfEJpDU8Ak2NJEvQ==}
 
-  node-modules-inspector@2.3.0:
-    resolution: {integrity: sha512-Rf6KNLYDV4al5NPbIQ2ujTIaAZJZy+lK6WODPUggb7ZxfpOdiszd1odQMuhgOMiewXVgnfO6+6ZEGYxv6SQtdQ==}
+  node-modules-inspector@2.3.1:
+    resolution: {integrity: sha512-mDYnidobHSsH5uEeFylfBD8o++rcMw8cupy7O3PTvxxGaCuq0PYMKNrgnhvXrdAjzA3w5cUXq/GHUl7WP7Vs2Q==}
     hasBin: true
 
-  node-modules-tools@2.3.0:
-    resolution: {integrity: sha512-myxCku0mScB8mAalDB55s9M7j/Vin9tqKoAjutwHqrHo3TERR0OWczHdHcC6Mq8iA7HwqMUtIwMMd95sP1eU6Q==}
+  node-modules-tools@2.3.1:
+    resolution: {integrity: sha512-eFUJhlKxhlDpUsHbsuUu+IOfq/3vhMO3NJE7sgZt2wYK0QDhCY4/XiO6cNlFkx98+l1iK5+6fNUXiorno61qpA==}
 
   node-releases@2.0.51:
     resolution: {integrity: sha512-wRNIrw4DmVLKQlbgOMdkMx27Wrpzes2hh5Jtbi2bjPd+4wJstWIqP5A+lscnqbm0xxmT5Bpg8Lec5ItEBwx6BQ==}
@@ -6883,7 +6883,7 @@ snapshots:
 
   node-mock-http@1.0.4: {}
 
-  node-modules-inspector@2.3.0(crossws@0.4.10(srvx@0.11.22))(srvx@0.11.22)(typescript@7.0.2)(zod@4.4.3):
+  node-modules-inspector@2.3.1(crossws@0.4.10(srvx@0.11.22))(srvx@0.11.22)(typescript@7.0.2)(zod@4.4.3):
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.4.3)
       ansis: 4.3.1
@@ -6894,7 +6894,7 @@ snapshots:
       h3: 2.0.1-rc.25(crossws@0.4.10(srvx@0.11.22))
       launch-editor: 2.14.1
       mlly: 1.8.2
-      node-modules-tools: 2.3.0
+      node-modules-tools: 2.3.1
       ohash: 2.0.11
       open: 11.0.0
       p-limit: 7.3.1
@@ -6933,7 +6933,7 @@ snapshots:
       - uploadthing
       - zod
 
-  node-modules-tools@2.3.0:
+  node-modules-tools@2.3.1:
     dependencies:
       js-yaml: 5.2.1
       p-limit: 7.3.1
