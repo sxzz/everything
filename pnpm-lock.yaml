@@ -13,7 +13,7 @@ catalogs:
       specifier: ^0.8.2
       version: 0.8.2
     node-modules-inspector:
-      specifier: ^2.3.0
+      specifier: ^2.3.1
       version: 2.3.1
     stale-dep:
       specifier: ^0.9.0
@@ -84,7 +84,7 @@ catalogs:
       specifier: ^1.0.0
       version: 1.0.0
     rolldown-plugin-dts:
-      specifier: ^0.27.13
+      specifier: ^0.27.14
       version: 0.27.14
     rolldown-plugin-require-cjs:
       specifier: ^0.4.1
@@ -105,7 +105,7 @@ catalogs:
       specifier: ^0.6.0
       version: 0.6.0
     tsgo-wasm:
-      specifier: ^2026.7.24
+      specifier: ^2026.7.25
       version: 2026.7.25
     untsx:
       specifier: ^0.2.1
@@ -121,11 +121,11 @@ catalogs:
       specifier: ^2.3.2
       version: 2.3.2
     eslint:
-      specifier: ^10.7.0
+      specifier: ^10.8.0
       version: 10.8.0
     eslint-plugin-importer:
-      specifier: ^0.3.0
-      version: 0.3.0
+      specifier: ^0.4.0
+      version: 0.4.0
     eslint-plugin-sxzz:
       specifier: ^0.5.0
       version: 0.5.0
@@ -146,8 +146,8 @@ catalogs:
       specifier: ^0.8.2
       version: 0.8.2
     unplugin-isolated-decl:
-      specifier: ^0.16.0
-      version: 0.16.0
+      specifier: ^0.17.0
+      version: 0.17.0
     unplugin-lightningcss:
       specifier: ^0.5.0
       version: 0.5.0
@@ -228,7 +228,7 @@ importers:
         version: 3.0.0(oxc-resolver@11.24.2)
       eslint-plugin-importer:
         specifier: catalog:lint
-        version: 0.3.0(eslint@10.8.0(jiti@2.7.0))
+        version: 0.4.0(eslint@10.8.0(jiti@2.7.0))
       eslint-plugin-sxzz:
         specifier: catalog:lint
         version: 0.5.0(eslint@10.8.0(jiti@2.7.0))
@@ -297,7 +297,7 @@ importers:
         version: 0.8.2(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-isolated-decl:
         specifier: catalog:unplugin
-        version: 0.16.0(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.17.0(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-lightningcss:
         specifier: catalog:unplugin
         version: 0.5.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
@@ -2405,6 +2405,12 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
+  eslint-plugin-importer@0.4.0:
+    resolution: {integrity: sha512-Lv6zc3LxS8w7SGFIWx/MHQkm43ToSYc5W2mijcdf5PTgy4wJ2ISAWhJePZ7Yczgc1E64dhWr5gnUtFA0ARhLdw==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
+    peerDependencies:
+      eslint: ^9.0.0 || ^10.0.0
+
   eslint-plugin-jsdoc@63.2.0:
     resolution: {integrity: sha512-tccz9igEV5mTKVAwo/KwXqKP7ENqa3a+LpRFuEPAP3k/+SXG4T0sOvA+c2wwTD/TLNrH9MCW4LIu4xEExkJdzg==}
     engines: {node: ^22.13.0 || >=24}
@@ -3866,9 +3872,9 @@ packages:
     resolution: {integrity: sha512-UcJCHKPsCPBOWN0MEGHHU8+AlNNy7a0vNuVwYvK1lPUfNQKvUeXM/dF4h4lNYOxyUWVnTen2n4aKOgzduTlc/g==}
     engines: {node: ^22.18.0 || >=24.11.0}
 
-  unplugin-isolated-decl@0.16.0:
-    resolution: {integrity: sha512-Y2uOMSQOIdjBbq2GyYoaMKX6C1o1DPQyadH29zdP/wJHvtxq1o7GuXLDq/f3dPKsltd9SGj35Fs2xHjy7cm0eQ==}
-    engines: {node: ^20.19.0 || >=22.12.0}
+  unplugin-isolated-decl@0.17.0:
+    resolution: {integrity: sha512-WW+N5NZoAdnaUu8sPOkNQcY41jpvsTK3wiruMI6+LKQRO3z8/ZBFXXPWldLtdFYqPWO4iAfSbOhlbtuvvFeGPw==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       '@swc/core': ^1.6.6
       typescript: ^5.5.2 || ^6.0.0
@@ -5858,6 +5864,10 @@ snapshots:
     dependencies:
       eslint: 10.8.0(jiti@2.7.0)
 
+  eslint-plugin-importer@0.4.0(eslint@10.8.0(jiti@2.7.0)):
+    dependencies:
+      eslint: 10.8.0(jiti@2.7.0)
+
   eslint-plugin-jsdoc@63.2.0(eslint@10.8.0(jiti@2.7.0)):
     dependencies:
       '@es-joy/jsdoccomment': 0.88.0
@@ -7733,9 +7743,9 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-isolated-decl@0.16.0(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
+  unplugin-isolated-decl@0.17.0(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
-      magic-string: 0.30.21
+      magic-string: 1.1.0
       obug: 2.1.4
       oxc-parser: 0.141.0
       oxc-transform: 0.141.0
