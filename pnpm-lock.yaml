@@ -124,8 +124,8 @@ catalogs:
       specifier: ^10.8.0
       version: 10.8.0
     eslint-plugin-importer:
-      specifier: ^0.4.0
-      version: 0.4.0
+      specifier: ^0.4.1
+      version: 0.4.1
     eslint-plugin-sxzz:
       specifier: ^0.5.0
       version: 0.5.0
@@ -228,7 +228,7 @@ importers:
         version: 3.0.0(oxc-resolver@11.24.2)
       eslint-plugin-importer:
         specifier: catalog:lint
-        version: 0.4.0(eslint@10.8.0(jiti@2.7.0))
+        version: 0.4.1(eslint@10.8.0(jiti@2.7.0))
       eslint-plugin-sxzz:
         specifier: catalog:lint
         version: 0.5.0(eslint@10.8.0(jiti@2.7.0))
@@ -2409,8 +2409,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-importer@0.4.0:
-    resolution: {integrity: sha512-Lv6zc3LxS8w7SGFIWx/MHQkm43ToSYc5W2mijcdf5PTgy4wJ2ISAWhJePZ7Yczgc1E64dhWr5gnUtFA0ARhLdw==}
+  eslint-plugin-importer@0.4.1:
+    resolution: {integrity: sha512-PobM0w3wXkbAQr2yw0PVOLF/7fAMEoX/m0FstaS7D6ggngcsqB8Ug9Pw6B8PK8qDbOLBib6ZRgI/68L9RaqtTA==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
@@ -5867,7 +5867,7 @@ snapshots:
     dependencies:
       eslint: 10.8.0(jiti@2.7.0)
 
-  eslint-plugin-importer@0.4.0(eslint@10.8.0(jiti@2.7.0)):
+  eslint-plugin-importer@0.4.1(eslint@10.8.0(jiti@2.7.0)):
     dependencies:
       eslint: 10.8.0(jiti@2.7.0)
 
