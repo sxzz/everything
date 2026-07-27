@@ -37,11 +37,11 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.6.0
-    tsgo-wasm: ^2026.7.26
+    tsgo-wasm: ^2026.7.27
     untsx: ^0.2.1
-    verkit: ^0.3.0
+    verkit: ^0.3.1
   lint:
-    '@sxzz/eslint-config': ^8.3.1
+    '@sxzz/eslint-config': ^8.3.2
     '@sxzz/prettier-config': ^2.3.2
     eslint: ^10.8.0
     eslint-plugin-importer: ^0.4.1
@@ -59,7 +59,7 @@ catalogs:
     unplugin-quansync: ^0.6.0
     unplugin-raw: ^0.7.0
     unplugin-replace: ^0.9.0
-    unplugin-unused: ^0.5.7
+    unplugin-unused: ^0.6.0
     unplugin-utils: ^0.3.2
     unplugin-vue: ^7.2.0
     unplugin-vue-jsx: ^0.10.0

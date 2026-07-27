@@ -105,17 +105,17 @@ catalogs:
       specifier: ^0.6.0
       version: 0.6.0
     tsgo-wasm:
-      specifier: ^2026.7.26
+      specifier: ^2026.7.27
       version: 2026.7.27
     untsx:
       specifier: ^0.2.1
       version: 0.2.1
     verkit:
-      specifier: ^0.3.0
-      version: 0.3.0
+      specifier: ^0.3.1
+      version: 0.3.1
   lint:
     '@sxzz/eslint-config':
-      specifier: ^8.3.1
+      specifier: ^8.3.2
       version: 8.3.2
     '@sxzz/prettier-config':
       specifier: ^2.3.2
@@ -167,8 +167,8 @@ catalogs:
       specifier: ^0.9.0
       version: 0.9.0
     unplugin-unused:
-      specifier: ^0.5.7
-      version: 0.5.7
+      specifier: ^0.6.0
+      version: 0.6.0
     unplugin-utils:
       specifier: ^0.3.2
       version: 0.3.2
@@ -273,10 +273,10 @@ importers:
         version: 0.5.2(eslint@10.8.0(jiti@2.7.0))(prettier@3.9.6)(rolldown@1.2.0)(typescript@7.0.2)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       tsdown:
         specifier: catalog:cli
-        version: 0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))
+        version: 0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))))
+        version: 0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.7.27
@@ -318,7 +318,7 @@ importers:
         version: 0.9.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-unused:
         specifier: catalog:unplugin
-        version: 0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-utils:
         specifier: catalog:unplugin
         version: 0.3.2
@@ -336,7 +336,7 @@ importers:
         version: 0.2.1(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2)
       verkit:
         specifier: catalog:libs
-        version: 0.3.0
+        version: 0.3.1
       vite-hyper-config:
         specifier: catalog:cli
         version: 0.9.0(@types/node@26.1.1)(jiti@2.7.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
@@ -3909,9 +3909,9 @@ packages:
     resolution: {integrity: sha512-h8wjMvpNYGGNZ4llzFgrLal13LmniGkjDTMoCCon5eaoy29FbD7TLMbQetRkU9+2S7EPA+0FYKHN6/8/4eI+UA==}
     engines: {node: ^22.18.0 || >=24.0.0}
 
-  unplugin-unused@0.5.7:
-    resolution: {integrity: sha512-quvqrHs6mPhk1hjbGwMoypXfagveue+/22dtgDrEzc2K9485ZAsnVfq7iYIgv7FwooiRa6+HDaLWgK2IavN+2g==}
-    engines: {node: '>=20.19.0'}
+  unplugin-unused@0.6.0:
+    resolution: {integrity: sha512-ov+8yoEs5lyCjK7AqSUmpLuyEhtHwKtNtc1PrpwJVCNQjv+Dins4+7e1+ej57yo8lfiW/zOr9FAEmNmjgU+hFQ==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
 
   unplugin-utils@0.3.2:
     resolution: {integrity: sha512-xVToRh2CTmLk2HnEG7ac4rl1MJTT3RFkpS8B++/SnB0kXvuaavD+n3m/vrzyWQOdJNSZQACnbz01pnppbwV5BA==}
@@ -4062,8 +4062,8 @@ packages:
     resolution: {integrity: sha512-WqkT8n3hqizuCu71W3bUzf5fjBmkbXcudsehe/NbxA8PgqoKnSOY5K0Ba2ckg1qaRaSpSz7as/n9K1R9JXjQKg==}
     engines: {node: '>=18.12.0'}
 
-  verkit@0.3.0:
-    resolution: {integrity: sha512-Njrh4U8UODGajoZ44QS2C/BsoEM9DTI/aCqY5swsizb+/ap0FamvnCMcZAxrR5+aoC0ZqkawEfpC/N2SBc+xeA==}
+  verkit@0.3.1:
+    resolution: {integrity: sha512-w2Eo8LSIIoW7qxNBzT7/17k+bh8plXo7G3dHjEIDqPlnluhzaxr9JX8F28VSYEtDvc1/a3WBDih6xNUZseebXg==}
     engines: {node: '>=18.12.0'}
 
   vite-hyper-config@0.9.0:
@@ -7546,13 +7546,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))):
+  tsdown-preset-sxzz@0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))):
     dependencies:
       '@arethetypeswrong/core': 0.18.5
       publint: 0.3.22
-      tsdown: 0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))
+      tsdown: 0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)))
 
-  tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))):
+  tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -7568,12 +7568,12 @@ snapshots:
       tinyglobby: 0.2.17
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
-      verkit: 0.3.0
+      verkit: 0.3.1
     optionalDependencies:
       '@arethetypeswrong/core': 0.18.5
       publint: 0.3.22
       typescript: 7.0.2
-      unplugin-unused: 0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
+      unplugin-unused: 0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@typescript/native-preview'
       - '@volar/typescript'
@@ -7860,7 +7860,7 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-unused@0.5.7(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
+  unplugin-unused@0.6.0(rolldown@1.2.0)(unloader@0.10.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       empathic: 2.0.1
       escape-string-regexp: 5.0.0
@@ -8006,7 +8006,7 @@ snapshots:
 
   verkit@0.1.2: {}
 
-  verkit@0.3.0: {}
+  verkit@0.3.1: {}
 
   vite-hyper-config@0.9.0(@types/node@26.1.1)(jiti@2.7.0)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
     dependencies:
