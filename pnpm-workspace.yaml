@@ -11,7 +11,7 @@ catalogs:
   cli:
     '@sxzz/create': ^0.16.0
     monoman: ^0.8.2
-    node-modules-inspector: ^2.3.1
+    node-modules-inspector: ^2.3.2
     stale-dep: ^0.9.0
     tsdown: ^0.22.14
     unloader: ^0.10.0
@@ -37,11 +37,11 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.6.0
-    tsgo-wasm: ^2026.7.30
+    tsgo-wasm: ^2026.7.31
     untsx: ^0.2.1
     verkit: ^0.3.1
   lint:
-    '@sxzz/eslint-config': ^8.3.2
+    '@sxzz/eslint-config': ^8.4.0
     '@sxzz/prettier-config': ^2.3.2
     eslint: ^10.8.0
     eslint-plugin-importer: ^0.4.1
