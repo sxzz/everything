@@ -9,12 +9,12 @@ catalog:
 
 catalogs:
   cli:
-    '@sxzz/create': ^0.16.0
+    '@sxzz/create': ^0.17.0
     monoman: ^0.8.2
     node-modules-inspector: ^2.3.2
     stale-dep: ^0.9.0
     tsdown: ^0.22.14
-    unloader: ^0.10.0
+    unloader: ^0.10.1
     vite-hyper-config: ^0.9.0
   libs:
     '@quansync/fs': ^1.0.0
@@ -36,7 +36,7 @@ catalogs:
     rolldown-string: ^0.3.1
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
-    tsdown-preset-sxzz: ^0.6.0
+    tsdown-preset-sxzz: ^0.7.0
     tsgo-wasm: ^2026.8.3
     untsx: ^0.2.1
     verkit: ^0.3.1

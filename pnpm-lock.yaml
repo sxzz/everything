@@ -7,8 +7,8 @@ settings:
 catalogs:
   cli:
     '@sxzz/create':
-      specifier: ^0.16.0
-      version: 0.16.0
+      specifier: ^0.17.0
+      version: 0.17.0
     monoman:
       specifier: ^0.8.2
       version: 0.8.2
@@ -22,7 +22,7 @@ catalogs:
       specifier: ^0.22.14
       version: 0.22.14
     unloader:
-      specifier: ^0.10.0
+      specifier: ^0.10.1
       version: 0.10.1
     vite-hyper-config:
       specifier: ^0.9.0
@@ -102,8 +102,8 @@ catalogs:
       specifier: ^0.5.2
       version: 0.5.2
     tsdown-preset-sxzz:
-      specifier: ^0.6.0
-      version: 0.6.0
+      specifier: ^0.7.0
+      version: 0.7.0
     tsgo-wasm:
       specifier: ^2026.8.3
       version: 2026.8.3
@@ -198,7 +198,7 @@ importers:
         version: 1.0.0
       '@sxzz/create':
         specifier: catalog:cli
-        version: 0.16.0
+        version: 0.17.0
       '@sxzz/eslint-config':
         specifier: catalog:lint
         version: 8.4.0(@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/parser@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.65.0(typescript@7.0.2))(@typescript-eslint/utils@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.8.0(jiti@2.7.0))(prettier@3.9.6)(typescript@7.0.2)
@@ -276,7 +276,7 @@ importers:
         version: 0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.1)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0)))
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.1)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0))))
+        version: 0.7.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.1)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0))))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.8.3
@@ -1386,8 +1386,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@sxzz/create@0.16.0':
-    resolution: {integrity: sha512-fA5R64d/ETUgmxP8qqB7C5FqOtKo4N/Fl7cJ381Prs9Jx9Y/pbgD+RMbeE9QalKEPGqn4YMwvXkw1BVM2oex9w==}
+  '@sxzz/create@0.17.0':
+    resolution: {integrity: sha512-QtsWMcWMZGFM6BK4cxWbGESYUYIJTTuadotsadeV9R9k0oL9Gcu5jO+b5HP6pXc1pGxvbRMP0+oaPfaiMpGSgw==}
     engines: {node: '>=24.11.0'}
     hasBin: true
 
@@ -3652,11 +3652,11 @@ packages:
   ts-macro@0.3.7:
     resolution: {integrity: sha512-5BinbTKn5WXRslotv5/VWTn3catfK0thWoB4BZI5VNEdxMu6r9AUPFalut4wLEK3nGvxhywA9aAdZnJ+Fnug9A==}
 
-  tsdown-preset-sxzz@0.6.0:
-    resolution: {integrity: sha512-K2oQ/l+ctnbOzK38WnF74I7txbtMXboZOl3TYqRFhxkM/Z04BP90w3+xef6BAU+uFWYqPQEKXXInxhAaXeSTZw==}
-    engines: {node: '>=20.19.0'}
+  tsdown-preset-sxzz@0.7.0:
+    resolution: {integrity: sha512-PXJ/P6ZYGQunE3Dnui+TTnVUXdl2SRG4/vyMaW6PMiB+aepklWPpav4+81Ci4krejhYxSTFg8AlkyhSPX95LzA==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
-      tsdown: ^0.22.0
+      tsdown: ^0.22.0 || ^0.23.0-0
 
   tsdown@0.22.14:
     resolution: {integrity: sha512-ule7Y+fsAN2iZbLDoo7C4KYljFJNJJ+fLshyn+9gozeTspVersWHxwdGB+Dm2hzA38s6muFnUTl0jK3vJm9ifQ==}
@@ -4937,7 +4937,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@sxzz/create@0.16.0':
+  '@sxzz/create@0.17.0':
     dependencies:
       '@clack/prompts': 1.7.0
       ansis: 4.3.1
@@ -4947,7 +4947,7 @@ snapshots:
       giget: 3.3.1
       tinyexec: 1.3.0
       tinyglobby: 0.2.17
-      unconfig: 7.5.0
+      unconfig-core: 7.5.0
       yaml: 2.9.0
 
   '@sxzz/eslint-config@8.4.0(@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/parser@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.65.0(typescript@7.0.2))(@typescript-eslint/utils@8.65.0(eslint@10.8.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.8.0(jiti@2.7.0))(prettier@3.9.6)(typescript@7.0.2)':
@@ -7457,7 +7457,7 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.6.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.1)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0)))):
+  tsdown-preset-sxzz@0.7.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.1)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0)))):
     dependencies:
       '@arethetypeswrong/core': 0.18.5
       publint: 0.3.22
