@@ -297,17 +297,6 @@
     "trusted": true
   },
   {
-    "downloads": 4442,
-    "downloadsText": "4.4K",
-    "end": "2026-08-02",
-    "owner": "unplugin",
-    "package": "unplugin-replace",
-    "provenance": true,
-    "staged": false,
-    "start": "2026-07-27",
-    "trusted": true
-  },
-  {
     "downloads": 3896,
     "downloadsText": "3.9K",
     "end": "2026-08-02",
@@ -501,7 +490,7 @@
     "owner": "sxzz",
     "package": "@sxzz/create",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-07-27",
     "trusted": true
   },
