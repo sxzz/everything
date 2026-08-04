@@ -13,8 +13,8 @@ catalogs:
       specifier: ^0.8.2
       version: 0.8.2
     node-modules-inspector:
-      specifier: ^2.3.2
-      version: 2.3.2
+      specifier: ^2.3.3
+      version: 2.3.3
     stale-dep:
       specifier: ^0.9.0
       version: 0.9.0
@@ -105,8 +105,8 @@ catalogs:
       specifier: ^0.7.0
       version: 0.7.0
     tsgo-wasm:
-      specifier: ^2026.8.3
-      version: 2026.8.3
+      specifier: ^2026.8.4
+      version: 2026.8.4
     untsx:
       specifier: ^0.2.1
       version: 0.2.1
@@ -279,7 +279,7 @@ importers:
         version: 0.7.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.2)(unloader@0.10.1)(vite@8.2.0(@types/node@26.1.2)(jiti@2.7.0)(yaml@2.9.0))))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.8.3
+        version: 2026.8.4
       unloader:
         specifier: catalog:cli
         version: 0.10.1
@@ -364,7 +364,7 @@ importers:
         version: 2.0.2
       node-modules-inspector:
         specifier: catalog:cli
-        version: 2.3.2(crossws@0.4.10(srvx@0.12.5))(srvx@0.12.5)(typescript@7.0.2)(zod@4.4.3)
+        version: 2.3.3(crossws@0.4.10(srvx@0.12.5))(srvx@0.12.5)(typescript@7.0.2)(zod@4.4.3)
       prettier:
         specifier: catalog:lint
         version: 3.9.6
@@ -1643,11 +1643,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@valibot/to-json-schema@1.7.1':
-    resolution: {integrity: sha512-3qkmU6KXWh8GIThEAW3kuRHPQBMjWkKy+Ppz3WkUucx53DTpOa6siMn4xDGSOhlVyMrDaJTCTMLYPZVAIk1P0A==}
-    peerDependencies:
-      valibot: ^1.4.0
-
   '@vitest/expect@4.1.10':
     resolution: {integrity: sha512-YsCn+qAk1GWjQOWFEsEcL2gNQ0zmVmQu3T03qP6UyjhtmdtwtbuI+DASn/7iQB3HGTXkdBwGddzxPlmiql5vlA==}
 
@@ -2145,13 +2140,17 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@0.7.16:
-    resolution: {integrity: sha512-U4vqEPgjYfovFEyOAmUlNG5DVGnb6Sx0Tgy9QiQAbtGieC5zTraOBL7GUyXGqdc53SCx/DhFfwjJcebt85T/Bw==}
+  devframe@0.8.0:
+    resolution: {integrity: sha512-kUK/JIYlfb3A4nbIY+cJ/zljyfpCdBzwsR3uY2Y6Tbm6jnNY0w5yLpuDX524XQD7D1Vnmvs8kpC+ILOkCRk5OA==}
+    hasBin: true
     peerDependencies:
-      '@modelcontextprotocol/sdk': ^1.0.0
+      '@modelcontextprotocol/client': ^2.0.0
+      '@modelcontextprotocol/server': ^2.0.0
       cac: ^7.0.0
     peerDependenciesMeta:
-      '@modelcontextprotocol/sdk':
+      '@modelcontextprotocol/client':
+        optional: true
+      '@modelcontextprotocol/server':
         optional: true
       cac:
         optional: true
@@ -3126,12 +3125,12 @@ packages:
   node-mock-http@1.0.5:
     resolution: {integrity: sha512-KQyt/wLjG3TAc7DOUhpqWzgd4ERxR80JOlTK5VE5R1S12IaPVN5qkj4klBce9HPG1Njuup4Sb5bljaT34lIyjw==}
 
-  node-modules-inspector@2.3.2:
-    resolution: {integrity: sha512-BzjdARLMjw81rVlOxbFC9EHi/mJgh944Ym/rEkuB7nkpb6JGWsj1Ai/zW6InO1oD2hA4gp1+WJAMHdUuXMfIKA==}
+  node-modules-inspector@2.3.3:
+    resolution: {integrity: sha512-mL6Gie236Hjc1G3vDx89p4V+cnAJ3l8sq1svf0oMnGHHr5Jjke1oGqiPviV5fnWkmRxwHE8+1H6LstFhDLgiow==}
     hasBin: true
 
-  node-modules-tools@2.3.2:
-    resolution: {integrity: sha512-/gfg0VOx4/xgxAltuF1xw3vyV3R0US4aPucvFD8Ga7fBMMTneqCsZBgeOfNOkP028XC2F7wxffUHybzjOHzbWw==}
+  node-modules-tools@2.3.3:
+    resolution: {integrity: sha512-Lzcs8T+v3wAvvruyTM1d/lprwWB94QmFfu04b/+lt8xCmXrmzJdcBsXZHkuQjq0UYRYZfrGEpC9Ly+X/aBF3bA==}
 
   node-releases@2.0.51:
     resolution: {integrity: sha512-wRNIrw4DmVLKQlbgOMdkMx27Wrpzes2hh5Jtbi2bjPd+4wJstWIqP5A+lscnqbm0xxmT5Bpg8Lec5ItEBwx6BQ==}
@@ -3667,8 +3666,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.8.3:
-    resolution: {integrity: sha512-5YODDEuUhrX40BSt6iLwyENobXOzDc1my//QhZ6aeCv87hEoqzYm/0HhVwwccyM0coi3/Lbwlib35aqG6br9sA==}
+  tsgo-wasm@2026.8.4:
+    resolution: {integrity: sha512-9ZCn8O6fpJ0Lpf01cbIT41ZykUawBOzwhI6gPpaxmyNZ/l3PeTVSkIRE+mrA+3xgWbAeADXzPlK+OWysYeK3LQ==}
     hasBin: true
 
   tslib@2.8.1:
@@ -5131,10 +5130,6 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@valibot/to-json-schema@1.7.1(valibot@1.4.2(typescript@7.0.2))':
-    dependencies:
-      valibot: 1.4.2(typescript@7.0.2)
-
   '@vitest/expect@4.1.10':
     dependencies:
       '@standard-schema/spec': 1.1.0
@@ -5568,9 +5563,9 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@0.7.16(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(cac@7.0.0)(srvx@0.12.5)(typescript@7.0.2):
+  devframe@0.8.0(cac@7.0.0)(srvx@0.12.5):
     dependencies:
-      '@valibot/to-json-schema': 1.7.1(valibot@1.4.2(typescript@7.0.2))
+      '@standard-schema/spec': 1.1.0
       birpc: 4.0.0
       crossws: 0.4.10(srvx@0.12.5)
       destr: 2.0.5
@@ -5579,13 +5574,10 @@ snapshots:
       nostics: 1.2.0
       pathe: 2.0.3
       ufo: 1.6.4
-      valibot: 1.4.2(typescript@7.0.2)
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.30.0(zod@4.4.3)
       cac: 7.0.0
     transitivePeerDependencies:
       - srvx
-      - typescript
 
   devlop@1.1.0:
     dependencies:
@@ -6725,18 +6717,18 @@ snapshots:
 
   node-mock-http@1.0.5: {}
 
-  node-modules-inspector@2.3.2(crossws@0.4.10(srvx@0.12.5))(srvx@0.12.5)(typescript@7.0.2)(zod@4.4.3):
+  node-modules-inspector@2.3.3(crossws@0.4.10(srvx@0.12.5))(srvx@0.12.5)(typescript@7.0.2)(zod@4.4.3):
     dependencies:
       '@modelcontextprotocol/sdk': 1.30.0(zod@4.4.3)
       ansis: 4.3.1
       cac: 7.0.0
-      devframe: 0.7.16(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(cac@7.0.0)(srvx@0.12.5)(typescript@7.0.2)
+      devframe: 0.8.0(cac@7.0.0)(srvx@0.12.5)
       fast-npm-meta: 2.2.0
       get-port-please: 3.2.0
       h3: 2.0.1-rc.26(crossws@0.4.10(srvx@0.12.5))
       launch-editor: 2.14.1
       mlly: 1.8.2
-      node-modules-tools: 2.3.2
+      node-modules-tools: 2.3.3
       ohash: 2.0.11
       open: 11.0.0
       p-limit: 7.3.1
@@ -6758,6 +6750,8 @@ snapshots:
       - '@capacitor/preferences'
       - '@cfworker/json-schema'
       - '@deno/kv'
+      - '@modelcontextprotocol/client'
+      - '@modelcontextprotocol/server'
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@upstash/redis'
@@ -6775,7 +6769,7 @@ snapshots:
       - uploadthing
       - zod
 
-  node-modules-tools@2.3.2:
+  node-modules-tools@2.3.3:
     dependencies:
       js-yaml: 5.2.3
       p-limit: 7.3.1
@@ -7413,7 +7407,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.8.3: {}
+  tsgo-wasm@2026.8.4: {}
 
   tslib@2.8.1:
     optional: true
