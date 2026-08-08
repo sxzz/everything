@@ -1998,8 +1998,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.11.12:
-    resolution: {integrity: sha512-r7WnVImvVCeFpf2DOXfy41aPWzeNg3H/A2X4dKmy1QL0MSyyk/e7z8ihJ3N6Nn2PsdhkVlqnEfnUE4a05P2aTA==}
+  baseline-browser-mapping@2.11.13:
+    resolution: {integrity: sha512-k9HNuUVMlqVjQ9UHzfPjIqiDbWw7WqT1AoT7GL8VwvF3r0ZfArtgiSPAlmupyNquNgOJHTuH4CKYf8ttMTWBTQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -2385,8 +2385,8 @@ packages:
     peerDependencies:
       eslint: '>=9.38.0'
 
-  eslint-plugin-n@18.2.2:
-    resolution: {integrity: sha512-gOO0lIqwEjZ750kv9/SptCWArUoAZXJoBr0vYWTO2dCBxctHUXlBIigiC8xuxxr/NKqgIT6Ehz1xRcilj8a5cA==}
+  eslint-plugin-n@18.3.0:
+    resolution: {integrity: sha512-cPVguuDe6DrIPb/qUXHf8P89MaVTUmiYWwpt5gX5AILsvRIiZAxMFXcFR6QHYBksqKJpjfUBlL/RleCJUWcD7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=8.57.1'
@@ -4961,7 +4961,7 @@ snapshots:
       eslint-plugin-importer: 0.4.1(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-jsdoc: 64.0.1(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-jsonc: 3.4.1(eslint@10.8.1(jiti@2.7.0))
-      eslint-plugin-n: 18.2.2(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
+      eslint-plugin-n: 18.3.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       eslint-plugin-perfectionist: 5.10.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       eslint-plugin-pnpm: 1.7.0(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-prettier: 5.5.6(eslint-config-prettier@10.1.8(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(prettier@3.9.6)
@@ -5513,7 +5513,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.12: {}
+  baseline-browser-mapping@2.11.13: {}
 
   birpc@4.0.0: {}
 
@@ -5539,7 +5539,7 @@ snapshots:
 
   browserslist@4.28.8:
     dependencies:
-      baseline-browser-mapping: 2.11.12
+      baseline-browser-mapping: 2.11.13
       caniuse-lite: 1.0.30001809
       electron-to-chromium: 1.5.402
       node-releases: 2.0.53
@@ -5836,7 +5836,7 @@ snapshots:
     transitivePeerDependencies:
       - '@eslint/json'
 
-  eslint-plugin-n@18.2.2(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2):
+  eslint-plugin-n@18.3.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.8.1(jiti@2.7.0))
       enhanced-resolve: 5.24.5
