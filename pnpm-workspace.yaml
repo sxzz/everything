@@ -2,7 +2,7 @@ packages: []
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
-  '@types/node': ^26.1.2
+  '@types/node': ^26.2.0
   hosted-git-info: ^10.1.1
   ky: ^2.0.2
   typescript: ^7.0.2
@@ -37,13 +37,13 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.0
-    tsgo-wasm: ^2026.8.7
+    tsgo-wasm: ^2026.8.8
     untsx: ^0.2.1
     verkit: ^0.3.2
   lint:
-    '@sxzz/eslint-config': ^8.4.0
+    '@sxzz/eslint-config': ^8.5.0
     '@sxzz/prettier-config': ^2.3.2
-    eslint: ^10.8.0
+    eslint: ^10.8.1
     eslint-plugin-importer: ^0.4.1
     eslint-plugin-sxzz: ^0.5.0
     prettier: ^3.9.6
@@ -54,7 +54,7 @@ catalogs:
     unplugin-inline-enum: ^0.8.2
     unplugin-isolated-decl: ^0.17.0
     unplugin-lightningcss: ^0.5.0
-    unplugin-macros: ^0.22.0
+    unplugin-macros: ^0.23.0
     unplugin-oxc: ^0.6.1
     unplugin-quansync: ^0.6.0
     unplugin-raw: ^0.7.0
