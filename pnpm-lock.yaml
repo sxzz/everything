@@ -501,8 +501,8 @@ packages:
     resolution: {integrity: sha512-WivZqV5jPTYDQJgIMp0hTsyQESKYNY6yCJr4b0l84tYtQntkAMkc6zARh2vlRQyeg4aYHPUkCUDpvr2IWAiGpQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
-  '@es-joy/jsdoccomment@0.93.1':
-    resolution: {integrity: sha512-DEjGoyrDvy4K6kBvrzuV3yKmdmYRepK2oHMaLZrFhJCGDM4xiXuaCgtYVbWS/3HeeGNGQgjMgrrqDCAwldsU2A==}
+  '@es-joy/jsdoccomment@0.93.2':
+    resolution: {integrity: sha512-yCvw3wFaTBl7M3LfCefGqdPMoGUS/RtZtj1iNcsxxqnTjYRmEvrHpx2Mb+mJQ4MblxUCaFd1irxTZsRcXtZI7g==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
   '@es-joy/resolve.exports@1.2.0':
@@ -2246,8 +2246,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.402:
-    resolution: {integrity: sha512-/oOpMaPT6Yg+6/1XQhyIPlzgj7Ye9zf+nNM2Uh6OcE2G2oNptWazFa+qB2Pdqqbsc9KnIDzgAntoYN0dbwOXwA==}
+  electron-to-chromium@1.5.403:
+    resolution: {integrity: sha512-MQsYmdaLzvaCX5j+ZZBr5Fm6uCCnPQcRtlvmvRlWqrXy+BH2O4ffXIAScF+JQznQWB9brWp4lSD9Z4yNmaf2BA==}
 
   empathic@2.0.1:
     resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
@@ -2836,8 +2836,8 @@ packages:
     resolution: {integrity: sha512-DoyJXo7x/n48M3NsGOs9QnEws0ft0tV3YsSgvWMNxz2hZtz+Q6fpqUD96lVYX4a+jcEkzHeFNDJOn68TzXfbdA==}
     engines: {node: '>=20.0.0'}
 
-  jsdoc-type-pratt-parser@9.0.0:
-    resolution: {integrity: sha512-gZvnVGWqgA9L/L2NLdcff6Rezp6ymKBqJDqfg+qWL9QyZA5prn5irUCkSGDEvuse1SjiFhlV2WQsgGBaIlPLWg==}
+  jsdoc-type-pratt-parser@9.0.1:
+    resolution: {integrity: sha512-1LJ/negRKJxH0+ulOsJYEpUgzIs1DAOz9QctuS4In2LW/Ro3l8C4ej5al+5FU2hBGEOAY3R3SCnP6x8226JMIw==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
   jsesc@3.1.0:
@@ -4406,15 +4406,15 @@ snapshots:
       '@typescript-eslint/types': 8.66.0
       comment-parser: 1.4.7
       esquery: 1.7.0
-      jsdoc-type-pratt-parser: 9.0.0
+      jsdoc-type-pratt-parser: 9.0.1
 
-  '@es-joy/jsdoccomment@0.93.1':
+  '@es-joy/jsdoccomment@0.93.2':
     dependencies:
       '@types/estree': 1.0.9
       '@typescript-eslint/types': 8.66.0
       comment-parser: 1.4.8
       esquery: 1.7.0
-      jsdoc-type-pratt-parser: 9.0.0
+      jsdoc-type-pratt-parser: 9.0.1
 
   '@es-joy/resolve.exports@1.2.0': {}
 
@@ -5541,7 +5541,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.13
       caniuse-lite: 1.0.30001809
-      electron-to-chromium: 1.5.402
+      electron-to-chromium: 1.5.403
       node-releases: 2.0.53
       update-browserslist-db: 1.3.0(browserslist@4.28.8)
 
@@ -5705,7 +5705,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.402: {}
+  electron-to-chromium@1.5.403: {}
 
   empathic@2.0.1: {}
 
@@ -5803,7 +5803,7 @@ snapshots:
 
   eslint-plugin-jsdoc@64.0.1(eslint@10.8.1(jiti@2.7.0)):
     dependencies:
-      '@es-joy/jsdoccomment': 0.93.1
+      '@es-joy/jsdoccomment': 0.93.2
       '@es-joy/resolve.exports': 1.2.0
       are-docs-informative: 0.1.1
       comment-parser: 1.4.8
@@ -6316,7 +6316,7 @@ snapshots:
 
   jsdoc-type-pratt-parser@7.3.0: {}
 
-  jsdoc-type-pratt-parser@9.0.0:
+  jsdoc-type-pratt-parser@9.0.1:
     dependencies:
       '@types/estree': 1.0.9
 
