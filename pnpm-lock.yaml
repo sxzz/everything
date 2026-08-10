@@ -84,8 +84,8 @@ catalogs:
       specifier: ^1.0.0
       version: 1.0.0
     rolldown-plugin-dts:
-      specifier: ^0.28.0
-      version: 0.28.0
+      specifier: ^0.28.1
+      version: 0.28.1
     rolldown-plugin-require-cjs:
       specifier: ^0.4.1
       version: 0.4.1
@@ -105,7 +105,7 @@ catalogs:
       specifier: ^0.7.0
       version: 0.7.0
     tsgo-wasm:
-      specifier: ^2026.8.9
+      specifier: ^2026.8.10
       version: 2026.8.10
     untsx:
       specifier: ^0.2.1
@@ -137,8 +137,8 @@ catalogs:
       specifier: ^3.3.0
       version: 3.3.0
     unplugin-ast:
-      specifier: ^0.18.0
-      version: 0.18.0
+      specifier: ^0.18.1
+      version: 0.18.1
     unplugin-combine:
       specifier: ^2.4.0
       version: 2.4.0
@@ -252,7 +252,7 @@ importers:
         version: 1.0.0
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.28.0(oxc-resolver@11.24.2)(rolldown@1.2.3)(typescript@7.0.2)
+        version: 0.28.1(oxc-resolver@11.24.2)(rolldown@1.2.3)(typescript@7.0.2)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.4.1(rolldown@1.2.3)
@@ -288,7 +288,7 @@ importers:
         version: 3.3.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-ast:
         specifier: catalog:unplugin
-        version: 0.18.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.18.1(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-combine:
         specifier: catalog:unplugin
         version: 2.4.0(rolldown@1.2.3)(unplugin@3.3.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)))(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
@@ -3454,8 +3454,8 @@ packages:
       vue-tsc:
         optional: true
 
-  rolldown-plugin-dts@0.28.0:
-    resolution: {integrity: sha512-Ip/B9B0IK3OLBj0tl59yAfQgbHBicLE5GQ04+6eJoniZ1HKNCpf49NzmBC4SfIg1cIvKr0n0mUQe8mG6UrJHbw==}
+  rolldown-plugin-dts@0.28.1:
+    resolution: {integrity: sha512-/L3joWaepvZehTxe0w+9xoo7xVxgXFb8XBnn8fXsbsliHbYju0CDEhvq6TXFoLn51vNIJergXxMGE480UxUrww==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       '@typescript/native-preview': '*'
@@ -3804,8 +3804,8 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  unplugin-ast@0.18.0:
-    resolution: {integrity: sha512-U7hv2cwG2D+aft6+4b/fOxsWUIxbiylN47L7YdPloi+93dttbACKacs8yus+dLKi5SV22P12vvQkRsISVaMo9g==}
+  unplugin-ast@0.18.1:
+    resolution: {integrity: sha512-NzyJcnnItWJuEvbGUTqld3mdShruaF3SOqRibPOzAyF5AJlH1HnaPLsQI2+ZcwWnemqWtjYSFqWzbPzmux4CPg==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
 
   unplugin-combine@2.4.0:
@@ -7213,7 +7213,7 @@ snapshots:
     transitivePeerDependencies:
       - oxc-resolver
 
-  rolldown-plugin-dts@0.28.0(oxc-resolver@11.24.2)(rolldown@1.2.3)(typescript@7.0.2):
+  rolldown-plugin-dts@0.28.1(oxc-resolver@11.24.2)(rolldown@1.2.3)(typescript@7.0.2):
     dependencies:
       dts-resolver: 3.0.0(oxc-resolver@11.24.2)
       get-tsconfig: 5.0.0-beta.5
@@ -7618,7 +7618,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-ast@0.18.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)):
+  unplugin-ast@0.18.1(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@yuku-toolchain/types': 0.8.4
       magic-string-ast: 2.1.1
