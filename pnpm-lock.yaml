@@ -153,7 +153,7 @@ catalogs:
       version: 0.5.0
     unplugin-macros:
       specifier: ^0.23.0
-      version: 0.23.0
+      version: 0.23.1
     unplugin-oxc:
       specifier: ^0.6.1
       version: 0.6.1
@@ -303,7 +303,7 @@ importers:
         version: 0.5.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-macros:
         specifier: catalog:unplugin
-        version: 0.23.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.23.1(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-oxc:
         specifier: catalog:unplugin
         version: 0.6.1(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
@@ -3858,8 +3858,8 @@ packages:
     resolution: {integrity: sha512-QQnSHrm4y1l25qLI4XDVXZ040dgQvY63KDD3vJmhXFWXe8+oBW1rWhfI0UdSZlPfPOmZU8DFeh47K2cnkUfE5g==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
 
-  unplugin-macros@0.23.0:
-    resolution: {integrity: sha512-WFWqmzHe2U2SBemtpzM9DKJg0T3z87B7bR5ryMfUNqGEEUGi8+bbzGYlp6V7iycdKCYWqU4PWr0Rt8QZdJaviA==}
+  unplugin-macros@0.23.1:
+    resolution: {integrity: sha512-9HbDa4GU1JETrHaa0NJhzpnkcexGoheAC3ZaxoaAfVfEQnE5eDaWmwYUTSkvI1TvaXWg5o1XyhFIVaSR5lUoiQ==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       unrun: ^0.3.1
@@ -7703,7 +7703,7 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-macros@0.23.0(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)):
+  unplugin-macros@0.23.1(rolldown@1.2.3)(unloader@0.10.1)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       import-without-cache: 0.4.0
       magic-string-ast: 2.1.1
