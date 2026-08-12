@@ -85,7 +85,7 @@ catalogs:
       version: 1.0.0
     rolldown-plugin-dts:
       specifier: ^0.28.1
-      version: 0.28.1
+      version: 0.28.2
     rolldown-plugin-require-cjs:
       specifier: ^0.4.1
       version: 0.4.1
@@ -252,7 +252,7 @@ importers:
         version: 1.0.0
       rolldown-plugin-dts:
         specifier: catalog:libs
-        version: 0.28.1(oxc-resolver@11.24.2)(rolldown@1.2.4)(typescript@7.0.2)
+        version: 0.28.2(oxc-resolver@11.24.2)(rolldown@1.2.4)(typescript@7.0.2)
       rolldown-plugin-require-cjs:
         specifier: catalog:libs
         version: 0.4.1(rolldown@1.2.4)
@@ -3458,8 +3458,8 @@ packages:
       vue-tsc:
         optional: true
 
-  rolldown-plugin-dts@0.28.1:
-    resolution: {integrity: sha512-/L3joWaepvZehTxe0w+9xoo7xVxgXFb8XBnn8fXsbsliHbYju0CDEhvq6TXFoLn51vNIJergXxMGE480UxUrww==}
+  rolldown-plugin-dts@0.28.2:
+    resolution: {integrity: sha512-U0Ng45ZaESZ7rJtQtgCWkJYCpMgH42yIj3xv9HGAsh/dJ8XBhjI4lcqh4NOWx8+CAxoY2HWg8VYINML2yE9A5A==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     peerDependencies:
       '@typescript/native-preview': '*'
@@ -7221,7 +7221,7 @@ snapshots:
     transitivePeerDependencies:
       - oxc-resolver
 
-  rolldown-plugin-dts@0.28.1(oxc-resolver@11.24.2)(rolldown@1.2.4)(typescript@7.0.2):
+  rolldown-plugin-dts@0.28.2(oxc-resolver@11.24.2)(rolldown@1.2.4)(typescript@7.0.2):
     dependencies:
       dts-resolver: 3.0.0(oxc-resolver@11.24.2)
       get-tsconfig: 5.0.0-beta.5
