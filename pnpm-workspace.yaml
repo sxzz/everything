@@ -30,14 +30,14 @@ catalogs:
     obug: ^2.1.4
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
-    rolldown-plugin-dts: ^0.28.1
+    rolldown-plugin-dts: ^0.28.2
     rolldown-plugin-require-cjs: ^0.4.1
     rolldown-plugin-wasm: ^0.3.2
     rolldown-string: ^0.3.1
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.0
-    tsgo-wasm: ^2026.8.12
+    tsgo-wasm: ^2026.8.13
     untsx: ^0.2.1
     verkit: ^0.3.2
   lint:
@@ -54,7 +54,7 @@ catalogs:
     unplugin-inline-enum: ^0.8.2
     unplugin-isolated-decl: ^0.17.0
     unplugin-lightningcss: ^0.5.0
-    unplugin-macros: ^0.23.1
+    unplugin-macros: ^0.23.2
     unplugin-oxc: ^0.6.1
     unplugin-quansync: ^0.6.0
     unplugin-raw: ^0.7.0
