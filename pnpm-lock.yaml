@@ -111,8 +111,8 @@ catalogs:
       specifier: ^0.2.1
       version: 0.2.1
     verkit:
-      specifier: ^0.3.2
-      version: 0.3.2
+      specifier: ^0.4.0
+      version: 0.4.0
   lint:
     '@sxzz/eslint-config':
       specifier: ^8.5.0
@@ -336,7 +336,7 @@ importers:
         version: 0.2.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       verkit:
         specifier: catalog:libs
-        version: 0.3.2
+        version: 0.4.0
       vite-hyper-config:
         specifier: catalog:cli
         version: 0.9.0(@types/node@26.2.0)(jiti@2.7.0)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
@@ -4047,6 +4047,10 @@ packages:
 
   verkit@0.3.2:
     resolution: {integrity: sha512-zj/ob3UsvJGN0whEAKFp53REA5X66hvffVqoCtVQAakJKnKlH+/PcOfMoFwIG/o4rElqLv/ycAFlx8ZlXUorCg==}
+    engines: {node: '>=18.12.0'}
+
+  verkit@0.4.0:
+    resolution: {integrity: sha512-sXMwN6DMHeouPfCxkxWkKAmxphWKEenHYY5H1nIBzU3PmDsmJp6kBXJdshjVdpMZuWCmL9SH7KFRx29AylpP6g==}
     engines: {node: '>=18.12.0'}
 
   vite-hyper-config@0.9.0:
@@ -7939,6 +7943,8 @@ snapshots:
   vary@1.1.2: {}
 
   verkit@0.3.2: {}
+
+  verkit@0.4.0: {}
 
   vite-hyper-config@0.9.0(@types/node@26.2.0)(jiti@2.7.0)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
     dependencies:
