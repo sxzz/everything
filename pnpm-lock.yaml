@@ -207,7 +207,7 @@ importers:
         version: 2.3.2(prettier@3.9.6)
       '@sxzz/test-utils':
         specifier: catalog:libs
-        version: 0.5.18(@vue/language-core@3.3.10)(rolldown@1.2.5)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.2.0)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)))
+        version: 0.5.18(@vue/language-core@3.3.11)(rolldown@1.2.5)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.2.0)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)))
       '@vue/babel-plugin-jsx':
         specifier: catalog:libs
         version: 3.0.0(@babel/core@8.0.1)
@@ -1711,8 +1711,8 @@ packages:
   '@vue/compiler-ssr@3.5.41':
     resolution: {integrity: sha512-U3v5OejKEGqOI0Wy0+Sz7hGuIFZHA4LSXzrNM3IMIeDyJEBBfTpX26n3SDgToRpP2bLc9FfI2j/kSgcJ8Emq5A==}
 
-  '@vue/language-core@3.3.10':
-    resolution: {integrity: sha512-CR7ByBbgPHqhxrioKPOcZBqttaozzLNwtkCzXQ+uF8gLPHnUe03srPnGpdtHD3zp+bq5iyVkZ1WNx7W564RPwg==}
+  '@vue/language-core@3.3.11':
+    resolution: {integrity: sha512-QJmpliwAVpC/OxubIByPAhNzsQPRc8/gxlN2qnVzVfIMjMDz/9RnXRFoetjz5yEgXVXyp4LqhXq3V53PjmNzFw==}
 
   '@vue/reactivity@3.5.41':
     resolution: {integrity: sha512-rznsqKM0np0x18EjzF8x88MpEhdNsffbvFbckLL5+oUKz1BxAImEmO7J1ArRYSyo6aQaVoBDp7jEkT91OOxydA==}
@@ -2252,8 +2252,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.411:
-    resolution: {integrity: sha512-gglkxzokjHfawpGxq75XdBV2/l3BAPzrsMs70qgaZdTW5rpV1tC4MdgJVP9fN126bODA4ZJQkn1wryEzJyQXIg==}
+  electron-to-chromium@1.5.412:
+    resolution: {integrity: sha512-z4rMe3esBzlzovKHj4gxJnsCGZRK5l4baUvm+gCGJBPE+gsyUMKsuU9tnEUtI1dOebXz1ytAPGjvXhmQ7rIPwA==}
 
   empathic@2.0.1:
     resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
@@ -5010,13 +5010,13 @@ snapshots:
       '@prettier/plugin-oxc': 0.2.2
       prettier: 3.9.6
 
-  '@sxzz/test-utils@0.5.18(@vue/language-core@3.3.10)(rolldown@1.2.5)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.2.0)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)))':
+  '@sxzz/test-utils@0.5.18(@vue/language-core@3.3.11)(rolldown@1.2.5)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.2.0)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)))':
     dependencies:
       tinyglobby: 0.2.17
       unplugin-utils: 0.3.2
       vitest: 4.1.11(@types/node@26.2.0)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
     optionalDependencies:
-      '@vue/language-core': 3.3.10
+      '@vue/language-core': 3.3.11
       rolldown: 1.2.5
       typescript: 7.0.2
 
@@ -5318,7 +5318,7 @@ snapshots:
       '@vue/compiler-dom': 3.5.41
       '@vue/shared': 3.5.41
 
-  '@vue/language-core@3.3.10':
+  '@vue/language-core@3.3.11':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.41
@@ -5558,7 +5558,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.16
       caniuse-lite: 1.0.30001809
-      electron-to-chromium: 1.5.411
+      electron-to-chromium: 1.5.412
       node-releases: 2.0.53
       update-browserslist-db: 1.3.1(browserslist@4.28.8)
 
@@ -5722,7 +5722,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.411: {}
+  electron-to-chromium@1.5.412: {}
 
   empathic@2.0.1: {}
 
@@ -7848,7 +7848,7 @@ snapshots:
 
   unplugin-vue-named-export@0.10.0(rolldown@1.2.5)(unloader@0.10.1)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
-      '@vue/language-core': 3.3.10
+      '@vue/language-core': 3.3.11
       ast-kit: 3.0.0
       muggle-string: 0.4.1
       rolldown-string: 0.3.1(rolldown@1.2.5)
