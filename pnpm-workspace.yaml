@@ -43,7 +43,7 @@ catalogs:
   lint:
     '@sxzz/eslint-config': ^8.5.0
     '@sxzz/prettier-config': ^2.3.2
-    eslint: ^10.8.1
+    eslint: ^10.9.0
     eslint-plugin-importer: ^0.4.1
     eslint-plugin-sxzz: ^0.5.0
     prettier: ^3.9.6
