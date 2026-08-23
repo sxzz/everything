@@ -13,8 +13,8 @@ catalogs:
       specifier: ^0.8.2
       version: 0.8.2
     node-modules-inspector:
-      specifier: ^2.4.2
-      version: 2.4.2
+      specifier: ^2.4.3
+      version: 2.4.3
     stale-dep:
       specifier: ^0.9.0
       version: 0.9.0
@@ -105,8 +105,8 @@ catalogs:
       specifier: ^0.7.0
       version: 0.7.0
     tsgo-wasm:
-      specifier: ^2026.8.22
-      version: 2026.8.22
+      specifier: ^2026.8.23
+      version: 2026.8.23
     untsx:
       specifier: ^0.2.1
       version: 0.2.1
@@ -279,7 +279,7 @@ importers:
         version: 0.7.0(tsdown@0.22.14(@arethetypeswrong/core@0.18.5)(oxc-resolver@11.24.2)(publint@0.3.24)(typescript@7.0.2)(unplugin-unused@0.6.0(rolldown@1.2.5)(unloader@0.10.1)(vite@8.2.2(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.8.22
+        version: 2026.8.23
       unloader:
         specifier: catalog:cli
         version: 0.10.1
@@ -364,7 +364,7 @@ importers:
         version: 2.0.2
       node-modules-inspector:
         specifier: catalog:cli
-        version: 2.4.2(crossws@0.4.12(srvx@0.12.7))(srvx@0.12.7)(typescript@7.0.2)(zod@4.4.3)
+        version: 2.4.3(crossws@0.4.12(srvx@0.12.7))(srvx@0.12.7)(typescript@7.0.2)(zod@4.4.3)
       prettier:
         specifier: catalog:lint
         version: 3.9.6
@@ -3195,12 +3195,12 @@ packages:
   node-mock-http@1.0.5:
     resolution: {integrity: sha512-KQyt/wLjG3TAc7DOUhpqWzgd4ERxR80JOlTK5VE5R1S12IaPVN5qkj4klBce9HPG1Njuup4Sb5bljaT34lIyjw==}
 
-  node-modules-inspector@2.4.2:
-    resolution: {integrity: sha512-JDqKXaa4F0dge4uTa5c/LNTWYsTvUCPiFLqZZ2IXWnXeIuweufJN0vIz++4NGseC1kjNyWIgV3GmYceyRrBYqg==}
+  node-modules-inspector@2.4.3:
+    resolution: {integrity: sha512-7VtBVcGUmaAxkcHqTLEvLYZFt5hPWSx519DhoqcA3zEQIZeqSMIfp3/bPOYsX9FitnN3IMdwNIJTRdjFqvbz+A==}
     hasBin: true
 
-  node-modules-tools@2.4.2:
-    resolution: {integrity: sha512-HzvjxMBj2pJEctnS5Heurm8w4mYvbx7cjktnhfGiyxUrQuGjmXJEhAMbD4vN0yGYSqsBlrSxDBw8LE/XktHmGw==}
+  node-modules-tools@2.4.3:
+    resolution: {integrity: sha512-JRUrSuMbTDFqnAmbk3NlS/7cXDh3VQqE1+YE5DafTvw9awQHbyqXmC6Iqjn/DzvNRax8u9UKDEp4l1fw9vP6GQ==}
 
   node-releases@2.0.53:
     resolution: {integrity: sha512-D9UOmYG3UH1V+ENW56t5QXBwJw1YEY18ruVeus89Rw+SyIgjPkCO84bRzO3uNIYosJbNwiabWVn48o3uJLjxFQ==}
@@ -3740,8 +3740,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.8.22:
-    resolution: {integrity: sha512-8vZSwoRgzjU9TvmLOQSRLWXNEYhfXdR/TD+MTaNapBpPhv9RBXuyC4qXcbwm6oPszNetlHeGZFz+u0ckd5SORQ==}
+  tsgo-wasm@2026.8.23:
+    resolution: {integrity: sha512-rA0SWLhg6jrV+mVR0Gio/Lm/I6nG7NfLdfGmLaicnm36oEqQPLOsrDNeW1eo9mPiUtDVNh+8HR4wahjl5VJuDg==}
     hasBin: true
 
   tslib@2.8.1:
@@ -6845,7 +6845,7 @@ snapshots:
 
   node-mock-http@1.0.5: {}
 
-  node-modules-inspector@2.4.2(crossws@0.4.12(srvx@0.12.7))(srvx@0.12.7)(typescript@7.0.2)(zod@4.4.3):
+  node-modules-inspector@2.4.3(crossws@0.4.12(srvx@0.12.7))(srvx@0.12.7)(typescript@7.0.2)(zod@4.4.3):
     dependencies:
       '@modelcontextprotocol/sdk': 1.30.0(zod@4.4.3)
       ansis: 4.3.1
@@ -6855,7 +6855,7 @@ snapshots:
       h3: 2.0.1-rc.29(crossws@0.4.12(srvx@0.12.7))
       launch-editor: 2.14.1
       mlly: 1.8.2
-      node-modules-tools: 2.4.2
+      node-modules-tools: 2.4.3
       ohash: 2.0.12
       open: 11.0.1
       p-limit: 7.3.1
@@ -6897,7 +6897,7 @@ snapshots:
       - uploadthing
       - zod
 
-  node-modules-tools@2.4.2:
+  node-modules-tools@2.4.3:
     dependencies:
       js-yaml: 5.3.0
       p-limit: 7.3.1
@@ -7538,7 +7538,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.8.22: {}
+  tsgo-wasm@2026.8.23: {}
 
   tslib@2.8.1:
     optional: true
