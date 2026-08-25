@@ -242,17 +242,6 @@
     "trusted": true
   },
   {
-    "downloads": 21917,
-    "downloadsText": "21.9K",
-    "end": "2026-08-23",
-    "owner": "unplugin",
-    "package": "unplugin-unused",
-    "provenance": true,
-    "staged": true,
-    "start": "2026-08-17",
-    "trusted": true
-  },
-  {
     "downloads": 14200,
     "downloadsText": "14.2K",
     "end": "2026-08-23",
@@ -293,6 +282,17 @@
     "package": "unplugin-vue-jsx",
     "provenance": true,
     "staged": true,
+    "start": "2026-08-17",
+    "trusted": true
+  },
+  {
+    "downloads": 3913,
+    "downloadsText": "3.9K",
+    "end": "2026-08-23",
+    "owner": "unplugin",
+    "package": "unplugin-replace",
+    "provenance": true,
+    "staged": false,
     "start": "2026-08-17",
     "trusted": true
   },
