@@ -30,14 +30,14 @@ catalogs:
     obug: ^2.1.4
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
-    rolldown-plugin-dts: ^0.28.3
+    rolldown-plugin-dts: ^0.28.4
     rolldown-plugin-require-cjs: ^0.4.1
     rolldown-plugin-wasm: ^0.3.2
     rolldown-string: ^0.3.1
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.0
-    tsgo-wasm: ^2026.8.30
+    tsgo-wasm: ^2026.8.31
     untsx: ^0.2.1
     verkit: ^0.4.0
   lint:
@@ -49,7 +49,7 @@ catalogs:
     prettier: ^3.9.6
   unplugin:
     unplugin: ^3.3.0
-    unplugin-ast: ^0.18.1
+    unplugin-ast: ^0.19.0
     unplugin-combine: ^2.4.0
     unplugin-inline-enum: ^0.8.3
     unplugin-isolated-decl: ^0.17.0
@@ -57,7 +57,7 @@ catalogs:
     unplugin-macros: ^0.23.2
     unplugin-oxc: ^0.6.1
     unplugin-quansync: ^0.6.0
-    unplugin-raw: ^0.7.0
+    unplugin-raw: ^0.8.0
     unplugin-replace: ^0.9.0
     unplugin-unused: ^0.6.0
     unplugin-utils: ^0.3.2
