@@ -55,14 +55,14 @@
     "trusted": true
   },
   {
-    "downloads": 5928420,
+    "downloads": 5902071,
     "downloadsText": "5.9M",
-    "end": "2026-08-28",
+    "end": "2026-08-29",
     "owner": "sxzz",
     "package": "ast-kit",
     "provenance": true,
     "staged": false,
-    "start": "2026-08-22",
+    "start": "2026-08-23",
     "trusted": true
   },
   {
@@ -143,14 +143,14 @@
     "trusted": true
   },
   {
-    "downloads": 3384540,
+    "downloads": 3391843,
     "downloadsText": "3.4M",
-    "end": "2026-08-28",
+    "end": "2026-08-29",
     "owner": "sxzz",
     "package": "magic-string-ast",
     "provenance": true,
     "staged": true,
-    "start": "2026-08-22",
+    "start": "2026-08-23",
     "trusted": true
   },
   {
@@ -264,14 +264,14 @@
     "trusted": true
   },
   {
-    "downloads": 12162,
-    "downloadsText": "12.2K",
-    "end": "2026-08-28",
+    "downloads": 12014,
+    "downloadsText": "12K",
+    "end": "2026-08-29",
     "owner": "unplugin",
     "package": "unplugin-raw",
     "provenance": true,
-    "staged": false,
-    "start": "2026-08-22",
+    "staged": true,
+    "start": "2026-08-23",
     "trusted": true
   },
   {
@@ -282,17 +282,6 @@
     "package": "unplugin-macros",
     "provenance": true,
     "staged": true,
-    "start": "2026-08-23",
-    "trusted": true
-  },
-  {
-    "downloads": 4929,
-    "downloadsText": "4.9K",
-    "end": "2026-08-29",
-    "owner": "unplugin",
-    "package": "unplugin-replace",
-    "provenance": true,
-    "staged": false,
     "start": "2026-08-23",
     "trusted": true
   },
