@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.0
-    tsgo-wasm: ^2026.8.31
+    tsgo-wasm: ^2026.9.1
     untsx: ^0.2.1
     verkit: ^0.4.0
   lint:
