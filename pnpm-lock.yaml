@@ -2349,8 +2349,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@0.9.8:
-    resolution: {integrity: sha512-Opa2pcRKvYqy1NtMEnB2FEBGOUsfvogtv/ZoMSgjdqNm1IfaWCAJ2poc9EhRFlPBDg8RQTXDJKzmVIB+iIuy7w==}
+  devframe@0.9.9:
+    resolution: {integrity: sha512-DZN7b6+bwv7qcVV7rhLrBzvTTI5daOyiPec1hTgFBrsmInVvB5Nsq3/cfcDhyC+apRdnHMZasRfiVpTcGGa55w==}
     hasBin: true
     peerDependencies:
       '@modelcontextprotocol/client': ^2.0.0
@@ -5914,7 +5914,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@0.9.8(cac@7.0.0)(srvx@1.0.0):
+  devframe@0.9.9(cac@7.0.0)(srvx@1.0.0):
     dependencies:
       '@standard-schema/spec': 1.1.0
       birpc: 4.2.0
@@ -7087,7 +7087,7 @@ snapshots:
       '@modelcontextprotocol/sdk': 1.30.0(zod@4.5.4)
       ansis: 4.3.1
       cac: 7.0.0
-      devframe: 0.9.8(cac@7.0.0)(srvx@1.0.0)
+      devframe: 0.9.9(cac@7.0.0)(srvx@1.0.0)
       fast-npm-meta: 2.2.0
       h3: 2.0.1-rc.30(crossws@0.4.12(srvx@1.0.0))
       launch-editor: 2.14.1
