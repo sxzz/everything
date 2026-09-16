@@ -25,6 +25,7 @@ catalogs:
     ast-walker-scope: ^0.10.0
     cac: ^7.0.0
     dts-resolver: ^3.0.0
+    goat-counter: ^0.1.1
     import-without-cache: ^0.4.0
     magic-string-ast: ^2.1.1
     obug: ^3.0.0

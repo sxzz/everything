@@ -30,6 +30,7 @@
     "dts-resolver": "catalog:libs",
     "eslint-plugin-importer": "catalog:lint",
     "eslint-plugin-sxzz": "catalog:lint",
+    "goat-counter": "catalog:libs",
     "import-without-cache": "catalog:libs",
     "magic-string-ast": "catalog:libs",
     "monoman": "catalog:cli",
