@@ -11,14 +11,14 @@ catalogs:
   cli:
     '@sxzz/create': ^0.17.1
     monoman: ^0.8.2
-    node-modules-inspector: ^2.6.2
+    node-modules-inspector: ^2.7.0
     stale-dep: ^0.9.0
     tsdown: ^0.23.0
     unloader: ^0.10.1
     vite-hyper-config: ^0.9.0
   libs:
-    '@quansync/fs': ^1.0.0
-    '@sxzz/test-utils': ^0.5.18
+    '@quansync/fs': ^1.1.0
+    '@sxzz/test-utils': ^0.5.19
     '@vue/babel-plugin-jsx': ^3.0.0
     '@vue/repl': ^4.7.2
     ast-kit: ^3.0.0
@@ -26,45 +26,45 @@ catalogs:
     cac: ^7.0.0
     dts-resolver: ^3.0.0
     goat-counter: ^0.1.1
-    import-without-cache: ^0.4.0
+    import-without-cache: ^0.4.1
     magic-string-ast: ^2.1.1
     obug: ^3.0.0
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
-    rolldown-plugin-dts: ^0.28.5
-    rolldown-plugin-require-cjs: ^0.4.1
+    rolldown-plugin-dts: ^0.28.6
+    rolldown-plugin-require-cjs: ^0.4.2
     rolldown-plugin-wasm: ^0.3.2
     rolldown-string: ^0.3.1
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
-    tsdown-preset-sxzz: ^0.7.0
+    tsdown-preset-sxzz: ^0.7.1
     tsgo-wasm: ^2026.9.15
     untsx: ^0.2.1
     verkit: ^0.4.0
   lint:
     '@sxzz/eslint-config': ^8.6.0
-    '@sxzz/prettier-config': ^2.3.2
+    '@sxzz/prettier-config': ^2.3.3
     eslint: ^10.10.0
     eslint-plugin-importer: ^0.4.1
-    eslint-plugin-sxzz: ^0.5.0
-    prettier: ^3.9.6
+    eslint-plugin-sxzz: ^0.5.1
+    prettier: ^3.9.7
   unplugin:
-    unplugin: ^3.3.0
+    unplugin: ^3.4.0
     unplugin-ast: ^0.19.0
     unplugin-combine: ^2.4.0
     unplugin-inline-enum: ^0.8.3
     unplugin-isolated-decl: ^0.17.0
     unplugin-lightningcss: ^0.5.0
     unplugin-macros: ^0.23.2
-    unplugin-oxc: ^0.6.1
-    unplugin-quansync: ^0.6.0
+    unplugin-oxc: ^0.6.2
+    unplugin-quansync: ^0.6.1
     unplugin-raw: ^0.8.0
     unplugin-replace: ^0.9.0
     unplugin-unused: ^0.6.0
     unplugin-utils: ^0.3.2
-    unplugin-vue: ^7.2.0
+    unplugin-vue: ^8.0.0
     unplugin-vue-jsx: ^0.10.0
-    unplugin-vue-named-export: ^0.10.0
+    unplugin-vue-named-export: ^0.10.1
   vue:
     vue-functional-ref: ^0.8.0
     vue-simple-props: ^0.6.4
