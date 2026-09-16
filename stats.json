@@ -559,5 +559,16 @@
     "staged": false,
     "start": "2026-09-05",
     "trusted": true
+  },
+  {
+    "downloads": 5,
+    "downloadsText": "5",
+    "end": "2026-09-11",
+    "owner": "sxzz",
+    "package": "goat-counter",
+    "provenance": true,
+    "staged": true,
+    "start": "2026-09-05",
+    "trusted": true
   }
 ]
