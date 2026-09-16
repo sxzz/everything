@@ -9,4 +9,5 @@
     enabled: true,
     schedule: ['at any time'],
   },
+  ignoreDeps: ['typescript'],
 }

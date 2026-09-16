@@ -3,8 +3,14 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@12.4.1",
   "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.2",
+      "onFail": "download"
+    }
+  },
   "scripts": {
     "dev": "node-modules-inspector",
     "build": "node-modules-inspector build",
