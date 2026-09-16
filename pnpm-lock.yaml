@@ -190,7 +190,7 @@ catalogs:
       specifier: ^3.0.5
       version: 3.0.5
     '@types/node':
-      specifier: ^26.5.1
+      specifier: ^26.6.1
       version: 26.6.1
     hosted-git-info:
       specifier: ^10.1.1
@@ -266,7 +266,7 @@ catalogs:
       specifier: ^0.7.1
       version: 0.7.1
     tsgo-wasm:
-      specifier: ^2026.9.15
+      specifier: ^2026.9.16
       version: 2026.9.16
     untsx:
       specifier: ^0.2.1
