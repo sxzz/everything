@@ -105,7 +105,7 @@
     "owner": "quansync-dev",
     "package": "@quansync/fs",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -149,7 +149,7 @@
     "owner": "sxzz",
     "package": "import-without-cache",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -215,7 +215,7 @@
     "owner": "unplugin",
     "package": "unplugin-vue",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -237,7 +237,7 @@
     "owner": "unplugin",
     "package": "unplugin-oxc",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -314,7 +314,7 @@
     "owner": "sxzz",
     "package": "eslint-plugin-sxzz",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -336,7 +336,7 @@
     "owner": "sxzz",
     "package": "@sxzz/prettier-config",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -358,7 +358,7 @@
     "owner": "sxzz",
     "package": "@sxzz/test-utils",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -435,7 +435,7 @@
     "owner": "sxzz",
     "package": "tsdown-preset-sxzz",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
@@ -479,7 +479,7 @@
     "owner": "sxzz",
     "package": "rolldown-plugin-require-cjs",
     "provenance": true,
-    "staged": false,
+    "staged": true,
     "start": "2026-09-05",
     "trusted": true
   },
