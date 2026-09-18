@@ -211,9 +211,6 @@ catalogs:
     '@vue/babel-plugin-jsx':
       specifier: ^3.0.0
       version: 3.0.0
-    '@vue/repl':
-      specifier: ^4.7.2
-      version: 4.7.2
     ast-kit:
       specifier: ^3.0.0
       version: 3.0.0
@@ -372,9 +369,6 @@ importers:
       '@vue/babel-plugin-jsx':
         specifier: catalog:libs
         version: 3.0.0(@babel/core@8.0.5)
-      '@vue/repl':
-        specifier: catalog:libs
-        version: 4.7.2
       ast-kit:
         specifier: catalog:libs
         version: 3.0.0
@@ -1784,9 +1778,6 @@ packages:
 
   '@vue/reactivity@3.5.43':
     resolution: {integrity: sha512-G/c9GyOZNI2jVaaS6OX1EF1SSFSv7H0ERqNTl4+DTFMlZmB5eVAB53aLQNam/7NL2NPtaDD7RdVrzf8uJzMuOA==}
-
-  '@vue/repl@4.7.2':
-    resolution: {integrity: sha512-6x0hisEd5XRYxhLit3fvPCfeUfXEjB3a8Z2Pl3scVa3kZjck4+ERQF4XCahC7PTabWb3He04u+j8q3MK4WZHrQ==}
 
   '@vue/runtime-core@3.5.43':
     resolution: {integrity: sha512-hU6U6VnVhBGQDpvlnnDlIB8ZGJBiOcgk2lh/0InltHiz3D8oSkluvuvY+do1G2H3+udeKFsmaBlgVYP7gXQzEw==}
@@ -5237,8 +5228,6 @@ snapshots:
   '@vue/reactivity@3.5.43':
     dependencies:
       '@vue/shared': 3.5.43
-
-  '@vue/repl@4.7.2': {}
 
   '@vue/runtime-core@3.5.43':
     dependencies:
