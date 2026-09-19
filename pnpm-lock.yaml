@@ -2430,11 +2430,11 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.432:
-    resolution: {integrity: sha512-4qa5o+sI3qFR+p1C6wZvY99x6q/3tR34n+ezZvWiJ9s0HJaaKwN6h1HTupFfv4fiSdQYMZWtVFBuzHdAXo1BnA==}
+  electron-to-chromium@1.5.433:
+    resolution: {integrity: sha512-5lCAbyZBjtmUt/RAGHRqrL2q0oEFRThDAsZHHDn9XHa89Qw7gMYOeSicBTy+AHfvo0r6vwsZvqNJTQIQy1BLzA==}
 
-  empathic@2.0.1:
-    resolution: {integrity: sha512-YGRs8knHhKHVShLkFET/rWAU8kmHbOV5LwN938RHI0pljAJ1Gf6SzXsSmRaEzcXTtOOmVqJ5+WtQPL5uigY50Q==}
+  empathic@2.1.0:
+    resolution: {integrity: sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==}
     engines: {node: '>=14'}
 
   enhanced-resolve@5.25.1:
@@ -2538,8 +2538,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-jsdoc@64.5.3:
-    resolution: {integrity: sha512-HwZf9rpo1G9ONvdeKlFFuWEh7mszYoWTm39se5jz2Zi+B6dIDzDzqxFL1HfWvLKJBWCNffcRvvesShl7X+kFDQ==}
+  eslint-plugin-jsdoc@64.5.4:
+    resolution: {integrity: sha512-xfRhXPSSWT612muJ6XTvxuVJ8zYHv99qNgBqPVqF28aSqoy4s4XbSkrWXnYA2hl5ejC02yEpk6fqkj3BmJ6Xbg==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -3049,8 +3049,8 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lru-cache@11.5.2:
-    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
+  lru-cache@11.5.3:
+    resolution: {integrity: sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==}
     engines: {node: 20 || >=22}
 
   magic-string-ast@2.1.1:
@@ -4187,7 +4187,7 @@ snapshots:
       '@loaderkit/resolve': 1.0.6
       cjs-module-lexer: 1.4.3
       fflate: 0.8.3
-      lru-cache: 11.5.2
+      lru-cache: 11.5.3
       semver: 7.8.5
       typescript: 5.6.1-rc
       validate-npm-package-name: 5.0.1
@@ -4211,7 +4211,7 @@ snapshots:
       '@babel/types': 8.0.6
       '@types/gensync': 1.0.5
       convert-source-map: 2.0.0
-      empathic: 2.0.1
+      empathic: 2.1.0
       gensync: 1.0.0-beta.2
       import-meta-resolve: 4.2.0
       json5: 2.2.3
@@ -4916,7 +4916,7 @@ snapshots:
       ansis: 4.4.0
       cac: 7.0.0
       consola: 3.4.2
-      empathic: 2.0.1
+      empathic: 2.1.0
       giget: 3.3.1
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
@@ -4937,7 +4937,7 @@ snapshots:
       eslint-plugin-command: 4.0.0(@typescript-eslint/typescript-estree@8.70.0(typescript@6.0.3))(@typescript-eslint/utils@8.70.0(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0))
       eslint-plugin-de-morgan: 2.1.3(eslint@10.11.0(jiti@2.7.0))
       eslint-plugin-importer: 0.4.1(eslint@10.11.0(jiti@2.7.0))
-      eslint-plugin-jsdoc: 64.5.3(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3)
+      eslint-plugin-jsdoc: 64.5.4(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-jsonc: 3.4.2(eslint@10.11.0(jiti@2.7.0))
       eslint-plugin-n: 18.3.0(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-perfectionist: 5.11.1(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3)
@@ -5537,7 +5537,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.25
       caniuse-lite: 1.0.30001810
-      electron-to-chromium: 1.5.432
+      electron-to-chromium: 1.5.433
       node-releases: 2.0.56
       update-browserslist-db: 1.3.3(browserslist@4.29.0)
 
@@ -5656,9 +5656,9 @@ snapshots:
     optionalDependencies:
       oxc-resolver: 11.24.2
 
-  electron-to-chromium@1.5.432: {}
+  electron-to-chromium@1.5.433: {}
 
-  empathic@2.0.1: {}
+  empathic@2.1.0: {}
 
   enhanced-resolve@5.25.1:
     dependencies:
@@ -5740,7 +5740,7 @@ snapshots:
     dependencies:
       eslint: 10.11.0(jiti@2.7.0)
 
-  eslint-plugin-jsdoc@64.5.3(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3):
+  eslint-plugin-jsdoc@64.5.4(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@es-joy/jsdoccomment': 0.98.0
       '@es-joy/resolve.exports': 1.2.0
@@ -5803,7 +5803,7 @@ snapshots:
 
   eslint-plugin-pnpm@1.9.1(eslint@10.11.0(jiti@2.7.0)):
     dependencies:
-      empathic: 2.0.1
+      empathic: 2.1.0
       eslint: 10.11.0(jiti@2.7.0)
       eslint-json-compat-utils: 0.2.3(eslint@10.11.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.0)
       jsonc-eslint-parser: 3.3.0
@@ -6099,7 +6099,7 @@ snapshots:
 
   hosted-git-info@10.1.1:
     dependencies:
-      lru-cache: 11.5.2
+      lru-cache: 11.5.3
 
   html-entities@2.6.0: {}
 
@@ -6241,7 +6241,7 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lru-cache@11.5.2: {}
+  lru-cache@11.5.3: {}
 
   magic-string-ast@2.1.1:
     dependencies:
@@ -6893,7 +6893,7 @@ snapshots:
   pnpm-multi-versions@0.6.1:
     dependencies:
       cac: 7.0.0
-      empathic: 2.0.1
+      empathic: 2.1.0
       yaml: 2.9.1
 
   pnpm-workspace-yaml@1.9.1:
@@ -6975,7 +6975,7 @@ snapshots:
   rolldown-plugin-require-cjs@0.4.2(rolldown@1.2.9):
     dependencies:
       cjs-module-lexer: 2.2.1
-      empathic: 2.0.1
+      empathic: 2.1.0
       import-meta-resolve: 4.2.0
       magic-string-ast: 2.1.1
       rolldown: 1.2.9
@@ -7160,7 +7160,7 @@ snapshots:
     dependencies:
       cac: 7.0.0
       defu: 6.1.7
-      empathic: 2.0.1
+      empathic: 2.1.0
       hookable: 6.1.2
       import-without-cache: 0.4.1
       obug: 2.2.1
@@ -7438,7 +7438,7 @@ snapshots:
 
   unplugin-unused@0.6.0(rolldown@1.2.9)(unloader@0.10.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
-      empathic: 2.0.1
+      empathic: 2.1.0
       escape-string-regexp: 5.0.0
       js-tokens: 10.0.0
       unplugin: 3.4.0(rolldown@1.2.9)(unloader@0.10.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.7.0)(yaml@2.9.1))
@@ -7542,7 +7542,7 @@ snapshots:
       chokidar: 5.0.0
       destr: 2.0.5
       h3: 1.15.11
-      lru-cache: 11.5.2
+      lru-cache: 11.5.3
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       ufo: 1.6.4
