@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.1
-    tsgo-wasm: ^2026.9.23
+    tsgo-wasm: ^2026.9.25
     untsx: ^0.2.1
     verkit: ^0.5.0
   lint:
@@ -46,7 +46,7 @@ catalogs:
     eslint: ^10.11.0
     eslint-plugin-importer: ^0.4.1
     eslint-plugin-sxzz: ^0.5.1
-    prettier: ^3.9.8
+    prettier: ^3.9.9
   unplugin:
     unplugin: ^3.4.0
     unplugin-ast: ^0.19.0
