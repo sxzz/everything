@@ -165,8 +165,8 @@ settings:
 catalogs:
   cli:
     '@sxzz/create':
-      specifier: ^0.17.1
-      version: 0.17.1
+      specifier: ^0.17.2
+      version: 0.17.2
     monoman:
       specifier: ^0.8.2
       version: 0.8.2
@@ -356,7 +356,7 @@ importers:
         version: 1.1.0
       '@sxzz/create':
         specifier: catalog:cli
-        version: 0.17.1
+        version: 0.17.2
       '@sxzz/eslint-config':
         specifier: catalog:lint
         version: 8.6.0(@typescript-eslint/eslint-plugin@8.70.1(@typescript-eslint/parser@8.70.1(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.70.1(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.70.1(typescript@6.0.3))(@typescript-eslint/utils@8.70.1(eslint@10.11.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.11.0(jiti@2.7.0))(prettier@3.9.9)(typescript@6.0.3)
@@ -1546,8 +1546,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@sxzz/create@0.17.1':
-    resolution: {integrity: sha512-/HU9mnDG63QKHm+CIbJUnS6KIQVXR7SiLNP0i51/sX9FCLsNw8dpea6PU+w5/gwJSWCUfu/YTnJfdNW3n8xBmA==}
+  '@sxzz/create@0.17.2':
+    resolution: {integrity: sha512-T4z8qMiQ2PX5J3QtBh6lGaP3F321lpgg37Y2GgHOIv7SOrmuU2uq4qvzMhRrErAzASjT/p92ixC7+5+tpC40aw==}
     engines: {node: '>=24.11.0'}
     hasBin: true
 
@@ -4916,7 +4916,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@sxzz/create@0.17.1':
+  '@sxzz/create@0.17.2':
     dependencies:
       '@clack/prompts': 1.8.1
       ansis: 4.4.0
