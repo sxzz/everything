@@ -365,7 +365,7 @@ importers:
         version: 2.3.3(prettier@3.9.9)
       '@sxzz/test-utils':
         specifier: catalog:libs
-        version: 0.5.19(@vue/language-core@3.3.12)(rolldown@1.2.12)(typescript@6.0.3)(vitest@4.1.11(@types/node@26.6.4)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
+        version: 0.5.19(@vue/language-core@3.3.12)(rolldown@1.2.12)(typescript@6.0.3)(vitest@4.1.11(@types/node@26.6.4)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
       '@vue/babel-plugin-jsx':
         specifier: catalog:libs
         version: 3.0.0(@babel/core@8.0.6)
@@ -425,16 +425,16 @@ importers:
         version: 0.9.0
       tc39-throw:
         specifier: catalog:libs
-        version: 0.3.3(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.3.3(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       tc39-try:
         specifier: catalog:libs
-        version: 0.5.2(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.5.2(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       tsdown:
         specifier: catalog:cli
-        version: 0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
+        version: 0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
       tsdown-preset-sxzz:
         specifier: catalog:libs
-        version: 0.7.1(tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))))
+        version: 0.7.1(tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))))
       tsgo-wasm:
         specifier: catalog:libs
         version: 2026.10.6
@@ -443,40 +443,40 @@ importers:
         version: 0.10.1
       unplugin:
         specifier: catalog:unplugin
-        version: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-ast:
         specifier: catalog:unplugin
-        version: 0.19.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.19.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-combine:
         specifier: catalog:unplugin
-        version: 2.4.0(rolldown@1.2.12)(unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 2.4.0(rolldown@1.2.12)(unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-inline-enum:
         specifier: catalog:unplugin
-        version: 0.8.3(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.8.3(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-isolated-decl:
         specifier: catalog:unplugin
-        version: 0.17.0(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.17.0(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-lightningcss:
         specifier: catalog:unplugin
-        version: 0.5.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.5.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-macros:
         specifier: catalog:unplugin
-        version: 0.23.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.23.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-oxc:
         specifier: catalog:unplugin
-        version: 0.6.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.6.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-quansync:
         specifier: catalog:unplugin
-        version: 0.6.1(quansync@1.0.0)(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.6.1(quansync@1.0.0)(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-raw:
         specifier: catalog:unplugin
-        version: 0.8.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.8.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-replace:
         specifier: catalog:unplugin
-        version: 0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-unused:
         specifier: catalog:unplugin
-        version: 0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-utils:
         specifier: catalog:unplugin
         version: 0.3.2
@@ -485,10 +485,10 @@ importers:
         version: 8.0.0(@types/node@26.6.4)(jiti@2.7.0)(rolldown@1.2.12)(unloader@0.10.1)(vue@3.5.43(typescript@6.0.3))(yaml@2.9.1)
       unplugin-vue-jsx:
         specifier: catalog:unplugin
-        version: 0.10.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.10.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-vue-named-export:
         specifier: catalog:unplugin
-        version: 0.10.1(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+        version: 0.10.1(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       untsx:
         specifier: catalog:libs
         version: 0.2.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
@@ -497,7 +497,7 @@ importers:
         version: 0.5.0
       vite-hyper-config:
         specifier: catalog:cli
-        version: 0.9.0(@types/node@26.6.4)(jiti@2.7.0)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))(yaml@2.9.1)
+        version: 0.9.0(@types/node@26.6.4)(jiti@2.7.0)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))(yaml@2.9.1)
       vue-functional-ref:
         specifier: catalog:vue
         version: 0.8.0(vue@3.5.43(typescript@6.0.3))
@@ -522,7 +522,7 @@ importers:
         version: 2.1.0
       node-modules-inspector:
         specifier: catalog:cli
-        version: 2.7.0(crossws@0.4.12(srvx@1.0.5))(srvx@1.0.5)(typescript@6.0.3)
+        version: 2.7.0(crossws@0.4.14(srvx@1.0.5))(srvx@1.0.5)(typescript@6.0.3)
       prettier:
         specifier: catalog:lint
         version: 3.9.9
@@ -646,15 +646,15 @@ packages:
     resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==}
     engines: {node: '>= 20.12.0'}
 
-  '@devframes/agentic@1.2.0':
-    resolution: {integrity: sha512-8FzqOO0TN7RLRhs4Z0svd8Cofs+ojgOtKIatUCPP42VvoockJ+5Eyh+1NQyw3BGAGlnXS8jCQVB0SYMECrcfjQ==}
+  '@devframes/agentic@1.2.2':
+    resolution: {integrity: sha512-QNkFjDKZBiRqa2pntSSNgWfUNSq9H6CaZjdibLwSxXEZvIj1E+9ZT4NasgBZZ+vbaxDvZ5F5L6jsb0Clk2/WyQ==}
     peerDependencies:
-      devframe: 1.2.0
+      devframe: 1.2.2
 
-  '@devframes/service-open@1.2.0':
-    resolution: {integrity: sha512-tN5qfOEMzNyYSyDEHTm4UC/1vEcLTH1ga+NV5ZyvEmhU9INzgvDagVKJP+6M1XG7yLc1OydpRPVUndEC+USAVA==}
+  '@devframes/service-open@1.2.2':
+    resolution: {integrity: sha512-KyEi+zMX98cJWxB695plbTw1Ry+nErWmRBnnxGgv5R1H5Rduw5UDIHlsdMADqbkA6lOzZGIW3hnuWEvekCpJUg==}
     peerDependencies:
-      devframe: 1.2.0
+      devframe: 1.2.2
 
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
@@ -2428,8 +2428,8 @@ packages:
   crossws@0.3.5:
     resolution: {integrity: sha512-ojKiDvcmByhwa8YYqbQI/hg7MEU0NC03+pSdEq4ZUnZR9xXpwk7E43SMNGkn+JxJGPFtNvQ48+vV2p+P1ml5PA==}
 
-  crossws@0.4.12:
-    resolution: {integrity: sha512-aypfsr6t0uNvkqaZc6zvBfXzC6pLI0/sIulpkV6RwCVtZqG5ebBzv4weImKK0VNCj91Wl9F5j7p5WU4MNrybng==}
+  crossws@0.4.14:
+    resolution: {integrity: sha512-Pt662HEASY/1s/pOUmTQYyiHgwYO2orX3ivD1lIGJDkO+QL2iz7j5ugMyUNvDiL71n2jV/+0VmU4UXStyiuQ+A==}
     peerDependencies:
       srvx: '>=0.11.5'
     peerDependenciesMeta:
@@ -2477,11 +2477,11 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@1.2.0:
-    resolution: {integrity: sha512-MeLtg4QHnm/khez+pGzRVIaFCi6AT/4Tz8mS+UshySNzr+MTDSNWq4VHEbgio/Bzvd1Qu3sJAwfpqm+V6xNcag==}
+  devframe@1.2.2:
+    resolution: {integrity: sha512-VxOiOq78SYXFOyM7vXRFaRE2b28CdmUA4C4HeWUGk1KHxUJhQRtkn297/cCYbFHOtM1ifMNIs0SEDPVdxcHXhw==}
     hasBin: true
     peerDependencies:
-      '@devframes/agentic': 1.2.0
+      '@devframes/agentic': 1.2.2
       cac: ^7.0.0
     peerDependenciesMeta:
       '@devframes/agentic':
@@ -2505,8 +2505,8 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.444:
-    resolution: {integrity: sha512-5ss/uJfoDYDHT0lfJzT6FbcskIzROIOPf0BbbFkGcvDzoJU7i//9GDrwwIHQVmIsrAGiF3ihpADBRIsrEFt1rQ==}
+  electron-to-chromium@1.5.445:
+    resolution: {integrity: sha512-iX7o1nF+qNb3Bv5mLYgqfgF9Znh9e/8MKXdmbb8Gv2Q47OKIzTwEPD1oda1HrgEwYatTLJj0wQjHvIFt8Db53Q==}
 
   empathic@2.1.0:
     resolution: {integrity: sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==}
@@ -2999,8 +2999,8 @@ packages:
   js-tokens@10.0.0:
     resolution: {integrity: sha512-lM/UBzQmfJRo9ABXbPWemivdCW8V2G8FHaHdypQaIy523snUjog0W71ayWXTjiR+ixeMyVHN2XcpnTd/liPg/Q==}
 
-  js-yaml@5.4.2:
-    resolution: {integrity: sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==}
+  js-yaml@5.4.3:
+    resolution: {integrity: sha512-yzzNtgczwgoVHNigCyKTXcQJU4Y8t/ikU4UxXW0BvrLfHTGWZhsNcOT2s/a7vn81/4KqVnNmHjaUEPlvWnNwVw==}
     hasBin: true
 
   jsdoc-type-pratt-parser@9.0.1:
@@ -4076,8 +4076,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  vite@8.3.2:
-    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
+  vite@8.3.3:
+    resolution: {integrity: sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4408,20 +4408,20 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@devframes/agentic@1.2.0(crossws@0.4.12(srvx@1.0.5))(devframe@1.2.0)':
+  '@devframes/agentic@1.2.2(crossws@0.4.14(srvx@1.0.5))(devframe@1.2.2)':
     dependencies:
       '@modelcontextprotocol/client': 2.3.1
       '@modelcontextprotocol/server': 2.3.1
-      devframe: 1.2.0(@devframes/agentic@1.2.0)(cac@7.0.0)(srvx@1.0.5)
-      h3: 2.0.1(crossws@0.4.12(srvx@1.0.5))
+      devframe: 1.2.2(@devframes/agentic@1.2.2)(cac@7.0.0)(srvx@1.0.5)
+      h3: 2.0.1(crossws@0.4.14(srvx@1.0.5))
       pathe: 2.0.3
     transitivePeerDependencies:
       - crossws
       - ocache
 
-  '@devframes/service-open@1.2.0(devframe@1.2.0)':
+  '@devframes/service-open@1.2.2(devframe@1.2.2)':
     dependencies:
-      devframe: 1.2.0(@devframes/agentic@1.2.0)(cac@7.0.0)(srvx@1.0.5)
+      devframe: 1.2.2(@devframes/agentic@1.2.2)(cac@7.0.0)(srvx@1.0.5)
       pathe: 2.0.3
 
   '@emnapi/core@1.11.1':
@@ -5055,11 +5055,11 @@ snapshots:
       '@prettier/plugin-oxc': 0.2.3
       prettier: 3.9.9
 
-  '@sxzz/test-utils@0.5.19(@vue/language-core@3.3.12)(rolldown@1.2.12)(typescript@6.0.3)(vitest@4.1.11(@types/node@26.6.4)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))':
+  '@sxzz/test-utils@0.5.19(@vue/language-core@3.3.12)(rolldown@1.2.12)(typescript@6.0.3)(vitest@4.1.11(@types/node@26.6.4)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))':
     dependencies:
       tinyglobby: 0.2.17
       unplugin-utils: 0.3.2
-      vitest: 4.1.11(@types/node@26.6.4)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      vitest: 4.1.11(@types/node@26.6.4)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     optionalDependencies:
       '@vue/language-core': 3.3.12
       rolldown: 1.2.12
@@ -5211,13 +5211,13 @@ snapshots:
       chai: 6.3.0
       tinyrainbow: 3.2.0
 
-  '@vitest/mocker@4.1.11(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))':
+  '@vitest/mocker@4.1.11(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.1.11
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
 
   '@vitest/pretty-format@4.1.11':
     dependencies:
@@ -5621,7 +5621,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.27
       caniuse-lite: 1.0.30001814
-      electron-to-chromium: 1.5.444
+      electron-to-chromium: 1.5.445
       node-releases: 2.0.57
       update-browserslist-db: 1.3.3(browserslist@4.29.3)
 
@@ -5689,7 +5689,7 @@ snapshots:
     dependencies:
       uncrypto: 0.1.3
 
-  crossws@0.4.12(srvx@1.0.5):
+  crossws@0.4.14(srvx@1.0.5):
     optionalDependencies:
       srvx: 1.0.5
 
@@ -5717,14 +5717,14 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@1.2.0(@devframes/agentic@1.2.0)(cac@7.0.0)(srvx@1.0.5):
+  devframe@1.2.2(@devframes/agentic@1.2.2)(cac@7.0.0)(srvx@1.0.5):
     dependencies:
-      crossws: 0.4.12(srvx@1.0.5)
-      h3: 2.0.1(crossws@0.4.12(srvx@1.0.5))
+      crossws: 0.4.14(srvx@1.0.5)
+      h3: 2.0.1(crossws@0.4.14(srvx@1.0.5))
       nostics: 1.3.0
       pathe: 2.0.3
     optionalDependencies:
-      '@devframes/agentic': 1.2.0(crossws@0.4.12(srvx@1.0.5))(devframe@1.2.0)
+      '@devframes/agentic': 1.2.2(crossws@0.4.14(srvx@1.0.5))(devframe@1.2.2)
       cac: 7.0.0
     transitivePeerDependencies:
       - ocache
@@ -5740,7 +5740,7 @@ snapshots:
     optionalDependencies:
       oxc-resolver: 11.24.2
 
-  electron-to-chromium@1.5.444: {}
+  electron-to-chromium@1.5.445: {}
 
   empathic@2.1.0: {}
 
@@ -5872,7 +5872,7 @@ snapshots:
       globals: 15.15.0
       globrex: 0.1.2
       ignore: 5.3.2
-      js-yaml: 5.4.2
+      js-yaml: 5.4.3
       semver: 7.8.5
     optionalDependencies:
       typescript: 6.0.3
@@ -6167,12 +6167,12 @@ snapshots:
       ufo: 1.6.4
       uncrypto: 0.1.3
 
-  h3@2.0.1(crossws@0.4.12(srvx@1.0.5)):
+  h3@2.0.1(crossws@0.4.14(srvx@1.0.5)):
     dependencies:
       rou3: 1.0.0
       srvx: 1.0.5
     optionalDependencies:
-      crossws: 0.4.12(srvx@1.0.5)
+      crossws: 0.4.14(srvx@1.0.5)
 
   hashery@1.5.1:
     dependencies:
@@ -6231,7 +6231,7 @@ snapshots:
 
   js-tokens@10.0.0: {}
 
-  js-yaml@5.4.2:
+  js-yaml@5.4.3:
     dependencies:
       argparse: 2.0.1
 
@@ -6728,15 +6728,15 @@ snapshots:
 
   node-mock-http@1.0.5: {}
 
-  node-modules-inspector@2.7.0(crossws@0.4.12(srvx@1.0.5))(srvx@1.0.5)(typescript@6.0.3):
+  node-modules-inspector@2.7.0(crossws@0.4.14(srvx@1.0.5))(srvx@1.0.5)(typescript@6.0.3):
     dependencies:
-      '@devframes/agentic': 1.2.0(crossws@0.4.12(srvx@1.0.5))(devframe@1.2.0)
-      '@devframes/service-open': 1.2.0(devframe@1.2.0)
+      '@devframes/agentic': 1.2.2(crossws@0.4.14(srvx@1.0.5))(devframe@1.2.2)
+      '@devframes/service-open': 1.2.2(devframe@1.2.2)
       ansis: 4.4.0
       cac: 7.0.0
-      devframe: 1.2.0(@devframes/agentic@1.2.0)(cac@7.0.0)(srvx@1.0.5)
+      devframe: 1.2.2(@devframes/agentic@1.2.2)(cac@7.0.0)(srvx@1.0.5)
       fast-npm-meta: 2.2.0
-      h3: 2.0.1(crossws@0.4.12(srvx@1.0.5))
+      h3: 2.0.1(crossws@0.4.14(srvx@1.0.5))
       mlly: 1.8.2
       node-modules-tools: 2.7.0
       p-limit: 7.3.3
@@ -6774,7 +6774,7 @@ snapshots:
 
   node-modules-tools@2.7.0:
     dependencies:
-      js-yaml: 5.4.2
+      js-yaml: 5.4.3
       p-limit: 7.3.3
       package-manager-detector: 1.9.0
       pathe: 2.0.3
@@ -7168,14 +7168,14 @@ snapshots:
 
   tapable@2.3.3: {}
 
-  tc39-throw@0.3.3(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  tc39-throw@0.3.3(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       eslint: 10.12.0(jiti@2.7.0)
       magic-string-ast: 2.1.1
       prettier: 3.9.9
       ts-macro: 0.3.7
       typescript: 6.0.3
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       untsx: 0.2.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7190,7 +7190,7 @@ snapshots:
       - vite
       - webpack
 
-  tc39-try@0.5.2(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  tc39-try@0.5.2(eslint@10.12.0(jiti@2.7.0))(prettier@3.9.9)(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       eslint: 10.12.0(jiti@2.7.0)
       magic-string-ast: 2.1.1
@@ -7198,7 +7198,7 @@ snapshots:
       try: 1.0.3
       ts-macro: 0.3.7
       typescript: 6.0.3
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       untsx: 0.2.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3)
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7245,13 +7245,13 @@ snapshots:
     dependencies:
       muggle-string: 0.4.1
 
-  tsdown-preset-sxzz@0.7.1(tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))):
+  tsdown-preset-sxzz@0.7.1(tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))):
     dependencies:
       '@arethetypeswrong/core': 0.18.5
       publint: 0.3.25
-      tsdown: 0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
+      tsdown: 0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))
 
-  tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))):
+  tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))):
     dependencies:
       cac: 7.0.0
       defu: 6.1.7
@@ -7271,7 +7271,7 @@ snapshots:
       '@arethetypeswrong/core': 0.18.5
       publint: 0.3.25
       typescript: 6.0.3
-      unplugin-unused: 0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin-unused: 0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@typescript/native-preview'
       - '@volar/typescript'
@@ -7355,12 +7355,12 @@ snapshots:
       picomatch: 4.0.7
       unconfig-core: 7.5.0
 
-  unplugin-ast@0.19.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-ast@0.19.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@yuku-toolchain/types': 0.9.5
       magic-string-ast: 2.1.1
       rolldown-string: 0.3.1(rolldown@1.2.12)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       yuku-ast: 0.9.5
       yuku-codegen: 0.9.5
       yuku-parser: 0.9.5
@@ -7376,19 +7376,19 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-combine@2.4.0(rolldown@1.2.12)(unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-combine@2.4.0(rolldown@1.2.12)(unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)))(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     optionalDependencies:
       rolldown: 1.2.12
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
 
-  unplugin-inline-enum@0.8.3(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-inline-enum@0.8.3(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       picomatch: 4.0.7
       rolldown-string: 0.3.1(rolldown@1.2.12)
       tinyglobby: 0.2.17
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
-      unplugin-replace: 0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin-replace: 0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       yuku-parser: 0.9.5
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7402,13 +7402,13 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-isolated-decl@0.17.0(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-isolated-decl@0.17.0(rolldown@1.2.12)(typescript@6.0.3)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       magic-string: 1.4.3
       obug: 2.2.1
       oxc-parser: 0.153.0
       oxc-transform: 0.153.0
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-utils: 0.3.2
     optionalDependencies:
       typescript: 6.0.3
@@ -7424,10 +7424,10 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-lightningcss@0.5.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-lightningcss@0.5.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       lightningcss: 1.33.0
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rsbuild/core'
@@ -7440,12 +7440,12 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-macros@0.23.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-macros@0.23.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       import-without-cache: 0.4.1
       magic-string-ast: 2.1.1
       rolldown-string: 0.3.1(rolldown@1.2.12)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       yuku-analyzer: 0.8.7
       yuku-ast: 0.8.7
       yuku-parser: 0.8.7
@@ -7461,12 +7461,12 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-oxc@0.6.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-oxc@0.6.2(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       oxc-minify: 0.153.0
       oxc-resolver: 11.24.2
       oxc-transform: 0.153.0
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     optionalDependencies:
       unloader: 0.10.1
     transitivePeerDependencies:
@@ -7480,11 +7480,11 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-quansync@0.6.1(quansync@1.0.0)(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-quansync@0.6.1(quansync@1.0.0)(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       quansync: 1.0.0
       rolldown-string: 0.3.1(rolldown@1.2.12)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       yuku-ast: 0.10.2
       yuku-parser: 0.10.2
     transitivePeerDependencies:
@@ -7499,9 +7499,9 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-raw@0.8.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-raw@0.8.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       unplugin-utils: 0.3.2
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7514,11 +7514,11 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-replace@0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-replace@0.9.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       js-tokens: 10.0.0
       rolldown-string: 0.3.1(rolldown@1.2.12)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rsbuild/core'
@@ -7531,12 +7531,12 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-unused@0.6.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       empathic: 2.1.0
       escape-string-regexp: 5.0.0
       js-tokens: 10.0.0
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rsbuild/core'
@@ -7554,11 +7554,11 @@ snapshots:
       pathe: 2.0.3
       picomatch: 4.0.7
 
-  unplugin-vue-jsx@0.10.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-vue-jsx@0.10.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@babel/core': 8.0.6
       '@vue/babel-plugin-jsx': 3.0.0(@babel/core@8.0.6)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@rsbuild/core'
@@ -7571,12 +7571,12 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-vue-named-export@0.10.1(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin-vue-named-export@0.10.1(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@vue/language-core': 3.3.12
       muggle-string: 0.4.1
       rolldown-string: 0.3.1(rolldown@1.2.12)
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       yuku-parser: 0.10.2
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7596,8 +7596,8 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       '@vue/reactivity': 3.5.43
       obug: 3.0.0
-      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      unplugin: 3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
       vue: 3.5.43(typescript@6.0.3)
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -7621,7 +7621,7 @@ snapshots:
       - webpack
       - yaml
 
-  unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  unplugin@3.4.0(rolldown@1.2.12)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       picomatch: 4.0.7
@@ -7629,7 +7629,7 @@ snapshots:
     optionalDependencies:
       rolldown: 1.2.12
       unloader: 0.10.1
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
 
   unstorage@1.17.5:
     dependencies:
@@ -7683,11 +7683,11 @@ snapshots:
 
   verkit@0.5.0: {}
 
-  vite-hyper-config@0.9.0(@types/node@26.6.4)(jiti@2.7.0)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))(yaml@2.9.1):
+  vite-hyper-config@0.9.0(@types/node@26.6.4)(jiti@2.7.0)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))(yaml@2.9.1):
     dependencies:
       cac: 7.0.0
       picocolors: 1.1.1
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
       vite-node: 6.0.0(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -7709,7 +7709,7 @@ snapshots:
       es-module-lexer: 2.3.2
       obug: 2.2.1
       pathe: 2.0.3
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - '@vitejs/devtools'
@@ -7724,7 +7724,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1):
+  vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -7737,10 +7737,10 @@ snapshots:
       jiti: 2.7.0
       yaml: 2.9.1
 
-  vitest@4.1.11(@types/node@26.6.4)(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
+  vitest@4.1.11(@types/node@26.6.4)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@vitest/expect': 4.1.11
-      '@vitest/mocker': 4.1.11(vite@8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
+      '@vitest/mocker': 4.1.11(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))
       '@vitest/pretty-format': 4.1.11
       '@vitest/runner': 4.1.11
       '@vitest/snapshot': 4.1.11
@@ -7757,7 +7757,7 @@ snapshots:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tinyrainbow: 3.2.0
-      vite: 8.3.2(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 26.6.4
