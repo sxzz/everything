@@ -22,7 +22,7 @@ catalogs:
     '@vue/babel-plugin-jsx': ^3.0.0
     ast-kit: ^3.0.0
     ast-walker-scope: ^0.10.0
-    cac: ^7.0.0
+    cac: ^7.0.1
     dts-resolver: ^3.0.0
     goat-counter: ^0.1.1
     import-without-cache: ^0.4.1

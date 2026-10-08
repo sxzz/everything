@@ -218,8 +218,8 @@ catalogs:
       specifier: ^0.10.0
       version: 0.10.0
     cac:
-      specifier: ^7.0.0
-      version: 7.0.0
+      specifier: ^7.0.1
+      version: 7.0.1
     dts-resolver:
       specifier: ^3.0.0
       version: 3.0.0
@@ -377,7 +377,7 @@ importers:
         version: 0.10.0
       cac:
         specifier: catalog:libs
-        version: 7.0.0
+        version: 7.0.1
       dts-resolver:
         specifier: catalog:libs
         version: 3.0.0(oxc-resolver@11.24.2)
@@ -2345,8 +2345,8 @@ packages:
     resolution: {integrity: sha512-JCWSCdun+4Ovd9BhM/Vtlmwb7oD6Wl4YiPRXXwhAuwlPhW1un/MKgXn7GZoFm53ginnoNzus69V8JWx0K393jg==}
     engines: {node: '>=18.20'}
 
-  cac@7.0.0:
-    resolution: {integrity: sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==}
+  cac@7.0.1:
+    resolution: {integrity: sha512-86diuUyeeWM8CrqhpGCaDafrzjS1s++7sWy2AbAPoFNz/xKv7ID57CR4pZsMuGCh60PtsnEx4z68b+Vgt07VPw==}
     engines: {node: '>=20.19.0'}
 
   cacheable@2.5.0:
@@ -4409,7 +4409,7 @@ snapshots:
     dependencies:
       '@modelcontextprotocol/client': 2.3.1
       '@modelcontextprotocol/server': 2.3.1
-      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.0)(srvx@1.0.5)
+      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.1)(srvx@1.0.5)
       h3: 2.0.2(crossws@0.4.15(srvx@1.0.5))
       pathe: 2.0.3
     transitivePeerDependencies:
@@ -4418,7 +4418,7 @@ snapshots:
 
   '@devframes/service-open@1.2.3(devframe@1.2.3)':
     dependencies:
-      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.0)(srvx@1.0.5)
+      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.1)(srvx@1.0.5)
       pathe: 2.0.3
 
   '@emnapi/core@1.11.1':
@@ -4993,7 +4993,7 @@ snapshots:
     dependencies:
       '@clack/prompts': 1.8.1
       ansis: 4.4.0
-      cac: 7.0.0
+      cac: 7.0.1
       consola: 3.4.2
       empathic: 2.1.0
       giget: 3.3.1
@@ -5622,7 +5622,7 @@ snapshots:
 
   builtin-modules@5.4.0: {}
 
-  cac@7.0.0: {}
+  cac@7.0.1: {}
 
   cacheable@2.5.0:
     dependencies:
@@ -5712,7 +5712,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@1.2.3(@devframes/agentic@1.2.3)(cac@7.0.0)(srvx@1.0.5):
+  devframe@1.2.3(@devframes/agentic@1.2.3)(cac@7.0.1)(srvx@1.0.5):
     dependencies:
       crossws: 0.4.15(srvx@1.0.5)
       h3: 2.0.2(crossws@0.4.15(srvx@1.0.5))
@@ -5720,7 +5720,7 @@ snapshots:
       pathe: 2.0.3
     optionalDependencies:
       '@devframes/agentic': 1.2.3(crossws@0.4.15(srvx@1.0.5))(devframe@1.2.3)
-      cac: 7.0.0
+      cac: 7.0.1
     transitivePeerDependencies:
       - ocache
       - srvx
@@ -6072,7 +6072,7 @@ snapshots:
 
   fast-npm-meta@2.2.0:
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
 
   fast-string-truncated-width@3.0.3: {}
 
@@ -6701,7 +6701,7 @@ snapshots:
 
   monoman@0.8.2:
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       consola: 3.4.2
       js-yaml: '@zkochan/js-yaml@0.0.11'
       pnpm-multi-versions: 0.6.1
@@ -6728,8 +6728,8 @@ snapshots:
       '@devframes/agentic': 1.2.3(crossws@0.4.15(srvx@1.0.5))(devframe@1.2.3)
       '@devframes/service-open': 1.2.3(devframe@1.2.3)
       ansis: 4.4.0
-      cac: 7.0.0
-      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.0)(srvx@1.0.5)
+      cac: 7.0.1
+      devframe: 1.2.3(@devframes/agentic@1.2.3)(cac@7.0.1)(srvx@1.0.5)
       fast-npm-meta: 2.2.0
       h3: 2.0.2(crossws@0.4.15(srvx@1.0.5))
       mlly: 1.8.2
@@ -6982,7 +6982,7 @@ snapshots:
 
   pnpm-multi-versions@0.6.1:
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       empathic: 2.1.0
       yaml: 2.9.1
 
@@ -7143,7 +7143,7 @@ snapshots:
 
   stale-dep@0.9.0:
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       consola: 3.4.2
       package-manager-detector: 1.9.0
 
@@ -7248,7 +7248,7 @@ snapshots:
 
   tsdown@0.23.0(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.12)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.13)(unloader@0.10.1)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))):
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       defu: 6.1.7
       empathic: 2.1.0
       hookable: 6.1.2
@@ -7680,7 +7680,7 @@ snapshots:
 
   vite-hyper-config@0.9.0(@types/node@26.6.4)(jiti@2.7.0)(vite@8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1))(yaml@2.9.1):
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       picocolors: 1.1.1
       vite: 8.3.3(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
       vite-node: 6.0.0(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1)
@@ -7700,7 +7700,7 @@ snapshots:
 
   vite-node@6.0.0(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.1):
     dependencies:
-      cac: 7.0.0
+      cac: 7.0.1
       es-module-lexer: 2.3.2
       obug: 2.2.1
       pathe: 2.0.3
