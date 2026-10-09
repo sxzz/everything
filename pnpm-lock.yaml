@@ -196,8 +196,8 @@ catalogs:
       specifier: ^10.1.1
       version: 10.1.1
     ky:
-      specifier: ^2.1.0
-      version: 2.1.0
+      specifier: ^2.2.0
+      version: 2.2.0
     typescript:
       specifier: ^6.0.3
       version: 6.0.3
@@ -519,7 +519,7 @@ importers:
         version: 10.1.1
       ky:
         specifier: 'catalog:'
-        version: 2.1.0
+        version: 2.2.0
       node-modules-inspector:
         specifier: catalog:cli
         version: 2.7.0(crossws@0.4.15(srvx@1.0.5))(srvx@1.0.5)(typescript@6.0.3)
@@ -3035,8 +3035,8 @@ packages:
   keyv@5.6.0:
     resolution: {integrity: sha512-CYDD3SOtsHtyXeEORYRx2qBtpDJFjRTGXUtmNEMGyzYOKj1TE3tycdlho7kA1Ufx9OYWZzg52QFBGALTirzDSw==}
 
-  ky@2.1.0:
-    resolution: {integrity: sha512-nIKwelw+7qVqKOlX4Eht6GXfEXlDHcdIjyLWV3s119kYt5s+70ayTnYS+0fRNmtgGRRAfqdeWQbh8YizqkS0ng==}
+  ky@2.2.0:
+    resolution: {integrity: sha512-4+B63kyZt+Y8snQiUGydK1vgY9xYQJZEh9K/nIAIEts+gYJzy1EiAw3BbK8xpWRuWUpN70SNCMjqRGTm75xxIA==}
     engines: {node: '>=22'}
 
   levn@0.4.1:
@@ -6261,7 +6261,7 @@ snapshots:
     dependencies:
       '@keyv/serialize': 1.1.1
 
-  ky@2.1.0: {}
+  ky@2.2.0: {}
 
   levn@0.4.1:
     dependencies:
