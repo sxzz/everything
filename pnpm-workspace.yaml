@@ -30,7 +30,7 @@ catalogs:
     obug: ^3.0.0
     pnpm-multi-versions: ^0.6.1
     quansync: ^1.0.0
-    rolldown-plugin-dts: ^0.28.7
+    rolldown-plugin-dts: ^0.28.8
     rolldown-plugin-require-cjs: ^0.4.2
     rolldown-plugin-wasm: ^0.3.2
     rolldown-string: ^0.3.1
@@ -51,19 +51,19 @@ catalogs:
     unplugin: ^3.4.0
     unplugin-ast: ^0.19.2
     unplugin-combine: ^2.4.0
-    unplugin-inline-enum: ^0.8.3
+    unplugin-inline-enum: ^0.8.4
     unplugin-isolated-decl: ^0.17.0
     unplugin-lightningcss: ^0.5.0
-    unplugin-macros: ^0.23.2
+    unplugin-macros: ^0.23.3
     unplugin-oxc: ^0.6.2
-    unplugin-quansync: ^0.6.1
+    unplugin-quansync: ^0.6.2
     unplugin-raw: ^0.8.0
     unplugin-replace: ^0.9.0
     unplugin-unused: ^0.6.0
     unplugin-utils: ^0.3.2
     unplugin-vue: ^8.0.0
     unplugin-vue-jsx: ^0.10.0
-    unplugin-vue-named-export: ^0.10.1
+    unplugin-vue-named-export: ^0.10.2
   vue:
     vue-functional-ref: ^0.8.0
     vue-simple-props: ^0.6.4
@@ -72,5 +72,11 @@ allowBuilds:
   esbuild: false
 
 minimumReleaseAge: 0
+permissions:
+  node-modules-inspector:
+    skills: true
+skills:
+  dirs:
+    - .agents/skills
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 604800 # 7 days
