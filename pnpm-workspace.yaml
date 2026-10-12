@@ -22,9 +22,9 @@ catalogs:
     '@vue/babel-plugin-jsx': ^3.0.0
     ast-kit: ^3.0.0
     ast-walker-scope: ^0.10.0
-    cac: ^7.0.1
+    cac: ^7.1.0
     dts-resolver: ^3.0.0
-    goat-counter: ^0.1.1
+    goat-counter: ^0.2.0
     import-without-cache: ^0.4.1
     magic-string-ast: ^2.1.1
     obug: ^3.0.0
@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.1
-    tsgo-wasm: ^2026.10.11
+    tsgo-wasm: ^2026.10.12
     untsx: ^0.2.1
     verkit: ^0.5.0
   lint:

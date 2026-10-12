@@ -218,14 +218,14 @@ catalogs:
       specifier: ^0.10.0
       version: 0.10.0
     cac:
-      specifier: ^7.0.1
+      specifier: ^7.1.0
       version: 7.1.0
     dts-resolver:
       specifier: ^3.0.0
       version: 3.0.0
     goat-counter:
-      specifier: ^0.1.1
-      version: 0.1.1
+      specifier: ^0.2.0
+      version: 0.2.0
     import-without-cache:
       specifier: ^0.4.1
       version: 0.4.1
@@ -263,7 +263,7 @@ catalogs:
       specifier: ^0.7.1
       version: 0.7.1
     tsgo-wasm:
-      specifier: ^2026.10.11
+      specifier: ^2026.10.12
       version: 2026.10.12
     untsx:
       specifier: ^0.2.1
@@ -389,7 +389,7 @@ importers:
         version: 0.5.1(eslint@10.12.0(jiti@2.7.0))
       goat-counter:
         specifier: catalog:libs
-        version: 0.1.1
+        version: 0.2.0
       import-without-cache:
         specifier: catalog:libs
         version: 0.4.1
@@ -2474,11 +2474,14 @@ packages:
   globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
-  goat-counter@0.1.1:
-    resolution: {integrity: sha512-7f1AXmXLPH4GWaJkGjrHzadac+WkGAVFcvp9Ow2yE0qncGpWry3AiCiJodq2PLEfYKuk+6Fjfh4t8YK+3nA4rg==}
+  goat-counter@0.2.0:
+    resolution: {integrity: sha512-eLyiSbGTEKO8iaz3ZhR6S7fpoBRd208L7akV5YsyU9YIF1MBGVQ8u2gDb/q2VwoVtH8/e173NKZR0TrIil2gWg==}
     peerDependencies:
+      astro: ^5.0.0 || ^6.0.0 || ^7.0.0
       nuxt: ^4.0.0
     peerDependenciesMeta:
+      astro:
+        optional: true
       nuxt:
         optional: true
 
@@ -5504,7 +5507,7 @@ snapshots:
 
   globrex@0.1.2: {}
 
-  goat-counter@0.1.1: {}
+  goat-counter@0.2.0: {}
 
   graceful-fs@4.2.11: {}
 
