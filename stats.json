@@ -44,17 +44,6 @@
     "trusted": true
   },
   {
-    "downloads": 8600110,
-    "downloadsText": "8.6M",
-    "end": "2026-10-12",
-    "owner": "sxzz",
-    "package": "unplugin-utils",
-    "provenance": true,
-    "staged": true,
-    "start": "2026-10-06",
-    "trusted": true
-  },
-  {
     "downloads": 6397781,
     "downloadsText": "6.4M",
     "end": "2026-10-12",
@@ -198,17 +187,6 @@
     "trusted": true
   },
   {
-    "downloads": 47584,
-    "downloadsText": "47.6K",
-    "end": "2026-10-12",
-    "owner": "unplugin",
-    "package": "unplugin-vue",
-    "provenance": true,
-    "staged": true,
-    "start": "2026-10-06",
-    "trusted": true
-  },
-  {
     "downloads": 33892,
     "downloadsText": "33.9K",
     "end": "2026-10-12",
@@ -231,17 +209,6 @@
     "trusted": true
   },
   {
-    "downloads": 23899,
-    "downloadsText": "23.9K",
-    "end": "2026-10-12",
-    "owner": "unplugin",
-    "package": "unplugin-unused",
-    "provenance": true,
-    "staged": true,
-    "start": "2026-10-06",
-    "trusted": true
-  },
-  {
     "downloads": 12267,
     "downloadsText": "12.3K",
     "end": "2026-10-12",
@@ -258,17 +225,6 @@
     "end": "2026-10-12",
     "owner": "unplugin",
     "package": "unplugin-raw",
-    "provenance": true,
-    "staged": true,
-    "start": "2026-10-06",
-    "trusted": true
-  },
-  {
-    "downloads": 5531,
-    "downloadsText": "5.5K",
-    "end": "2026-10-12",
-    "owner": "unplugin",
-    "package": "unplugin-replace",
     "provenance": true,
     "staged": true,
     "start": "2026-10-06",
@@ -346,17 +302,6 @@
     "end": "2026-10-12",
     "owner": "sxzz",
     "package": "tsgo-wasm",
-    "provenance": true,
-    "staged": false,
-    "start": "2026-10-06",
-    "trusted": true
-  },
-  {
-    "downloads": 1201,
-    "downloadsText": "1.2K",
-    "end": "2026-10-12",
-    "owner": "sxzz",
-    "package": "vite-hyper-config",
     "provenance": true,
     "staged": false,
     "start": "2026-10-06",
