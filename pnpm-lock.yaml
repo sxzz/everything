@@ -646,15 +646,15 @@ packages:
     resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==}
     engines: {node: '>= 20.12.0'}
 
-  '@devframes/agentic@1.2.5':
-    resolution: {integrity: sha512-2bVZFxGD7C+U1y0vkesUnLWHtrU3qD/Gq/Ri+aWkpXhDe/0EQ64ODA9gxCqFunUvJZ5z1rFvP1XLRLfUiSpvGg==}
+  '@devframes/agentic@1.2.6':
+    resolution: {integrity: sha512-MNUuFdkWBYsLv8/GToerFYUEjBloNVm8jyNKH7Sm0PNyU/vtiYgIgh1vv4CBIFDsdwaj5aTbmIu92S1UhPddXA==}
     peerDependencies:
-      devframe: 1.2.5
+      devframe: 1.2.6
 
-  '@devframes/service-open@1.2.5':
-    resolution: {integrity: sha512-U4y2Ahd534uEgkni5Zv9vNZamTFcIZq3e/VSmIZp5FMjgUHajPklZlk1ljB7MNcr9BbR7CMMNhRuPxIbAUDCMg==}
+  '@devframes/service-open@1.2.6':
+    resolution: {integrity: sha512-lFEpPp/4sIwR68jVaaLqU9XngxYTkjKuWt1ZvCQ9xCY77WU+N8N1zKhs/dDWzE0+bURcmMhcWXZQ3gUlzcbbtw==}
     peerDependencies:
-      devframe: 1.2.5
+      devframe: 1.2.6
 
   '@dual-bundle/import-meta-resolve@4.2.1':
     resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
@@ -2050,11 +2050,11 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@1.2.5:
-    resolution: {integrity: sha512-7txhfBgFafXHN/KIyP/M6F1W5WF1VPypoB4mZtZEa4KM8n1Y57EtnVm281Y3cg7SHti/PtfCtmmmtDh/k/CS3g==}
+  devframe@1.2.6:
+    resolution: {integrity: sha512-mHzcm6ADzXgRMWdoSX+5PjwhmwAuC3SpDPi3+URznlpzxJF6tXwy5h1xr82zPKju38EVtdnYRnnP4hZwLK01vA==}
     hasBin: true
     peerDependencies:
-      '@devframes/agentic': 1.2.5
+      '@devframes/agentic': 1.2.6
       cac: ^7.0.0
     peerDependenciesMeta:
       '@devframes/agentic':
@@ -3937,20 +3937,20 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@devframes/agentic@1.2.5(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.5)':
+  '@devframes/agentic@1.2.6(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6)':
     dependencies:
       '@modelcontextprotocol/client': 2.3.1
       '@modelcontextprotocol/server': 2.3.1
-      devframe: 1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@1.0.6)
+      devframe: 1.2.6(@devframes/agentic@1.2.6)(cac@7.1.0)(srvx@1.0.6)
       h3: 2.0.5(crossws@0.4.15(srvx@1.0.6))
       pathe: 2.0.3
     transitivePeerDependencies:
       - crossws
       - ocache
 
-  '@devframes/service-open@1.2.5(devframe@1.2.5)':
+  '@devframes/service-open@1.2.6(devframe@1.2.6)':
     dependencies:
-      devframe: 1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@1.0.6)
+      devframe: 1.2.6(@devframes/agentic@1.2.6)(cac@7.1.0)(srvx@1.0.6)
       pathe: 2.0.3
 
   '@dual-bundle/import-meta-resolve@4.2.1': {}
@@ -5030,14 +5030,14 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@1.0.6):
+  devframe@1.2.6(@devframes/agentic@1.2.6)(cac@7.1.0)(srvx@1.0.6):
     dependencies:
       crossws: 0.4.15(srvx@1.0.6)
       h3: 2.0.5(crossws@0.4.15(srvx@1.0.6))
       nostics: 1.3.0
       pathe: 2.0.3
     optionalDependencies:
-      '@devframes/agentic': 1.2.5(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.5)
+      '@devframes/agentic': 1.2.6(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6)
       cac: 7.1.0
     transitivePeerDependencies:
       - ocache
@@ -6029,11 +6029,11 @@ snapshots:
 
   node-modules-inspector@2.7.0(crossws@0.4.15(srvx@1.0.6))(srvx@1.0.6)(typescript@6.0.3):
     dependencies:
-      '@devframes/agentic': 1.2.5(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.5)
-      '@devframes/service-open': 1.2.5(devframe@1.2.5)
+      '@devframes/agentic': 1.2.6(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6)
+      '@devframes/service-open': 1.2.6(devframe@1.2.6)
       ansis: 4.4.0
       cac: 7.1.0
-      devframe: 1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@1.0.6)
+      devframe: 1.2.6(@devframes/agentic@1.2.6)(cac@7.1.0)(srvx@1.0.6)
       fast-npm-meta: 2.2.0
       h3: 2.0.5(crossws@0.4.15(srvx@1.0.6))
       mlly: 1.8.2
