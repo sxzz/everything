@@ -13,7 +13,7 @@ catalogs:
     monoman: ^0.8.2
     node-modules-inspector: ^2.7.0
     stale-dep: ^0.9.0
-    tsdown: ^0.23.1
+    tsdown: ^0.23.2
     unloader: ^0.10.1
     vite-hyper-config: ^0.9.0
   libs:
