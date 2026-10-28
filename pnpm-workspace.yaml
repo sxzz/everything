@@ -13,7 +13,7 @@ catalogs:
     monoman: ^0.8.2
     node-modules-inspector: ^2.7.0
     stale-dep: ^0.9.0
-    tsdown: ^0.23.2
+    tsdown: ^0.23.3
     unloader: ^0.10.1
     vite-hyper-config: ^0.9.0
   libs:
@@ -37,7 +37,7 @@ catalogs:
     tc39-throw: ^0.3.3
     tc39-try: ^0.5.2
     tsdown-preset-sxzz: ^0.7.1
-    tsgo-wasm: ^2026.10.27
+    tsgo-wasm: ^2026.10.28
     untsx: ^0.2.1
     verkit: ^0.5.0
   lint:
@@ -48,7 +48,7 @@ catalogs:
     eslint-plugin-sxzz: ^0.5.1
     prettier: ^3.9.10
   unplugin:
-    unplugin: ^3.5.0
+    unplugin: ^3.7.0
     unplugin-ast: ^0.19.2
     unplugin-combine: ^2.4.0
     unplugin-inline-enum: ^0.8.4
