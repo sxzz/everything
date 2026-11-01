@@ -646,15 +646,15 @@ packages:
     resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==}
     engines: {node: '>= 20.12.0'}
 
-  '@devframes/agentic@1.3.0':
-    resolution: {integrity: sha512-gdKGiSp/KOQDg74C9WgSjdBaLOuNRhrG7FY/Qp8jTvToQzUNhFMHs+cDiVMiBYaT28KaSXKBQnewxcwjmW8yKw==}
+  '@devframes/agentic@1.3.1':
+    resolution: {integrity: sha512-wUHyiedkSA/U0vgjZTLjU1xbXqnKVTW3AruVZCPRb3sm7uXHYtLxJEtp7Sd7prUeJK+37da4VnefES5QVXgIsA==}
     peerDependencies:
-      devframe: 1.3.0
+      devframe: 1.3.1
 
-  '@devframes/service-open@1.3.0':
-    resolution: {integrity: sha512-k8Tum2vHNx3TMz7Rd8vvWGMhWJs3O3XGNWYUT4KPfOhnK2aWl8RtzdHmLrTrqYobaBYnzZnGG8c6MVzZP7cZzA==}
+  '@devframes/service-open@1.3.1':
+    resolution: {integrity: sha512-sQEth4hVIa/BTakrhHrzyfO8p6Aa/j99taHd5+RDFyI6mwQmvd1YkPrLjbdowjAn7Ba8O02Pb/B8i54R1/IwSQ==}
     peerDependencies:
-      devframe: 1.3.0
+      devframe: 1.3.1
 
   '@dual-bundle/import-meta-resolve@4.2.1':
     resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
@@ -2112,11 +2112,11 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devframe@1.3.0:
-    resolution: {integrity: sha512-3HR3SWp2ifVlZMxDE+4btodH0kak36heA8AKJzzD5orPnYyHi54vGrB5fTQ4RhuJL2qpOUITAvd8DVrV33YWIA==}
+  devframe@1.3.1:
+    resolution: {integrity: sha512-fqQ1jVncUy+0MmMOXuerq57b6dx5RUCfuwlQ4+Y4bK8SuSHSZHlXfE7dJdlj3higEdejS5YHS8IdKY+dvtAGCw==}
     hasBin: true
     peerDependencies:
-      '@devframes/agentic': 1.3.0
+      '@devframes/agentic': 1.3.1
       cac: ^7.0.0
     peerDependenciesMeta:
       '@devframes/agentic':
@@ -3326,8 +3326,8 @@ packages:
       prettier: ^3.6.2
       typescript: ^5.8.3 || ^6.0.0
 
-  tinybench@6.2.2:
-    resolution: {integrity: sha512-nIZ2N2dFpjBsg2hgitKu7mA+FvsIJuGJOwysRngmVRRmWgR/UyPjwJj8c/fT/dhm8EkHnF5EOogRf+0Z2qrimA==}
+  tinybench@6.2.3:
+    resolution: {integrity: sha512-Al01C2JIBnO2CXCAPbpAl6sUiOZHeThGtHYNTa51JRw9PyWOCdr+9Ong05R4qg/Sk3+H645E8ov1h2c58ityNw==}
     engines: {node: '>=20.0.0'}
 
   tinyexec@1.3.1:
@@ -4052,20 +4052,20 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@devframes/agentic@1.3.0(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.0)':
+  '@devframes/agentic@1.3.1(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.1)':
     dependencies:
       '@modelcontextprotocol/client': 2.4.0
       '@modelcontextprotocol/server': 2.4.0
-      devframe: 1.3.0(@devframes/agentic@1.3.0)(cac@7.1.0)(srvx@1.0.8)
+      devframe: 1.3.1(@devframes/agentic@1.3.1)(cac@7.1.0)(srvx@1.0.8)
       h3: 2.0.8(crossws@0.4.17(srvx@1.0.8))
       pathe: 2.0.3
     transitivePeerDependencies:
       - crossws
       - ocache
 
-  '@devframes/service-open@1.3.0(devframe@1.3.0)':
+  '@devframes/service-open@1.3.1(devframe@1.3.1)':
     dependencies:
-      devframe: 1.3.0(@devframes/agentic@1.3.0)(cac@7.1.0)(srvx@1.0.8)
+      devframe: 1.3.1(@devframes/agentic@1.3.1)(cac@7.1.0)(srvx@1.0.8)
       pathe: 2.0.3
 
   '@dual-bundle/import-meta-resolve@4.2.1': {}
@@ -5195,14 +5195,14 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devframe@1.3.0(@devframes/agentic@1.3.0)(cac@7.1.0)(srvx@1.0.8):
+  devframe@1.3.1(@devframes/agentic@1.3.1)(cac@7.1.0)(srvx@1.0.8):
     dependencies:
       crossws: 0.4.17(srvx@1.0.8)
       h3: 2.0.8(crossws@0.4.17(srvx@1.0.8))
       nostics: 1.3.0
       pathe: 2.0.3
     optionalDependencies:
-      '@devframes/agentic': 1.3.0(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.0)
+      '@devframes/agentic': 1.3.1(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.1)
       cac: 7.1.0
     transitivePeerDependencies:
       - ocache
@@ -6201,11 +6201,11 @@ snapshots:
 
   node-modules-inspector@2.7.0(crossws@0.4.17(srvx@1.0.8))(srvx@1.0.8)(typescript@6.0.3):
     dependencies:
-      '@devframes/agentic': 1.3.0(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.0)
-      '@devframes/service-open': 1.3.0(devframe@1.3.0)
+      '@devframes/agentic': 1.3.1(crossws@0.4.17(srvx@1.0.8))(devframe@1.3.1)
+      '@devframes/service-open': 1.3.1(devframe@1.3.1)
       ansis: 4.4.0
       cac: 7.1.0
-      devframe: 1.3.0(@devframes/agentic@1.3.0)(cac@7.1.0)(srvx@1.0.8)
+      devframe: 1.3.1(@devframes/agentic@1.3.1)(cac@7.1.0)(srvx@1.0.8)
       fast-npm-meta: 2.2.0
       h3: 2.0.8(crossws@0.4.17(srvx@1.0.8))
       mlly: 1.8.2
@@ -6690,7 +6690,7 @@ snapshots:
       - vite
       - webpack
 
-  tinybench@6.2.2: {}
+  tinybench@6.2.3: {}
 
   tinyexec@1.3.1: {}
 
@@ -7220,7 +7220,7 @@ snapshots:
       obug: 3.0.0
       picomatch: 4.0.7
       std-env: 4.3.0
-      tinybench: 6.2.2
+      tinybench: 6.2.3
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       vite: 8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1)
