@@ -44,6 +44,17 @@
     "trusted": true
   },
   {
+    "downloads": 25711925,
+    "downloadsText": "25.7M",
+    "end": "2026-10-29",
+    "owner": "sxzz",
+    "package": "verkit",
+    "provenance": true,
+    "staged": true,
+    "start": "2026-10-23",
+    "trusted": true
+  },
+  {
     "downloads": 10050794,
     "downloadsText": "10.1M",
     "end": "2026-10-29",
@@ -403,6 +414,28 @@
     "package": "goat-counter",
     "provenance": true,
     "staged": true,
+    "start": "2026-10-23",
+    "trusted": true
+  },
+  {
+    "downloads": 68,
+    "downloadsText": "68",
+    "end": "2026-10-29",
+    "owner": "unplugin",
+    "package": "unplugin-vue-named-export",
+    "provenance": true,
+    "staged": true,
+    "start": "2026-10-23",
+    "trusted": true
+  },
+  {
+    "downloads": 65,
+    "downloadsText": "65",
+    "end": "2026-10-29",
+    "owner": "sxzz",
+    "package": "untsx",
+    "provenance": true,
+    "staged": false,
     "start": "2026-10-23",
     "trusted": true
   },
