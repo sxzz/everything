@@ -263,8 +263,8 @@ catalogs:
       specifier: ^0.7.1
       version: 0.7.1
     tsgo-wasm:
-      specifier: ^2026.11.2
-      version: 2026.11.2
+      specifier: ^2026.11.3
+      version: 2026.11.3
     untsx:
       specifier: ^0.2.1
       version: 0.2.1
@@ -437,7 +437,7 @@ importers:
         version: 0.7.1(tsdown@0.23.4(@arethetypeswrong/core@0.18.5)(@vue/language-core@3.3.14)(oxc-resolver@11.24.2)(publint@0.3.25)(typescript@6.0.3)(unplugin-unused@0.6.0(rolldown@1.2.16)(unloader@0.10.1)(vite@8.3.5(@types/node@26.6.6)(jiti@2.7.0)(yaml@2.9.1))))
       tsgo-wasm:
         specifier: catalog:libs
-        version: 2026.11.2
+        version: 2026.11.3
       unloader:
         specifier: catalog:cli
         version: 0.10.1
@@ -3400,8 +3400,8 @@ packages:
       unrun:
         optional: true
 
-  tsgo-wasm@2026.11.2:
-    resolution: {integrity: sha512-Xkt13Pn5hKkDtMQDLq/t/V62Zj8cunEqnZh1n4bXTtepmQX0pdlFGuhB2MLzgC4Y91G/GBoNgucDjuB1H7iH1w==}
+  tsgo-wasm@2026.11.3:
+    resolution: {integrity: sha512-4I3b70+5R5mNh0pKNd/+tCS7S5PsleDEc/Czxl/2jIa6IgC9rE6WyzMs4N9mY2vXiakikO2KH1Yx5fuqW1IF2g==}
     hasBin: true
 
   tslib@2.9.1:
@@ -6755,7 +6755,7 @@ snapshots:
       - oxc-resolver
       - vue-tsc
 
-  tsgo-wasm@2026.11.2: {}
+  tsgo-wasm@2026.11.3: {}
 
   tslib@2.9.1:
     optional: true
