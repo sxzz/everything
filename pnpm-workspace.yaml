@@ -1,4 +1,13 @@
+minimumReleaseAge: 0
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 10080 # 7 days
+trustPolicyExcludePrune: true
+
+shellEmulator: true
 packages: []
+allowBuilds:
+  esbuild: false
 
 catalog:
   '@types/hosted-git-info': ^3.0.5
@@ -67,15 +76,9 @@ catalogs:
     vue-functional-ref: ^0.8.0
     vue-simple-props: ^0.6.4
 
-allowBuilds:
-  esbuild: false
-
-minimumReleaseAge: 0
 permissions:
   node-modules-inspector:
     skills: true
 skills:
   dirs:
     - .agents/skills
-trustPolicy: no-downgrade
-trustPolicyIgnoreAfter: 604800 # 7 days
