@@ -7,7 +7,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.16.1",
+      "version": "12.18.0",
       "onFail": "download"
     }
   },
@@ -45,7 +45,6 @@
     "tc39-try": "catalog:libs",
     "tsdown": "catalog:cli",
     "tsdown-preset-sxzz": "catalog:libs",
-    "tsgo-wasm": "catalog:libs",
     "unloader": "catalog:cli",
     "unplugin": "catalog:unplugin",
     "unplugin-ast": "catalog:unplugin",
