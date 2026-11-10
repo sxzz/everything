@@ -88,14 +88,14 @@
     "trusted": true
   },
   {
-    "downloads": 6776229,
+    "downloads": 6786550,
     "downloadsText": "6.8M",
-    "end": "2026-11-07",
+    "end": "2026-11-08",
     "owner": "rolldown",
     "package": "tsdown",
     "provenance": true,
     "staged": true,
-    "start": "2026-11-01",
+    "start": "2026-11-02",
     "trusted": true
   },
   {
@@ -220,6 +220,17 @@
     "trusted": true
   },
   {
+    "downloads": 27768,
+    "downloadsText": "27.8K",
+    "end": "2026-11-08",
+    "owner": "unplugin",
+    "package": "unplugin-unused",
+    "provenance": true,
+    "staged": true,
+    "start": "2026-11-02",
+    "trusted": true
+  },
+  {
     "downloads": 15554,
     "downloadsText": "15.6K",
     "end": "2026-11-08",
@@ -291,6 +302,17 @@
     "end": "2026-11-08",
     "owner": "sxzz",
     "package": "eslint-plugin-importer",
+    "provenance": true,
+    "staged": true,
+    "start": "2026-11-02",
+    "trusted": true
+  },
+  {
+    "downloads": 2164,
+    "downloadsText": "2.2K",
+    "end": "2026-11-08",
+    "owner": "unplugin",
+    "package": "unplugin-vue-jsx",
     "provenance": true,
     "staged": true,
     "start": "2026-11-02",
