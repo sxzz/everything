@@ -2287,8 +2287,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  eslint-plugin-jsdoc@65.5.3:
-    resolution: {integrity: sha512-w1BF4iconGSedJPeRymmGc2dyG3nyAT004I+Vf1vPF/W2c/eJhbOdp0kTWoLCTdtIKq5xw6dezR8+jqSU9/Cvw==}
+  eslint-plugin-jsdoc@65.5.4:
+    resolution: {integrity: sha512-Fkta6XbkN8PtYofJgs6k/ag17JLHQ7tCW+6fzcj4rwrOPZqeBdnYFyUM6JbY8/LNP3RbdONKWh5QVKZZfgaRUQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -4719,7 +4719,7 @@ snapshots:
       eslint-plugin-command: 4.0.0(@typescript-eslint/typescript-estree@8.74.0(typescript@6.0.3))(@typescript-eslint/utils@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))
       eslint-plugin-de-morgan: 2.3.0(eslint@10.15.0(jiti@2.7.0))
       eslint-plugin-importer: 0.4.1(eslint@10.15.0(jiti@2.7.0))
-      eslint-plugin-jsdoc: 65.5.3(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
+      eslint-plugin-jsdoc: 65.5.4(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-jsonc: 3.4.2(eslint@10.15.0(jiti@2.7.0))
       eslint-plugin-n: 18.5.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-perfectionist: 5.14.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
@@ -5352,7 +5352,7 @@ snapshots:
     dependencies:
       eslint: 10.15.0(jiti@2.7.0)
 
-  eslint-plugin-jsdoc@65.5.3(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3):
+  eslint-plugin-jsdoc@65.5.4(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@es-joy/escodegen': 5.0.1
       '@es-joy/jsdoccomment': 1.2.1
