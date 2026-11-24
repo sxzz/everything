@@ -1980,8 +1980,8 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  are-docs-informative@0.1.1:
-    resolution: {integrity: sha512-sqRsNQBwbKLRX0jV5Cu5uzmtflf892n4Vukz7T659ebL4pz3mpOqCMU7lxMoBTFwnp10E3YB5ZcyHM41W5bcDA==}
+  are-docs-informative@0.1.2:
+    resolution: {integrity: sha512-ivIO3M7NYwWxOmC0uU9wBGF/c6b8VdKmYuIbH6cwpvfw8W5MttFaecUmMqOl77D/rZU9ipN/eB1E17ry+SEI4Q==}
     engines: {node: '>=18'}
 
   argparse@2.0.1:
@@ -5119,7 +5119,7 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.2
 
-  are-docs-informative@0.1.1: {}
+  are-docs-informative@0.1.2: {}
 
   argparse@2.0.1: {}
 
@@ -5358,7 +5358,7 @@ snapshots:
       '@es-joy/jsdoccomment': 1.2.1
       '@es-joy/resolve.exports': 1.2.0
       '@typescript-eslint/utils': 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
-      are-docs-informative: 0.1.1
+      are-docs-informative: 0.1.2
       comment-parser: 1.4.9
       debug: 4.4.3
       escape-string-regexp: 5.0.0
