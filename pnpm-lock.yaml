@@ -709,8 +709,8 @@ packages:
     resolution: {integrity: sha512-WivZqV5jPTYDQJgIMp0hTsyQESKYNY6yCJr4b0l84tYtQntkAMkc6zARh2vlRQyeg4aYHPUkCUDpvr2IWAiGpQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
-  '@es-joy/jsdoccomment@1.2.1':
-    resolution: {integrity: sha512-x7OYWicHr3qYEiHeYNIVQD6AXjzU9YE1sOk0jtPkEbbMRUiergcQCHoRFRQpqHivivH0B0ZzexrvTx5An34ZJQ==}
+  '@es-joy/jsdoccomment@1.2.2':
+    resolution: {integrity: sha512-rx7i7QK9It5ekeASWa97aBTQUO/3DAnBD6wPwjCyfmagA3jyUxmRZ6hupz92iBZVyoi/Ns35/AjHP53COPVKGQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
 
   '@es-joy/resolve.exports@1.2.0':
@@ -1883,8 +1883,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.11.39:
-    resolution: {integrity: sha512-Q9buOYhr2ggrEZpImICecZTJHCCd8yXkRUokFlUEQ8uiD6oP82F4W4jWnhOHZYV+wlvrC51V7Wy0ULyWjil5Wg==}
+  baseline-browser-mapping@2.11.40:
+    resolution: {integrity: sha512-WJhaQ3kW5+5BpOduI64ewvykhCyK/IHHG5jCIzivmW2nkYPRowUjs0DbBXY4CAr1LLrN7QEzZGL9727aXH9sJA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1946,8 +1946,8 @@ packages:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
 
-  comment-parser@1.4.10:
-    resolution: {integrity: sha512-qN5/9lBWFYHsHLflPH/3iyu5khw7tKs75V6NH26H0P6Cp1j2JqdZZch7hyplkz6ATok3WOoZxO+IzB9s3mnTBA==}
+  comment-parser@1.4.11:
+    resolution: {integrity: sha512-bZMt5Mw4GgsMmnOZ5mHsHzyexC5JgzDbyMk5P0/RMqVPbK9sL+qOQyTGO95xCWQ8VhUzCbTdKkgcgGuofaVjuw==}
     engines: {node: '>= 12.0.0'}
 
   comment-parser@1.4.7:
@@ -2057,8 +2057,8 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.494:
-    resolution: {integrity: sha512-Tph7ohL4Xc0ft3DXElYEIVTmPI3H0MtPCTdgtz5AwWGZG6q+vMiT3IzJ3RJX/HJQ8pYzeimQyvi6SsBTOS0nyQ==}
+  electron-to-chromium@1.5.495:
+    resolution: {integrity: sha512-dZcmtNbDI5oeT9uP9Z+D7h/H5C1mvBewDTLgZgo9WgyPmqOXSt2cmoCK99evPygUOn9lyXZ4w0Eb8APrkBjqBA==}
 
   empathic@2.1.0:
     resolution: {integrity: sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==}
@@ -4004,7 +4004,7 @@ snapshots:
     dependencies:
       '@es-joy/estraverse': 7.1.1
       '@es-joy/esutils': 3.0.0
-      '@es-joy/jsdoccomment': 1.2.1
+      '@es-joy/jsdoccomment': 1.2.2
       '@types/estree': 1.0.11
       esprima: 4.0.1
       optionator: 0.9.4
@@ -4025,11 +4025,11 @@ snapshots:
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 9.0.1
 
-  '@es-joy/jsdoccomment@1.2.1':
+  '@es-joy/jsdoccomment@1.2.2':
     dependencies:
       '@types/estree': 1.0.11
       '@typescript-eslint/types': 8.74.0
-      comment-parser: 1.4.9
+      comment-parser: 1.4.11
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 9.5.0
 
@@ -4942,7 +4942,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.39: {}
+  baseline-browser-mapping@2.11.40: {}
 
   boolbase@2.0.0: {}
 
@@ -4952,9 +4952,9 @@ snapshots:
 
   browserslist@4.29.6:
     dependencies:
-      baseline-browser-mapping: 2.11.39
+      baseline-browser-mapping: 2.11.40
       caniuse-lite: 1.0.30001828
-      electron-to-chromium: 1.5.494
+      electron-to-chromium: 1.5.495
       node-releases: 2.0.66
       update-browserslist-db: 1.4.0(browserslist@4.29.6)
 
@@ -4992,7 +4992,7 @@ snapshots:
 
   commander@8.3.0: {}
 
-  comment-parser@1.4.10: {}
+  comment-parser@1.4.11: {}
 
   comment-parser@1.4.7: {}
 
@@ -5071,7 +5071,7 @@ snapshots:
     optionalDependencies:
       oxc-resolver: 11.24.2
 
-  electron-to-chromium@1.5.494: {}
+  electron-to-chromium@1.5.495: {}
 
   empathic@2.1.0: {}
 
@@ -5158,7 +5158,7 @@ snapshots:
   eslint-plugin-jsdoc@65.5.6(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@es-joy/escodegen': 5.0.1
-      '@es-joy/jsdoccomment': 1.2.1
+      '@es-joy/jsdoccomment': 1.2.2
       '@es-joy/resolve.exports': 1.2.0
       '@typescript-eslint/utils': 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
       are-docs-informative: 0.1.2
@@ -5249,7 +5249,7 @@ snapshots:
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.3
-      comment-parser: 1.4.10
+      comment-parser: 1.4.11
       eslint: 10.15.0(jiti@2.7.0)
       jsdoc-type-pratt-parser: 9.5.0
       refa: 0.12.1
