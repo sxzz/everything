@@ -729,8 +729,8 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
-  '@eslint-community/regexpp@4.12.3':
-    resolution: {integrity: sha512-R76UKbvsqI68DJJVTVyqFKqU98CN4+B+acxNfEA2IFarSzP0SjtKf/3+fFiXzTyv5Fj3PxLkGHe2wnVWWMxobQ==}
+  '@eslint-community/regexpp@4.12.4':
+    resolution: {integrity: sha512-1qH3WeISXHFS8P3QI0lntHlMrlfTh1OarxlRbPNDEkSCqoyXC3apBE7MDyRKOL8HpuW48aQtff30wvEFww/4ww==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
   '@eslint/compat@2.1.1':
@@ -2262,8 +2262,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-yml@3.10.0:
-    resolution: {integrity: sha512-9Qfg0JMZ0YUPa/m6FwWhzKFDwXf/oGnM+EvTzRkM72UccHuzCFk/L77R6qtABZ/As/UJVvx1lYYcbwgO+gcioA==}
+  eslint-plugin-yml@3.10.1:
+    resolution: {integrity: sha512-Do/D1QCIbyJLu25LnC6JU7GS/PdUxuXEi0Hk2wcK+BTiFL9EbGp1zy3/sdJCDDQUD58ZC/nI2ypbk/rrNYuC6g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -2578,8 +2578,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jsonc-eslint-parser@3.3.0:
-    resolution: {integrity: sha512-hYTGkHGNRZnXOFZ1urhINADoqDrGfpy53cjw+dxk84QE0pUDujQzeUeamNs6Mz44/TKD49z2x6/GVSu4ZrtA+Q==}
+  jsonc-eslint-parser@3.3.1:
+    resolution: {integrity: sha512-ou+y76iMQWyvAloVlBJymqNLWGdUeBwVKtxV8OMMcK14FHGF6MDh7hjQGAG5KB9bbE0yo5QOEBqF7ixYDWwU3g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   katex@0.16.47:
@@ -2728,8 +2728,8 @@ packages:
   mdast-util-phrasing@4.1.0:
     resolution: {integrity: sha512-TqICwyvJJpBwvGAMZjj4J2n0X8QWp21b9l0o7eXyVJ25YNWYbJDVIyD1bZXE6WtV6RmKJVYmQAKWa0zWOABz2w==}
 
-  mdast-util-to-markdown@2.2.4:
-    resolution: {integrity: sha512-aCsogoZ2Oz1EItAlC12A+/uGuzp+CWlDU0xZ3o5jbJaepLsOu2tlxpvHslnX5dRhspD1gxNVkBtYG0yMiIpXoQ==}
+  mdast-util-to-markdown@2.2.5:
+    resolution: {integrity: sha512-mxOMQQ8NgisvTarkSUqZwi6GmzNo490V932DpEK/0+OETIeVJBzq4QuMt45fqqcsF5EYMlJENjSSAZxh89VJsg==}
 
   mdast-util-to-string@4.0.0:
     resolution: {integrity: sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==}
@@ -3006,8 +3006,8 @@ packages:
     resolution: {integrity: sha512-GwxlMgTTXwIom+ebC7an3k6RaJDwklRQQnfiXsLPGicu8FYV/k/+1/9YY2OU2+r938H2t4X0TDxoif+HP2rjzQ==}
     engines: {node: '>=4'}
 
-  postcss@8.5.33:
-    resolution: {integrity: sha512-RVHEU9/Pp1Fnjr/MpAJsZoADukCKhfIi15OunEYiGktIkYLkPVvC1sioWolGDS7XByMTx9m/IGbro0Js13zhnQ==}
+  postcss@8.5.34:
+    resolution: {integrity: sha512-P1Qzj0XXZjMda74C7qiVnBG90UKNbyNUAOeQRBW8X63RsIMV57gevRqjnkELdwtZ/S2/uQFksJhmwuN8xShLPw==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3584,10 +3584,6 @@ packages:
     resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  verkit@0.3.2:
-    resolution: {integrity: sha512-zj/ob3UsvJGN0whEAKFp53REA5X66hvffVqoCtVQAakJKnKlH+/PcOfMoFwIG/o4rElqLv/ycAFlx8ZlXUorCg==}
-    engines: {node: '>=18.12.0'}
-
   verkit@0.4.1:
     resolution: {integrity: sha512-mMVzj0TXExtVdlDEq+Mzp0eyOuyznNpFobNM3uAqe3HVm/Ps2c+u17BligMkZjZCA6EiXpoon8iRTer3iu40SQ==}
     engines: {node: '>=18.12.0'}
@@ -4042,7 +4038,7 @@ snapshots:
       eslint: 10.15.0(jiti@2.7.0)
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/regexpp@4.12.3': {}
+  '@eslint-community/regexpp@4.12.4': {}
 
   '@eslint/compat@2.1.1(eslint@10.15.0(jiti@2.7.0))':
     dependencies:
@@ -4527,9 +4523,9 @@ snapshots:
       eslint-plugin-unicorn: 76.0.0(eslint@10.15.0(jiti@2.7.0))
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.74.0(@typescript-eslint/parser@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))
       eslint-plugin-vuekit: 11.0.0-beta.1(@typescript-eslint/parser@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(vue-eslint-parser@10.4.2(eslint@10.15.0(jiti@2.7.0)))
-      eslint-plugin-yml: 3.10.0(eslint@10.15.0(jiti@2.7.0))
+      eslint-plugin-yml: 3.10.1(eslint@10.15.0(jiti@2.7.0))
       globals: 17.14.0
-      jsonc-eslint-parser: 3.3.0
+      jsonc-eslint-parser: 3.3.1
       typescript-eslint: 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
       vue-eslint-parser: 10.4.2(eslint@10.15.0(jiti@2.7.0))
     transitivePeerDependencies:
@@ -4614,7 +4610,7 @@ snapshots:
 
   '@typescript-eslint/eslint-plugin@8.74.0(@typescript-eslint/parser@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       '@typescript-eslint/parser': 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
       '@typescript-eslint/scope-manager': 8.74.0
       '@typescript-eslint/type-utils': 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
@@ -4770,7 +4766,7 @@ snapshots:
       '@vue/shared': 3.5.46
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.33
+      postcss: 8.5.34
       source-map-js: 1.2.4
 
   '@vue/compiler-ssr@3.5.46':
@@ -5105,11 +5101,11 @@ snapshots:
       '@eslint/config-helpers': 0.5.5
       pathe: 2.0.3
 
-  eslint-json-compat-utils@0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.0):
+  eslint-json-compat-utils@0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.1):
     dependencies:
       eslint: 10.15.0(jiti@2.7.0)
       esquery: 1.7.0
-      jsonc-eslint-parser: 3.3.0
+      jsonc-eslint-parser: 3.3.1
 
   eslint-plugin-antfu@3.3.1(eslint@10.15.0(jiti@2.7.0)):
     dependencies:
@@ -5134,14 +5130,14 @@ snapshots:
   eslint-plugin-es-x@7.8.0(eslint@10.15.0(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0(jiti@2.7.0))
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       eslint: 10.15.0(jiti@2.7.0)
       eslint-compat-utils: 0.5.1(eslint@10.15.0(jiti@2.7.0))
 
   eslint-plugin-es-x@9.7.0(eslint@10.15.0(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0(jiti@2.7.0))
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       eslint: 10.15.0(jiti@2.7.0)
       eslint-type-tracer: 0.5.2(eslint@10.15.0(jiti@2.7.0))
 
@@ -5182,8 +5178,8 @@ snapshots:
       '@ota-meshi/ast-token-store': 0.3.0
       diff-sequences: 29.6.3
       eslint: 10.15.0(jiti@2.7.0)
-      eslint-json-compat-utils: 0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.0)
-      jsonc-eslint-parser: 3.3.0
+      eslint-json-compat-utils: 0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.1)
+      jsonc-eslint-parser: 3.3.1
       natural-compare: 1.4.0
       synckit: 0.11.13
     transitivePeerDependencies:
@@ -5220,8 +5216,8 @@ snapshots:
     dependencies:
       empathic: 2.1.0
       eslint: 10.15.0(jiti@2.7.0)
-      eslint-json-compat-utils: 0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.0)
-      jsonc-eslint-parser: 3.3.0
+      eslint-json-compat-utils: 0.2.3(eslint@10.15.0(jiti@2.7.0))(jsonc-eslint-parser@3.3.1)
+      jsonc-eslint-parser: 3.3.1
       pathe: 2.0.3
       pnpm-workspace-yaml: 1.9.1
       tinyglobby: 0.2.17
@@ -5242,7 +5238,7 @@ snapshots:
   eslint-plugin-regexp@3.3.3(eslint@10.15.0(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0(jiti@2.7.0))
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       comment-parser: 1.4.11
       eslint: 10.15.0(jiti@2.7.0)
       jsdoc-type-pratt-parser: 9.5.0
@@ -5297,7 +5293,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/parser': 8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
 
-  eslint-plugin-yml@3.10.0(eslint@10.15.0(jiti@2.7.0)):
+  eslint-plugin-yml@3.10.1(eslint@10.15.0(jiti@2.7.0)):
     dependencies:
       '@eslint/core': 1.2.1
       '@eslint/plugin-kit': 0.7.3
@@ -5327,7 +5323,7 @@ snapshots:
   eslint@10.15.0(jiti@2.7.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0(jiti@2.7.0))
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       '@eslint/config-array': 0.23.6
       '@eslint/config-helpers': 0.7.0
       '@eslint/core': 1.2.1
@@ -5574,11 +5570,11 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jsonc-eslint-parser@3.3.0:
+  jsonc-eslint-parser@3.3.1:
     dependencies:
       acorn: 8.19.0
       eslint-visitor-keys: 5.0.1
-      verkit: 0.3.2
+      verkit: 0.5.0
 
   katex@0.16.47:
     dependencies:
@@ -5696,7 +5692,7 @@ snapshots:
       devlop: 1.1.0
       escape-string-regexp: 5.0.0
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
       micromark-extension-frontmatter: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5714,7 +5710,7 @@ snapshots:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
       micromark-util-normalize-identifier: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5723,7 +5719,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
     transitivePeerDependencies:
       - supports-color
 
@@ -5733,7 +5729,7 @@ snapshots:
       devlop: 1.1.0
       markdown-table: 3.1.0
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
       mdast-util-to-string: 4.0.0
       unist-util-visit: 5.2.0
     transitivePeerDependencies:
@@ -5744,7 +5740,7 @@ snapshots:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
     transitivePeerDependencies:
       - supports-color
 
@@ -5756,7 +5752,7 @@ snapshots:
       mdast-util-gfm-strikethrough: 2.0.1
       mdast-util-gfm-table: 2.0.1
       mdast-util-gfm-task-list-item: 2.0.1
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
     transitivePeerDependencies:
       - supports-color
 
@@ -5767,7 +5763,7 @@ snapshots:
       devlop: 1.1.0
       longest-streak: 3.1.0
       mdast-util-from-markdown: 2.1.0
-      mdast-util-to-markdown: 2.2.4
+      mdast-util-to-markdown: 2.2.5
       unist-util-remove-position: 5.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5777,7 +5773,7 @@ snapshots:
       '@types/mdast': 4.0.4
       unist-util-is: 6.0.1
 
-  mdast-util-to-markdown@2.2.4:
+  mdast-util-to-markdown@2.2.5:
     dependencies:
       '@types/mdast': 4.0.4
       '@types/unist': 3.0.3
@@ -6292,7 +6288,7 @@ snapshots:
     dependencies:
       util-deprecate: 1.0.2
 
-  postcss@8.5.33:
+  postcss@8.5.34:
     dependencies:
       nanoid: 3.3.20
       picocolors: 1.1.1
@@ -6329,11 +6325,11 @@ snapshots:
 
   refa@0.12.1:
     dependencies:
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
 
   regexp-ast-analysis@0.7.1:
     dependencies:
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       refa: 0.12.1
 
   regjsparser@0.13.4:
@@ -6407,7 +6403,7 @@ snapshots:
 
   scslre@0.3.0:
     dependencies:
-      '@eslint-community/regexpp': 4.12.3
+      '@eslint-community/regexpp': 4.12.4
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
 
@@ -6965,8 +6961,6 @@ snapshots:
 
   validate-npm-package-name@5.0.1: {}
 
-  verkit@0.3.2: {}
-
   verkit@0.4.1: {}
 
   verkit@0.5.0: {}
@@ -7016,7 +7010,7 @@ snapshots:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
-      postcss: 8.5.33
+      postcss: 8.5.34
       rolldown: 1.3.4
       tinyglobby: 0.2.17
     optionalDependencies:
