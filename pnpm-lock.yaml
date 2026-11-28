@@ -1912,8 +1912,8 @@ packages:
   cacheable@2.5.0:
     resolution: {integrity: sha512-60cyAOytib/OzBw1JNSoSV/boK1AtHryDIjvVBk7XbN4ugfkM3+Sry7fEjNgPMGgOjuaZPAp8ruZ0Cxafwyq9g==}
 
-  caniuse-lite@1.0.30001828:
-    resolution: {integrity: sha512-7MWeT+3DlrpuDybTWHl4Zb1Z80Z1fLLnOXuBjDXebzDVcqnEWUlV8JcbASg8B8BhcW8QT2UiR1KAtzYFIZHZYA==}
+  caniuse-lite@1.0.30001829:
+    resolution: {integrity: sha512-FeVvlaVr3r+cdHIYXyZhtVkqroSYjYaoNxItxQNjusurUE+IqODawDsbzk02HJgi2RdKiaGGFm+EKbXku+yITg==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -4945,7 +4945,7 @@ snapshots:
   browserslist@4.29.6:
     dependencies:
       baseline-browser-mapping: 2.11.40
-      caniuse-lite: 1.0.30001828
+      caniuse-lite: 1.0.30001829
       electron-to-chromium: 1.5.495
       node-releases: 2.0.66
       update-browserslist-db: 1.4.0(browserslist@4.29.6)
@@ -4962,7 +4962,7 @@ snapshots:
       keyv: 5.6.0
       qified: 0.10.1
 
-  caniuse-lite@1.0.30001828: {}
+  caniuse-lite@1.0.30001829: {}
 
   ccount@2.0.1: {}
 
